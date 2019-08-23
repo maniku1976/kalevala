@@ -1,0 +1,2719 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Kalevalan kahdeskymmeneskuudes runo</title>
+        <author>Elias Lönnrot</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Avoin Kalevala</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>Suomalaisen Kirjallisuuden Seura</distributor>
+        <date when="2018-01-09">9.1.2018</date>
+      </publicationStmt>
+      <notesStmt>
+        <note n="1">
+          <ab>Lemminkäisen toistonimi Kalevalassa, joko yksin tai etunimen tavoin: Ahti Lemminkäinen, Ahti Saarelainen</ab><ab>Lönnrot on Kalevalassa samaistanut Ahdin ja Lemminkäisen, 
+            vaikka alkujaan kyse on eri henkilöistä. Kansanrunoissa <hi rend="italics">Ahti, Kaukamoinen, Lemminkäinen</hi> ja <hi rend="italics">Veitikka</hi> ovat usein vaihtuneet 
+            tai sekoittuneet keskenään. Lönnrot on sovittanut Ahtia käsitteleviä runoja Kalevalaan vapaasti toisintojen pohjalta ja saanut täydennyksiinsä vaikutteita esimerkiksi 
+            Kaukamoisen runosta, Kullervo-runosta, Iivana Kojosenpojan runosta, Vellamon neidon onginnasta, Kilpalaulannasta ja kosintarunoista. (Turunen 1979: 12−13.)<lb/><lb/>Vrt. 
+            <hi rend="italics">Ahti</hi>-nimen alkuperäinen merkitys merenhaltian nimenä. Lönnrot on halunnut erottaa sankarinimen ja jumaluuden nimen toisistaan ja käyttää siksi 
+            merenhaltiasta muotoa <hi rend="italics">Ahto</hi>. (Turunen 1979: 12.)</ab>
+        </note>
+        <note n="2">
+          <ab>Kaukoniemi : Lemminkäisen asuinpaikka</ab><ab>Ks. sananmukainen merkitys 'kaukana sijaitseva paikka'. Nimi pohjautuu kansanrunoihin. (Turunen 1979: 112.)</ab>
+        </note>
+        <note n="3">
+          <ab>vainio : viljelty niitty, pelto</ab>
+        </note>
+        <note n="4">
+          <ab>vakoanta : kyntäminen</ab>
+        </note>
+        <note n="5">
+          <ab>erittäin</ab>
+        </note>
+        <note n="6">
+          <ab>tarkka, herkkäaistinen</ab><ab>Vrt. sanan muut merkitykset Kalevalassa: kaunis (4:175, 9:279 ym.); ylpeä, kopea (11:75; 29:215 ym.) (Turunen 1979).</ab>
+        </note>
+        <note n="7">
+          <ab>kuulenta : kuuleminen, kuulo</ab>
+        </note>
+        <note n="8">
+          <ab>jumu : jyrinä, jymy</ab><ab>Lönnrot kommentoi säkeitä 7−10: "Kuuli kaikin puolin matkustavia kulkevan" (Lna 121).<lb/><lb/>Karjalan kielen <hi rend="italics">jumu</hi> 
+            ja etuvokaalinen muoto <hi rend="italics">jymy</hi> ovat onomatopoeettisia eli ääntä jäljitteleviä sanoja. Samaan yhteyteen kuuluu esimerkiksi suomen verbi 
+            <hi rend="italics">jymistä</hi>. (SSA1 s.v. <hi rend="italics">jymistä</hi>.) Vrt. järy.</ab>
+        </note>
+        <note n="9">
+          <ab>järy : järinä, kumina</ab><ab>Karjalan kielen <hi rend="italics">järy</hi> 'järinä' ja <hi rend="italics">järissä</hi> 'järistä, jyristä; (koirasta) äristä; työskennellä' 
+            sekä muut samaan yhteyteen kuuluvat sanat ovat ääntä jäljitteleviä onomatopoeettisia sanoja (SSA1 s.v. <hi rend="italics">järistä</hi>). Ks. jumu.</ab>
+        </note>
+        <note n="10">
+          <ab>takaa : toiselta puolelta</ab>
+        </note>
+        <note n="11">
+          <ab>jalanisku : kävelyn aiheuttama tömähtely</ab>
+        </note>
+        <note n="12">
+          <ab>iljen : liukas jää tai maa</ab>
+        </note>
+        <note n="13">
+          <ab>kapina : reen jalasten aiheuttama ääni, kopina tai pauke</ab><ab><hi rend="italics">Kapina, kapista</hi> jne. ovat onomatopoeettisia eli ääntä jäljitteleviä sanoja. 
+            Karjalassa <hi rend="italics">kapinalla</hi> on lisäksi merkitykset 'melu, meteli; tora, riita', jotka tunnetaan myös suomen kielen murteista. Kansannousua tai aseellista 
+            yhteenottoa merkitsevänä <hi rend="italics">kapina</hi> on karjalalle vieras; sitä vastaa kielessä <hi rend="italics">punttu</hi>. (KKS; SMS.)</ab>
+        </note>
+        <note n="14">
+          <ab>kangas : kuiva metsämaa</ab>
+        </note>
+        <note n="15">
+          <ab>juohtua : juolahtaa, muistua mieleen</ab>
+        </note>
+        <note n="16">
+          <ab>paha arvelu, tuuma</ab>
+        </note>
+        <note n="17">
+          <ab>osata : tulla mieleen, pälkähtää</ab>
+        </note>
+        <note n="18">
+          <ab>Louhen asuinpaikka, Kalevalassa ja kansanrunoissa yleisesti esiintyvä paikannimi</ab><ab><hi rend="italics">Pohjola</hi> on Kalevalassa ja kansanrunoissa yleisesti 
+            esiintyvä paikannimi, varsinaisesti sama kuin <hi rend="italics">Pohja</hi>, so. pohjoinen ilmansuuntana ja käsitettynä pimeän, kylmän ja kaiken pahuuden kodiksi, jonne 
+            kivut ja taudit manataan. Kalevalassa Pohjola on Väinölän eli Kalevalan vastakohta, kokonaisen heimon asuinsija, jota Louhi eli Pohjolan emäntä hallitsee. Sampo taotaan 
+            Pohjolaan ja ryöstetään sieltä; Pohjola on myös esimerkiksi paikka, jonne päivänvalot kätketään. Sekä Kalevalassa että kansanrunoissa Pohjolasta käytetään nimiä, jotka 
+            kuvaavat sen luonnetta, kuten <hi rend="italics">Pimentola, Untamola, kylmä kylä, miesten syöjä sija, urosten upottaja, pahan valta</hi>. (Turunen 1979.)</ab>
+        </note>
+        <note n="19">
+          <ab>salajoukko : salaa juhliva Pohjolan väki</ab>
+        </note>
+        <note n="20">
+          <ab>murtaa : mutristaa, vääntää suutaan suuttuneena</ab>
+        </note>
+        <note n="21">
+          <ab>haven : (suuttumuksen ilmauksissa) parta, viikset tai hiukset</ab>
+        </note>
+        <note n="22">
+          <ab>(verestä) vierähtää : kalveta, tulla kalpeaksi</ab>
+        </note>
+        <note n="23">
+          <ab>paha : rumannäköinen</ab><ab>Vrt. sanan muut merkitykset Kalevalassa: huono (3:60; 7:187 ym.); huono, raukka (15:567; 26:314); vaikea (19:487 ym.); arka (17:513−6) 
+            (Turunen 1979).</ab>
+        </note>
+        <note n="24">
+          <ab>poloinen : (poskesta) kalpea</ab>
+        </note>
+        <note n="25">
+          <ab>heittää : jättää kesken</ab><ab>Vrt. sanan muut merkitykset Kalevalassa: viskata, nakata (14:448); riisua, ottaa pois päältään (32:99); laskea, pudottaa (48:91); 
+            lyödä, iskeä (3:75); jättää pois, luopua jostakin (24:367); jättää olemaan, säästää (3:452); hylätä (38:317); jättää kokonaan, lopettaa (50:537) (Jussila 2009).</ab>
+        </note>
+        <note n="26">
+          <ab>kynnös : kynnetty tai kynnettävänä oleva maa-ala</ab>
+        </note>
+        <note n="27">
+          <ab>vako : auran synnyttämä uurros</ab>
+        </note>
+        <note n="28">
+          <ab>keskivainio : keskipelto</ab>
+        </note>
+        <note n="29">
+          <ab>kohti</ab><ab>Karjalan kielessä adverbi <hi rend="italics">kohin</hi> 'kohti'. Esimerkiksi tieto Vuokkiniemestä: "Šelin šeinäh, kohin miuhu! Miuhu kohin istuu". (KKS.)</ab>
+        </note>
+        <note n="30">
+          <ab>luokse</ab>
+        </note>
+        <note n="31">
+          <ab>emo : äiti</ab>
+        </note>
+        <note n="32">
+          <ab>valtavanhempi : arvossa pidetty vanhempi</ab>
+        </note>
+        <note n="33">
+          <ab>saada : tulla, saapua</ab>
+        </note>
+        <note n="34">
+          <ab>toimitella : puhua, sanoa</ab><ab>Vrt. sanan muut merkitykset Kalevalassa: puuhailla, tehdä (20:262; 31:205); toimia, elellä (46:621); saattaa, lähettää (30:497); 
+            tiedustella, kysyä (25:355) (Jussila 2009).</ab>
+        </note>
+        <note n="35">
+          <ab>äiti, talon emäntä</ab><ab>Vrt. sanan muut merkitykset Kalevalassa: aviovaimo, naimisissa oleva tai ollut nainen (18:244; 46:269); (täysikasvuinen) nainen 
+            (7:175; 27:215; 29:365; 40:185); mytologinen naisolento (16:287; 40:33; 43:167; 45:24, ym.). (Jussila 2009.)<lb/><lb/><hi rend="italics">Vaimo</hi>-sanaa ovat käyttäneet 
+            jo Agricola ja muut saman aikakauden kirjoittajat. Vanhimmassa kirjakielessä sillä on yleisimmin tarkoitettu aikuista naista. Sana <hi rend="italics">nainen</hi> on sen 
+            sijaan mm. Agricolalla ollut hyvin harvinainen. Vanhassa kirjakielessä ja murteissa <hi rend="italics">vaimo</hi> voi siis tarkoittaa aviovaimon sijasta naista 
+            yleisemmin. (NESK s.v. <hi rend="italics">vaimo</hi>.)</ab>
+        </note>
+        <note n="36">
+          <ab>panna : laittaa, valmistaa</ab>
+        </note>
+        <note n="37">
+          <ab>kiireesti, nopeasti</ab><ab>Nykysuomessa <hi rend="italics">rutto</hi> tarkoittaa kulkutautia, mutta alun perin sana on ollut adjektiivi ja merkinnyt nopeaa, 
+            ripeää, äkkipikaista. Ruttotauti tunnettiin nopeasti leviäväna ja etenevänä. Nopeuteen viittaavana sana tunnetaan edelleen laajasti muistakin itämerensuomalaisista 
+            kielistä. (NESK.) Myös karjalan kielessä <hi rend="italics">rutossah</hi> 'äkkiä, äkisti' ja <hi rend="italics">ruttoh</hi> 'nopeasti, kiireesti, pian, äkkiä; kovasti' (KKS).</ab>
+        </note>
+        <note n="38">
+          <ab>halunalainen : halukas, ruoanhimoinen</ab>
+        </note>
+        <note n="39">
+          <ab>sauna</ab><ab>Kalevalassa <hi rend="italics">pirtti</hi> 'sauna' toisaallakin, ks. 25:345−6 (Turunen 1979). Vrt. sanan toinen merkitys Kalevalassa: asuinrakennus tai 
+            sen huone, tupa (Jussila 2009).</ab>
+        </note>
+        <note n="40">
+          <ab>riudutella : saattaa hiipumaan</ab><ab>Vrt. sanan toinen merkitys Kalevalassa: väsyttää, saattaa valtoihinsa, kesyttää (35:186) (ks. Jussila 2009; Turunen 1979).</ab>
+        </note>
+        <note n="41">
+          <ab>puhastella, refl. puhasteleikse : puhdistautuu</ab>
+        </note>
+        <note n="42">
+          <ab> sueta, refl. sueiksen : valmistautuu</ab>
+        </note>
+        <note n="43">
+          <ab>miehistä paras</ab>
+        </note>
+        <note n="44">
+          <ab></ab><ab>Lemminkäisen äidin hahmo esiintyy kansanrunoissa Lemminkäisen surma -runossa, mutta varsinaisen muotonsa poikaansa pyyteettömästi auttava äiti sai Lönnrotin 
+            toimitustyön tuloksena. Varhaisten Kalevalan tulkitsijoiden näkemyksissä Lemminkäisen äitiin on liitetty mielikuva vaikuttavasta ja järkkymättömästä äidinrakkaudesta 
+            (esim. Krohn 1903; Tarkiainen 1911). Myöhemmin tutkijat ovat tarkastelleet äitihahmoa toisin, esimerkiksi äidin ja pojan suhdetta on tulkittu feministisistä näkökulmista, 
+            joissa Lemminkäisen sankaruus kyseenalaistuu (mm. Sawin 1990; Apo 1995; Timonen 2004a).</ab>
+        </note>
+        <note n="45">
+          <ab>kyly : sauna</ab><ab>Karjalan kielessä <hi rend="italics">kyly</hi> tarkoittaa sauna(rakennusta) tai (lämmitettyä) kylyä, kylpyä (SSA1 s.v. <hi rend="italics">kylpeä</hi>).</ab>
+        </note>
+        <note n="46">
+          <ab>joutua : valmistua</ab><ab>Vrt. sanan muut merkitykset Kalevalassa: ennättää, ehtiä (1:173); päästä nopeasti, pitää kiirettä (7:163); edistyä, kehittyä (35:103); 
+            päätyä (33:9); ilmestyä, tulla vastaan (14:205) (Jussila 2009).</ab>
+        </note>
+        <note n="47">
+          <ab>saapua : valmistua</ab><ab>Vrt. sanan toinen merkitys Kalevalassa: tulla (6:62; 7:294 ym.) (Turunen 1979).</ab>
+        </note>
+        <note n="48">
+          <ab>(ihmisestä) huoleton, kevytmielinen</ab><ab>Vrt. sanan muut merkitykset Kalevalassa: (merestä) upottava, vajottava (4:431; 5:11; 6:221); (ilmasta) viileä, lauhkea 
+            (46:374) (Turunen 1979). Kansanrunoissa ja Kalevalassa lieto Lemminkäisen vakiintunut attribuutti.<lb/><lb/><hi rend="italics">Lieto</hi> on samaa alkuperää 
+            <hi rend="italics">liete</hi>-sanan kanssa; <hi rend="italics">liete</hi> merkitsee useissa itämerensuomalaisissa kielissä veden kuljettamaa hienoa rantahiekkaa 
+            (NESK s.v. <hi rend="italics">liete</hi>).</ab>
+        </note>
+        <note n="49">
+          <ab>Kalevalan pääsankareita, naistenhurmaaja, laulaja, tietäjä ja taitava soturi</ab><ab>Vaikka Kalevala antaa melko yhtenäisen kuvan Lemminkäisen hahmosta, on Lönnrot 
+            koonnut sen varsin erilaisista kansanrunoaineksista (mm. runot Ahti Saarelaisesta, Kaukamoisesta ja Hiiden hirven hiihdännästä). Vrt. Lemminkäinen esiintyy 
+            kansanrunoaineistossa monien runojen päähenkilönä. (Harvilahti ja Rahimova 1999: 97.)</ab>
+        </note>
+        <note n="50">
+          <ab>ruokaa</ab>
+        </note>
+        <note n="51">
+          <ab>kiireesti, nopeasti</ab><ab>Ks. ruttoisesti.</ab>
+        </note>
+        <note n="52">
+          <ab>kylpyhuone : saunarakennus</ab>
+        </note>
+        <note n="53">
+          <ab>Lemminkäisen hyvittelynimi</ab><ab>Kalevalassa <hi rend="italics">peiposella</hi> tarkoitetaan Lemminkäisen ohella myös Ilmarista (37:172). Karjalan kielessä 
+            <hi rend="italics">peipponen</hi> on ihmisen hyvittelynimi. (Turunen 1979.) Peippoa <hi rend="italics">(Fringilla coelebs)</hi> tarkoittava sana on sen sijaan 
+            <hi rend="italics">peipo(i)</hi> (KKS).</ab>
+        </note>
+        <note n="54">
+          <ab>pestä, refl. peseikse : pesee itsensä, peseytyy</ab>
+        </note>
+        <note n="55">
+          <ab>pulmunen</ab><ab>Varpuslintuihin kuuluvaa pikkulintua <hi rend="italics">(Plectrophenax nivalis)</hi> merkitseväna sana <hi rend="italics">pulmunen</hi> tunnetaan 
+            ainoastaan suomen kielestä. Karjalassa <hi rend="italics">pulmuine</hi> on pienen lapsen hellittelynimitys, joka esiintyy kielessä useina erilaisina variantteina. (NESK.)</ab>
+        </note>
+        <note n="56">
+          <ab>pellavaspio : kourallinen pellavia</ab>
+        </note>
+        <note n="57">
+          <ab>kaulavarsi : kaula</ab>
+        </note>
+        <note n="58">
+          <ab>valkea : puhdas, kirkas</ab><ab>Vrt. sanan toinen merkitys Kalevalassa: tuli (5:118; 9:78; 26:172 ym.) (Turunen 1979).</ab>
+        </note>
+        <note n="59">
+          <ab>virkkoa : puhua, sanoa, kertoa</ab>
+        </note>
+        <note n="60">
+          <ab>astua : kävellä, kulkea</ab>
+        </note>
+        <note n="61">
+          <ab>soma : sopiva, istuva, hyvänmallinen</ab>
+        </note>
+        <note n="62">
+          <ab>sopa : paita, vaate</ab>
+        </note>
+        <note n="63">
+          <ab>vakainen : hyvä, mainio, kunnollinen</ab>
+        </note>
+        <note n="64">
+          <ab>varustaa : pukea, panna ylleen</ab>
+        </note>
+        <note n="65">
+          <ab>varsi : (ihmisellä) vartalo, keho</ab><ab>Vrt. sanan muut merkitykset Kalevalassa: korsi (2:312 ym.); kädensija (esineessä) (8:154); runko (jousessa tms.) 
+            (6:44 ym.) (Turunen 1979).</ab>
+        </note>
+        <note n="66">
+          <ab>kysellä, udella, tiedustella</ab>
+        </note>
+        <note n="67">
+          <ab></ab><ab>Lönnrot kommentoi säkeitä 59−62: "Kylpemisestä emo ei vielä arvannut mitään; nyt näki pojallansa jotain erinomaista mielessä olevan" (Lna 121).</ab>
+          <ab>Karjalan kielessä sana <hi rend="italics">kunne</hi> 'minne, mihin' ja <hi rend="italics">poijut</hi> 'poikalapsi' (KKS).</ab>
+        </note>
+        <note n="68">
+          <ab>ajo : metsästys, riistanajo</ab><ab>Vrt. sanan muut merkitykset Kalevalassa: hevosella ajaminen (18:383); karjan ajaminen, kuljettaminen (32:547); kaskettavaksi 
+            tarkoitettavien puiden kaataminen (31:261) (Jussila 2009).</ab>
+        </note>
+        <note n="69">
+          <ab>Lemminkäisen toisintonimi</ab><ab>Kansanrunoissa eri henkilö, joka tavallisesti esiintyy nimellä <hi rend="italics">Kaukamoinen</hi> (Kaukamoisesta lisää ks. 
+            Siikala 2012: 279−284). Vrt. Lemminkäisen muut toisintonimet <hi rend="italics">Ahti Saarelainen, Kauko</hi> ja <hi rend="italics">veitikka verevä</hi> (Turunen 1979: 111).</ab>
+        </note>
+        <note n="70">
+          <ab>salajoukon juomingit : Pohjolan pidot</ab><ab>Ks. salajoukko.</ab>
+        </note>
+        <note n="71">
+          <ab>häilytellä : heilautella, liuhutella</ab>
+        </note>
+        <note n="72">
+          <ab>evätä : kieltää</ab>
+        </note>
+        <note n="73">
+          <ab>kave : ilman ja taivaan henkiolento, rinnastuu Luonnottareen</ab><ab>Vrt. sanan muut merkitykset Kalevalassa: nainen, emo, äiti (2:103; 17:291, 292 ym.); 
+            neito (1:112 ym.) (Turunen 1979).<lb/><lb/>Ks. Luonnotar.</ab>
+        </note>
+        <note n="74">
+          <ab>Luonnotar : luonnon haltiatar</ab><ab>Lönnrot kommentoi säettä 78: "Itsekullaki ihmisellä oli näkymättömät haltiansa, jotka aavistuksilla eli muilla enteillä 
+            kokivat varjella ihmistä turmiosta" (Lna 121).<lb/><lb/>Vrt. sana merkitsemässä Tapiottaria, metsän naispuolisia haltioita (32:82); vrt. myös raudan synnyn kuvaus 
+            (91:1−266), jossa kolme luonnotarta esiintyy maidon lypsäjinä.<lb/><lb/>Luonnotar esiintyy yleensä kollektiivisena naispuolisena ryhmänä. Itämerensuomalaisessa 
+            mytologiassa ja kansanrunoissa naishahmot liittyvät luonnonilmiöihin tai ilmansuuntiin (Päivätär, Kuutar, Pohjolan emäntä). Luonnotar, kave kuvataan alkuaikoja 
+            käsittelevissä myyteissä alkuäitinä, synnyttäjänä (Ganander 1789/1984). (Siikala 2012: 288−289; ks. myös Krogerus 1999.) Vrt. kansallisromanttiset tulkinnat 
+            luonnottarista haltioina (Krogerus 1999: 131).</ab>
+        </note>
+        <note n="75">
+          <ab>hyvä : runsas, melkoinen</ab>
+        </note>
+        <note n="76">
+          <ab>Kau'ut : (hellitellen) Lemminkäinen</ab>
+        </note>
+        <note n="77">
+          <ab>täsmälleen ottaen, juuri</ab>
+        </note>
+        <note n="78">
+          <ab>tahdotakaan</ab>
+        </note>
+        <note n="79">
+          <ab></ab><ab>Lönnrot kommentoi Lyhennetyn Kalevalan säkeitä 37−40 (tässä 91−96): "Parempata kutsua en tarvitse sinä ikänä, kun tuon miekkani kehotuksen" 
+            (Lönnrot 1862/2005). Lönnrot toimitti Lyhennetyn Kalevalan koulujen tarpeisiin, ja sen säkeet eroavat siksi aikaisemmasta.<lb/><lb/><hi rend="italics">Kurja</hi>-sanan 
+            merkitys tässä 'mitätön, kelvoton, halpa' (Jussila 2009).</ab>
+        </note>
+        <note n="80">
+          <ab>hypellä, refl. hyppeleikse : kulkee kevyesti, rientää hyppyjalkaa</ab>
+        </note>
+        <note n="81">
+          <ab>kuunikuinen : ikivanha, niin vanha kuin kuu</ab>
+        </note>
+        <note n="82">
+          <ab>airut : kutsunkuljettaja, sanansaattaja</ab>
+        </note>
+        <note n="83">
+          <ab>alinomainen : ainainen, ikuinen</ab>
+        </note>
+        <note n="84">
+          <ab>tuliterä : välkkyväteräinen</ab>
+        </note>
+        <note n="85">
+          <ab>säilä : miekka; miekan terä</ab>
+        </note>
+        <note n="86">
+          <ab>säkenevä : kipinöivä, säkenöivä</ab>
+        </note>
+        <note n="87">
+          <ab>käetä : yrittää</ab><ab>Vrt. sanan muut merkitykset Kalevalassa: aikoa, uhata, luvata (25: 231; 18:509) (Jussila 2009).</ab>
+        </note>
+        <note n="88">
+          <ab>kumma : ihme, merkillisyys</ab><ab>Lönnrot kommentoi Lyhennetyn Kalevalan säkeitä 45−48 (tässä 101−104): "Ne Pohjan väki juuri Lemminkäistä vasten lienee 
+            loitsutaidollansa varustanutki. Jos olisivat vanhastaan olleet, niin Lemminkäinen kyllä ilmankin äitinsä selittämättä olisi ne tietänyt." (Lönnrot 1862/2005.) 
+            Lönnrot toimitti Lyhennetyn Kalevalan koulujen tarpeisiin, ja sen vuoksi sen säkeet poikkeavat aikaisemmista.</ab>
+        </note>
+        <note n="89">
+          <ab>ihmeet</ab>
+        </note>
+        <note n="90">
+          <ab>surma : kuolema</ab><ab>Vrt. sanan toinen merkitys Kalevalassa: kuolema runollisesti personoituna (22:198; 26:756 ym.) (Turunen 1979).<lb/><lb/>Lönnrot on 
+            katsonut surman personoiduksi olennoksi, kun se esiintyy Kalman, paholaisen, Lemmon tai taudin yhteydessä; sana on tällöin kirjoitettu isolla alkukirjaimella. 
+            Kansanuskomuksissa kuolema ja tauti käsitettiin ihmisen ulkopuolella olevaksi, vaanivaksi olennoksi. (Turunen 1979.)<lb/><lb/>Karjalan kielessä <hi rend="italics">surma</hi> 
+            'kuolema, surma' (myös personoituna olentona) (KKS).</ab>
+        </note>
+        <note n="91">
+          <ab>kova : synkkä, kolkko</ab>
+        </note>
+        <note n="92">
+          <ab>aina : yhtä mittaa, herkeämättä</ab>
+        </note>
+        <note n="93">
+          <ab>joka paikassa, kaikkialla</ab>
+        </note>
+        <note n="94">
+          <ab>hätäillä : tuntea hätää, olla huolissaan</ab>
+        </note>
+        <note n="95">
+          <ab>aivan, varta vasten; varsinkaan</ab>
+        </note>
+        <note n="96">
+          <ab>varata : pelätä, olla peloissaan</ab>
+        </note>
+        <note n="97">
+          <ab>kaikitenkin : joka tapauksessa</ab>
+        </note>
+        <note n="98">
+          <ab>mikä</ab>
+        </note>
+        <note n="99">
+          <ab>perusteellisesti, oikealla tavalla</ab><ab>Lönnrot kommentoi säkeitä 117 ja 118: "Ilmoitan ne suoraan semmoisina, kuin ovatki, vaikka kyllä mielesi siitä ei 
+            hyvästyne, vaikka kyllä mielelläsi soisit ne toisenlaisiksi" (Lna 121).</ab>
+        </note>
+        <note n="100">
+          <ab>mielen mukaan</ab>
+        </note>
+        <note n="101">
+          <ab>päästä : päästä kulkemaan</ab><ab>Vrt. sanan muut merkitykset Kalevalassa: selviytyä, vapautua, suoriutua (30:137; 42:529 ym.); ehtiä, kyetä (10:455); joutua, 
+            tulla osaksi (16:365; 23:843) (Jussila 2009).</ab>
+        </note>
+        <note n="102">
+          <ab>päiväys : päivämatka</ab>
+        </note>
+        <note n="103">
+          <ab>voimakas, raju</ab><ab>Lönnrot kommentoi Lyhennetyn Kalevalan säettä 61 (tässä 123): "Tulisella lienee ensin vihaista, kovaa, väkevää osoitettu" (Lönnrot 1862/2005). 
+            Lönnrot toimitti Lyhennetyn Kalevalan koulujen tarpeisiin, ja sen vuoksi sen säkeet poikkeavat aikaisemmista.</ab>
+        </note>
+        <note n="104">
+          <ab>poikkipuolin : poikittain</ab>
+        </note>
+        <note n="105">
+          <ab>mäennyppylä, kukkula</ab><ab>Suomen kielen murteissa <hi rend="italics">korko</hi>-sanalla on esimerkiksi merkitykset 'koroke, korkea kohta, kohoama, mäki tms.; 
+            korkeus; jalkineen kantapään koroke, kanta' (SMS). Karjalan kielessä <hi rend="italics">korko</hi> mm. 'luoto, kari, matalikko' (KKS).</ab>
+        </note>
+        <note n="106">
+          <ab>kotka</ab><ab>Kokko eli kotka on myyttinen lintu ja edustaa Ukkosen jumalan lintua monissa pohjoisen Euraasian pyyntikulttuureissa (ks. Siikala 2012: 345).</ab>
+        </note>
+        <note n="107">
+          <ab>kitkuttaa : hioa, hinkata</ab>
+        </note>
+        <note n="108">
+          <ab>saava : saapuva</ab>
+        </note>
+        <note n="109">
+          <ab>käkeävä : aikova, yrittävä, haluava</ab>
+        </note>
+        <note n="110">
+          <ab></ab><ab>Lönnrot kommentoi Lyhennetyn Kalevalan säettä 73 (tässä 135): "Semmoisia surmia eli vaaranpaikkoja naiset pelätkööt ja kavattakoot" (Lönnrot 1862/2005). 
+            Lönnrot toimitti Lyhennetyn Kalevalan koulujen tarpeisiin, ja sen vuoksi sen säkeet poikkeavat aikaisemmista.</ab>
+        </note>
+        <note n="111">
+          <ab>arvata : tietää, tuntea, osata</ab>
+        </note>
+        <note n="112">
+          <ab>asia : keino, menettelytapa</ab>
+        </note>
+        <note n="113">
+          <ab>leppäinen : lepästä valmistettu</ab>
+        </note>
+        <note n="114">
+          <ab>sivutse : ohi, ohitse</ab><ab>Karjalan kielessä ja myös Kalevalassa esiintyy usein prolatiivisija eli väylää, reittiä, välinettä, keinoa tai tapaa ilmaiseva 
+            sijamuoto (Punttila &amp; Issakainen 2003).</ab>
+        </note>
+        <note n="115">
+          <ab></ab><ab>Lönnrot kommentoi säettä 143: "Muiden aineitten seassa Lemminkäisellä oli kukkarossansa lepän lastusia, joista milloin tahansa loihtutaidollaan sai jonkun 
+            elävän. Itsensä täytyi vesilinnuksi muuttua, jotta pääsisi sukeltamaan kokon kynsistä." (Lna 121.)</ab>
+        </note>
+        <note n="116">
+          <ab>alli : vesilintu, jääsorsa</ab><ab>Vesilintu, jääsorsa (Ganander 1997; Kaukonen 1956: 625). Karjalassa suuret alliparvet liikkuivat keväällä Suomenlahden ja Laatokan 
+            rannoilta Vienanmerelle ja palasivat sama reittiä syksyllä takaisin Suomenlahdelle (Kuusi 1963: 266). Alli kuvastaa kansanrunoissa alakuloista ja surullista mieltä.</ab>
+        </note>
+        <note n="117">
+          <ab>alennella, refl. alenteleime : alennaudun eli sukellan</ab>
+        </note>
+        <note n="118">
+          <ab>kourien alta</ab><ab>Karjalan kielessä ja myös Kalevalassa esiintyy usein prolatiivisija eli väylää, reittiä, välinettä, keinoa tai tapaa ilmaiseva sijamuoto (Punttila 
+            &amp; Issakainen 2003).</ab>
+        </note>
+        <note n="119">
+          <ab>kynin : kotkan jalka, kynnet</ab>
+        </note>
+        <note n="120">
+          <ab>vaakalintu : kotka, suuri taikalintu</ab><ab>Suomen vanhassa kirjakielessä <hi rend="italics">vaakalintu</hi> on yleinen petolinnun nimitys. Sanan alkuosa ei liity 
+            painonmääritysvälineen nimitykseen <hi rend="italics">vaaka</hi> vaan kuuluu etymologisesti yhteen skandinaavisperäiseksi selitetyn <hi rend="italics">vaa'as</hi>-sanan 
+            kanssa, joka merkitsee tuskaa, kipua, poltetta, vammaa. <hi rend="italics">Vaa'as</hi> esiintyy kalevalamittaisessa kansanrunoudessa. (NESK s.v. <hi rend="italics">vaaka</hi>.)</ab>
+        </note>
+        <note n="121">
+          <ab>varpaiden alitse</ab><ab>Karjalan kielessä ja myös Kalevalassa esiintyy usein prolatiivisija eli väylää, reittiä, välinettä, keinoa tai tapaa ilmaiseva sijamuoto 
+            (Punttila &amp; Issakainen 2003).</ab>
+        </note>
+        <note n="122">
+          <ab>loputtoman pitkä</ab>
+        </note>
+        <note n="123">
+          <ab>loppumaton : loputon, rajaton</ab>
+        </note>
+        <note n="124">
+          <ab>paatero : kivi, kivenjärkäle, lohkare</ab>
+        </note>
+        <note n="125">
+          <ab>tukkuella : koota, kasata, sulloa</ab>
+        </note>
+        <note n="126">
+          <ab>sadan : satamäärin</ab>
+        </note>
+        <note n="127">
+          <ab>rautainen : rautahaarniskainen</ab>
+        </note>
+        <note n="128">
+          <ab>mutka : keino, konsti, metku</ab>
+        </note>
+        <note n="129">
+          <ab>hotaista : laatia, kyhätä äkkiä</ab> 
+        </note>
+        <note n="130">
+          <ab>tulen väki : tulen haltiaolennot; (konkreettisesti) tulen voima</ab>
+        </note>
+        <note n="131">
+          <ab>vaivaella : työntää, panna</ab>
+        </note>
+        <note n="132">
+          <ab>valkea : tuli</ab><ab>Tulta merkitsevänä sana on vieras vienalaismurteille, mutta se esiintyy kuitenkin kansanrunoissa. Vrt. sanan merkitys adjektiivina: 
+            valkoinen, valoisa, kirkas (4:216; 6:200 ym.). (Turunen 1979.)</ab>
+        </note>
+        <note n="133">
+          <ab>vasta : saunavihta</ab>
+        </note>
+        <note n="134">
+          <ab>vaskinen : vaskesta eli kuparista valmistettu</ab>
+        </note>
+        <note n="135">
+          <ab>kanssa</ab>
+        </note>
+        <note n="136">
+          <ab>siirtää, refl. siirräime : siirrän itseni, siirryn</ab>
+        </note>
+        <note n="137">
+          <ab>tunkea, refl. tungeime : työnnyn, tunkeudun</ab>
+        </note>
+        <note n="138">
+          <ab>partakaan</ab>
+        </note>
+        <note n="139">
+          <ab>pitkä hius, hiussuortuva</ab>
+        </note>
+        <note n="140">
+          <ab>kurvettua : kärventyä</ab>
+        </note>
+        <note n="141">
+          <ab>ala : paikka, tila</ab>
+        </note>
+        <note n="142">
+          <ab>suimistaa, refl. suimistaikse : hyökkää, ryntää</ab>
+        </note>
+        <note n="143">
+          <ab>toisena</ab>
+        </note>
+        <note n="144">
+          <ab>kaimistaa, refl. kaimistaikse : ryntää, seuraa mukana</ab>
+        </note>
+        <note n="145">
+          <ab>kuja : rinnakkain kulkevien aitojen tai vierekkäisten rakennusten välissä sijaitseva tie</ab>
+        </note>
+        <note n="146">
+          <ab>turvaton : suojaton, kykenemätön puolustautumaan</ab><ab>Lönnrot kommentoi säettä 194: "Äiti vanhaan totuttuun tapaan nimittää lastansa turvattomaksi; 
+            taisipa siinä sivussa muistuttaa poikansa Pohjolan käynnistä" (Lna 121).</ab>
+        </note>
+        <note n="147">
+          <ab>emälammas</ab><ab>Lönnrot kommentoi Lyhennetyn Kalevalan säkeitä 105−108 (tässä 197−200): "Arvaatko minun lampaaksi, jonka metsän pedot siltään söisi" 
+            (Lönnrot 1862/2005). Lönnrot toimitti Lyhennetyn Kalevalan koulujen tarpeisiin, ja sen vuoksi sen säkeet poikkeavat aikaisemmista.<lb/><lb/>Säkeitä 197−206 
+            hän kommentoi seuraavasti: "Nämät sanat L. lausuu puolin suutuksissa ja innokkaasti" (Lna 121).</ab>
+        </note>
+        <note n="148">
+          <ab>uusi : tuore</ab>
+        </note>
+        <note n="149">
+          <ab>rieska : tuore</ab><ab>Vrt. sanan toinen merkitys Kalevalassa: happamattomasta taikinasta valmistettu leipä (33:45, 53) (Turunen 1979).<lb/><lb/>Karjalassa 
+            <hi rend="italics">rieska</hi> 'tuore, veres, happamaton' (KKS).</ab>
+        </note>
+        <note n="150">
+          <ab>revittää : repiä rikki, kiskoa hajalle</ab>
+        </note>
+        <note n="151">
+          <ab>paha : huono</ab>
+        </note>
+        <note n="152">
+          <ab>untelo : uninen, veltto</ab>
+        </note>
+        <note n="153">
+          <ab>vyöttää : varustaa vyöllä</ab>
+        </note>
+        <note n="154">
+          <ab></ab><ab>Lönnrot kommentoi säkeitä 201 ja 202: "Vyöstä riippui miekka, miehen paras turva, sitä L. nyt vyönsä nimittämällä tarkoittaa" (Lna 121).</ab>
+        </note>
+        <note n="155">
+          <ab>panna : pukea, varustaa</ab>
+        </note>
+        <note n="156">
+          <ab>paljin : soljen kiinnitysneula</ab>
+        </note>
+        <note n="157">
+          <ab>solki : vaatteiden tai vyön kiinnitin, koriste</ab><ab>Erilaisia solkia on käytetty kiinnittiminä ja koristeina Suomessa ainakin rautakaudelta saakka. Naisten 
+            rintasoljet olivat miesten vastaavia suurikokoisempia. Käytössä oli tilanteesta ja kantajasta riippuen rengassolki tai hevosenkengän muotoinen solki; jälkimmäistä 
+            käytettiin vaippojen, huntujen ja hameiden kanssa. Viikinkiajan lopulla vaatteiden rintamukseen kiinnitettiin kaksi kupurasolkea, jotka kannattelivat pronssirenkaista 
+            valmistettua ketjua. (Turunen 1979.)</ab>
+        </note>
+        <note n="158">
+          <ab>joutaa : ehtiä, olla vapaana</ab>
+        </note>
+        <note n="159">
+          <ab>Untamo : maan alla nukkuva ja venyvä suuri tietäjä</ab><ab>Vrt. Antero Vipunen. Vrt. myös Kalevalan Kullervo-runossa Kalervon veljenä ja veljensä murhaajana 
+            sekä Kullervo-pojan vastustajana.</ab>
+        </note>
+        <note n="160">
+          <ab>kirokave : hyökkäämään noiduttu eläin</ab>
+        </note>
+        <note n="161">
+          <ab>suitsisuuhun : valjaisiin, kuolaimiin</ab>
+        </note>
+        <note n="162">
+          <ab>rutjoa : rusentaa, rutistaa</ab>
+        </note>
+        <note n="163">
+          <ab>ruumen : (kuvaannollisesti) silppu, roska</ab><ab>Vrt. sanan toinen merkitys Kalevalassa: jäte, joka syntyy viljan puimisen seurauksena (Jussila 2009). 
+            Karjalan kielessä <hi rend="italics">ruumen</hi> 'puitaessa erottuva kevyt oljen, tähkien tms. jäte; ruumen' (KKS).</ab>
+        </note>
+        <note n="164">
+          <ab>seulaista : ruhjoa, survaista</ab>
+        </note>
+        <note n="165">
+          <ab>sepale : palanen</ab><ab>Karjalan kielessä <hi rend="italics">sepale</hi> 'riekale, rääsy; sepalus' (KKS).</ab>
+        </note>
+        <note n="166">
+          <ab>selvittää, refl. selvitäime : selviydyn</ab>
+        </note>
+        <note n="167">
+          <ab>määränpäähän</ab>
+        </note>
+        <note n="168">
+          <ab>perillä, määränpäässä</ab>
+        </note>
+        <note n="169">
+          <ab>vähän, hiukan</ab>
+        </note>
+        <note n="170">
+          <ab>raketa : pystyttää, valmistaa</ab>
+        </note>
+        <note n="171">
+          <ab>teräsaidalla ympäröity aitaus</ab>
+        </note>
+        <note n="172">
+          <ab>teeksennellä : tehdä, rakennella</ab>
+        </note>
+        <note n="173">
+          <ab>seivästää : varustaa seipäillä</ab>
+        </note>
+        <note n="174">
+          <ab>mato : käärme</ab>
+        </note>
+        <note n="175">
+          <ab>aidastaa : varustaa aidaksilla eli viistoon ladottavilla aitapuilla</ab><ab>Maan madoista eli käärmeistä ja sisiliskoista rakennettu aita on yksi esteistä, 
+            joita Lemminkäinen kohtaa matkalla Pohjolaan (Turunen 1979: 14).</ab>
+        </note>
+        <note n="176">
+          <ab>vitsastaa : kiinnittää aidanseipäitä toisiinsa vitsaksilla</ab><ab><hi rend="italics">Vitsas</hi>-sanalla tarkoitettiin koivusta, pajusta tai nuorista 
+            kuusennäreistä tehtyä sidettä, jolla seipäät kiinnitettiin pareiksi ja johon aitapuut nojasivat (Turunen 1979: 392).</ab>
+        </note>
+        <note n="177">
+          <ab>sidellä : sitoa kiinni siteellä</ab>
+        </note>
+        <note n="178">
+          <ab>heittyä : sinkoutua, heittäytyä joksikin</ab>
+        </note>
+        <note n="179">
+          <ab>häilyä : heilua</ab>
+        </note>
+        <note n="180">
+          <ab>pääkurikka : nuijamainen pää, pääkoppa</ab><ab>Käärmeen pää muistuttaa muodoltaan muinaista lyömäasetta, kurikkaa. Kurikka oli nuija, joka valmistettiin puusta 
+            ja joka oli erityisesti toisesta päästään jykevähkö (Turunen 1979).</ab>
+        </note>
+        <note n="181">
+          <ab>kuilua : heilua sinne tänne, kiemurrella</ab>
+        </note>
+        <note n="182">
+          <ab>pääkehä : pääkoppa</ab>
+        </note>
+        <note n="183">
+          <ab>kähätä : sähistä</ab>
+        </note>
+        <note n="184">
+          <ab>jono</ab>
+        </note>
+        <note n="185">
+          <ab>kiehua : sihistä</ab>
+        </note>
+        <note n="186">
+          <ab>pitelä : pitkä</ab>
+        </note>
+        <note n="187">
+          <ab>kujapatsas : puupylväs, joka kannatteli kujan katosta</ab><ab>Ks. kuja</ab>
+        </note>
+        <note n="188">
+          <ab>suhahtaa : suhista nopeasti</ab>
+        </note>
+        <note n="189">
+          <ab>ei ketään</ab>
+        </note>
+        <note n="190">
+          <ab>tuntea : osata, taitaa</ab>
+        </note>
+        <note n="191">
+          <ab>lumota : tehdä tuli taikakeinoin vaarattomaksi</ab>
+        </note>
+        <note n="192">
+          <ab>valkeainen : tuli</ab><ab>Vrt. sanan muut merkitykset Kalevalassa: (adjektiivina) valkoinen (44:120); (adjektiivina) puhdas, siisti (24:25; 25:114); 
+            (substantiivina) kananmunan valkuainen (1:239). Ks. valkea.</ab>
+        </note>
+        <note n="193">
+          <ab>kesyttää, lumota</ab><ab>Vrt. sanan muut merkitykset Kalevalassa: nukutella, väsytellä (15:220);  sekaantua eläimiin (12:489 ym.) (Jussila 2009).</ab>
+        </note>
+        <note n="194">
+          <ab>pakottaa paha olento tottelemaan sananvoimalla eli loitsimalla</ab>
+        </note>
+        <note n="195">
+          <ab>käännyttää takaisin</ab>
+        </note>
+        <note n="196">
+          <ab>vielä</ab><ab>Adverbilla <hi rend="italics">äsken</hi> on karjalan kielessä merkitykset 'sitten (vasta); oikein, aivan, todella; äsken' (KKS).</ab>
+        </note>
+        <note n="197">
+          <ab>päivänä</ab>
+        </note>
+        <note n="198">
+          <ab>kyynalainen : kyiden vallassa oleva</ab>
+        </note>
+        <note n="199">
+          <ab>kynsi : sormi</ab><ab>Vrt. sanan muut merkitykset Kalevalassa: ihmisen tai eläimen kynsi (19:239 ym.); eläimen sorkka (2:129) (Jussila 2009).</ab>
+        </note>
+        <note n="200">
+          <ab>taida tullakaan</ab>
+        </note>
+        <note n="201">
+          <ab>suupala : syötävä, ruokapala</ab>
+        </note>
+        <note n="202">
+          <ab>käsiala : jonkin vallassa oleva; saalis</ab>
+        </note>
+        <note n="203">
+          <ab>konna : paha olento tai henki</ab><ab>Vrt. sanan muut merkitykset Kalevalassa: ilkeä, pahantahtoinen noita (17:193); kelvoton ihminen (49:282) 
+            (Turunen 1979).<lb/><lb/>Karjalan kielessä <hi rend="italics">konna</hi> 'rupikonna; konna, heittiö; mokoma, pahanen' (KKS). Alkuperäinen merkitys on 'rupikonna, 
+            sammakko', mutta suomessa ja karjalassa sanaa on alettu käyttää vertauskuvallisesti konnamaisista ihmisistä (NESK).</ab>
+        </note>
+        <note n="204">
+          <ab>kouristella : puristella kourin</ab>
+        </note>
+        <note n="205">
+          <ab>ilkeä : kauhea, kamala, paha</ab>
+        </note>
+        <note n="206">
+          <ab>jäljettömiin</ab>
+        </note>
+        <note n="207">
+          <ab>pusertaa : puristaa kasaan, rusentaa</ab>
+        </note>
+        <note n="208">
+          <ab>laidemmalle : syrjemmälle, sivummalle</ab>
+        </note>
+        <note n="209">
+          <ab>muuttaa : siirtää</ab><ab>Vrt. sanan muut merkitykset Kalevalassa: vaihtaa (39:307); muuttaa olotilaa tai muotoa (32:442). Sanaa käytetään myös esimerkiksi 
+            mielipiteen vaihtumisen yhteydessä (35:175). (Jussila 2009.)</ab>
+        </note>
+        <note n="210">
+          <ab>tien mukaisesti</ab>
+        </note>
+        <note n="211">
+          <ab>Sariola : Pohjolan rinnakkaisnimi</ab>
+        </note>
+        <note n="212">
+          <ab>salvos : hirsirakennus, tupa</ab>
+        </note>
+        <note n="213">
+          <ab>hullu : riehakas</ab><ab>Vrt. sanan toinen merkitys Kalevalassa: vähäjärkinen (5:168−169) (Turunen 1979).</ab>
+        </note>
+        <note n="214">
+          <ab>poloinen : kurja, onneton</ab>
+        </note>
+        <note n="215">
+          <ab>jalo : iso, kookas, mahtava, pystyvä</ab>
+        </note>
+        <note n="216">
+          <ab>jaksaa : voittaa</ab><ab>Vrt. sanan muut merkitykset Kalevalassa: riisua, purkaa (17:297); nylkeä (15:104); voida, kyetä (3:338) (Turunen 1979).</ab>
+        </note>
+        <note n="217">
+          <ab>rajaseutu, pohjoisessa sijaitseva laaja maa</ab><ab>Sanan alkuperästä ja alkuperäisestä merkityksestä ei ole varmaa tietoa. Lyydissä <hi rend="italics">lap</hi> 
+            merkitsee Vienan Karjalaa eli oman asutuksen pohjoispuolista aluetta. Vatjassa <hi rend="italics">lappolain</hi> merkitsee noitaa. Saamelaisiin viittaavat 
+            <hi rend="italics">lappi</hi> ja <hi rend="italics">lappalainen</hi> ovat monien kansojen tuntemia nimityksiä; saamelaiset itse eivät ole niitä kuitenkaan 
+            käyttäneet. Erään selityksen mukaan <hi rend="italics">Lappi</hi> voisi liittyä sanaan <hi rend="italics">lape, lappea</hi> ja olisi varhaisemmalta merkitykseltään 
+            'syrjäseutu'. (NESK s.v. <hi rend="italics">lappi, Lappi</hi>.)</ab>
+        </note>
+        <note n="218">
+          <ab>tunkea : loitsia johonkin</ab><ab>Vrt. sanan muut merkitykset Kalevalassa: työntää sisään, ahtaa (12:231 ym.); asettaa jotakin vasten, painaa (9:407 ym.); hyökätä, 
+            tunkea päälle (29:297) (Jussila 2009).</ab>
+        </note>
+        <note n="219">
+          <ab>turjalainen : Pohjolan asukas</ab><ab>Suomen kielessä <hi rend="italics">turjalaisella</hi> on voitu tarkoittaa saamelaista tai tietäjää, noitaa, velhoa 
+            (SPK s.v. <hi rend="italics">Turjanselkä</hi>). Karjalan kielessä <hi rend="italics">turjalaine</hi> 'vierasheimolainen' (KKS). Ks. Turja.</ab>
+        </note>
+        <note n="220">
+          <ab>lappalainen : rajalla, rajaseudulla asuva henkilö; suuren noidan mainesana</ab><ab><hi rend="italics">Lappalainen</hi> ei liity tässä Lappiin vaan viittaa rajalla, 
+            rajaseudulla asuvaan henkilöön. Lönnrot kommentoi Kalevalan 3. runon säettä 22: "Sana lappalainen alkuansa merkitsi lappeessa eli vieressä, rajalla asuvaa" (Lna 121). 
+            Ks. Lappi.</ab>
+        </note>
+        <note n="221">
+          <ab>läpi</ab>
+        </note>
+        <note n="222">
+          <ab>puhella : loitsia</ab>
+        </note>
+        <note n="223">
+          <ab>kahteen osaan</ab>
+        </note>
+        <note n="224">
+          <ab>muinainen : entinen, aikaisempi</ab>
+        </note>
+        <note n="225">
+          <ab>aikaisemmin</ab>
+        </note>
+        <note n="226">
+          <ab>käynti : vierailu</ab>
+        </note>
+        <note n="227">
+          <ab>umpilampi : umpinainen, laskujoeton lampi</ab><ab>Lönnrot kommentoi säkeitä 307−314: "Muistuttaa siitä, kun märkähattu karjanpaimen hänen oli Tuonelan jokeen 
+            saattanut" (Lna 121).</ab>
+        </note>
+        <note n="228">
+          <ab>koirankielinen : koirankieltä kasvava</ab><ab><hi rend="italics">Koirankielinen</hi> oli umpinaisista lammista yleisesti käytetty nimi (Turunen 1979). Koirankieli 
+            <hi rend="italics">(Cynoglossum officinale)</hi> viihtyy virtaamattomien vesistöjen läheisyydessä (Niemi 1910).</ab>
+        </note>
+        <note n="229">
+          <ab>kolista : törmäillä kosken kiviin</ab>
+        </note>
+        <note n="230">
+          <ab>myötävirta : alaspäin virtaava vesi</ab>
+        </note>
+        <note n="231">
+          <ab>vilistä : mennä vilahdellen</ab>
+        </note>
+        <note n="232">
+          <ab>Tuonen koski : maanpäällisen ja tuonpuoleisen erottava virta</ab><ab>Tuonelan joki ~ koski on virta, jonka yli Tuonelaan matkattiin (9:379 ym.). Se erotti 
+            maanpäällisen maailman ja kuolleiden olinpaikan toisistaan ja soveltui siksi monien myyttisväritteisten runojen tapahtumapaikaksi ja loitsujen manauspaikaksi. (Turunen 1979.)</ab>
+        </note>
+        <note n="233">
+          <ab>tunnustella : kokea, tuntea, tuta</ab>
+        </note>
+        <note n="234">
+          <ab>mitata : (kuvaannollisesti) kulkea</ab>
+        </note>
+        <note n="235">
+          <ab>Manalan virta : maanpäällisen ja tuonpuoleisen erottava virta</ab><ab> Ks. Tuonen koski</ab>
+        </note>
+        <note n="236">
+          <ab>paha : kurja, onneton, raukka</ab>
+        </note>
+        <note n="237">
+          <ab></ab><ab>Lönnrot kommentoi Lyhennetyn Kalevalan säkeitä 139−141 (tässä 317−319): "Muistuttaa muinaisesta tavasta, jolloin vihollisten poikki lyödyt päät pelotukseksi 
+            ja urhoollisuuden muistoksi asetettiin seivästen eli pylvästen päähän. Niin karhun pääkallon kanssa vieläki tehdään." (Lönnrot 1862/2005.) Lönnrot toimitti Lyhennetyn 
+            Kalevalan koulujen tarpeisiin, ja sen vuoksi sen säkeet poikkeavat aikaisemmista.</ab>
+        </note>
+        <note n="238">
+          <ab>pylväs : paalu, tolppa, seiväs</ab>
+        </note>
+        <note n="239">
+          <ab>päätön : ilman päätä oleva</ab>
+        </note>
+        <note n="240">
+          <ab>nenä : pää, kärki</ab>
+        </note>
+        <note n="241">
+          <ab>kelvoton, huono</ab>
+        </note>
+        <note n="242">
+          <ab>huolia : surra, murehtia</ab>
+        </note>
+        <note n="243">
+          <ab>kelvoton</ab>
+        </note>
+        <note n="244">
+          <ab>vainovuosi : sotavuosi</ab><ab><hi rend="italics">Vaino</hi>-sana on venäläisperäinen laina, jota nykyvenäjässä edustaa <hi rend="italics">vojná</hi> 'sota'. 
+            Siitä on johdettu sanat <hi rend="italics">vainooja</hi> ja <hi rend="italics">vainota</hi>; nämä esiintyivät jo Mikael Agricolan kirjoituksissa. (NESK.) Kalevalassa 
+            <hi rend="italics">vaino</hi> merkitsee nimenomaan sotaa ja esiintyy useissa yhdyssanoissa, esim. <hi rend="italics">vainotanner</hi> 'sotatanner' (36:25), 
+            <hi rend="italics">vainotie</hi> 'sotatie' (36:3) jne. (ks. Turunen 1979; Jussila 2009).</ab>
+        </note>
+        <note n="245">
+          <ab>sotakesä : kesä, jolloin käytiin sotaa</ab>
+        </note>
+        <note n="246">
+          <ab>totella : huolia, välittää</ab><ab>Sanan merkitys yleiskielessä on 'noudattaa käskyä, kehotusta' (3:67; 4:191 ym.), mutta Kalevalassa myös 'huolia, piitata, välittää' 
+            (vrt. 6:169; 17:130 ym.) (Turunen 1979).</ab>
+        </note>
+        <note n="247">
+          <ab>vääjätä : välittää, piitata; väistää</ab>
+        </note>
+        <note n="248">
+          <ab>vähänkään, ollenkaan</ab>
+        </note>
+        <note n="249">
+          <ab>sotisopa : sotapuku</ab>
+        </note>
+        <note n="250">
+          <ab>vainovaate : sota-asu</ab><ab><hi rend="italics">Vaino</hi>-sana on venäläisperäinen laina, jota nykyvenäjässä edustaa <hi rend="italics">vojná</hi> 'sota'. 
+            Siitä on johdettu sanat <hi rend="italics">vainooja</hi> ja <hi rend="italics">vainota</hi>; nämä esiintyivät jo Mikael Agricolan kirjoituksissa. (NESK.) 
+            Kalevalassa <hi rend="italics">vaino</hi> merkitsee nimenomaan sotaa ja esiintyy useissa yhdyssanoissa, esim. <hi rend="italics">vainotanner</hi> 'sotatanner' 
+            (36:25), <hi rend="italics">vainotie</hi> 'sotatie' (36:3) jne. (ks. Turunen 1979; Jussila 2009).</ab>
+        </note>
+        <note n="251">
+          <ab>käydä : hakea, noutaa</ab><ab>Vrt. sanan muut merkitykset Kalevalassa: käydä (1:16, 59, 172 ym.); koskettaa, tarttua (42:66; 45:334); kelvata, sopia (17:511); 
+            liikkua (49:77) (Turunen 1979).</ab>
+        </note>
+        <note n="252">
+          <ab>iso : isä</ab>
+        </note>
+        <note n="253">
+          <ab>katsoa : valita</ab>
+        </note>
+        <note n="254">
+          <ab>kalpa : pistomiekka</ab>
+        </note>
+        <note n="255">
+          <ab>taatto : isä</ab>
+        </note>
+        <note n="256">
+          <ab>pitkän aikaa, kauan</ab><ab>Sana <hi rend="italics">viikko</hi> merkitsee Kalevalassa pitkää aikaa tai seitsemän päivän jaksoa (ks. Turunen 1979; Jussila 2009). 
+            Karjalassa sillä on merkitys 'pitkä aika', ja sitä käytetään kielessä usein adverbin kaltaisesti: <hi rend="italics">viikko ~ viikon</hi> 'kauan, pitkän ajan; 
+            pitkään aikaan' (KKS).</ab>
+        </note>
+        <note n="257">
+          <ab>vilu : viileys, kylmyys</ab>
+        </note>
+        <note n="258">
+          <ab>kaiho : pimeä; piilo</ab><ab>Vrt. sanan muut merkitykset Kalevalassa: kaipaus, ikävä (22:401, 420; 34:22); äkäisyys, viha (18:469) (Turunen 1979).</ab>
+        </note>
+        <note n="259">
+          <ab>sija : paikka</ab>
+        </note>
+        <note n="260">
+          <ab>silta : lattia, permanto</ab><ab>Lönnrot kommentoi Lyhennetyn Kalevalan säkeitä 157 ja 158 (tässä 343 ja 344): "Koetti, jos vielä olisi kyllin notkea" (Lönnrot 
+            1862/2005). Lönnrot toimitti Lyhennetyn Kalevalan koulujen tarpeisiin, ja sen vuoksi sen säkeet poikkeavat aikaisemmista.<lb/><lb/>Itämerensuomalaisissa kielissä 
+            yleisesti tavattu <hi rend="italics">silta</hi>-sana rajoittuu merkityksessä 'lattia, permanto' pääasiassa alueen itäosiin. Merkitys on levikin valossa syntynyt 
+            muinaiskarjalassa. (ALFE 1: 126−127.)</ab>
+        </note>
+        <note n="261">
+          <ab>terä edellä</ab>
+        </note>
+        <note n="262">
+          <ab>niin kuin</ab>
+        </note>
+        <note n="263">
+          <ab>kasvava, elinvoimainen, kuihtumaton</ab>
+        </note>
+        <note n="264">
+          <ab>miettijäinen : mittaaja, koettelija</ab><ab>Lönnrot kommentoi Lyhennetyn Kalevalan säettä 161 (tässä 351): "Joka tohtisi tätä miekkaa vastaan ruveta" (Lönnrot 
+            1862/2005). Lönnrot toimitti Lyhennetyn Kalevalan koulujen tarpeisiin, ja sen vuoksi sen säkeet poikkeavat aikaisemmista.</ab>
+        </note>
+        <note n="265">
+          <ab>katsojainen : mittelijä, miekkasille uskaltautuja</ab>
+        </note>
+        <note n="266">
+          <ab></ab><ab>Varhaisimmat jouset olivat yksinkertaisempia ns. käsijousia, mutta myöhemmin opittiin valmistamaan kehittyneempiä, liipasin- ja lukkolaittein varustettuja 
+            jalkajousia (Turunen 1979).</ab>
+        </note>
+        <note n="267">
+          <ab>sivaltaa : ottaa nopeasti, siepata, tempaista</ab>
+        </note>
+        <note n="268">
+          <ab>kaari : jousi</ab>
+        </note>
+        <note n="269">
+          <ab>vaarnanen : puusta valmistettu naula</ab><ab>Entisaikoina vaatteita, aseita, työkaluja ja muita esineitä ripustettiin seinään kiinnitettyihin puunauloihin (ks. 
+            Turunen 1979; Jussila 2009).</ab>
+        </note>
+        <note n="270">
+          <ab>sanoa : nimittää, kutsua joksikin</ab><ab>Lönnrot kommentoi säkeitä 357−362: "Jousi oli niin jäykkä, ettei luullut Pohjolassa ketään löytyvän, joka sen saattaisi 
+            jännittää" (Lna 121).</ab>
+        </note>
+        <note n="271">
+          <ab>arvella : arvioida, laskea joksikin</ab>
+        </note>
+        <note n="272">
+          <ab>vetää : kiristää, virittää</ab>
+        </note>
+        <note n="273">
+          <ab>kiverä : äkisti kaartuva, taipuva</ab><ab>Karjalan kielessä adjektiivi <hi rend="italics">kiverä</hi> 'kiperä, käyrä' (KKS). Suomen murteissa sanalla on yleisesti 
+            merkitys 'kippurainen, käyrä, jyrkästi kaareva; jyrkkä, mutkainen' (SMS).</ab>
+        </note>
+        <note n="274">
+          <ab>kiinnittää : jännittää, virittää</ab><ab>Vrt. sanan toinen merkitys Kalevalassa: (käärmeaidasta) sitoa (26:589) (Turunen 1979; Jussila 2009).</ab>
+        </note>
+        <note n="275">
+          <ab>suoria, refl. suorihe : pukeutui, laittautui</ab><ab>Karjalan kielessä <hi rend="italics">šuorie</hi> ja <hi rend="italics">šuorita</hi> 'pukeutua; valmistautua, 
+            varustautua; suoriutua, valmistua; tehdä lähtöä, lähteä' (KKS).</ab>
+        </note>
+        <note n="276">
+          <ab>orja : omaisuutta oleva ihminen; palkkalainen, palvelija</ab><ab>Orja on Kalevalassa toisen ihmisen omaisuutta, joka voidaan ostaa, myydä ja ryöstääkin. Kalevalan 
+            antama kuva orjien elämästä ja asemasta rajoittuu runojen, sananlaskujen ja arvoitusten antamiin hajanaisiin tietoihin. Sammon taonnassa orjat ovat lietsojia 
+            (10:311−373), muualla he hoitavat hevosia (esim. 18:379−390) tai suorittavat talousaskareita orjapiikoina (esim. 24:147−150). Orjan elämä on usein synkkää ja onnetonta; 
+            tästä kielii Kullervon karu kohtalo. (Turunen 1979.)<lb/><lb/>Karjalan kielessä <hi rend="italics">orja</hi> 'palkollinen, orja; rutiköyhä, kerjäläinen' (KKS).</ab>
+        </note>
+        <note n="277">
+          <ab>osto-orja : ostamalla hankittu orja</ab>
+        </note>
+        <note n="278">
+          <ab>rahalla ostettu</ab>
+        </note>
+        <note n="279">
+          <ab>jouvuttaa : valmistaa kuntoon</ab>
+        </note>
+        <note n="280">
+          <ab>sotahevonen</ab><ab><hi rend="italics">Vaino</hi>-sana on venäläisperäinen laina, jota nykyvenäjässä edustaa <hi rend="italics">vojná</hi> 'sota'. Siitä on 
+            johdettu sanat <hi rend="italics">vainooja</hi> ja <hi rend="italics">vainota</hi>; nämä esiintyivät jo Mikael Agricolan kirjoituksissa. (NESK.) Kalevalassa 
+            <hi rend="italics">vaino</hi> merkitsee nimenomaan sotaa ja esiintyy useissa yhdyssanoissa, esim. <hi rend="italics">vainotanner</hi> 'sotatanner' (36:25), 
+            <hi rend="italics">vainotie</hi> 'sotatie' (36:3) jne. (ks. Turunen 1979; Jussila 2009).</ab>
+        </note>
+        <note n="281">
+          <ab>Lemmon joukko : Pohjolan asukkaat</ab><ab>Lempo on Kalevalassa ja kansanrunoissa personoitunut paha, luonnossa esiintyvä paha haltia, pahuuksien alkusynnyttäjä, 
+            nimenä Hiiden toistonimi (Jussila 2009; Siikala 2012: 277). Ks. Hiisi.<lb/><lb/><hi rend="italics">Lempo-</hi>nimellä on yhteys <hi rend="italics">lempi</hi>-sanaan; 
+            alkuperäinen merkitys näyttäisi liittyvän palamiseen. <hi rend="italics">Lempi</hi> esiintyy yleisesti vanhojen henkilönnimien osana, mm. 
+            <hi rend="italics">Lemminkäinen, Lemmitty, Ihalempi, Kaukalempi</hi>. (SSA2 s.v. <hi rend="italics">lempi, lempo</hi>.)</ab>
+        </note>
+        <note n="282">
+          <ab>käskettävä</ab>
+        </note>
+        <note n="283">
+          <ab>pistää, refl. pistihe : pistäytyi</ab>
+        </note>
+        <note n="284">
+          <ab>työntää : panna, laittaa</ab>
+        </note>
+        <note n="285">
+          <ab>puikko : aisa</ab>
+        </note>
+        <note n="286">
+          <ab>tulipunainen : punaruskea hevonen</ab>
+        </note>
+        <note n="287">
+          <ab>suorittaa : laittaa valmiiksi, varustaa kuntoon</ab>
+        </note>
+        <note n="288">
+          <ab>viljo : oivallinen, erinomainen</ab><ab><hi rend="italics">Viljo(n)</hi> on ollut kansanomaisesti yleisesti käytössä varsan mainesanana (Turunen 1979). Karjalan 
+            kielessä <hi rend="italics">viljon</hi> 'kunnon, oiva'. Suojärveltä tieto: "Vaĺĺastele viĺĺoivarzoi, kirjoikorjoi kiińittele". (KKS.)</ab>
+        </note>
+        <note n="289">
+          <ab>(määrä)aika</ab>
+        </note>
+        <note n="290">
+          <ab></ab><ab>Lönnrot kommentoi säettä 385: "Äitinsä varotuksista oli hän kuitenki vähän epäeleväksi tullut" (Lna 121).</ab>
+        </note>
+        <note n="291">
+          <ab>tottakai, tietenkin</ab>
+        </note>
+        <note n="292">
+          <ab>käetä : aikoa; uhata; luvata</ab><ab>Vrt. sanan muut merkitykset Kalevalassa: yrittää, koettaa (19:551; 28:168 ym.) (Jussila 2009).</ab>
+        </note>
+        <note n="293">
+          <ab>orsi : rakennuksen sisäpuolella sijaitseva kannatus- tai sidehirsi</ab>
+        </note>
+        <note n="294">
+          <ab>katasija : lieden luona sijaitseva katantasija, jolla ruuantähteitä sisältäviä patoja säilytettiin peitettyinä</ab>
+        </note>
+        <note n="295">
+          <ab>ainut : ainokainen</ab>
+        </note>
+        <note n="296">
+          <ab>vakaus : lapsi, vanhempansa turva</ab><ab><hi rend="italics">Vakaus</hi> ja <hi rend="italics">vakainen</hi> ovat <hi rend="italics">vaka</hi>-sanan johdoksia. 
+            <hi rend="italics">Vakaus</hi>-sanan on katsottu tarkoittavan vanhempansa turvana olevaa lasta. (Turunen 1979: 366.) Tulkintaa tukee se, että <hi rend="italics">vakava</hi> 
+            karjalan kielessä 'vakaa, tukeva; rauhallinen; hiljainen, ujo; luotettava, kunnollinen; (säästä) poutainen; (tuulesta tms.) hiljainen, tasainen' (KKS).</ab>
+        </note>
+        <note n="297">
+          <ab>tapahtua : (sattumalta) joutua jonnekin</ab>
+        </note>
+        <note n="298">
+          <ab>keskelle, puoleenväliin</ab>
+        </note>
+        <note n="299">
+          <ab>venyä : loikoa, maata pitkällänsä</ab><ab>Vrt. sanan muut merkitykset Kalevalassa: olla pehmeänä, vetelänä (9:163; 39:75); olla laiskana, jouten (22:496); mennä 
+            makuulle (29:239); kasvaa pituutta, pidetä (31:283) (Turunen 1979).</ab>
+        </note>
+        <note n="300">
+          <ab>käärme</ab>
+        </note>
+        <note n="301">
+          <ab>pohjukka : pohja</ab>
+        </note>
+        <note n="302">
+          <ab>vakustaa : muistuttaa, teroittaa mieleen</ab>
+        </note>
+        <note n="303">
+          <ab>perimmäinen : takimmainen, kauimmainen</ab>
+        </note>
+        <note n="304">
+          <ab>sija : istumapaikka</ab><ab>Lönnrot kommentoi säettä 409: "Elä istu niin, ettet aina olisi varalla, tahi elä riitele, pyri parempaan sijaan, vaan anna toisen, jos 
+            kohta huonommanki, se saada" (Lna 121).</ab>
+        </note>
+        <note n="305">
+          <ab>puoliaskel : askel, joka on pituudeltaan lyhyt eli puolet tavallisesta</ab>
+        </note>
+        <note n="306">
+          <ab></ab><ab>Lönnrot kommentoi säkeitä 413−416: "Sillä tavoin et puutu riitoihin" (Lna 121).</ab>
+        </note>
+        <note n="307">
+          <ab>selväpiirteinen, uljas</ab>
+        </note>
+        <note n="308">
+          <ab>seljetä : kehittyä, kirkastua</ab>
+        </note>
+        <note n="309">
+          <ab>oikeuden istunto, käräjät</ab><ab>Lemminkäisen äiti toivoo poikansa selviävän kaikista vastoinkäymisistä, vaikka joutuisikin "läpi käymähän keräjät, jutut julki 
+            polkemahan" (Turunen 1979).<lb/><lb/><hi rend="italics">Keräjät</hi> tarkoittivat muinaissuomalaisilla ja muinaisgermaaneilla vapaiden miesten pitämää kokousta, jossa 
+            päätettiin yhteisistä asioista. Muinaislöytöjen, varhaisen historiallisen tiedon ja paikannimien perusteella keräjät pidettiin tavallisesti taivasalla. Niissä 
+            laadittiin lait, päätettiin sodasta ja rauhasta sekä ratkaistiin siviili- ja rikosoikeudellisia asioita jo ennen historiallista aikaa. (Turunen 1979: 119.)<lb/><lb/>
+            Karjalan <hi rend="italics">keräjät</hi> ja muut lähisukukielten vastineet liittyvät <hi rend="italics">kerätä</hi>-verbiin (NESK).</ab>
+        </note>
+        <note n="310">
+          <ab>juttu : käräjillä ratkottava riita-asia</ab>
+        </note>
+        <note n="311">
+          <ab>polkea julki : tuoda esiin, esittää</ab>
+        </note>
+        <note n="312">
+          <ab>urohoinen väki : miesjoukko</ab>
+        </note>
+        <note n="313">
+          <ab>virkku : sukkela, vireäliikkeinen hevonen</ab>
+        </note>
+        <note n="314">
+          <ab>vitsa : ruoskana käytetty koivun, lepän, pajun tai jonkin muun puun vesa</ab>
+        </note>
+        <note n="315">
+          <ab>heittää : lyödä, iskeä</ab><ab>Vrt. sanan muut merkitykset Kalevalassa: viskata, nakata (14:448); riisua, ottaa pois päältään (32:99); laskea, pudottaa (48:91); 
+            jättää kesken, jättää johonkin olotilaan (19:32; 26:233); jättää pois, luopua jostakin (24:367); jättää olemaan, säästää (3:452); jättää oman onnensa nojaan, hylätä 
+            (38:317); jättää kokonaan, lopettaa (50:537) (Jussila 2009).</ab>
+        </note>
+        <note n="316">
+          <ab>helmiruoskanen : helmisiimainen ruoska</ab><ab>Vrt. helmiletku, helminen, helmisvyö, helmivyö, kariperä.</ab>
+        </note>
+        <note n="317">
+          <ab>vierrä : juosta</ab><ab>Sanan perusmerkitys on 'vyöryä, pyöriä'. Vrt. sanan muut merkitykset Kalevalassa: pudota (4:289, 330; 44:327 ym.); virrata, juosta (4:447−471 ym.); 
+            riutua voimattomaksi, kaatua kuoliaaksi (14:434; 30:452); pyöriä ympäri (21:24; 30:392); irtaantua, lähteä irti tai liikkeelle (25:531; 33:85 ym.); kulua, joutua (matkasta 
+            puhuen) (35:104 ym.); vaaleta, virttyä (36:148); ääntää (22:103, 476 ym.) (Turunen 1979).<lb/><lb/>Ks. <hi rend="italics">vieriminen</hi> merkitsemässä epämääräistä kulkemista 
+            (4:269−270).</ab>
+        </note>
+        <note n="318">
+          <ab>helettää : juosta kevyesti</ab>
+        </note>
+        <note n="319">
+          <ab>hyvä : runsas, melkoinen</ab>
+        </note>
+        <note n="320">
+          <ab>hetki : tuokio</ab>
+        </note>
+        <note n="321">
+          <ab>hetkutella : ajaa vauhdikkaasti niin, että reki heittelehtii</ab><ab>Karjalan kielen verbi <hi rend="italics">hetkuttoa</hi> 'hetkua, keinua, hyllyä, notkua'. 
+            Hetkuttaen ajettaessa reki heittelehtii, vrt. tieto Säämäjärveltä: "Odnokolǩku ('kaksipyöräiset rattaat') hetkuttau lujah ajajez". (KKS.)</ab>
+        </note>
+        <note n="322">
+          <ab>teirikarja : teeriparvi</ab><ab>Karjalan kielessä ja suomen murteissa <hi rend="italics">karja</hi>-sanalla on useita merkityksiä, mm. 'lauma, parvi, joukko' 
+            (KKS; SMS).</ab>
+        </note>
+        <note n="323">
+          <ab>lintuparvi</ab><ab>Karjalan kielessä ja suomen murteissa <hi rend="italics">karja</hi>-sanalla on useita merkityksiä, mm. 'lauma, parvi, joukko' (KKS; SMS).</ab>
+        </note>
+        <note n="324">
+          <ab>kapsahuttaa : pyrähtää lentoon</ab><ab>Vrt. sanan muut merkitykset Kalevalassa: lyödä, kopsauttaa (27:314); kastaa nopeasti (50:475) (Jussila 2009).</ab>
+        </note>
+        <note n="325">
+          <ab>tapaella : ottaa, koota </ab>
+        </note>
+        <note n="326">
+          <ab>taipale : matka kahden paikan välillä</ab>
+        </note>
+        <note n="327">
+          <ab>(matkasta) eteenpäin, kauemmaksi</ab>
+        </note>
+        <note n="328">
+          <ab>höröstellä, refl. hörösteleikse : höristää korviaan, kuulostella</ab><ab>Lönnrot kommentoi säkeitä 141 ja 142: "Hevoinen usein havaitsee vaarapaikat ennenku ajaja" (Lna 121).</ab>
+        </note>
+        <note n="329">
+          <ab></ab><ab><hi rend="italics">Luppakorva</hi>-sanaa käytetään yleensä eläimestä, jolla on riippuvat korvat. Kalevalassa sanalla tarkoitetaan koiraa (18:488) ja 
+            hevosta (ks. myös 38:182, 206, 230). (Turunen 1979.)<lb/><lb/>Vrt. Lönnrotin kommentti sanaa koskien: "Lieneekö alk. ollut luima = l. luimukorva, joka hevosesta 
+            paremmin sopisi. Huomaamatta olisi se sitten luppakorvaksi, jota koirista tavallisesti sanotaan. Luippakorvastaki olisi samalla tavalla sana voinut muuttua; 
+            luippa = något spetsigt." (Lna 123.)</ab>
+        </note>
+        <note n="330">
+          <ab>luonnella, refl. luonteleikse : liikahtelee rauhattomasti</ab>
+        </note>
+        <note n="331">
+          <ab>kuorustaa, refl. kuorustihe : kampeutui ylös</ab>
+        </note>
+        <note n="332">
+          <ab>korja : ajoreki, itäsuomalainen laitareki </ab>
+        </note>
+        <note n="333">
+          <ab>kaarastaa, refl. kaarastihe : nousi, kiipesi</ab>
+        </note>
+        <note n="334">
+          <ab>va'ata : vakuuttaa</ab>
+        </note>
+        <note n="335">
+          <ab>juuri, aivan</ab>
+        </note>
+        <note n="336">
+          <ab>poikittain</ab><ab>Karjalan kielessä ja myös Kalevalassa esiintyy usein prolatiivisija eli väylää, reittiä, välinettä, keinoa tai tapaa ilmaiseva sijamuoto 
+            (Punttila &amp; Issakainen 2003).</ab>
+        </note>
+        <note n="337">
+          <ab>kurkku</ab><ab>Yleiskielen <hi rend="italics">kurkku</hi> on itämurteissa ja karjalan kielessä äänneasussa <hi rend="italics">kulkku</hi> (KKS; SMS; Turunen 1979).</ab>
+        </note>
+        <note n="338">
+          <ab>valella : hohtaa, välähdellä</ab>
+        </note>
+        <note n="339">
+          <ab>tuiskia : kipinöidä</ab>
+        </note>
+        <note n="340">
+          <ab>säe : kipinä</ab>
+        </note>
+        <note n="341">
+          <ab>säihkäellä : kipinöidä, säkenöidä</ab>
+        </note>
+        <note n="342">
+          <ab>Kauko : Lemminkäisen toisintonimi</ab>
+        </note>
+        <note n="343">
+          <ab>loitompaa : kauempaa</ab>
+        </note>
+        <note n="344">
+          <ab></ab><ab>Kotka tiedustelee Kaukolta eli Lemminkäiseltä matkan määränpäätä. Lönnrot kommentoi säkeitä 459−462: "Senaikuisen luulon mukaan ei ainoastaan elävät, 
+            linnut, nelijalkaiset j.n.e. tainneet tilapäässä puhua, vaan puutki ja muut hengettömät aineet" (Lna 121).</ab>
+        </note>
+        <note n="345">
+          <ab>Lemminkäisen toisintonimi</ab>
+        </note>
+        <note n="346">
+          <ab>välttyä : väistyä, siirtyä syrjään</ab>
+        </note>
+        <note n="347">
+          <ab>poikeltaa, refl. poikellaite : poikkea, poistu</ab>
+        </note>
+        <note n="348">
+          <ab>laskea : antaa mennä, päästää</ab>
+        </note>
+        <note n="349">
+          <ab>edelle : ohitse, eteenpäin</ab>
+        </note>
+        <note n="350">
+          <ab>varsinkin, etenkin</ab>
+        </note>
+        <note n="351">
+          <ab>ohitse, laitaa tai reunaa pitkin</ab><ab>Karjalan kielessä ja myös Kalevalassa esiintyy usein prolatiivisija eli väylää, reittiä, välinettä, keinoa tai tapaa 
+            ilmaiseva sijamuoto (Punttila &amp; Issakainen 2003).</ab>
+        </note>
+        <note n="352">
+          <ab>saatella : osata</ab>
+        </note>
+        <note n="353">
+          <ab>tulikurkku : ankarasanainen, kokon epiteetti</ab><ab>Sana <hi rend="italics">tulikulkku</hi> esiintyy usein juomisen tai voimakkaan, suorastaan kurkkua polttavan 
+            janon kuvausten yhteydessä; toisinaan se tarkoittaa pahaa noitaa. Kalevalassa sana tavataan ilkeän ja pahan anopin kertosanana (23:592, 644) ja lisäksi tulisen 
+            ja pahan kotkan epiteettinä (tässä). (Turunen 1979.)</ab>
+        </note>
+        <note n="354">
+          <ab>jonkin hyväksi : jonkin haltuun, huostaan, omaksi</ab>
+        </note>
+        <note n="355">
+          <ab>pitkä : (ajasta) kauan kestävä</ab>
+        </note>
+        <note n="356">
+          <ab>ikuisuuden, ainaisuuden</ab>
+        </note>
+        <note n="357">
+          <ab>istuma : istuminen; istuin</ab><ab>Karjalan kielessä <hi rend="italics">istuma</hi> 'istuin' (KKS). Suomen murteissa sanalla on merkitykset 'istuminen, 
+            istumisrupeama; istuin' (SMS).</ab>
+        </note>
+        <note n="358">
+          <ab>kovasti</ab>
+        </note>
+        <note n="359">
+          <ab></ab><ab>Lönnrot kommentoi Lyhennetyn Kalevalan säettä 190 (tässä 485): "Taskussa eli kukkarossa oli monenlaisia muitakin aineita, joita loitsiessansa tarvitsi, 
+            sillä tyhjästä loitsija ei saanut mitään. Niistä, joita oli jostain elävästä saatu, hyvä loitsija helposti taisi koko ilmeisen elävän jälleen saada, muista muita 
+            esineitä." (Lönnrot 1862/2005.) Lönnrot toimitti Lyhennetyn Kalevalan koulujen tarpeisiin, ja sen vuoksi sen säkeet poikkeavat aikaisemmista.<lb/><lb/>Sana 
+            <hi rend="italics">tavata</hi> 'tapailla (käsin), tarttua'. Vrt. sanan muut merkitykset Kalevalassa: ottaa, siepata, kopata (19:231 ym.); tavoitella, yrittää osua 
+            (16:27 ym.); löytää, saada käsiinsä (33:171 ym.); saada osakseen, saavuttaa (11:365 ym.); koskettaa, viistää (19:209); kohdata (20:103 ym.). (Jussila 2009.)</ab>
+        </note>
+        <note n="360">
+          <ab>lyödä, refl. löihe : kävi käsin kiinni, tarttui</ab>
+        </note>
+        <note n="361">
+          <ab>hitustella : tehdä hitaasti</ab><ab>Suomen murteissa <hi rend="italics">hitustella</hi> 'pilkkoa tai leikata pieniksi palasiksi, murentaa; viivytellä, 
+            hidastella' (SMS).</ab>
+        </note>
+        <note n="362">
+          <ab>välissä, keskellä</ab>
+        </note>
+        <note n="363">
+          <ab>appaja : ahneesti syövä tai juova</ab><ab>Karjalan kielessä verbi <hi rend="italics">appoa</hi> 'appaa, hotkia, mättää suuhunsa (varsinkin marjoja)' (KKS). 
+            Myös suomen murteista tunnetaan merkitys 'syödä (ahneesti), ahmia, hotkia' (SMS).</ab>
+        </note>
+        <note n="364">
+          <ab>iskulintu : petolintu</ab>
+        </note>
+        <note n="365">
+          <ab>päästä : suoriutua, selvitä</ab>
+        </note>
+        <note n="366">
+          <ab>helähyttää : lyödä, napauttaa</ab>
+        </note>
+        <note n="367">
+          <ab>helminen : helmisiimainen ruoska </ab><ab>Vrt. helmiletku, helmiruoska, helmisvyö, helmivyö, kariperä.</ab>
+        </note>
+        <note n="368">
+          <ab>oikoa : juosta valtoimenaan, suoria matkoihinsa</ab>
+        </note>
+        <note n="369">
+          <ab>helkehyttää : kulkea kevyesti, juosta hiljalleen kulkusten helkkyessä</ab>
+        </note>
+        <note n="370">
+          <ab>palanen : kappale matkaa</ab>
+        </note>
+        <note n="371">
+          <ab>piirrätellä : ajella nopeasti</ab><ab>Karjalan kielessä <hi rend="italics">piirrätteä</hi> 'kiitää, rientää, kiirehtää, viilettää; kirjoituttaa' (KKS).</ab>
+        </note>
+        <note n="372">
+          <ab>oudostua : hämmästellä, tulla epäluuloiseksi</ab>
+        </note>
+        <note n="373">
+          <ab>hörähdellä : korskahdella</ab>
+        </note>
+        <note n="374">
+          <ab>kohottaa, refl. kohottihe : kohottautui</ab>
+        </note>
+        <note n="375">
+          <ab>kaahistaa, refl. kaahistihe : kurottautui</ab>
+        </note>
+        <note n="376">
+          <ab>vakittaa : vakuuttaa, teroittaa mieleen</ab>
+        </note>
+        <note n="377">
+          <ab>paatero : kivi, kivenjärkäle, lohkare</ab>
+        </note>
+        <note n="378">
+          <ab>Ukko: muinaissuomalaisten säänjumala</ab><ab>Ukko asuu ylhäällä ja hallitsee pilviä, ja siltä anotaan sadetta sekä pyydetään apua erilaisissa tilanteissa. 
+            Kalevalassa Ukon määreenä on "ylijumala". (Turunen 1979.)</ab>
+        </note>
+        <note n="379">
+          <ab>taivaallinen isä; Ukon epiteetti</ab>
+        </note>
+        <note n="380">
+          <ab>pilvenmöhkäle</ab><ab>Lönnrot kommentoi säkeitä 533−536: "Ukon pilvet tavallisesti yhtyivät monelta suunnalta" (Lna 121).<lb/><lb/><hi rend="italics">Lonka-</hi>sanan 
+            on katsottu liittyvän sanaan <hi rend="italics">lonkero</hi> 'rönsy, kärhi; mutkitteleva tai kiemurteleva haara; käärme'. Kalevalan lonka olisi siten muodoltaan 
+            pitkulainen pilvi. (SSA2 s.v. <hi rend="italics">lonkero</hi>.)</ab>
+        </note>
+        <note n="381">
+          <ab>kohotella : nostaa ylemmäs; nostattaa</ab>
+        </note>
+        <note n="382">
+          <ab>sivut vastakkain</ab>
+        </note>
+        <note n="383">
+          <ab>sysää</ab>
+        </note>
+        <note n="384">
+          <ab>lomittain, laidat vastakkain</ab>
+        </note>
+        <note n="385">
+          <ab>loukahuttaa : paukauttaa, törmäyttää</ab>
+        </note>
+        <note n="386">
+          <ab>hiihtosauvan korkeus</ab>
+        </note>
+        <note n="387">
+          <ab>kiehitellä : kehitellä, tuottaa; kinostella</ab>
+        </note>
+        <note n="388">
+          <ab>keihäsvarren korkeus</ab>
+        </note>
+        <note n="389">
+          <ab>idättää : synnyttää, kasvattaa</ab>
+        </note>
+        <note n="390">
+          <ab>koi : itä</ab><ab>Suomen kielessä <hi rend="italics">koi</hi> 'päivänsarastus; itä' (SSA1 s.v. <hi rend="italics">koi1</hi>). Karjalassa sanalla 
+            <hi rend="italics">koiline</hi> merkitykset 'itä; itätuuli; itäinen, itä-'. (KKS).</ab>
+        </note>
+        <note n="391">
+          <ab>yhyttää : saattaa yhteen, yhdistää</ab>
+        </note>
+        <note n="392">
+          <ab>lomakkoon : lomatusten, laidatusten</ab>
+        </note>
+        <note n="393">
+          <ab>muodostua, refl. muodostihe : syntyi, muodostui</ab><ab>Lönnrot kommentoi säkeitä 543 ja 544: "Lumi kuumilla kivillä suli hyhmäksi" (Lna 121).</ab>
+        </note>
+        <note n="394">
+          <ab>äyräs : rantatörmä</ab>
+        </note>
+        <note n="395">
+          <ab>rovi : vaaranpaikka; vastus</ab>
+        </note>
+        <note n="396">
+          <ab>helmisvyö : helmisiimainen ruoska</ab><ab>Vrt. helmiletku, helminen, helmiruoska, helmivyö, kariperä.</ab>
+        </note>
+        <note n="397">
+          <ab>saada : käydä, ryhtyä</ab>
+        </note>
+        <note n="398">
+          <ab>vilettää : viilettää, juosta nopeasti</ab>
+        </note>
+        <note n="399">
+          <ab>hötkelyttää : juosta hölkytellä</ab>
+        </note>
+        <note n="400">
+          <ab>virsta : vanha pituusmitta</ab><ab>Ns. suomen virstaa vastaa vanhana pituusmittana 1069 m.</ab>
+        </note>
+        <note n="401">
+          <ab>pala : osa matkaa</ab>
+        </note>
+        <note n="402">
+          <ab>paeta : kulkea</ab><ab>Vrt. sanan muut merkitykset Kalevalassa: lähteä pakoon, poistua salaa (vaaraa) (28:251); irrota, upota (4:323); tupruta, nousta 
+            (savusta) (19:437); leimahtaa, sinkoilla (2:179); jäädä jälkeen, etääntyä (43:91); piilotella, välttää (11:323) (Jussila 2009.)</ab>
+        </note>
+        <note n="403">
+          <ab>tavoitella : tarttua, tapailla (käsin)</ab>
+        </note>
+        <note n="404">
+          <ab>kulkea : työntää kätensä</ab>
+        </note>
+        <note n="405">
+          <ab></ab><ab>Lönnrot kommentoi säettä 569: "Kukkarossa oli kaikenlaisia aineita, joille laulamalla eli loitsimalla luultiin voitavan henki ja sama muoto antaa, 
+            kun elävälläkin oli, josta niitä oli otettu" (Lna 121).</ab>
+        </note>
+        <note n="406">
+          <ab>utustella : silittää; tehdä jtkin hiljalleen, hienosti</ab>
+        </note>
+        <note n="407">
+          <ab>välissä</ab>
+        </note>
+        <note n="408">
+          <ab>uhahtaa : pyrähtää</ab>
+        </note>
+        <note n="409">
+          <ab>aikamoinen, melkoinen</ab>
+        </note>
+        <note n="410">
+          <ab>ryömäistä, refl. ryömäsihe : ryntäsi, syöksähti</ab>
+        </note>
+        <note n="411">
+          <ab>kaimata, refl. kaimasihe : yhtyi seuraan, ryntäsi mukaan</ab><ab><hi rend="italics">Kaimata</hi> karjalan kielessä ja suomen itämurteissa 'saattaa, seurata; 
+            hukata, kadottaa; kaivata' (KKS). Verbi tunnetaan merkityksessä 'saattaa, seurata' myös lyydistä ja vepsästä. Se on johdos sanasta <hi rend="italics">kaima</hi>. 
+            (SSA2 s.v. <hi rend="italics">kaimata</hi>.)</ab>
+        </note>
+        <note n="412">
+          <ab>syli : vanha pituusmitta, levitettyjen käsivarsien sormenpäiden väli</ab><ab>Syltä vanhana pituusmittana vastaa 1,78 eli noin 2 metriä. 
+            <hi rend="italics">Syli</hi> voi tarkoittaa myös vanhaa halkomittaa, jolloin sitä vastaa 4 kuutiometriä.</ab>
+        </note>
+        <note n="413">
+          <ab>maaemä : maa, maankamara</ab>
+        </note>
+        <note n="414">
+          <ab>vapajaa : vapista, täristä, heilua</ab>
+        </note>
+        <note n="415">
+          <ab>kaikeroittaa : kertoa vaikerrellen, valittaa</ab>
+        </note>
+        <note n="416">
+          <ab>aikamoinen</ab><ab>Vrt. sanan muut merkitykset Kalevalassa: sellainen (2:139; 12:457 ym.); kelvoton (30:340; 38:323) (Turunen 1979).</ab>
+        </note>
+        <note n="417">
+          <ab>alhaatse : alitse; matalana</ab><ab>Karjalan kielessä ja myös Kalevalassa esiintyy usein prolatiivisija eli väylää, reittiä, välinettä, keinoa tai tapaa ilmaiseva 
+            sijamuoto (Punttila &amp; Issakainen 2003).</ab>
+        </note>
+        <note n="418">
+          <ab>mataa : madella, liikkua maata pitkin</ab>
+        </note>
+        <note n="419">
+          <ab>ylhäätse : ylitse; korkealta</ab><ab>Karjalan kielessä ja myös Kalevalassa esiintyy usein prolatiivisija eli väylää, reittiä, välinettä, keinoa tai tapaa ilmaiseva 
+            sijamuoto (Punttila &amp; Issakainen 2003).</ab>
+        </note>
+        <note n="420">
+          <ab>tuima rauta : miekka, veitsi</ab>
+        </note>
+        <note n="421">
+          <ab>aidas : kaltevassa tai vaakasuorassa asennossa oleva aitapuu</ab>
+        </note>
+        <note n="422">
+          <ab></ab><ab>Lönnrot kommentoi säkeitä 613−614: "Aukoi paljon enemmän kuin tarvittiinkaan. Osottaa L:sen voimaa." (Lna 121).<lb/><lb/><hi rend="italics">Vitsasväli</hi> 
+            'vitsasten väli aidassa' (Turunen 1979: 392). Ks. vitsastaa.</ab>
+        </note>
+        <note n="423">
+          <ab>käännellä, refl. käänteleikse : kääntyy, kääntelee itseään</ab>
+        </note>
+        <note n="424">
+          <ab>patsas : portin pylväs</ab><ab>Vrt. sanan muut merkitykset Kalevalassa: pylväs tai pilari uunin, kiviladelman ym. kulmassa (12:206 ym.); muinaisen asumuksen 
+            savupiippu (19:383) (Turunen 1979).</ab>
+        </note>
+        <note n="425">
+          <ab>seula : jauhojen puhdistamiseen käytetty väline</ab><ab>Seulaa käytettiin jauhojen erotteluun akanoista. Siinä oli ohuesta haapalaudasta ympyränmuotoiseksi 
+            taivutettu laita ja esimerkiksi metallilangoista kudottu verkkopohja. Kun seuloja, tavallisesti emäntä, liikutteli esinettä nopeasti edestakaisin, valuivat puhtaat 
+            jauhot pohjan väliköistä läpi. Jauhoseulat olivat tavallisesti leveydeltään 30−50 cm. (Turunen 1979.)</ab>
+        </note>
+        <note n="426">
+          <ab>keihovarsi : keihään varsiosa</ab>
+        </note>
+        <note n="427">
+          <ab>tohtia : uskaltaa</ab>
+        </note>
+        <note n="428">
+          <ab>maanalainen : maan alla oleva; käärmeen epiteetti</ab>
+        </note>
+        <note n="429">
+          <ab>tuonenkarvallinen : kuolleen värinen, musta</ab><ab>Ks. Tuoni.</ab>
+        </note>
+        <note n="430">
+          <ab>kulonalainen : kuivuneen ruohikon alla kulkeva; käärmeen epiteetti</ab>
+        </note>
+        <note n="431">
+          <ab>Lemmon lehti : paholaisen lehti</ab><ab>Lempo on Kalevalassa ja kansanrunoissa personoitunut paha, luonnossa esiintyvä paha haltia, pahuuksien alkusynnyttäjä, 
+            nimenä Hiiden toistonimi (Jussila 2009; Siikala 2012: 277). Ks. Hiisi.<lb/><lb/><hi rend="italics">Lempo-</hi>nimellä on yhteys <hi rend="italics">lempi</hi>-sanaan; 
+            alkuperäinen merkitys näyttäisi liittyvän palamiseen. <hi rend="italics">Lempi</hi> esiintyy yleisesti vanhojen henkilönnimien osana, mm. <hi rend="italics">Lemminkäinen, 
+              Lemmitty, Ihalempi, Kaukalempi</hi>. (SSA2 s.v. <hi rend="italics">lempi, lempo</hi>.)</ab>
+        </note>
+        <note n="432">
+          <ab>juurien seassa asuva; käärmeen epiteetti</ab>
+        </note>
+        <note n="433">
+          <ab>kulo : edelliskesän kuivunut ruohikko</ab>
+        </note>
+        <note n="434">
+          <ab>teukkalehtaa : heittelehtiä, teutaroida, pyöriskellä</ab>
+        </note>
+        <note n="435">
+          <ab>nokka : käärmeen pää</ab><ab>Vrt. sanan toinen merkitys Kalevalassa: linnun, tarkemmin kotkan, nokka (7:50; 19:212, 368, 380). <hi rend="italics">Nokkia-</hi>verbi 
+            esiintyy eepoksessa mehiläisen yhteydessä: "Nokki kukkia keolta, keitti mettä kielellänsä", ks. 15:407−8. (Turunen 1979.)</ab>
+        </note>
+        <note n="436">
+          <ab>näppärä, vikkelä </ab><ab><hi rend="italics">Käpeä</hi> on länsimurteinen sana; idempää sitä ei tässä äänneasussa tavata. Sanalla on merkitykset 'kerkeä, reipas; 
+            kätevä, näppärä; ketterä'. (SMS.) Karjalan kielessä <hi rend="italics">käpie</hi> tarkoittaa kärkästä (KKS).</ab>
+        </note>
+        <note n="437">
+          <ab>sykertää, refl. sykerräite : kierry kerälle</ab>
+        </note>
+        <note n="438">
+          <ab>sykkyrä : kerä, mytty</ab><ab>Vrt. sanan toinen merkitys Kalevalassa: tukku (50:540) (Turunen 1979).</ab>
+        </note>
+        <note n="439">
+          <ab>käpertää, refl. käperräite : käperry</ab>
+        </note>
+        <note n="440">
+          <ab>käppyrä : sykkyrä, kippura</ab>
+        </note>
+        <note n="441">
+          <ab>ohitse, sivuitse</ab>
+        </note>
+        <note n="442">
+          <ab>kursikko : soinen paikka metsässä, rämeikkö</ab><ab>Karjalan kielessä <hi rend="italics">kurseikko</hi> 'pitkää varvikkoa ja pientä puuta kasvava suoperäinen 
+            maa tai ryteikköpaikka metsässä; tiheikkö' (KKS).</ab>
+        </note>
+        <note n="443">
+          <ab>kaalaa : kahlata; kulkea vaivalloisesti</ab><ab><hi rend="italics">Kahlata</hi>-verbin rinnakkaismuoto <hi rend="italics">kaalaa</hi> on levikiltään itämurteinen. 
+            Se merkitsee kahlaamista tai muuten hidasta, vaivalloista kulkemista, kuten tien raivaamista, johonkin tunkeutumista jne. (SMS.) Karjalan kielessä vastine 
+            <hi rend="italics">koaloa</hi> 'kahlata, tarpoa, porkata; paistaa pilvien lomitse; tihkua läpi' (KKS; SSA1 s.v. <hi rend="italics">kahlata</hi>).</ab>
+        </note>
+        <note n="444">
+          <ab>salata, refl. sala'ate : piiloudu</ab>
+        </note>
+        <note n="445">
+          <ab>vetää, refl. veäite : vedä itsesi, vetäydy</ab>
+        </note>
+        <note n="446">
+          <ab>villakuontalo : kehrättäväksi otettu villanippu tai -tukku</ab><ab>Lönnrot kommentoi säettä 661: "Niin vähä loukkaamatta, kuin villakuontalo" (Lna 121).</ab>
+        </note>
+        <note n="447">
+          <ab></ab><ab>Lönnrot kommentoi säettä 662: "Haapainen puu pehmeä aineeltansa" (Lna 121).</ab>
+        </note>
+        <note n="448">
+          <ab>mättää : sulloa, tunkea</ab>
+        </note>
+        <note n="449">
+          <ab>teräsnenä : teräskärkinen</ab>
+        </note>
+        <note n="450">
+          <ab>rautainen rae : suuri, hävitystä aiheuttava rae</ab>
+        </note>
+        <note n="451">
+          <ab>kähäellä : sähähdellä</ab>
+        </note>
+        <note n="452">
+          <ab>kiehahtaa : kähähtää, sihahtaa</ab>
+        </note>
+        <note n="453">
+          <ab>pään menoksi</ab>
+        </note>
+        <note n="454">
+          <ab></ab><ab>Lönnrot kommentoi säkeitä 678 ja 679: "Vanhat perintötiedot olivat uusia voimallisemmat" (Lna 121).</ab>
+        </note>
+        <note n="455">
+          <ab>aikaisemmin</ab>
+        </note>
+        <note n="456">
+          <ab>eukko : vanha nainen</ab><ab>Vrt. sanan toinen merkitys Kalevalassa: mytologinen vanha naishaltia (2:302; 17:261; 45:117 ym.) (Turunen 1979).<lb/><lb/>
+            <hi rend="italics">Eukko</hi>-sana suomen kielessä 'vanha nainen; mummo, isoäiti; perheen naisvanhin', mytologisesti 'mannun eukko, metsän eukko, viljan eukko'. 
+            Karjalassa sana merkitsee eukkoa tai vaimoa (KKS). </ab>
+        </note>
+        <note n="457">
+          <ab>turpua : turvota, pöhöttyä</ab>
+        </note>
+        <note n="458">
+          <ab>pakkopäivä : aika, joka on tuskan, ahdistuksen ja kivun värittämä</ab>
+        </note>
+        <note n="459">
+          <ab>muru : pieni palanen, siru</ab>
+        </note>
+        <note n="460">
+          <ab>sykkyrämäinen olento; ilkiö</ab><ab>Aimo Turusen mukaan <hi rend="italics">sykkä</hi> tarkoittaa käärmettä ja liittyy sanojen <hi rend="italics">sykerö</hi> ja 
+            <hi rend="italics">sykkyrä</hi> tavoin kiemuraiseen muotoon (Turunen 1979). Lönnrot sen sijaan katsoo sanan tarkoittavan säkeessä ilkeää, ruots. vidrig 'inhottava, 
+            kauhea, vihattava'. Hän kommentoi sanaa: "Ei siis sykerö, kerä tai muuta senlaista". Lisäksi kommentti merkitystä 'ilkeä' koskien: "Luultavasti niin (=synkkä), vaikka 
+            sana sykkä = sykä tavallisesti merkitsee jotain kiemuramaista (convolutum) ja sekö käärmeelle sopisi". (Lna 123.)</ab>
+        </note>
+        <note n="461">
+          <ab>synnyntä : syntyminen</ab><ab>Syntyloitsuista, ks. Syöjätär.</ab>
+        </note>
+        <note n="462">
+          <ab>kasvanta : kasvaminen</ab>
+        </note>
+        <note n="463">
+          <ab>paha naispuolinen haltia</ab><ab>Syöjätär tavataan Kalevalassa Käärmeen luvuissa (ks. myös 15:595). Hahmo edustaa syntyloitsuissa ruumiillistunutta pahaa. Runoissa 
+            ja loitsuissa Syöjätär yhdistyy muihin pahojen naisten nimiin: <hi rend="italics">Loviatar, Lovetar, Louhatar, Louhi</hi>. (Turunen 1979.)</ab>
+        </note>
+        <note n="464">
+          <ab>paha vedenhaltia</ab><ab>Vetehinen on Itä-Suomessa ja Karjalassa tunnettu ihmishahmoinen vedenhaltia. Sen uskottiin valvovan vesillä liikkuvia kalastajia ja muita 
+            kulkijoita, joiden se toivoi käyttäytyvän sopivalla tavalla. Vetehinen saattoi aiheuttaa tauteja pahoilla voimillaan; toisaalta se antoi myös kalaonnea. (Siikala 2012: 372.) </ab>
+        </note>
+        <note n="465">
+          <ab></ab><ab>Lönnrot kommentoi säkeitä 695−758: "Käärmeen synty" (Lna 39).<lb/><lb/>Syntyloitsujen taustalla on ajatus, jonka mukaan ilmiötä tai oliota voi hallita, 
+            mikäli tuntee sen alkuperän. Käärmeen synty -loitsussa käärmeen eli maan madon ruumiinosat ovat peräisin pahan ilmenemismuodoilta, virtaavasta vedestä ja hyötykasvien 
+            osista; tällaiset luettelot ovat yleisiä juuri syntyloitsuissa. (Siikala 2012: 57, 391.)</ab>
+        </note>
+        <note n="466">
+          <ab>veden henki : veden pinnalle nouseva usva, veden yllä väreilevä ilma tai hiljalleen puhaltava tuuli</ab>
+        </note>
+        <note n="467">
+          <ab>lapova : korkeana aaltoileva</ab>
+        </note>
+        <note n="468">
+          <ab>aurinko</ab><ab>Vrt. sanan muut merkitykset Kalevalassa: vuorokauden valoisa aika (1:100, 106); vuorokausi (1:125) (Turunen 1979).</ab>
+        </note>
+        <note n="469">
+          <ab>pehmeä : kypsä, valmis</ab>
+        </note>
+        <note n="470">
+          <ab>rapea : roiskuva, kuohuva</ab>
+        </note>
+        <note n="471">
+          <ab>mitäpä</ab>
+        </note>
+        <note n="472">
+          <ab>siunata : luoda siunauksella, synnyttää</ab>
+        </note>
+        <note n="473">
+          <ab>mytologinen olento, haltia</ab><ab><hi rend="italics">Hiisi</hi> 'pyhä metsä, uhripaikka, kalmisto; (metsän)haltia, peikko, jättiläinen; paholainen, horna 
+            (myös voimasanana)' (SSA1 s.v. <hi rend="italics">hiisi</hi>). Hiisi oli rahvaan uskomuksissa metsän haltiaolento, yleisimmin kuitenkin paha metsänhaltia eli metsänhiisi. 
+            Alun perin sanalla on kuitenkin tarkoitettu paikkaa, vrt. viron <hi rend="italics">hii l. hiid</hi> 'metsikkö, pyhä metsikkö'. Sanaa käytettiin paitsi pakanallisesta 
+            uhripaikasta ja pyhästä metsästä myös etäisestä, tuntemattomasta korvesta ja yleensä kammottavaksi koetusta paikasta. (Turunen 1979.)</ab>
+        </note>
+        <note n="474">
+          <ab>paha, katala, ilkeä</ab>
+        </note>
+        <note n="475">
+          <ab>tähytä : katsoa tarkkaan, etsiä katseella</ab>
+        </note>
+        <note n="476">
+          <ab>kina : kuola, sylki, lima</ab><ab>Limaa, kuolaa tms. tarkoittavana <hi rend="italics">kina</hi>-sanan levikki painottuu itämurteiden sekä Keski- ja Pohjois-Pohjanmaan 
+            murteiden alueelle (SMS). Karjalassa vastine <hi rend="italics">kino</hi> 'kina, kuola, limainen erite; hämähäkin verkko' (KKS).</ab>
+        </note>
+        <note n="477">
+          <ab></ab><ab>Lönnrot kommentoi säkeitä 729−738: "Mitä tarkempi tieto loitsialla oli vastustajastansa, sitä mahtavampi hän oli" (Lna 121).</ab>
+        </note>
+        <note n="478">
+          <ab>Hiiden hiillos : Helvetin tulisija</ab>
+        </note>
+        <note n="479">
+          <ab>syytää : heitellä, viskellä</ab>
+        </note>
+        <note n="480">
+          <ab>ankeloinen : paha</ab>
+        </note>
+        <note n="481">
+          <ab>vaaluva : aalto, kuohu; aaltoileva</ab><ab>Karjalassa sana <hi rend="italics">voalu(h)</hi> 'aalto; synkkä (sadetta enteilevä) pilvi' (KKS).</ab>
+        </note>
+        <note n="482">
+          <ab>tajunta, mielenlaatu, järki</ab>
+        </note>
+        <note n="483">
+          <ab>turmio : paha olio, roisto, lurjus</ab><ab>Vrt. Kalevalassa <hi rend="italics">turmioituminen</hi> '(ihmisestä) siveellisesti pilalle mennyt' (ks. 11:15) ja 
+            <hi rend="italics">turmelus</hi> 'siveellisesti pilaaminen' (36:312) (ks. Turunen 1979; Jussila 2009).<lb/><lb/>Karjalan kielessä <hi rend="italics">turmuo</hi> 
+            'vahingoittaa, turmella, pilata taikakeinoin' (KKS).</ab>
+        </note>
+        <note n="484">
+          <ab></ab><ab>Lönnrot kommentoi säettä 740: "Lemmolla ja muilla pahoilla olennoilla oli kaikenlaisia samanlaatuisia aineita, kun ihmisilläki, mutta pahaluontoisia" 
+            (Lna 121).<lb/><lb/><hi rend="italics">Liina</hi> 'pellava, hamppu'. Vrt. sanan toinen merkitys Kalevalassa: naimisissa olevan naisen huivi (22:309). (Jussila 2009.)</ab>
+        </note>
+        <note n="485">
+          <ab>suunnittaa : suunnitella, kaavailla</ab>
+        </note>
+        <note n="486">
+          <ab>keitolainen : metsässä ja mättäillä liikkuva paha olento</ab><ab><hi rend="italics">Keito-</hi>sanalla on karjalan kielessä merkitys 'kurja, kehno' (KKS; SSA1 s.v. 
+            <hi rend="italics">keito</hi>).</ab>
+        </note>
+        <note n="487">
+          <ab>oka : vihne, kasvin helpeen sukanen</ab>
+        </note>
+        <note n="488">
+          <ab>Tuoni : kuolema olennoksi personoituna</ab><ab><hi rend="italics">Tuoni</hi> merkitsee vainajalaa ja kuuluu viikinkiajan skandinaavisesta traditiosta saatuun 
+            uskonnolliseen käsitteistöön (Siikala 2012: 437). Kalevalassa <hi rend="italics">Tuonella</hi> tarkoitetaan kuolleiden olinpaikkaa, tuonpuoleista maailmaa tai 
+            kuolemaa olennoksi personoituna. Transsiin vaipuvat, loveen lankeavat noidat kävivät Tuonella eli matkasivat vainajalaan. Kansanuskomusten mukaan Tuoni saattoi 
+            noutaa itselleen seuralaisen elävien maailmasta. Vrt. 16:189−194. (Turunen 1979; Jussila 2009.)<lb/><lb/>Suomen ja karjalan <hi rend="italics">tuoni-</hi>sanojen 
+            vastine on saamessa <hi rend="italics">duotna</hi> 'parka, raukka'. Sanaa on pidetty hyvin vanhana germaanisperäisenä lainana, jonka alkumuotoa edustaisi esim. 
+            muinaisnorjan <hi rend="italics">dán</hi> 'kuolema'. <hi rend="italics">Tuoni</hi> on esiintynyt etupäässä runoissa tai muuten kaunopuheisessa kielessä. (NESK.)</ab>
+        </note>
+        <note n="489">
+          <ab>Kalman impi : Tuonen neito, Tuonelan nuorempi naispuolinen haltia</ab><ab>Kansanuskomuksissa Tuonela vertautuu elävien taloon, jossa asuivat Tuonen ukko, Tuonen 
+            emäntä ja Tuonen pojat ja tyttäret. Tuonen neidon tehtävänä oli kuljettaa vainajat Tuonelaa ympäröivän joen yli. (Turunen 1979: 346.)</ab>
+        </note>
+        <note n="490">
+          <ab>seisottaa : tehdä, valmistaa</ab>
+        </note>
+        <note n="491">
+          <ab>hiiliseiväs : seiväs, jolla kohennetaan tulta</ab><ab>Käärmeenluvussa <hi rend="italics">hiiliseiväs</hi> 'käärmeen selkäranka'; nimitys liittynee Tuonelaa 
+            koskeviin käsityksiin, joissa se kuviteltiin kuumaksi, palavaksi paikaksi (Turunen 1979: 48).</ab>
+        </note>
+        <note n="492">
+          <ab>häälätä : heiluttaa, leijuttaa; haalia kokoon</ab><ab>Verbillä <hi rend="italics">häälätä</hi> on suomen kielessä muun muassa merkitykset 'häärätä, touhuta; 
+            liikkua rauhattomasti, riehua' (SMS).</ab>
+        </note>
+        <note n="493">
+          <ab>pahalainen : personoitu paha; Lemmon kertosana</ab>
+        </note>
+        <note n="494">
+          <ab>Surma : runollisesti personoitu kuolema</ab><ab>Vrt. sanan toinen merkitys Kalevalassa: kuolema (4:334 ym.) (Turunen 1979).<lb/><lb/>Lönnrot on katsonut surman 
+            personoiduksi olennoksi, kun se esiintyy Kalman, paholaisen, Lemmon tai taudin yhteydessä; sana on tällöin kirjoitettu isolla alkukirjaimella. Kansanuskomuksissa 
+            kuolema ja tauti käsitettiin ihmisen ulkopuolella olevaksi, vaanivaksi olennoksi. (Turunen 1979.)<lb/><lb/>Karjalan kielessä <hi rend="italics">surma</hi> 'kuolema, 
+            surma' (myös personoituna olentona) (KKS).</ab>
+        </note>
+        <note n="495">
+          <ab>vyöllinen : vyöhön kiinnitetty tarve-esine, esim. kukkaro, puukko</ab>
+        </note>
+        <note n="496">
+          <ab>maaperän värinen</ab><ab>Käärmeen synnyn lopussa (säkeet 759−768) on manaus, jossa käärmeestä käytetään metaforisia nimityksiä <hi rend="italics">maan värinen, 
+            kanervan värinen</hi> jne. Manauksella Lemminkäinen pyytää käärmettä siirtymään pois tieltään. (Turunen 1979.)</ab>
+        </note>
+        <note n="497">
+          <ab>kanervan värinen</ab><ab>Ks. maan karva.</ab>
+        </note>
+        <note n="498">
+          <ab>sateenkaaren värinen</ab><ab>Ks. maan karva.</ab>
+        </note>
+        <note n="499">
+          <ab>kevyesti astella</ab><ab>Vrt. sanan toinen merkitys Kalevalassa: elellä huolettomasti, kevyesti (27:418) (Turunen 1979).</ab>
+        </note>
+        <note n="500">
+          <ab>synty : suku, heimo</ab>
+        </note>
+        <note n="501">
+          <ab>kuvatella, refl. kuvattelihe : liikahti, siirtyi nopeasti</ab><ab>Karjalan kielessä <hi rend="italics">kuvatella</hi> 'ilvehtiä, pelleillä, hullutella; kummitella, 
+            pelotella'; lisäksi verbiä käytetään saamattomasta tekemisestä puhuttaessa (KKS). Kainuun murteessa paikallisesti <hi rend="italics">kuvatella</hi> 'yritellä' ja 
+            kaakkoismurteissa ja Pohjois-Karjalan alueella myös 'ilveillä, pelehtiä, temppuilla' (SMS).<lb/><lb/>Raimo Jussilan mukaan sana Kalevalassa 'yritellä, teeskennellä'; 
+            Aimo Turunen katsoo sen merkitsevän säkeessä liikahtamista, nopeaa siirtymistä (Ks. Turunen 1979; Jussila 2009).</ab>
+        </note>
+        <note n="502">
+          <ab>siirrellä, refl. siirtelihe : siirtyili</ab>
+        </note>
+        <note n="503">
+          <ab>muutella, refl. muuttelihe : siirtyi, muutti itsensä</ab>
+        </note>
+        <note n="504">
+          <ab>mukaan : mukaisesti, suuntaisesti</ab>
+        </note> 
+      </notesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Helsinki</settlement>
+            <repository>Suomalaisen Kirjallisuuden Seuran arkiston kirjallisuuden ja kulttuurihistorian arkistoaineistot</repository>
+            <idno/>
+          </msIdentifier>
+          <msContents>
+            <msItem n="1" class="letter">
+              <author><surname>Lönnrot</surname>
+                <forename>Elias</forename></author>
+            </msItem>
+            <msItem n="2" class="transcription">
+              <bibl/>
+            </msItem>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="runo">
+        <pb n="1" facs="page_205" />
+        <p><emph>Kuudeskolmatta Runo.</emph></p>
+        <lg>
+          <l><label type="popup" n="1">Ahti</label> oli saarella asuva,</l>
+          <l><label type="popup" n="2">Kaukoniemen</label> kainalossa,</l>
+          <l>Oli pellon kynnännässä,</l>
+          <l><label type="popup" n="3">Vainion</label> <label type="popup" n="4">vakoannassa</label>,</l>
+          <l>Korvalta <label type="popup" n="5">ylen</label> <label type="popup" n="6">korea</label>,</l>
+          <l>Kovin tarkka <label type="popup" n="7">kuulennalta</label>.</l>
+        </lg>
+        <lg>
+          <l>Kuulevi <label type="popup" n="8">jumun</label> kylältä,</l>
+          <l><label type="popup" n="9">Järyn</label> järvien <label type="popup" n="10">takoa</label>,</l>
+          <l><label type="popup" n="11">Jalan iskun</label> <label type="popup" n="12">iljeneltä</label>,</l>
+          <l>10. Reen <label type="popup" n="13">kapinan</label> <label type="popup" n="14">kankahalta</label>;</l>
+          <l><label type="popup" n="15">Juohtui</label> <label type="popup" n="16">juoni</label> mielehensä,</l>
+          <l>Tuuma aivohon <label type="popup" n="17">osasi</label>:</l>
+          <l>Häitä <label type="popup" n="18">Pohjola</label> pitävi,</l>
+          <l><label type="popup" n="19">Sala-joukko</label> juominkia.</l>
+        </lg>
+        <lg>
+          <l><label type="popup" n="20">Murti</label> suuta, väänti päätä,</l>
+          <l>Murti mustoa <label type="popup" n="21">haventa</label>,</l>
+          <l><label type="popup" n="22">Veret vierähti</label> <label type="popup" n="23">pahaksi</label></l>
+          <l><label type="popup" n="24">Poloisilta</label> poskipäiltä;</l>
+          <l>Heti <label type="popup" n="25">heitti</label> <label type="popup" n="26">kynnöksensä</label>,</l>
+          <l>20. <label type="popup" n="27">Vaon</label> <label type="popup" n="28">keski-vainiolle</label>,</l>
+          <l>Nousi maasta ratsahille,</l>
+          <l>Lähtevi <label type="popup" n="29">kohin</label> kotia</l>
+          <l><label type="popup" n="30">Luoksi</label> armahan <label type="popup" n="31">emonsa</label>,</l>
+          <l>Tykö <label type="popup" n="32">valta-vanhempansa</label>.</l>
+        </lg>
+        <lg>
+          <l>Sanoi tuonne <label type="popup" n="33">saatuansa</label>,</l>
+          <l><label type="popup" n="34">Toimitteli</label> tultuansa:</l>
+          <l>"Oi emoni, <label type="popup" n="35">vaimo</label> vanha,</l>
+          <l><label type="popup" n="36">Pane</label> ruoka <label type="popup" n="37">ruttoisesti</label></l>
+          <l>Syöä miehen nälkähisen,</l>
+          <l>30. Haukata <label type="popup" n="38">halun-alaisen</label>;</l>
+          <l>Lämmitä samassa sauna,</l>
+          <l>Pian <label type="popup" n="39">pirtti</label> <label type="popup" n="40">riu'uttele</label>,</l>
+          <l>Missä mies <label type="popup" n="41">puhasteleikse</label>,</l>
+          <l><label type="popup" n="42">Sueiksen</label> <label type="popup" n="43">urosten sulho</label>!"</l>
+        </lg>
+        <lg>
+          <l>Tuop' on <label type="popup" n="44">äiti Lemminkäisen</label></l>
+          <l>Pani ruoan ruttoisesti</l>
+          <l>Syöä miehen nälkähisen,</l>
+          <l>Haukata halun-alaisen</l>
+          <l>Yhen <label type="popup" n="45">kylyn</label> <label type="popup" n="46">joutuessa</label>,</l>
+          <l>40. Yhen saunan <label type="popup" n="47">saapuessa</label>.</l>
+        </lg>
+        <lg>
+          <l>Siitä <label type="popup" n="48">lieto</label> <label type="popup" n="49">Lemminkäinen</label></l>
+          <l>Otti <label type="popup" n="50">ruokoa</label> <label type="popup" n="51">rutosti</label>,</l>
+        </lg>
+        <pb n="2" facs="page_206" />
+        <lg>
+          <l>Meni saunahan samassa,</l>
+          <l>Kävi <label type="popup" n="52">kylpy-huonehesen</label>;</l>
+          <l>Siellä <label type="popup" n="53">peiponen</label> <label type="popup" n="54">peseikse</label>,</l>
+          <l><label type="popup" n="55">Pulmonen</label> puhasteleikse,</l>
+          <l>Päänsä <label type="popup" n="56">pellavas-pioksi</label>,</l>
+          <l><label type="popup" n="57">Kaulanvarren</label> <label type="popup" n="58">valkeaksi</label>.</l>
+        </lg>
+        <lg>
+          <l>Tuli saunasta tupahan,</l>
+          <l>50. Sanan <label type="popup" n="59">virkkoi</label>, noin nimesi:</l>
+          <l>"Oi emoni, vaimo vanha,</l>
+          <l><label type="popup" n="60">Astu</label> aittahan mäelle,</l>
+          <l>Tuo sieltä <label type="popup" n="61">somat</label> <label type="popup" n="62">sopani</label>,</l>
+          <l>Kanna vaattehet <label type="popup" n="63">vakaiset</label>,</l>
+          <l>Jotka päälleni pukisin,</l>
+          <l><label type="popup" n="64">Varustaisin</label> <label type="popup" n="65">varrelleni</label>!"</l>
+        </lg>
+        <lg>
+          <l>Emo ennätti kysyä,</l>
+          <l>Vaimo vanha <label type="popup" n="66">tutkaella</label>:</l>
+          <l><label type="popup" n="67">"Kunne lähet poikueni,</label></l>
+          <l>60. Lähetkö ilveksen <label type="popup" n="68">ajohon</label>,</l>
+          <l>Vaiko hirven hiihäntähän,</l>
+          <l>Vai oravan ammuntahan?"</l>
+        </lg>
+        <lg>
+          <l>Virkkoi lieto Lemminkäinen,</l>
+          <l>Sanoi kaunis <label type="popup" n="69">Kaukomieli</label>:</l>
+          <l>"Oi emoni kantajani,</l>
+          <l>Lähe en ilveksen ajohon,</l>
+          <l>Enkä hirven hiihäntähän,</l>
+          <l>En oravan ammuntahan;</l>
+          <l>Lähen Pohjolan pitoihin,</l>
+          <l>70. <label type="popup" n="70">Sala-joukon juominkihin</label>;</l>
+          <l>Tuo mulle somat sopani,</l>
+          <l>Vakaiset vaatteheni,</l>
+          <l>Häissä <label type="popup" n="71">häilyteltäväni</label>,</l>
+          <l>Pioissa pieltäväni!"</l>
+        </lg>
+        <lg>
+          <l>Emo kielti poikoansa,</l>
+          <l>Nainen miestänsä <label type="popup" n="72">epäsi</label>,</l>
+          <l>Epäsi <label type="popup" n="73">kavetta</label> kaksi,</l>
+          <l>Kielti kolme <label type="popup" n="74">Luonnotarta</label></l>
+          <l>Lähtemästä Lemminkäistä</l>
+          <l>80. <label type="popup" n="75">Hyvän</label> Pohjolan pitoihin.</l>
+        </lg>
+        <lg>
+          <l>Noin sanoi emo pojalle,</l>
+          <l>Lausui vanhin lapsellensa:</l>
+          <l>"Ellös menkö poikueni,</l>
+          <l>Poikueni, <label type="popup" n="76">Kaukueni</label></l>
+          <l>Noihin Pohjolan pitoihin,</l>
+          <l>Suuren joukon juominkihin;</l>
+          <l>Ei sua kutsuttu sinne,</l>
+          <l>Ei <label type="popup" n="77">tarkoin</label> <label type="popup" n="78">tahotakana</label>!"</l>
+        </lg>
+        <lg>
+          <l>Tuop' on lieto Lemminkäinen</l>
+          <l>90. Sanan virkkoi, noin nimesi:</l>
+          <l><label type="popup" n="79">"Kurjat kutsuen menevi,</label></l>
+          <l>Hyvä ilman <label type="popup" n="80">hyppeleikse</label>;</l>
+          <l>Tuoss' on kutsut <label type="popup" n="81">kuun ikuiset</label>,</l>
+          <l><label type="popup" n="82">Airuhut</label> <label type="popup" n="83">alin-omaiset</label></l>
+          <l>Miekassa <label type="popup" n="84">tuli-terässä</label>,</l>
+          <l><label type="popup" n="85">Säilässä</label> <label type="popup" n="86">säkenevässä</label>."</l>
+        </lg>
+        <lg>
+          <l>Tuop' on äiti Lemminkäisen</l>
+          <l>Yhä kielteä <label type="popup" n="87">käkesi</label>:</l>
+          <l>"Ellös vainen poikueni</l>
+          <l>100. Menkö Pohjolan pitoihin!</l>
+          <l>Monet on <label type="popup" n="88">kummat</label> matkallasi,</l>
+          <l>Isot tielläsi <label type="popup" n="89">imehet</label>,</l>
+          <l>Kolme <label type="popup" n="90">surmoa</label> <label type="popup" n="91">kovinta</label>,</l>
+          <l>Kolme miehen kuolemata."</l>
+        </lg>
+        <lg>
+          <l>Virkkoi lieto Lemminkäinen,</l>
+          <l>Sanoi kaunis Kaukomieli:</l>
+          <l><label type="popup" n="92">"Ain'</label> on surmia akoilla,</l>
+          <l><label type="popup" n="93">Kaikin paikoin</label> kuolemia,</l>
+          <l>Ei uros <label type="popup" n="94">hätäile</label> noita,</l>
+          <l>110. Ei <label type="popup" n="95">varsin</label> <label type="popup" n="96">varannekana</label>;</l>
+          <l>Vaan kuitenki, <label type="popup" n="97">kaikitenki</label>,</l>
+          <l>Sano korvin kuullakseni,</l>
+          <l><label type="popup" n="98">Mi</label> on surma ensimmäinen,</l>
+          <l>Ensimmäinen, viimmeinenki?"</l>
+        </lg>
+        <lg>
+          <l>Virkkoi äiti Lemminkäisen,</l>
+        </lg>
+        <pb n="3" facs="page_207" />
+        <lg>
+          <l>Vaimo vanha vastaeli:</l>
+          <l>"Sanon surmat <label type="popup" n="99">syytä myöten</label>,</l>
+          <l>Enkä miehen <label type="popup" n="100">mieltä myöten</label>,</l>
+          <l>Sanon surman ensimmäisen,</l>
+          <l>120. Se on surma ensi surma:</l>
+          <l>Menet matkoa vähäisen,</l>
+          <l><label type="popup" n="101">Pääset</label> tietä <label type="popup" n="102">päiväyksen</label>,</l>
+          <l>Tulevi joki <label type="popup" n="103">tulinen</label></l>
+          <l><label type="popup" n="104">Poikki puolin</label> vastahasi,</l>
+          <l>Joessa tulinen koski,</l>
+          <l>Koskessa tulinen luoto,</l>
+          <l>Luo'olla tulinen <label type="popup" n="105">korko</label>,</l>
+          <l>Korolla tulinen <label type="popup" n="106">kokko</label>:</l>
+          <l>Yöt se hammasta hiovi,</l>
+          <l>130. Päivät kynttä <label type="popup" n="107">kitkuttavi</label></l>
+          <l>Tulialle vierahalle,</l>
+          <l><label type="popup" n="108">Saavalle</label> <label type="popup" n="109">käkeävälle</label>."</l>
+        </lg>
+        <lg>
+          <l>Virkkoi lieto Lemminkäinen,</l>
+          <l>Sanoi kaunis Kaukomieli:</l>
+          <l><label type="popup" n="110">"Se on surma naisen surma</label>,</l>
+          <l>Ei ole kuolema urohon;</l>
+          <l>Kyllä mä siihen keinon keksin,</l>
+          <l><label type="popup" n="111">Arvoan</label> hyvän <label type="popup" n="112">asian</label>:</l>
+          <l>Laulan <label type="popup" n="113">leppäisen</label> hevoisen,</l>
+          <l>140. Laulan leppäisen urohon</l>
+          <l><label type="popup" n="114">Sivutseni</label> siirtymähän,</l>
+          <l>Eestäni vaeltamahan;</l>
+          <l><label type="popup" n="115">Itse sorsana sukellan</label>,</l>
+          <l><label type="popup" n="116">Allina</label> <label type="popup" n="117">alenteleime</label>,</l>
+          <l><label type="popup" n="118">Kouritse</label> kokon <label type="popup" n="119">kynimen</label>,</l>
+          <l><label type="popup" n="120">Vaakalinnun</label> <label type="popup" n="121">varpahitse</label>;</l>
+          <l>Oi emoni kantajani,</l>
+          <l>Sano surma keskimmäinen!"</l>
+        </lg>
+        <lg>
+          <l>Sanoi äiti Lemminkäisen:</l>
+          <l>150. "Se on surma toinen surma:</l>
+          <l>Menet matkoa vähäisen,</l>
+          <l>Toki toisen päiväyksen,</l>
+          <l>Tulevi tulinen kuoppa,</l>
+          <l>Se on poikkipuolin tietä,</l>
+          <l>Itähän <label type="popup" n="122">iäti pitkä</label>,</l>
+          <l>Luotehesen <label type="popup" n="123">loppumatoin</label>,</l>
+          <l>Täynnä kuumia kiviä,</l>
+          <l>Palavia <label type="popup" n="124">paateroita</label>;</l>
+          <l>Sinne on satoja saanut,</l>
+          <l>160. Tuhansia <label type="popup" n="125">tukkueltu</label>,</l>
+          <l><label type="popup" n="126">Sa'an</label> miestä miekallista,</l>
+          <l>Tuhat <label type="popup" n="127">rautaista</label> oritta."</l>
+        </lg>
+        <lg>
+          <l>Virkkoi lieto Lemminkäinen,</l>
+          <l>Sanoi kaunis Kaukomieli:</l>
+          <l>"Ei ole siinä miehen surma,</l>
+          <l>Eikä kuolema urohon;</l>
+          <l>Kyllä mä siihen <label type="popup" n="128">mutkan</label> muistan,</l>
+          <l>Mutkan muistan, keinon keksin:</l>
+          <l>Laulan ma lumesta miehen,</l>
+          <l>170. Uron hangesta <label type="popup" n="129">hotaisen</label>,</l>
+          <l>Sen tungen <label type="popup" n="130">tulen väkehen</label>,</l>
+          <l><label type="popup" n="131">Vaivaelen</label> <label type="popup" n="132">valkeahan</label></l>
+          <l>Kylpiäksi kuuman saunan</l>
+          <l><label type="popup" n="133">Vastan</label> <label type="popup" n="134">vaskisen</label> <label type="popup" n="135">keralla</label>;</l>
+          <l>Itse <label type="popup" n="136">siirräime</label> sivutse,</l>
+          <l><label type="popup" n="137">Tungeime</label> tulen lävitse,</l>
+          <l>Ettei <label type="popup" n="138">partana</label> palane,</l>
+          <l><label type="popup" n="139">Hivuskutri</label> <label type="popup" n="140">kurvettune</label>;</l>
+          <l>Oi emoni kantajani,</l>
+          <l>180. Sano surma jälkimmäinen!"</l>
+        </lg>
+        <lg>
+          <l>Sanoi äiti Lemminkäisen:</l>
+          <l>"Se on surma kolmas surma:</l>
+          <l>Menet vieläki vähäisen,</l>
+          <l>Pääset siitä päiväyksen</l>
+          <l>Pohjolan veräjän suulle,</l>
+          <l>Ahtahimpahan <label type="popup" n="141">alahan</label>,</l>
+          <l>Susi päälle <label type="popup" n="142">suimistaikse</label>,</l>
+          <l>Karhu <label type="popup" n="143">toisna</label> <label type="popup" n="144">kaimistaikse</label></l>                                                   
+          <l>Suulla Pohjolan veräjän,</l>
+        </lg>
+        <pb n="4" facs="page_208" />
+        <lg>
+          <l>190. Kapeimmassa <label type="popup" n="145">kujassa</label>;</l>
+          <l>Syönyt on sa'anki miestä,</l>
+          <l>Tuhonnut tuhat urosta,</l>
+          <l>Niin miks' ei sinua söisi,</l>
+          <l>Tuhoaisi <label type="popup" n="146">turvatointa</label>?"</l>
+        </lg>
+        <lg>
+          <l>Virkkoi lieto Lemminkäinen,</l>
+          <l>Sanoi kaunis Kaukomieli:</l>
+          <l>"<label type="popup" n="147">Uuhi</label> <label type="popup" n="148">uunna</label> syötäköhön,</l>
+          <l><label type="popup" n="149">Rieskana</label> <label type="popup" n="150">revittäköhön</label>,</l>
+          <l>Vaan ei mies <label type="popup" n="151">pahempikana</label>,</l>
+          <l>200. Uros <label type="popup" n="152">untelompikana</label>!</l>
+          <l>Minua on <label type="popup" n="153">vyötty</label> <label type="popup" n="154">miehen vyöllä</label>,</l>
+          <l><label type="popup" n="155">Pantu</label> miehen <label type="popup" n="156">palkimella</label>,</l>
+          <l>Solmittu uron <label type="popup" n="157">solilla</label>,</l>
+          <l>Jott' en vielä <label type="popup" n="158">jouakana</label></l>
+          <l>Suuhun <label type="popup" n="159">Untamon</label> susien,</l>
+          <l>Kitahan <label type="popup" n="160">kiro-kavetten</label>."</l>
+        </lg>
+        <lg>
+          <l>"Muistan ma suelle mutkan,</l>
+          <l>Keksin keinon karhullenki:</l>
+          <l>Suet laulan <label type="popup" n="161">suitsi suuhun</label>,</l>
+          <l>210. Karhut rautakahlehisin,</l>
+          <l>Tahi <label type="popup" n="162">rutjon</label> <label type="popup" n="163">ruumeniksi</label>,</l>
+          <l><label type="popup" n="164">Seulaisen</label> <label type="popup" n="165">sepalehiksi</label>;</l>
+          <l>Sillä siitä <label type="popup" n="166">selvitäime</label>,</l>
+          <l>Pääsen matkani <label type="popup" n="167">perille</label>."</l>
+        </lg>
+        <lg>
+          <l>Sanoi äiti Lemminkäisen:</l>
+          <l>"Et vielä perille pääsnyt;</l>
+          <l>Ne oli sinne mennessäsi,</l>
+          <l>Matkalla isot imehet,</l>
+          <l>Kolme kummoa kovoa,</l>
+          <l>220. Kolme miehen kuolemata;</l>
+          <l>Viel' on sinne saatuasi,</l>
+          <l><label type="popup" n="168">Paikalla</label> pahimmat kummat:</l>
+          <l>Kulet tietä <label type="popup" n="169">pikkaraisen</label>,</l>
+          <l>Tulet Pohjolan pihalle,</l>
+          <l>Aita on rautainen <label type="popup" n="170">rakettu</label>,</l>
+          <l><label type="popup" n="171">Terästarha</label> <label type="popup" n="172">teeksennelty</label></l>
+          <l>Maasta asti taivosehen,</l>
+          <l>Taivosesta maahan asti,</l>
+          <l>Keihäillä <label type="popup" n="173">seivästetty</label>,</l>
+          <l>230. Maan <label type="popup" n="174">maoilla</label> <label type="popup" n="175">aiastettu</label>,</l>
+          <l>Käärmehillä <label type="popup" n="176">vitsastettu</label>,</l>
+          <l>Sisiliskoilla <label type="popup" n="177">sielty</label>,</l>
+          <l><label type="popup" n="178">Heitty</label> hännät <label type="popup" n="179">häilymähän</label>,</l>
+          <l><label type="popup" n="180">Pää-kurikat</label> <label type="popup" n="181">kuilumahan</label>,</l>
+          <l><label type="popup" n="182">Pää-kehät</label> <label type="popup" n="183">kähäjämähän</label>,</l>
+          <l>Päät ulos, sisähän hännät."</l>
+        </lg>
+        <lg>
+          <l>"Maass' on toisia matoja,</l>
+          <l><label type="popup" n="184">Rata</label> kyitä käärmehiä</l>
+          <l>Ylös kielin <label type="popup" n="185">kiehumassa</label>,</l>
+          <l>240. Alas hännin häilymässä;</l>
+          <l>Yks on muita kauheampi</l>
+          <l>Eessä portin poikki-puolin,</l>
+          <l><label type="popup" n="186">Pitelämpi</label> pirtin hirttä,</l>
+          <l>Paksumpi <label type="popup" n="187">kuja-patsasta</label>,</l>
+          <l>Ylös kielin kiehumassa,</l>
+          <l>Suin ylös <label type="popup" n="188">suhahtamassa</label>,</l>
+          <l><label type="popup" n="189">Ei ketänä</label> muuta vasten,</l>
+          <l>Vasten vaivaista sinua."</l>
+        </lg>
+        <lg>
+          <l>Virkkoi lieto Lemminkäinen,</l>
+          <l>250. Sanoi kaunis Kaukomieli:</l>
+          <l>"Seki on surma lapsen surma,</l>
+          <l>Ei ole kuolema urohon;</l>
+          <l><label type="popup" n="190">Tunnen</label> ma tulen <label type="popup" n="191">lumoa</label>,</l>
+          <l><label type="popup" n="192">Valkeaisen</label> <label type="popup" n="193">vaivutella</label>,</l>
+          <l>Ja tunnen maot <label type="popup" n="194">manata</label>,</l>
+          <l>Käärmehyiset <label type="popup" n="195">käännytellä</label>;</l>
+          <l><label type="popup" n="196">Äsken</label> <label type="popup" n="197">päänä</label> eilisenä</l>
+          <l>Kynnin maata <label type="popup" n="198">kyyn-alaista</label>,</l>
+          <l>Käännin maata käärmehistä</l>
+          <l>260. Aivan paljahin kätösin;</l>
+          <l>Kyyt pitelin <label type="popup" n="199">kynsissäni</label>,</l>
+          <l>Käsissäni käärmehyiset,</l>
+          <l>Tapoin kyitä kymmenkunnan,</l>
+          <l>Sa'an mustia matoja,</l>
+        </lg>
+        <pb n="5" facs="page_209" />
+        <lg>
+          <l>Viel' on kynnet kyyn veressä,</l>
+          <l>Käet käärmehen talissa;</l>
+          <l>Sill' en <label type="popup" n="200">taia tullakana</label>,</l>
+          <l>Viel' en varsin jouakana</l>
+          <l>Maon suuren <label type="popup" n="201">suu-palaksi</label>,</l>
+          <l>270. Käärmehen <label type="popup" n="202">käsi-alaksi</label>;</l>
+          <l>Itse <label type="popup" n="203">konnat</label> <label type="popup" n="204">kouristelen</label>,</l>
+          <l><label type="popup" n="205">Ilkeät</label> <label type="popup" n="206">iki</label> <label type="popup" n="207">puserran</label>,</l>
+          <l>Kyyt on laulan <label type="popup" n="208">laiemmalle</label>,</l>
+          <l>Maot <label type="popup" n="209">muutan</label> <label type="popup" n="210">tien mukahan</label>,</l>
+          <l>Astun Pohjolan pihalta,</l>	
+          <l>Tungeime tuvan sisähän."</l>
+        </lg>
+        <lg>
+          <l>Sanoi äiti Lemminkäisen:</l>
+          <l>"Ellös vainen poikueni</l>
+          <l>Menkö Pohjolan tupahan,</l>
+          <l>280. <label type="popup" n="211">Sariolan</label> <label type="popup" n="212">salvoksihin</label>!</l>
+          <l>Siell' on miehet miekka vyöllä,</l>
+          <l>Urohot sota-aseissa,</l>
+          <l>Humalassa <label type="popup" n="213">hullut</label> miehet,</l>
+          <l>Pahat paljo juotuansa,</l>
+          <l>Laulavat sinun <label type="popup" n="214">poloisen</label></l>
+          <l>Miekkahan tuliterähän;</l>
+          <l>Jo on laulettu paremmat,</l>
+          <l><label type="popup" n="215">Jalommatki</label> <label type="popup" n="216">jaksettuna</label>."</l>
+        </lg>
+        <lg>
+          <l>Virkkoi lieto Lemminkäinen,</l>
+          <l>290. Sanoi kaunis Kaukomieli:</l>
+          <l>"Jo olen ennenkin elellyt</l>
+          <l>Noilla Pohjolan tuvilla,</l>
+          <l>Ei minua laula <label type="popup" n="217">Lappi</label>,</l>
+          <l>Eikä <label type="popup" n="218">tunge</label> <label type="popup" n="219">Turjalainen</label>;</l>
+          <l>Itse laulan <label type="popup" n="220">Lappalaisen</label>,</l>
+          <l>Sekä tungen Turjalaisen,</l>
+          <l>Laulan halki hartionsa,</l>
+          <l><label type="popup" n="221">Puhki</label> leukansa <label type="popup" n="222">puhelen</label>,</l>
+          <l>Paian kauluksen <label type="popup" n="223">kaheksi</label>,</l>
+          <l>300. Rikki rintalastasensa."</l>
+        </lg>
+        <lg>
+          <l>Sanoi äiti Lemminkäisen:</l>
+          <l>"Ohoh poikani poloinen,</l>
+          <l>Vielä muistat <label type="popup" n="224">muinaistasi</label>,</l>
+          <l>Kerskut <label type="popup" n="225">ennen</label> <label type="popup" n="226">käynnistäsi</label>:</l>
+          <l>Jo olet ennenkin elellyt</l>
+          <l>Noilla Pohjolan tuvilla,</l>
+          <l>Uinut kaikki <label type="popup" n="227">umpilammit</label>,</l>
+          <l><label type="popup" n="228">Koiran-kieliset</label> kokenut,</l>
+          <l>Käynyt koskia <label type="popup" n="229">kolisten</label>,</l>
+          <l>310. <label type="popup" n="230">Myötävirtoja</label> <label type="popup" n="231">vilisten</label>,</l>
+          <l><label type="popup" n="232">Tuonen kosket</label> <label type="popup" n="233">tunnustellut</label>,</l>
+          <l><label type="popup" n="234">Mitannut</label> <label type="popup" n="235">Manalan virrat</label>;</l>
+          <l>Siell' oisit tänäki päänä</l>
+          <l>Ilman äitittä <label type="popup" n="236">pahatta</label>."</l>
+        </lg>
+        <lg>
+          <l>"Muistapa mitä sanelen:</l>
+          <l>Tulet Pohjolan tuville,</l>
+          <l>Mäki on täynnä <label type="popup" n="237">seipähiä</label>,</l>
+          <l>Piha täynnä <label type="popup" n="238">pylvähiä</label>,</l>
+          <l>Ne on täynnä miehen päitä;</l>
+          <l>320. Yks' on seiväs <label type="popup" n="239">päätöin</label> seiväs,</l>
+          <l>Senpä seipähän <label type="popup" n="240">nenähän</label></l>
+          <l>Sinun pääsi leikatahan!"</l>
+        </lg>
+        <lg>
+          <l>Virkkoi lieto Lemminkäinen,</l>
+          <l>Sanoi kaunis Kaukomieli:</l>
+          <l>"<label type="popup" n="241">Hurja</label> noita <label type="popup" n="242">huolinevi</label>,</l>
+          <l><label type="popup" n="243">Epäkelpo</label> keksinevi</l>
+          <l>Viittä, kuutta <label type="popup" n="244">vainovuotta</label>,</l>
+          <l>Seitsentä <label type="popup" n="245">sotakeseä</label>,</l>
+          <l>Ei noita uro <label type="popup" n="246">totelle</label>,</l>
+          <l>330. <label type="popup" n="247">Vääjänne</label> <label type="popup" n="248">väheäkänä</label>;</l>
+          <l>Tuo mulle <label type="popup" n="249">sotisopani</label>,</l>
+          <l>Vanhat <label type="popup" n="250">vaino-vaatteheni</label>,</l>
+          <l>Itse <label type="popup" n="251">käyn</label> <label type="popup" n="252">isoni</label> miekan,</l>
+          <l><label type="popup" n="253">Katson</label> <label type="popup" n="254">kalvan</label> <label type="popup" n="255">taattoseni</label>,</l>
+          <l><label type="popup" n="256">Viikon</label> on <label type="popup" n="257">vilussa</label> ollut,</l>
+          <l>Kauan <label type="popup" n="258">kaihossa</label> <label type="popup" n="259">siassa</label>,</l>
+          <l>Itkenyt ikänsä siellä,</l>
+          <l>Kantajata kaipaellut!"</l>
+        </lg>
+        <lg>
+          <l>Sai siitä sotisopansa,</l>
+          <l>340. Vanhat vaino-vaattehensa,</l>
+          <l>Isonsa ikuisen miekan,</l>
+          <l>Tuon taaton sotatoverin;</l>
+          <l>Senpä <label type="popup" n="260">siltahan</label> sysäsi,</l>
+          <l><label type="popup" n="261">Terin</label> työnti lattiahan,</l>
+        </lg>
+        <pb n="6" facs="page_210" />
+        <lg>
+          <l>Miekkanen käessä kääntyi,</l>
+          <l><label type="popup" n="262">Kuni</label> <label type="popup" n="263">tuore</label> tuomen latva,</l>
+          <l>Tahi kasvava kataja;</l>
+          <l>Sanoi lieto Lemminkäinen:</l>
+          <l>"Tuskin on Pohjolan tuvissa,</l>
+          <l>350. Sariolan salvoksissa</l>
+          <l>Tämän miekan <label type="popup" n="264">miettiäistä</label>,</l>
+          <l>Tämän kalvan <label type="popup" n="265">katsojaista</label>."</l>
+        </lg>
+        <lg>
+          <l><label type="popup" n="266">Jousen</label> seinältä <label type="popup" n="267">sivalti</label>,</l>
+          <l><label type="popup" n="268">Kaaren</label> vahvan <label type="popup" n="269">vaarnaselta</label>,</l>
+          <l>Sanovi sanalla tuolla,</l>
+          <l>Lausui tuolla lausehella:</l>
+          <l>"Sen mä mieheksi <label type="popup" n="270">sanoisin</label>,</l>
+          <l>Urohoksi <label type="popup" n="271">arveleisin</label>,</l>
+          <l>Joka jouseni <label type="popup" n="272">vetäisi</label>,</l>
+          <l>360. <label type="popup" n="273">Kiveräni</label> <label type="popup" n="274">kiinnittäisi</label></l>
+          <l>Noilla Pohjolan tuvilla,</l>
+          <l>Sariolan salvoksilla."</l>
+        </lg>
+        <lg>
+          <l>Siitä lieto Lemminkäinen,</l>
+          <l>Tuo on kaunis Kaukomieli</l>
+          <l><label type="popup" n="275">Suorihe</label> sotisopihin,</l>
+          <l>Puki vaino-vaattehisin,</l>
+          <l>Itse lausui <label type="popup" n="276">orjallensa</label>,</l>
+          <l>Sanan virkkoi, noin nimesi:</l>
+          <l>"Oi on <label type="popup" n="277">osto-orjaseni</label>,</l>
+          <l>370. <label type="popup" n="278">Rahan saatu</label> raatajani!</l>
+          <l><label type="popup" n="279">Jouvuta</label> sota-oriini,</l>
+          <l>Valjastele <label type="popup" n="280">vainovarsa</label></l>
+          <l>Lähteäkseni pitoihin,</l>
+          <l><label type="popup" n="281">Lemmon joukon juominkihin!"</label></l>
+        </lg>
+        <lg>
+          <l>Orja nöyrä, <label type="popup" n="282">neuvottava</label>,</l>
+          <l>Pian <label type="popup" n="283">pistihe</label> pihalle,</l>
+          <l><label type="popup" n="284">Työnti</label> varsan valjahisin,</l>
+          <l><label type="popup" n="285">Puikkoihin</label> <label type="popup" n="286">tulipunaisen</label>,</l>
+          <l>Sanoi tuolta tultuansa:</l>
+          <l>380. "Jo olen tehnyt tehtäväni,</l>
+          <l><label type="popup" n="287">Suorittanut</label> tuon orosi,</l>
+          <l>Varsan <label type="popup" n="288">viljon</label> valjastanut."</l>
+        </lg>
+        <lg>
+          <l>Siitä lieto Lemminkäisen</l>
+          <l><label type="popup" n="289">Luku</label> lähteä tulevi,</l>
+          <l><label type="popup" n="290">Käsi käski, toinen kielti,</label></l>
+          <l>Sormet suoniset pakotti;</l>
+          <l><label type="popup" n="291">Toki</label> läksi, kuin <label type="popup" n="292">käkesi</label>,</l>
+          <l>Varsin läksi, ei varannut.</l>
+        </lg>
+        <lg>
+          <l>Emo neuvoi poikoansa,</l>
+          <l>390. Vanhin lastansa varoitti</l>
+          <l>Oven suusta, <label type="popup" n="293">orren</label> alta,</l>
+          <l>Kattilan <label type="popup" n="294">katasioilta</label>:</l>
+          <l>"Poikueni <label type="popup" n="295">ainueni</label>,</l>
+          <l>Lapseni <label type="popup" n="296">vakauteni</label>!</l>
+          <l>Jos sa jou'ut juominkihin,</l>
+          <l><label type="popup" n="297">Tapahut</label> mihin tahansa,</l>
+          <l>Juopa puoli tuoppiasi,</l>
+          <l><label type="popup" n="298">Keskimaihin</label> maljasesi,</l>
+          <l>Anna toisen toinen puoli,</l>
+          <l>400. Pahemman pahempi puoli,</l>
+          <l>Mato maljassa <label type="popup" n="299">venyvi</label>,</l>
+          <l><label type="popup" n="300">Toukka</label> tuopin <label type="popup" n="301">pohjukassa</label>!"</l>
+        </lg>
+        <lg>
+          <l>Vielä neuvoi poikoansa,</l>
+          <l>Varsin lastansa <label type="popup" n="302">vakusti</label></l>
+          <l><label type="popup" n="303">Perimäisen</label> pellon päästä,</l>
+          <l>Veräjältä viimeiseltä:</l>
+          <l>"Jos sa jou'ut juominkihin,</l>
+          <l>Tapahut mihin tahansa,</l>
+          <l>Istu puolella <label type="popup" n="304">sioa</label>,</l>
+          <l>410. Astu <label type="popup" n="305">puoli-askelella</label>,</l>
+          <l>Anna toisen toinen puoli,</l>
+          <l>Pahemman pahempi puoli,</l>
+          <l><label type="popup" n="306">Niin sinusta mies tulevi</label>,</l>
+          <l>Uros <label type="popup" n="307">selvä</label> <label type="popup" n="308">selkiävi</label></l>
+          <l>Läpi käymähän <label type="popup" n="309">keräjät</label>,</l>
+          <l><label type="popup" n="310">Jutut</label> <label type="popup" n="311">julki polkemahan</label>,</l>
+          <l><label type="popup" n="312">Urohoisessa väessä</label>,</l>
+          <l>Miehisessä joukkiossa!"</l>
+        </lg>
+        <lg>
+          <l>Siitä läksi Lemminkäinen</l>
+          <l>420. Istuen oron re'essä;</l>
+          <l>Iski <label type="popup" n="313">virkkua</label> <label type="popup" n="314">vitsalla</label>,</l>
+          <l><label type="popup" n="315">Heitti</label> <label type="popup" n="316">helmi-ruoskasella</label>;</l>
+        </lg>
+        <pb n="7" facs="page_211" />
+        <lg>
+          <l>Läksi virkku <label type="popup" n="317">vieremähän</label>,</l>
+          <l>Hevoinen <label type="popup" n="318">helettämähän</label>.</l>
+        </lg>
+        <lg>
+          <l>Ajoi aikoa vähäisen,</l>
+          <l><label type="popup" n="319">Hyvän</label> <label type="popup" n="320">hetken</label> <label type="popup" n="321">hetkutteli</label>,</l>
+          <l>Näki tiellä <label type="popup" n="322">teirikarjan</label>,</l>
+          <l>Teiret lentohon lehahti,</l>
+          <l><label type="popup" n="323">Lintukarja</label> <label type="popup" n="324">kapsahutti</label></l>
+          <l>430. Eestä juoksevan hevoisen.</l>
+        </lg>
+        <lg>
+          <l>Jäi hitusen höyheniä,</l>
+          <l>Tielle teiren sulkasia,</l>
+          <l>Ne kokosi Lemminkäinen,</l>
+          <l><label type="popup" n="325">Tapaeli</label> taskuhunsa,</l>
+          <l>Ei tieä mikä tulisi,</l>
+          <l>Tapahtuisi <label type="popup" n="326">taipalella</label>,</l>
+          <l>Kaikki on tarpehen talossa,</l>
+          <l>Hyväksi hätävarana.</l>
+        </lg>
+        <lg>
+          <l>Ajoi <label type="popup" n="327">eellehen</label> vähäisen,</l>
+          <l>440. Kulki tietä pikkuruisen,</l>
+          <l>Jo hepo <label type="popup" n="328">hörösteleikse</label>,</l>
+          <l><label type="popup" n="329">Luppakorva</label> <label type="popup" n="330">luonteleikse</label>.</l>
+        </lg>
+        <lg>
+          <l>Se on lieto Lemminkäinen,</l>
+          <l>Itse kaunis Kaukomieli</l>
+          <l><label type="popup" n="331">Kuorustihe</label> <label type="popup" n="332">korjastansa</label>,</l>
+          <l><label type="popup" n="333">Kaarastihe</label> katsomahan,</l>
+          <l>Niin on kuin sanoi emonsa,</l>
+          <l>Oma vanhempi <label type="popup" n="334">vakasi</label>:</l>
+          <l><label type="popup" n="335">Aivin</label> on joki tulinen</l>
+          <l>450. <label type="popup" n="336">Poikitse</label> hevon e'essä,</l>
+          <l>Joess' on tulinen koski,</l>
+          <l>Koskessa tulinen luoto,</l>
+          <l>Luo'olla tulinen korko,</l>
+          <l>Korolla tulinen kokko,</l>
+          <l>Sillä <label type="popup" n="337">kulkku</label> tulta kuohui,</l>
+          <l>Suu <label type="popup" n="338">valeli</label> valkeata,</l>
+          <l>Höyhenet tulena <label type="popup" n="339">tuiski</label>,</l>
+          <l><label type="popup" n="340">Säkeninä</label> <label type="popup" n="341">säihkäeli</label>.</l>
+        </lg>
+        <lg>
+          <l><label type="popup" n="342">Kaukon</label> kaukoa näkevi,</l>
+          <l>460. <label type="popup" n="343">Loitompata</label> Lemminkäisen:</l>
+          <l><label type="popup" n="344">"Minnepä menevi Kauko,</label></l>
+          <l>Kunne läksit <label type="popup" n="345">Lemmin poika</label>?"</l>
+        </lg>
+        <lg>
+          <l>Virkkoi lieto Lemminkäinen,</l>
+          <l>Sanoi kaunis Kaukomieli:</l>
+          <l>"Läksin Pohjolan pitoihin,</l>
+          <l>Salajoukon juominkihin;</l>
+          <l><label type="popup" n="346">Välty</label> syrjähän vähäisen,</l>
+          <l><label type="popup" n="347">Poikellaite</label> tieltä poies,</l>
+          <l><label type="popup" n="348">Laske</label> <label type="popup" n="349">eelle</label> matkamiestä,</l>
+          <l>470. Lemminkäistä <label type="popup" n="350">liiatenki</label>,</l>
+          <l>Sivutsesi siirtymähän,</l>
+          <l><label type="popup" n="351">Vieretse</label> vaeltamahan!"</l>
+        </lg>
+        <lg>
+          <l>Kokko <label type="popup" n="352">saatteli</label> sanoa,</l>
+          <l><label type="popup" n="353">Tulikulkku</label> kuiskahella:</l>
+          <l>"Lasken eelle matkamiehen,</l>
+          <l>Lemminkäisen liiatenki,</l>
+          <l>Suun kautta samoamahan,</l>
+          <l>Kautta kulkun kulkemahan;</l>
+          <l>Siitä sulle tie menevi</l>
+          <l>480. Mennä tuosta <label type="popup" n="354">tuon hyväksi</label></l>
+          <l>Noihin <label type="popup" n="355">pitkihin</label> pitoihin,</l>
+          <l><label type="popup" n="356">Iän kaiken</label> <label type="popup" n="357">istumihin</label>."</l>
+        </lg>
+        <lg>
+          <l>Mitä huoli Lemminkäinen;</l>
+          <l>Ei tuossa <label type="popup" n="358">kovin</label> hätäillyt,</l>
+          <l><label type="popup" n="359">Tapasip' on taskuhunsa,</label> </l>
+          <l><label type="popup" n="360">Löihe</label> kukkaroisehensa,</l>
+          <l>Otti teiren sulkasia,</l>
+          <l>Hieroa <label type="popup" n="361">hitustelevi</label></l>
+          <l>Kahen kämmenen välissä,</l>
+          <l>490. Sormen kymmenen <label type="popup" n="362">sovussa</label>;</l>
+          <l>Siitä syntyi teirikarja,</l>
+          <l>Koko parvi koppeloita,</l>
+          <l>Syöksi ne kokolle suuhun,</l>
+          <l>Antoi <label type="popup" n="363">appajan</label> kitahan,</l>
+          <l>Kulkkuhun kokon tulisen,</l>
+          <l>Ikenihin <label type="popup" n="364">iskulinnun</label>;</l>
+          <l>Sillä siitä selvittihe,</l>
+          <l><label type="popup" n="365">Pääsi</label> päivän ensimmäisen.</l>
+        </lg>
+        <pb n="8" facs="page_212" />
+        <lg>
+          <l>Iski virkkua vitsalla,</l>
+          <l>500. <label type="popup" n="366">Helähytti</label> <label type="popup" n="367">helmisellä</label>;</l>
+          <l>Läks' oronen <label type="popup" n="368">oikomahan</label>,</l>
+          <l>Hepo <label type="popup" n="369">helkehyttämähän</label>.</l>
+        </lg>
+        <lg>
+          <l>Ajoi matkoa <label type="popup" n="370">palasen</label>,</l>
+          <l><label type="popup" n="371">Piirrätteli</label> pikkuruisen,</l>
+          <l>Jo oronen <label type="popup" n="372">ou'ostuvi</label>,</l>
+          <l>Hevoinen <label type="popup" n="373">hörähtelevi</label>.</l>
+        </lg>
+        <lg>
+          <l><label type="popup" n="374">Kohottihe</label> korjastansa,</l>
+          <l><label type="popup" n="375">Kaahistihe</label> katsomahan,</l>
+          <l>Niin on kuin sanoi emonsa,</l>
+          <l>510. Oma vanhempi <label type="popup" n="376">vakitti</label>:</l>
+          <l>On eessä tulinen kuoppa,</l>
+          <l>Se on poikkipuolin tietä,</l>
+          <l>Itähän iäti pitkä,</l>
+          <l>Luotehesen loppumatoin,</l>
+          <l>Täynnä kuumoa kiveä,</l>
+          <l>Palavata <label type="popup" n="377">paateroa</label>.</l>
+        </lg>
+        <lg>
+          <l>Mitä huoli Lemminkäinen;</l>
+          <l><label type="popup" n="378">Ukkoa</label> rukolevi:</l>
+          <l>"Oi Ukko ylijumala,</l>
+          <l>520. Tahi <label type="popup" n="379">taatto taivahinen</label>!</l>
+          <l>Nosta <label type="popup" n="380">lonka</label> luotehelta,</l>
+          <l>Toinen lännestä lähetä,</l>
+          <l>Kolmas istuta iästä,</l>
+          <l><label type="popup" n="381">Kohottele</label> koillisesta,</l>
+          <l><label type="popup" n="382">Syrjin</label> yhtehen <label type="popup" n="383">syseä</label>,</l>
+          <l><label type="popup" n="384">Lomatusten</label> <label type="popup" n="385">loukahuta</label>,</l>
+          <l>Sa'a lunta <label type="popup" n="386">sauvan varsi</label>,</l>
+          <l><label type="popup" n="387">Kiehittele</label> <label type="popup" n="388">keihäsvarsi</label></l>
+          <l>Noille kuumille kiville,</l>
+          <l>530. Palaville paateroille!"</l>
+        </lg>
+        <lg>
+          <l>Tuo Ukko ylijumala,</l>
+          <l>Taatto vanha taivahinen</l>
+          <l>Nosti longan luotehelta,</l>
+          <l>Toisen lännestä lähetti,</l>
+          <l><label type="popup" n="389">Iätti</label> iästä pilven,</l>
+          <l>Kohotteli <label type="popup" n="390">koilta</label> ilman,</l>
+          <l>Nepä yhtehen <label type="popup" n="391">yhytti</label>,</l>
+          <l><label type="popup" n="392">Lomakkohon</label> loukahutti;</l>
+          <l>Satoi lunta sauvan varren,</l>
+          <l>540. Kiehitteli keihäsvarren</l>
+          <l>Noille kuumille kiville,</l>
+          <l>Palaville paateroille,</l>
+          <l>Tulipa luminen lampi,</l>
+          <l>Hyinen järvi <label type="popup" n="393">muo'ostihe</label>.</l>
+        </lg>
+        <lg>
+          <l>Siitä lieto Lemminkäinen</l>
+          <l>Lauloi tuohon jäisen sillan</l>
+          <l>Poikitse lumisen lammin,</l>
+          <l><label type="popup" n="394">Äyrähästä</label> äyrähäsen;</l>
+          <l>Sillä sen <label type="popup" n="395">rovin</label> vaelti,</l>
+          <l>550. Pääsi toisen päiväyksen.</l>
+        </lg>
+        <lg>
+          <l>Laski virkkua vitsalla,</l>
+          <l>Helähytti <label type="popup" n="396">helmisvyöllä</label>;</l>
+          <l><label type="popup" n="397">Sai</label> virkku <label type="popup" n="398">vilettämähän</label>,</l>
+          <l>Hepo <label type="popup" n="399">hötkelyttämähän</label>.</l>
+        </lg>
+        <lg>
+          <l>Virkku juoksi <label type="popup" n="400">virstan</label>, toisen,</l>
+          <l>Maan paras <label type="popup" n="401">palan</label> <label type="popup" n="402">pakeni</label>,</l>
+          <l>Siitä seisahtui äkisti,</l>
+          <l>Ei pakene paikaltansa.</l>
+        </lg>
+        <lg>
+          <l>Itse lieto Lemminkäinen</l>
+          <l>560. Kavahtihe katsomahan:</l>
+          <l>On susi veräjän suulla,</l>
+          <l>Karhu vastassa kujalla,</l>
+          <l>Suulla Pohjolan veräjän,</l>
+          <l>Päässä pitkien kujien.</l>
+        </lg>
+        <lg>
+          <l>Silloin lieto Lemminkäinen,</l>
+          <l>Itse kaunis Kaukomieli</l>
+          <l><label type="popup" n="403">Tavoitteli</label> taskuhunsa,</l>
+          <l><label type="popup" n="404">Kulki</label> kukkaroisehensa,</l>
+          <l><label type="popup" n="405">Otti uuhen villasia,</label></l>
+          <l>570. Hieroa <label type="popup" n="406">utustelevi</label></l>
+          <l>Kahen kämmenen <label type="popup" n="407">kesessä</label>,</l>
+          <l>Sormen kymmenen sovussa.</l>
+        </lg>
+        <lg>
+          <l>Puhui kerran kämmenelle,</l>
+          <l>Uuhet juoksuhun <label type="popup" n="408">uhahti</label>,</l>
+          <l>Koko lauma lampahia,</l>
+        </lg>
+        <pb n="9" facs="page_213" />
+        <lg>
+          <l>Karitsoita <label type="popup" n="409">aika</label> karja;</l>
+          <l>Suet sinne <label type="popup" n="410">ryömäsihe</label>,</l>
+          <l>Karhut kanssa <label type="popup" n="411">kaimasihe</label>,</l>
+          <l>Itse lieto Lemminkäinen</l>
+          <l>580. Ajoi eelle matkoansa.</l>
+        </lg>
+        <lg>
+          <l>Kulki tietä pikkaraisen,</l>
+          <l>Tuli Pohjolan pihalle;</l>
+          <l>Aita oli rautainen rakettu,</l>
+          <l>Teräksinen tarha tehty,</l>
+          <l>Sata <label type="popup" n="412">syltä</label> <label type="popup" n="413">maa-emähän</label>,</l>
+          <l>Tuhat syltä taivosehen,</l>
+          <l>Keihäillä seivästetty,</l>
+          <l>Maan maoilla aiastettu,</l>
+          <l>Käärmehillä kiinnitetty,</l>
+          <l>590. Sisiliskoilla sielty,</l>
+          <l>Heitty hännät häilymähän,</l>
+          <l>Pää-kurikat kuilumahan,</l>
+          <l>Päät vankat <label type="popup" n="414">vapajamahan</label>,</l>
+          <l>Päät ulos, sisähän hännät.</l>
+        </lg>
+        <lg>
+          <l>Se on lieto Lemminkäinen</l>
+          <l>Jo tuossa ajattelevi:</l>
+          <l>"Niin on kuin sanoi emoni,</l>
+          <l>Kantajani <label type="popup" n="415">kaikeroitti</label>:</l>
+          <l>On tuossa <label type="popup" n="416">mokoma</label> aita</l>
+          <l>600. Pantu maasta taivosehen;</l>
+          <l><label type="popup" n="417">Alahatse</label> kyy <label type="popup" n="418">matavi</label>,</l>
+          <l>Alemmaksi aita pantu,</l>
+          <l><label type="popup" n="419">Ylähätse</label> lintu lenti,</l>
+          <l>Ylemmäksi aita pantu."</l>
+        </lg>
+        <lg>
+          <l>Tok' ei tuossa Lemminkäinen</l>
+          <l>Huolinut kovin hätäillä,</l>
+          <l>Veti veitsen huotrastansa,</l>
+          <l>Tupestansa <label type="popup" n="420">tuiman rauan</label>,</l>
+          <l>Sillä aitoa sivalti,</l>
+          <l>610. Katkoi <label type="popup" n="421">aiakset</label> kaheksi,</l>
+          <l>Aian rautaisen avasi,</l>
+          <l>Käänti tarhan käärmehisen</l>
+          <l><label type="popup" n="422">Viieltä vitsasväliltä</label>,</l>
+          <l>Seitsemältä seipähältä;</l>
+          <l>Itse eellehen ajavi,</l>
+          <l>Portin Pohjolan etehen.</l>
+        </lg>
+        <lg>
+          <l>Käärme tiellä <label type="popup" n="423">käänteleikse</label></l>
+          <l>Eessä portin poikkipuolin,</l>
+          <l>Pitelämpi pirtin hirttä,</l>
+          <l>620. Paksumpi <label type="popup" n="424">patsasta</label> portin,</l>
+          <l>Sata silmeä maolla,</l>
+          <l>Tuhat kieltä käärmehellä,</l>
+          <l>Silmät <label type="popup" n="425">seulan</label> suuruhiset,</l>
+          <l>Kielet pitkät <label type="popup" n="426">keihovartta</label>,</l>
+          <l>Hampahat haravan varren,</l>
+          <l>Selkä seitsemän venettä.</l>
+        </lg>
+        <lg>
+          <l>Siinä lieto Lemminkäinen</l>
+          <l>Ei <label type="popup" n="427">tohi</label> käsiksi käyä</l>
+          <l>Satasilmälle maolle,</l>
+          <l>630. Tuhatkieli-käärmehelle.</l>
+        </lg>
+        <lg>
+          <l>Virkkoi lieto Lemminkäinen,</l>
+          <l>Sanoi kaunis Kaukomieli:</l>
+          <l>"Mato musta <label type="popup" n="428">maan-alainen</label>,</l>
+          <l>Toukka <label type="popup" n="429">Tuonen karvallinen</label>,</l>
+          <l>Kulkia <label type="popup" n="430">kulon-alainen</label>,</l>
+          <l><label type="popup" n="431">Lehen Lemmon</label> <label type="popup" n="432">juurehinen</label>,</l>
+          <l>Läpi mättähän meniä,</l>	
+          <l>Puun juuren pujottelia!</l>
+          <l>Kuka sun <label type="popup" n="433">kulosta</label> nosti,</l>
+          <l>640. Heinän juuresta herätti</l>
+          <l>Maan päälle matelemahan,</l>
+          <l>Tielle <label type="popup" n="434">teukkalehtamahan</label>?</l>
+          <l>Kuka nosti <label type="popup" n="435">nokkoasi</label>,</l>
+          <l>Kuka käski, ken kehoitti</l>
+          <l>Päätä pystössä piteä,</l>
+          <l>Kaulan vartta kankeata,</l>
+          <l>Isosiko, vai emosi,</l>
+          <l>Vaiko vanhin veljiäsi,</l>
+          <l>Vai nuorin sisariasi,</l>
+          <l>650. Vaiko muu sukusi suuri?"</l>
+        </lg>
+        <lg>
+          <l>"Sule nyt suusi, peitä pääsi,</l>
+          <l>Kätke kielesi <label type="popup" n="436">käpeä</label>,</l>
+          <l><label type="popup" n="437">Sykerräite</label> <label type="popup" n="438">sykkyrähän</label>,</l>
+        </lg>
+        <pb n="10" facs="page_214" />
+        <lg>
+          <l><label type="popup" n="439">Käperräite</label> <label type="popup" n="440">käppyrähän</label>,</l>
+          <l>Anna tietä, puolen tietä</l>
+          <l><label type="popup" n="441">Sivu</label> mennä matkamiehen,</l>
+          <l>Tahi siirry tieltä poies,</l>
+          <l>Kule kurja <label type="popup" n="442">kursikkohon</label>,</l>
+          <l><label type="popup" n="443">Kaaloa</label> kanervikkohon,</l>
+          <l>660. <label type="popup" n="444">Sala'aite</label> sammalehen,</l>
+          <l><label type="popup" n="445">Veäite</label> <label type="popup" n="446">villa-kuontalona</label>,</l>
+          <l><label type="popup" n="447">Haavan halkona kuleksi!</label></l>
+          <l>Tunge pääsi turpehesen,</l>
+          <l><label type="popup" n="448">Mätä</label> mättähän sisähän,</l>
+          <l>Turpehessa sun tupasi,</l>
+          <l>Alla mättähän majasi;</l>
+          <l>Jospa tuolta pääsi nostat,</l>
+          <l>Ukko pääsi särkenevi</l>
+          <l>Neuloilla <label type="popup" n="449">teräs-nenillä</label>,</l>
+          <l>670. <label type="popup" n="450">Rakehilla rautaisilla</label>."</l>
+        </lg>
+        <lg>
+          <l>Senpä lausui Lemminkäinen;</l>
+          <l>Ei sitä mato toteltut,</l>
+          <l>Ain' yhä <label type="popup" n="451">kähäelevi</label>,</l>
+          <l>Ylös kielin <label type="popup" n="452">kiehahtavi</label>,</l>
+          <l>Suin ylös suhahtelevi</l>
+          <l><label type="popup" n="453">Pään varalle</label> Lemminkäisen.</l>
+        </lg>
+        <lg>
+          <l>Siitä lieto Lemminkäinen</l>
+          <l>Muisti <label type="popup" n="454">vanhoja sanoja</label>,</l>
+          <l><label type="popup" n="455">Ennen</label> <label type="popup" n="456">eukon</label> neuvomia,</l>
+          <l>680. Äitinsä opettamia;</l>
+          <l>Sanoi lieto Lemminkäinen,</l>
+          <l>Virkki kaunis Kaukomieli:</l>
+          <l>"Kun et tuostana totelle,</l>
+          <l>Etkä vääjänne vähällä,</l>
+          <l>Vielä <label type="popup" n="457">turvut</label> tuskihisi,</l>
+          <l>Paisut <label type="popup" n="458">pakkopäivihisi</label>,</l>
+          <l>Halkeat paha kaheksi,</l>
+          <l>Konna kolmeksi <label type="popup" n="459">muruksi</label>,</l>
+          <l>Kun ma etsinen emosi,</l>
+          <l>690. Haen valta-vanhempasi;</l>
+          <l>Tieän <label type="popup" n="460">sykkä</label> <label type="popup" n="461">synnyntäsi</label>,</l>
+          <l>Maan kamala <label type="popup" n="462">kasvantasi</label>:</l>
+          <l><label type="popup" n="463">Syöjätär</label> sinun emosi,</l>
+          <l><label type="popup" n="464">Vetehinen</label> vanhempasi."</l>
+        </lg>
+        <lg>
+          <l>"<label type="popup" n="465">Sylki Syöjätär vesille,</label></l>
+          <l>Laski kuolan lainehille,</l>
+          <l>Tuota tuuli tuuitteli,</l>
+          <l><label type="popup" n="466">Ve'en henki</label> heilutteli,</l>
+          <l>Tuu'itteli vuotta kuusi,</l>
+          <l>700. Senki seitsemän keseä</l>
+          <l>Selvällä meren selällä,</l>
+          <l><label type="popup" n="467">Lapovilla</label> lainehilla;</l>
+          <l>Vesi sen pitkäksi venytti,</l>
+          <l><label type="popup" n="468">Päivä</label> paistoi <label type="popup" n="469">pehmeäksi</label>,</l>
+          <l>Ve'en tyrsky maalle työnti,</l>
+          <l>Aalto rannallen ajeli."</l>
+        </lg>
+        <lg>
+          <l>"Kulki kolme Luonnotarta</l>
+          <l>Rannalla meren <label type="popup" n="470">rapean</label>,</l>
+          <l>Meren pauhun partahalla;</l>
+          <l>710. Ne tuon rannalla näkivät,</l>
+          <l>Sanoivat sanalla tuolla:</l>
+          <l>""<label type="popup" n="471">Mipä</label> tuostaki tulisi,</l>
+          <l>Kunpa Luoja hengen loisi,</l>
+          <l>Tuolle silmät <label type="popup" n="472">siunoaisi</label>?""</l>
+        </lg>
+        <lg>
+          <l>"Päätyi Luoja kuulemassa,</l>
+          <l>Sanan virkkoi, noin nimesi:</l>
+          <l>""Pahasta paha tulisi,</l>
+          <l>Konna konnan oksennosta,</l>
+          <l>Jos ma tuolle hengen loisin,</l>
+          <l>720. Silmät päähän siunoaisin.""</l>
+        </lg>
+        <lg>
+          <l>"Saipa <label type="popup" n="473">Hiisi</label> kuulemahan,</l>
+          <l>Mies <label type="popup" n="474">häjy</label> <label type="popup" n="475">tähyämähän</label>,</l>
+          <l>Itse luojaksi rupesi;</l>
+          <l>Antoi Hiisi hengen tuolle</l>
+          <l>Konnan ilkeän <label type="popup" n="476">kinalle</label>,</l>
+          <l>Syöjättären sylkemälle;</l>
+          <l>Siitä kääntyi käärmeheksi,</l>
+          <l>Muuttui mustaksi maoksi."</l>
+        </lg>
+        <pb n="11" facs="page_215" />
+        <lg>
+          <l><label type="popup" n="477">"Mist' on tuolle henki saatu?</label></l>
+          <l>730. Henki <label type="popup" n="478">Hiien hiilloksesta</label>;</l>
+          <l>Mist' on <label type="popup" n="479">syyetty</label> syäntä?</l>
+          <l>Syöjättäreltä syäntä;</l>
+          <l>Mist' on aivot <label type="popup" n="480">ankeloisen</label>?</l>
+          <l>Virran vankan <label type="popup" n="481">vaaluvista</label>;</l>
+          <l>Mistä <label type="popup" n="482">tunto</label> <label type="popup" n="483">turmiolla</label>?</l>
+          <l>Kuohusta tulisen kosken;</l>
+          <l>Mist' on pää pahalle pantu?</l>
+          <l>Pää pahan pavun jyvästä."</l>
+        </lg>
+        <lg>
+          <l>"Mist' on siihen silmät luotu?</l>
+          <l>740. <label type="popup" n="484">Lemmon liinan siemenistä</label>;</l>
+          <l>Mist' on korvat konnan päässä?</l>
+          <l>Lemmon koivun lehtosista;</l>
+          <l>Mist' on suuta <label type="popup" n="485">suunnitettu</label>?</l>
+          <l>Suu solesta Syöjättären;</l>
+          <l>Mist' on kieli kehnon suussa?</l>
+          <l><label type="popup" n="486">Keitolaisen</label> keihä'ästä;</l>
+          <l>Mist' on hampahat häjyllä?</l>
+          <l><label type="popup" n="487">Okahista</label> <label type="popup" n="488">Tuonen</label> ohran;</l>
+          <l>Mist' on ilkeän ikenet?</l>
+          <l>750. Ikenistä <label type="popup" n="489">Kalman immen</label>."</l>
+        </lg>
+        <lg>
+          <l>"Mist' on selkä <label type="popup" n="490">seisotettu</label>?</l>
+          <l>Hiien <label type="popup" n="491">hiili-seipähästä</label>;</l>
+          <l>Mistä häntä <label type="popup" n="492">häälättynä</label>?</l>
+          <l><label type="popup" n="493">Pahalaisen</label> palmikosta;</l>
+          <l>Mistä suolet solmittuna?</l>
+          <l>Suolet <label type="popup" n="494">surman</label> <label type="popup" n="495">vyöllisestä</label>."</l>
+        </lg>
+        <lg>
+          <l>"Siin' oli sinun sukusi,</l>
+          <l>Siinä kuulu kunniasi;</l>
+          <l>Mato musta maan-alainen,</l>
+          <l>760. Toukka Tuonen karvallinen,</l>
+          <l><label type="popup" n="496">Maan karva</label>, <label type="popup" n="497">kanervan karva</label>,</l>
+          <l>Kaiken <label type="popup" n="498">ilman kaaren karva</label>!</l>
+          <l>Lähe nyt tieltä matkamiehen,</l>
+          <l>Eestä kulkian urohon;</l>
+          <l>Anna mennä matkamiehen,</l>
+          <l>Lemminkäisen <label type="popup" n="499">leyhytellä</label></l>
+          <l>Noihin Pohjolan pitoihin,</l>
+          <l>Hyvän <label type="popup" n="500">synnyn</label> syöminkihin!"</l>
+        </lg>
+        <lg>
+          <l>Jo mato <label type="popup" n="501">kuvattelihe</label>,</l>
+          <l>770. Satasilmä <label type="popup" n="502">siirtelihe</label>,</l>
+          <l>Kääntelihe käärme paksu,</l>
+          <l><label type="popup" n="503">Muuttelihe</label> tien <label type="popup" n="504">mukahan</label>,</l>
+          <l>Antoi mennä matkamiehen,</l>
+          <l>Lemminkäisen leyhytellä</l>
+          <l>Noihin Pohjolan pitoihin,</l>
+          <l>Salajoukon juominkihin.</l>
+        </lg>
+        
+      </div>
+    </body>
+  </text>
+</TEI>

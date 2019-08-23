@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Kalevalan yhdeksästoista runo</title>
+        <author>Elias Lönnrot</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Avoin Kalevala</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>Suomalaisen Kirjallisuuden Seura</distributor>
+        <date when="2018-01-09">9.1.2018</date>
+      </publicationStmt>
+      <notesStmt>
+        <note></note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Helsinki</settlement>
+            <repository>Suomalaisen Kirjallisuuden Seuran arkiston kirjallisuuden ja kulttuurihistorian arkistoaineistot</repository>
+            <idno/>
+          </msIdentifier>
+          <msContents>
+            <msItem n="1" class="letter">
+              <author><surname>Lönnrot</surname>
+                <forename>Elias</forename></author>
+            </msItem>
+            <msItem n="2" class="transcription">
+              <bibl/>
+            </msItem>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="runo">
+        <pb n="1" facs="page_142" />
+        <p><emph>Yhdeksästoista Runo.</emph></p>
+        <lg>
+          <l>Siitä seppo Ilmarinen,</l>
+          <l>Takoja iän-ikuinen</l>
+          <l>Itse tungeikse tupahan,</l>
+          <l>Kaivaikse katoksen alle.</l>
+        </lg>
+        <lg>
+          <l>Tuotihin simoa tuoppi,</l>
+          <l>Mettä kannu kannettihin</l>
+          <l>Seppo Ilmarin kätehen;</l>
+          <l>Seppo tuon sanoiksi virkki:</l> 
+          <l>"En ennen sinä ikänä,</l>
+          <l>10. Kuuna kullan valkeana</l>
+          <l>Juone näitä juomisia,</l>
+          <l>Kun ma saan nähä omani,</l>
+          <l>Onko valmis valvattini,</l>
+          <l>Valmis valvateltavani."</l>
+        </lg>
+        <lg>
+          <l>Tuop' on Pohjolan emäntä</l>
+          <l>Sanan virkkoi, noin nimesi:</l>
+          <l>"Vaiv' on suuri valvatissa,</l>
+          <l>Vaiva valvateltavassa,</l>
+          <l>Jalk' on kesken kenkimistä,</l>
+          <l>20. Toinen vieläki kesempi;</l>
+          <l>Äsken on valmis valvattisi,</l>
+          <l>Oikein otettavasi,</l>
+          <l>Kun sa kynnät kyisen pellon,</l>
+          <l>Käärmehisen käännättelet</l>
+          <l>Ilman auran astumatta,</l>
+          <l>Vaarnojen värisemättä,</l>
+          <l>Senpä Hiisi ennen kynti,</l>
+          <l>Lempo varsinki vakoili</l>
+          <l>Vaarnasilla vaskisilla,</l>
+          <l>30. Auralla tuli-terällä,</l>
+          <l>Oma poikani poloinen</l>
+          <l>Heitti kesken kyntämättä."</l> 
+        </lg>
+        <lg>
+          <l>Silloin seppo Ilmarinen</l>
+          <l>Meni neitonsa tupahan,</l>
+          <l>Itse tuon sanoiksi virkki:</l>
+          <l>"Yön tyttö, hämärän neito!</l>
+        </lg>
+        <pb n="2" facs="page_143" />
+        <lg>
+          <l>Muistatko ajan mokoman,</l>
+          <l>Kun kuvasin uuen sammon,</l>
+          <l>Kirjo-kannen kalkuttelin,</l>
+          <l>40. Sie vannoit iki valasi</l>
+          <l>Eessä julkisen Jumalan,</l>
+          <l>Alla kasvon kaikkivallan</l>
+          <l>Tullaksesi toivottelit</l>
+          <l>Mulle miehelle hyvälle</l>
+          <l>Ikuiseksi ystäväksi,</l>
+          <l>Kainaloiseksi kanaksi?</l>
+          <l>Nyt ei äiti annakana,</l>
+          <l>Työnnä mulle tyttöänsä</l>
+          <l>Kyntämättä kyisen pellon,</l>
+          <l>50. Käärmehisen kääntämättä."</l>
+        </lg>
+        <lg>
+          <l>Antoi morsian apua,</l>
+          <l>Työnti neito neuvokkia:</l>
+          <l>"Ohoh seppo Ilmarinen,</l>
+          <l>Takoja iän-ikuinen!</l>
+          <l>Aura kultainen kuvoa,</l>
+          <l>Hopeinen huolittele!</l>
+          <l>Sillä kynnät kyisen pellon,</l>
+          <l>Käärmehisen käännättelet."</l>
+        </lg>
+        <lg>
+          <l>Tuop' on seppo Ilmarinen</l>
+          <l>60. Kullan ahjohon asetti,</l>
+          <l>Hopeansa lietsimehen,</l>
+          <l>Tuosta aurasen takovi;</l>
+          <l>Takoi rautaiset talukset,</l>
+          <l>Teräksiset säärystimet,</l>
+          <l>Ne on päällensä pukevi,</l>
+          <l>Säärillensä säätelevi,</l>
+          <l>Rauta-paitahan paneikse,</l>
+          <l>Teräs-vöihin vyöteleikse,</l>
+          <l>Otti rauta-rukkasensa,</l>
+          <l>70. Nouti kintahat kiviset,</l>
+          <l>Sai siitä tulisen ruunan,</l>
+          <l>Valjasti hyvän hevoisen,</l>
+          <l>Läksi pellon kynnäntähän,</l>
+          <l>Vainion vakoantahan.</l>
+        </lg>
+        <lg>
+          <l>Näki päitä pyöriviä,</l>
+          <l>Raivoja ratisevia,</l> 
+          <l>Sanovi sanalla tuolla:</l>
+          <l>"Hoi mato Jumalan luoma,</l> 
+          <l>Kuka nosti nokkoasi,</l>
+          <l>80. Kenpä käski ja kehoitti</l>
+          <l>Päätä pystössä piteä,</l>
+          <l>Kaulan vartta kankeata;</l>
+          <l>Pois nyt tieltä poikellaite,</l>
+          <l>Tungeite kulohon kurja,</l>
+          <l>Alas kursohon kuoite,</l>
+          <l>Heilauta heinikkohon!</l>
+          <l>Josp' on tuolta pääsi nostat,</l>
+          <l>Ukko pääsi särkenevi</l>
+          <l>Nuolilla teräs-nenillä,</l>
+          <l>90. Rakehilla rautaisilla."</l>
+        </lg>
+        <lg>
+          <l>Siitä kynti kyisen pellon,</l>
+          <l>Vakoeli maan matoisen,</l>
+          <l>Nosti kyitä kynnökselle,</l>
+          <l>Käärmehiä käännökselle,</l>
+          <l>Sanoi tuolta tultuansa:</l>
+          <l>"Jo nyt kynnin kyisen pellon,</l>
+          <l>Vakoelin maan matoisen,</l>
+          <l>Käärmehisen käännättelin,</l>
+          <l>Joko tyttö työnnetähän,</l>
+          <l>100. Annetahan ainoiseni?"</l>
+        </lg>
+        <lg>
+          <l>Tuop' on Pohjolan emäntä</l>
+          <l>Sanan virkkoi, noin nimesi:</l>
+          <l>"Äsken neiti annetahan,</l>
+          <l>Tyttö täältä työnnetähän,</l>
+          <l>Kun sa tuonet Tuonen karhun,</l>
+          <l>Suistanet suen Manalan</l>
+          <l>Tuolta Tuonelan salosta,</l>
+          <l>Manalan majan periltä;</l>
+          <l>Sata on saanut suistamahan,</l>
+          <l>110. Tullut ei yhtänä takaisin."</l>
+        </lg>
+        <lg>
+          <l>Siitä seppo Ilmarinen</l>
+          <l>Meni neitonsa tupahan,</l>
+          <l>Sanan virkkoi, noin nimesi:</l>
+          <l>"Työ minulle määrättihin:</l>
+        </lg>
+        <pb n="3" facs="page_144" />
+        <lg>
+          <l>Suistoa suet Manalan,</l>
+          <l>Tuonen karhut tuoakseni</l>
+          <l>Tuolta Tuonelan salosta,</l>
+          <l>Manalan majan periltä."</l>
+        </lg>
+        <lg>
+          <l>Antoi morsian apua,</l>
+          <l>120. Työnti neito neuvokkia:</l>
+          <l>"Ohoh seppo Ilmarinen,</l>
+          <l>Takoja iän-ikuinen!</l>
+          <l>Teräksestä tehkös suitset,</l>
+          <l>Päitset rauasta rakenna</l>
+          <l>Yhellä vesikivellä,</l>
+          <l>Kolmen kosken kuohumilla,</l>
+          <l>Niillä tuonet Tuonen karhut,</l>
+          <l>Suistanet suet Manalan."</l>
+        </lg>
+        <lg>
+          <l>Siitä seppo Ilmarinen,</l>
+          <l>130. Takoja iän-ikuinen</l>
+          <l>Teräksestä suitti suitset,</l>
+          <l>Päitset rauasta rakenti</l> 
+          <l>Yhellä vesikivellä,</l>
+          <l>Kolmen kosken kuohumilla.</l> 
+        </lg>
+        <lg>
+          <l>Kävi siitä suistamahan,</l>
+          <l>Itse noin sanoiksi virkki:</l>
+          <l>"Utu tyttö Terhenetär!</l>
+          <l>Seulo seulalla utua,</l>
+          <l>Terhenistä tepsuttele</l>
+          <l>140. Viljan vierimä-sioille,</l>
+          <l>Jott’ ei kuule kulkevaksi,</l>
+          <l>Eik' on eestäni pakene!"</l>
+        </lg>
+        <lg>
+          <l>Sai sutosen suitsi-suuhun,</l>
+          <l>Karhun rauta-kahlehesen</l>
+          <l>Tuolta Tuonen kankahalta,</l>
+          <l>Sinisen salon sisästä,</l>
+          <l>Sanoi tuolta tultuansa:</l>
+          <l>"Anna akka tyttäresi,</l>
+          <l>Jo olen tuonut Tuonen karhun,</l>
+          <l>150. Suistanut suen Manalan!"</l>
+        </lg>
+        <lg>
+          <l>Tuop' on Pohjolan emäntä</l>
+          <l>Sanan virkkoi, noin nimesi:</l>
+          <l>"Äsken alli annetahan,</l>
+          <l>Sini-sotka suoritahan,</l>
+          <l>Kun saat suuren suomu-hauin,</l>
+          <l>Liikkuvan kalan lihavan</l>
+          <l>Tuolta Tuonelan joesta,</l>
+          <l>Manalan alantehesta</l>
+          <l>Ilman nuotan nostamatta,</l>
+          <l>160. Käsi-verkon kääntämättä;</l>
+          <l>Sata on saanut pyytämähän,</l>
+          <l>Tullut ei yhtänä takaisin."</l> 
+        </lg>
+        <lg>
+          <l>Jopa tuskiksi tulevi,</l>
+          <l>Läylemmäksi lankeavi,</l>
+          <l>Meni neitonsa tupahan,</l>
+          <l>Itse tuon sanoiksi virkki:</l>
+          <l>"Työ minulle määrättihin</l>
+          <l>Aina entistä parempi:</l>
+          <l>Saa'a suuri suomu-hauki,</l>
+          <l>170. Liikkuva kala lihava</l>
+          <l>Tuonen mustasta joesta,</l>
+          <l>Manalan iki-purosta</l>
+          <l>Verkotoinna, nuotatoinna,</l>
+          <l>Ilman muutta pyy'yksettä."</l> 
+        </lg>
+        <lg>
+          <l>Antoi morsian apua,</l>
+          <l>Työnti neito neuvokkia:</l>
+          <l>"Ohoh seppo Ilmarinen,</l>
+          <l>Ellös olko milläskänä!</l>
+          <l>Taop' on tulinen kokko,</l>
+          <l>180. Vaaka-lintu valkeinen!</l>
+          <l>Sillä saanet suuren hauin,</l>
+          <l>Liikkuvan kalan lihavan</l>
+          <l>Tuonen mustasta joesta,</l>
+          <l>Manalan alantehesta."</l>
+        </lg>
+        <lg>
+          <l>Se on seppo Ilmarinen,</l>
+          <l>Takoja iän-ikuinen</l>
+          <l>Takovi kokon tulisen,</l>
+          <l>Vaaka-linnun valkeisen,</l>
+          <l>Kourat rauasta kuvasi,</l>
+          <l>190. Teräksestä temmottimet,</l>
+          <l>Siiviksi venehen vieret.</l>
+          <l>Itse siiville yleni,</l>
+          <l>Selkähän sioittelihe,</l>
+          <l>Kokon kynkkäluun nenille.</l>
+        </lg>
+        <pb n="4" facs="page_145" /> 
+        <lg>
+          <l>Siitä neuvoi kokkoansa,</l>
+          <l>Vaaka-lintua varoitti:</l>
+          <l>"Kokkoseni lintuseni,</l>
+          <l>Menes lennä, kunne käsken,</l> 
+          <l>Tuonen mustalle joelle,</l>
+          <l>200. Manalan alantehelle,</l>
+          <l>Iske suuri suomu-hauki,</l>
+          <l>Liikkuva kala lihava!"</l>
+        </lg>
+        <lg>
+          <l>Tuo kokko komea lintu</l>
+          <l>Lenteä lekuttelevi,</l>
+          <l>Lenti hauin pyyäntähän,</l>
+          <l>Hirmu-hampahan hakuhun</l>
+          <l>Tuonne Tuonelan joelle,</l>
+          <l>Manalan alantehelle,</l>
+          <l>Yksi siipi vettä viisti,</l>
+          <l>210. Toinen taivasta tapasi,</l>
+          <l>Kourat merta kuopaeli,</l>
+          <l>Nokka luotoja lotasi.</l>
+        </lg>
+        <lg>
+          <l>Siitä seppo Ilmarinen</l>
+          <l>Lähtevi haroamahan</l>
+          <l>Tuota Tuonelan jokea,</l>
+          <l>Kokko luona vahtimahan.</l>
+        </lg>
+        <lg>
+          <l>Vetehinen veestä nousi,</l>
+          <l>Koppoi kiinni Ilmarisen;</l>
+          <l>Kokko niskahan kohahti,</l>
+          <l>220. Vetehisen päätä väänti,</l>
+          <l>Polki päätä pohjemmaksi,</l>
+          <l>Kohti mustia mutia.</l>
+        </lg>
+        <lg>
+          <l>Jo tulevi Tuonen hauki,</l>
+          <l>Ve'en koira vengottavi,</l>
+          <l>Ei ole hauki pienen pieni,</l>
+          <l>Eikä hauki suuren suuri:</l>
+          <l>Kieli kahta kirvesvartta,</l>
+          <l>Hampahat haravan varren,</l>
+          <l>Kita kolmen kosken verta,</l>
+          <l>230. Selkä seitsemän venehen,</l>
+          <l>Tahtoi seppoa tavata,</l>
+          <l>Syöä seppo Ilmarisen.</l>
+        </lg>
+        <lg>
+          <l>Tuli kokko kouotellen,</l>
+          <l>Isketellen ilman lintu,</l>
+          <l>Eik' ole kokko pienen pieni,</l>
+          <l>Eikä aivan suuren suuri:</l>
+          <l>Suu sen on satoa syltä,</l>
+          <l>Kita kuusi koskellista,</l>
+          <l>Kieli kuutta keihäsvartta,</l>
+          <l>240. Kynnet viittä viikatetta;</l>
+          <l>Keksi suuren suomu-hauin,</l>
+          <l>Liikkuvan kalan lihavan,</l>
+          <l>Iskevi kaloa tuota,</l>
+          <l>Vasten suomuja sukasi.</l>
+        </lg>
+        <lg>
+          <l>Silloin suuri suomu-hauki,</l>
+          <l>Liikkuja kala lihava</l>
+          <l>Painavi kokon kynimen</l>
+          <l>Alle selvien vesien,</l>
+          <l>Niin kokko kohotteleikse,</l>
+          <l>250. Ilmahan ylenteleikse,</l>
+          <l>Nosti mustia muria</l>
+          <l>Päälle selvien vesien.</l>
+        </lg>
+        <lg>
+          <l>Liiteleikse, laateleikse,</l>
+          <l>Toki toisesti kokevi,</l>
+          <l>Yhen iski kynsiänsä</l>
+          <l>Hauin hirmun hartioihin,</l> 
+          <l>Ve'en koiran koukku-luihin;</l>
+          <l>Toisen iski kynsiänsä</l>
+          <l>Vuorehen teräksisehen,</l>
+          <l>260. Rautaisehen kalliohon,</l>
+          <l>Kilpestyi kivestä kynsi,</l>
+          <l>Kalpistihe kalliosta,</l>
+          <l>Jo hauki sukeltelihe,</l>
+          <l>Ve'en venkale vetihe </l>
+          <l>Kynsistä kokon kynimen,</l>
+          <l>Vaaka-linnun varpahista,</l>
+          <l>Jälet kynnen kylkiluilla,</l>
+          <l>Halennehet hartioilla.</l>
+        </lg>
+        <lg>
+          <l>Siitä kokko rauta-koura</l>
+          <l>270. Kivastihe vielä kerran,</l>
+          <l>Siivet välkkyi valkeana,</l>
+          <l>Silmät selvänä tulena,</l>
+          <l>Saip' on hauin kynsihinsä,</l>
+          <l>Ve'en koiran kourihinsa,</l>
+        </lg>
+        <pb n="5" facs="page_146" /> 
+        <lg>
+          <l>Nosti suuren suomu-hauin,</l>
+          <l>Ve'en venkalan veälti</l>
+          <l>Alta aaltojen syvien</l>
+          <l>Päälle selvien vesien.</l>
+        </lg>
+        <lg>
+          <l>Niinp' on kokko rauta-koura</l>
+          <l>280. Kerrallansa kolmannella</l>
+          <l>Toki saapi Tuonen hauin,</l>
+          <l>Liikkuvan kalan lihavan</l>
+          <l>Tuosta Tuonelan joesta,</l>
+          <l>Manalan alantehesta,</l>
+          <l>Ei vesi ve'elle tullut</l>
+          <l>Hauin suuren suomuloista,</l>
+          <l>Ilma ei ilmalle hajaisnut</l>
+          <l>Kokon suuren höyhenistä.</l>
+        </lg>
+        <lg>
+          <l>Siitä kokko rauta-koura</l>
+          <l>290. Kantoi suuren suomu-hauin</l>
+          <l>Oksalle omena-tammen,</l>
+          <l>Päähän lakka-pään petäjän;</l> 
+          <l>Siinä maisteli makua,</l>
+          <l>Viilti halki hauin vatsan,</l> 
+          <l>Riipoeli rintapäätä,</l>
+          <l>Pään on varsin poikki pahkoi.</l> 
+        </lg>
+        <lg>
+          <l>Sanoi seppo Ilmarinen:</l>
+          <l>"Oi sinua kurja kokko,</l>
+          <l>Mikä lienet lintujasi,</l>
+          <l>300. Ku ollet otuksiasi,</l>
+          <l>Kun nyt maistelit makua,</l>
+          <l>Viillit halki hauin vatsan,</l>
+          <l>Kanssa riivoit rintapäätä,</l>
+          <l>Pään on varsin poikki pahkoit!"</l>
+        </lg>
+        <lg>
+          <l>Tuop' on kokko rauta-koura</l>
+          <l>Siitä syäntyi lentämähän,</l> 
+          <l>Ylös ilmahan kohosi</l>
+          <l>Pitkän pilven rannan päälle,</l>
+          <l>Pilvet liikkui, taivot naukui,</l>
+          <l>310. Ilman kannet kallistihe,</l>
+          <l>Katkesi Ukolta kaari,</l>
+          <l>Kuulta sarviset sakarat.</l>
+        </lg>
+        <lg>
+          <l>Siitä seppo Ilmarinen</l>
+          <l>Itse kantoi pään kaloa</l>
+          <l>Anopille antehiksi,</l>
+          <l>Sanan virkkoi, noin nimesi:</l>
+          <l>"Tuoss' onpi ikuinen tuoli</l>
+          <l>Hyvän Pohjolan tupahan."</l>
+        </lg>
+        <lg>
+          <l>Siitä tuon sanoiksi virkki,</l>
+          <l>320. Itse lausui ja pakisi:</l>
+          <l>"Jo nyt kynnin kyiset pellot,</l>
+          <l>Vakoelin maat matoiset,</l>
+          <l>Suistelin suet Manalan,</l>
+          <l>Tuonen karhut kahlestutin,</l>
+          <l>Sain on suuren suomu-hauin,</l>
+          <l>Liikkuvan kalan lihavan</l>
+          <l>Tuosta Tuonelan joesta,</l>
+          <l>Manalan alantehesta;</l>
+          <l>Joko nyt neiti annetahan,</l>
+          <l>330. Tyttö täältä työnnetähän?"</l>
+        </lg>
+        <lg>
+          <l>Sanoi Pohjolan emäntä:</l>
+          <l>"Pahoinpa sinäki laait,</l>
+          <l>Kun sa päätä poikki pahkoit,</l>
+          <l>Laskit halki hauin vatsan,</l>
+          <l>Vielä riivoit rinta-päätä,</l>
+          <l>Kanssa maistelit makua."</l>
+        </lg>
+        <lg>
+          <l>Silloin seppo Ilmarinen</l>
+          <l>Itse tuon sanoiksi virkki:</l>
+          <l>"Ei saalis viatta saa'a</l>
+          <l>340. Paikoilta paremmiltana,</l>
+          <l>Saati Tuonelan joesta,</l>
+          <l>Manalan alantehesta;</l>
+          <l>Joko on valmis valvattini,</l>
+          <l>Valmis valvateltavani?"</l>
+        </lg>
+        <lg>
+          <l>Sanoi Pohjolan emäntä,</l>
+          <l>Itse lausui ja nimesi:</l>
+          <l>"Jo on valmis valvattisi,</l>
+          <l>Valmis valvateltavasi,</l>
+          <l>Annettava on alliseni,</l>
+          <l>350. Sorsaseni suorittava</l>
+          <l>Ilmariselle sepolle</l>
+          <l>Ikuiseksi istujaksi,</l>
+          <l>Polviseksi puolisoksi,</l>
+          <l>Kainaloiseksi kanaksi."</l>
+        </lg>
+        <pb n="6" facs="page_147" /> 
+        <lg>
+          <l>Olipa lapsi lattialla,</l>
+          <l>Lauloi lapsi lattialta:</l>
+          <l>"Jo tuli tuville näille,</l>
+          <l>Liika lintu linnahamme,</l>
+          <l>Lenti kokko koillisesta,</l>
+          <l>360. Halki taivahan havukka,</l>
+          <l>Siipi iski ilman äärtä,</l>
+          <l>Toinen lainetta lakasi,</l>
+          <l>Pursto merta pyyhätteli,</l>
+          <l>Päähyt taivoa tapasi;</l>
+          <l>Katseleikse, käänteleikse,</l>
+          <l>Liiteleikse, laateleikse,</l>
+          <l>Liiti miesten linnan päälle,</l>
+          <l>Nokalla kolistelevi;</l>
+          <l>Miesten linna rauta-katto,</l>
+          <l>370. Ei siihen sisälle pääsnyt."</l>
+        </lg>
+        <lg>
+          <l>"Katseleikse, käänteleikse,</l>
+          <l>Liiteleikse, laateleikse,</l>
+          <l>Liiti naisten linnan päälle,</l>
+          <l>Nokalla kolistelevi;</l>
+          <l>Naisten linna vaski-katto,</l>
+          <l>Ei siihen sisälle pääsnyt."</l>
+        </lg>
+        <lg>
+          <l>"Katseleikse, käänteleikse,</l>
+          <l>Liiteleikse, laateleikse,</l>
+          <l>Liiti neitten linnan päälle,</l>
+          <l>380. Nokalla kolistelevi;</l>
+          <l>Neitten linna liina-katto,</l>
+          <l>Jo siihen sisälle pääsi!"</l>
+        </lg>
+        <lg>
+          <l>"Liiti linnan patsahalle,</l>
+          <l>Siitä laskihe laelle,</l>
+          <l>Liikahutti linnan lauan,</l>
+          <l>Istui linnan ikkunalle,</l>
+          <l>Seinälle selinä-sulka,</l>
+          <l>Sata-sulka salvoimelle."</l>
+        </lg>
+        <lg>
+          <l>"Katselevi kassa-päitä,</l>
+          <l>390. Tukka-päitä tunnusteli,</l>
+          <l>Neiti-parvesta parasta,</l>
+          <l>Kassa-päistä kaunihinta,</l>
+          <l>Heleintä helmi-päistä,</l>
+          <l>Kukka-päistä kuuluisinta."</l>
+        </lg>
+        <lg>
+          <l>"Siitä kokko kouraisevi,</l>
+          <l>Havu-lintu haivertavi,</l>
+          <l>Iski parvesta parahan,</l>
+          <l>Sorsajoukosta somimman,</l>
+          <l>Heleimmän, hempeimmän,</l>
+          <l>400. Verevimmän, valkeimman,</l>
+          <l>Senpä iski ilman lintu,</l>
+          <l>Kynsi pitkä piirrällytti,</l>
+          <l>Ku oli pysty pään piolta,</l>
+          <l>Sekä varrelta valittu,</l>
+          <l>Sulkasiltahan sulavin,</l>
+          <l>Hienokaisin höyheniltä."</l>
+        </lg>
+        <lg>
+          <l>Siitä Pohjolan emäntä</l>
+          <l>Sanan virkkoi, noin nimesi:</l>
+        </lg>
+        <lg>
+          <l>"Mistä tiesit teltamoinen,</l>
+          <l>410. Kuulit kultainen omena</l>
+          <l>Tämän neien kasvavaksi,</l>
+          <l>Tukan liina liikkuvaksi,</l>
+          <l>Huohtiko hopeat neien,</l>
+          <l>Neien kullat sinne kuului,</l>
+          <l>Sinne paistoi meiän päivät,</l>
+          <l>Meiän kuuhuet kumotti?"</l>
+        </lg>
+        <lg>
+          <l>Lausui lapsi lattialta,</l>
+          <l>Vasta-kasvava karehti:</l>
+          <l>"Siitä tiesi teltamoinen,</l>
+          <l>420. Onnen myyrä tien osasi</l>
+          <l>Neien kuuluhun kotihin,</l>
+          <l>Kaunihisen kartanohon:</l>
+          <l>Hyvä oli isosta huuto</l>
+          <l>Laivan suuren laskennalta,</l> 
+          <l>Emosta sitäi parempi</l>
+          <l>Leivän paksun paistannalta,</l>
+          <l>Vehnäleivän leivonnalta,</l>
+          <l>Vierahan ravitsennalta."</l>
+        </lg>
+        <pb n="7" facs="page_148" /> 
+        <lg>
+          <l>"Siitä tiesi teltamoinen,</l>
+          <l>430. Äkki outoinen älysi</l>
+          <l>Neien nuoren nousneheksi,</l>
+          <l>Impyen ylenneheksi,</l>
+          <l>Kun kävi pihatse kerran,</l>
+          <l>Astui aittojen alatse</l>
+          <l>Varsin aamulla varahin,</l>
+          <l>Aivan aika huomenessa,</l>
+          <l>Noki nousi nuoraisesti,</l>
+          <l>Savu paksusti pakeni</l>
+          <l>Neien kuulusta koista,</l>
+          <l>440. Kasvavaisen kartanosta,</l>
+          <l>Neiti oli itse jauhamassa,</l>
+          <l>Kiven-puussa kiikkumassa,</l>
+          <l>Kiven-puu käkenä kukkui,</l>
+          <l>Laklana kiven lapatta,</l>
+          <l>Kiven siili sirkkusena,</l>
+          <l>Kivi helmenä heläsi."</l>
+        </lg>
+        <lg>
+          <l>"Kävi siitä toisen kerran,</l>
+          <l>Astui pellon pientaretse,</l>
+          <l>Neiti oli matara-maalla,</l>
+          <l>450. Keikkui kelta-kankahilla,</l>
+          <l>Paineli puna-patoja,</l>
+          <l>Keitti kelta-kattiloita."</l>
+        </lg>
+        <lg>
+          <l>"Kävi kerran kolmannenki</l>
+          <l>Neien akkunan alatse,</l>
+          <l>Kuuli neitosen kutovan,</l>
+          <l>Pirta käessä piukkoavan,</l>
+          <l>Sukkulainen suikahteli</l>
+          <l>Kuin kärppä kiven kolossa,</l> 
+          <l>Pirkaeli pirran pii'it</l>
+          <l>460. Kuin on tikka puun kylessä,</l>
+          <l>Käärilauta käännähteli</l>
+          <l>Kuin orava oksa-puussa."</l>
+        </lg>
+        <lg>
+          <l>Siitä Pohjolan emäntä</l>
+          <l>Sanan virkkoi, noin nimesi:</l>
+          <l>"Kutti, kutti neitoseni!</l>
+          <l>Enkö ja sanonut aina:</l>
+          <l>Elä kuusissa kukahu,</l>
+          <l>Elä laula laksoloissa,</l>
+          <l>Näytä kaulan kaarevuutta,</l>
+          <l>470. Käsivarren valkeutta,</l>
+          <l>Ripeyttä rinnan nuoren,</l>
+          <l>Muun on muo'on muhkeutta!"</l>
+        </lg>
+        <lg>
+          <l>"Kaiken syystä syyättelin,</l>
+          <l>Keikutin tämän kesosen,</l>
+          <l>Jop' on kerkeän keväimen,</l>
+          <l>Jopa toisen touko-aian:</l>
+          <l>Laatiomme piilo-pirtti,</l>
+          <l>Pienet piilo-ikkunaiset</l>
+          <l>Neien kangasta kutoa,</l>
+          <l>480. Neljin niisin niukutella,</l>
+          <l>Ettei kuule Suomen sulhot,</l>
+          <l>Suomen sulhot, maan kosiat."</l> 
+        </lg>
+        <lg>
+          <l>Lausui lapsi lattialta,</l>
+          <l>Kaksi-viikkoinen kajahui:</l>
+          <l>"Helppo on hepo salata,</l>
+          <l>Sorajouhi suojaella,</l>
+          <l>Paha on neitonen salata,</l>
+          <l>Hivus pitkä piilotella;</l>
+          <l>Laatisit kivisen linnan</l>
+          <l>490. Keskelle meren seläistä,</l>
+          <l>Siellä piikoja piellä,</l>
+          <l>Kanojasi kasvatella,</l>
+          <l>Eip' on piile piiat siellä,</l>
+          <l>Eipä impyet ylene,</l>
+          <l>Ettei pääse suuret sulhot,</l>
+          <l>Suuret sulhot, maan kosiat,</l>
+          <l>Miehet pystyisin kypärin,</l>
+          <l>Heposet teräs-kapein."</l>
+        </lg>
+        <lg>
+          <l>Itse vanha Wäinämöinen</l>
+          <l>500. Alla päin, pahoilla mielin</l>
+          <l>Kotihinsa kulkiessa</l>
+          <l>Sanan virkkoi, noin nimesi:</l>
+          <l>"Voi minua mies kuluista,</l>
+          <l>Kun en tuota tuntenunna</l>
+        </lg>
+        <pb n="8" facs="page_149" /> 
+        <lg>
+          <l>Naia nuorella iällä,</l>
+          <l>Etsiä elon ajalla!</l>
+          <l>Kaikkiansa se katuvi,</l>
+          <l>Joka nuorta naimistansa,</l>
+          <l>Lasna lapsen saamistansa,</l>
+          <l>510. Pienenä perehtimistä."</l>
+        </lg>
+        <lg>
+          <l>Siinä kielti Wäinämöinen,</l>
+          <l>Epäsi Suvantolainen</l>
+          <l>Vanhan nuorta noutamasta,</l>
+          <l>Kaunista käkeämästä,</l>
+          <l>Kielti uimasta uhalla,</l>
+          <l>Veikan vettä soutamasta,</l>
+          <l>Kilvoin neittä kosjomasta</l>
+          <l>Toisen nuoremman keralla.</l>
+        </lg>
+        
+      </div>
+    </body>
+  </text>
+</TEI>

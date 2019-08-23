@@ -37,12 +37,17 @@
              <li id="pic_nav3" class="nav-item" title="näytä kommentaarit">
                <input type="checkbox" title="näytä kommentaarit"> Kommentaarit
              </li>
+          <?php elseif (metadata('item', array('Dublin Core', 'Title')) == 'Kahdeskymmenestoinen runo'): ?>
+             <li id="pic_nav2" class="nav-item" title="näytä säeviitteet">
+               <input type="checkbox" title="näytä säeviitteet"> Säeviitteet
+             </li>
           <?php elseif (metadata('item', array('Dublin Core', 'Title')) == 'Uuden Kalevalan esipuhe'
           || metadata('item', array('Dublin Core', 'Title')) == 'Vanhan Kalevalan esipuhe'
           || metadata('item', array('Dublin Core', 'Title')) == 'Ensimmäinen runo'
           || metadata('item', array('Dublin Core', 'Title')) == 'Toinen runo'
           || metadata('item', array('Dublin Core', 'Title')) == 'Kolmas runo'
           || metadata('item', array('Dublin Core', 'Title')) == 'Viides runo'
+          || metadata('item', array('Dublin Core', 'Title')) == 'Kolmastoista runo'
           || metadata('item', array('Dublin Core', 'Title')) == 'Kahdestoista runo'
           || metadata('item', array('Dublin Core', 'Title')) == 'Yhdestoista runo'): ?>
             <li id="pic_nav3" class="nav-item" title="näytä kommentaarit">
@@ -66,7 +71,7 @@
              $files = $item->Files;
              foreach ($files as $file) {
                if ($file->getExtension() == 'xml') {
-                 echo '<a title="lataa TEI-tiedosto" href="http://kalevala.finlit.fi/files/original/'.metadata($file, 'filename').'" download><i class="fa fa-download"></i> TEI</a>';
+                 echo '<a title="lataa TEI-tiedosto" href="http://kalevala-dev.ngrok.io/kalevala/files/original/'.metadata($file, 'filename').'" download><i class="fa fa-download"></i> TEI</a>';
                }
              }
              ?>
@@ -83,7 +88,7 @@
       foreach ($files as $file) {
         if ($file->getExtension() == 'jpg'
         && (strpos(metadata($file, 'filename'), 'page') !== false || strpos(metadata($file, 'filename'), 'esipuhe') !== false)) {
-          echo '<img title="kaksoisklikkaus = kuvan suurennus ja pienennys" class="pic" src="http://kalevala.finlit.fi/files/original/'.metadata($file, 'filename').'" />';
+          echo '<img title="kaksoisklikkaus = kuvan suurennus ja pienennys" class="pic" src="http://kalevala-dev.ngrok.io/kalevala/files/original/'.metadata($file, 'filename').'" />';
         }
       }
       ?>
@@ -96,9 +101,9 @@
       foreach ($files as $file) {
         if ($file->getExtension() == 'xml') {
           $xmlDoc = new DOMDocument();
-          $xmlDoc->load("http://kalevala.finlit.fi/files/original/".metadata($file, 'filename'));
+          $xmlDoc->load("http://kalevala-dev.ngrok.io/kalevala/files/original/".metadata($file, 'filename'));
           $xslDoc = new DOMDocument();
-          $xslDoc->load("http://kalevala.finlit.fi/files/original/TEI-to-HTML.xsl");
+          $xslDoc->load("http://kalevala-dev.ngrok.io/kalevala/files/original/TEI-to-HTML.xsl");
           $proc = new XSLTProcessor();
           $proc->importStylesheet($xslDoc);
           echo $proc->transformToXML($xmlDoc);
@@ -121,7 +126,7 @@
   $files = $item->Files;
   foreach ($files as $file) {
     if ($file->getExtension() == 'jpg' && (strpos(metadata($file, 'filename'), 'lna038') !== false || strpos(metadata($file, 'filename'), 'lna036') !== false)) {
-      echo '<img title="kaksoisklikkaus = kuvan suurennus ja pienennys" class="pic2" src="http://kalevala.finlit.fi/files/original/'.metadata($file, 'filename').'" />';
+      echo '<img title="kaksoisklikkaus = kuvan suurennus ja pienennys" class="pic2" src="http://kalevala-dev.ngrok.io/kalevala/files/original/'.metadata($file, 'filename').'" />';
     }
   }
   ?>
@@ -137,7 +142,7 @@
 <!-- default item paging is by order of addition to database; this is the only way to get correct order -->
 <nav>
 <?php
-$ids = array('9','21','6','7','8','24','25','26','27','32','23','28','29','30','31','22','5');
+$ids = array('9','21','6','7','8','24','25','26','27','32','23','28','29','30','31','37','38','39','40','33','34','35','36','22','5');
 $current_id = array_search($item->id, $ids);
 $previous_item = '';
 $next_item = '';
@@ -155,12 +160,12 @@ if ($current_id >= 1 && $current_id <= sizeof($ids)-2) {
 <ul class="item-pagination navigation">
     <li id="previous-item" class="previous">
       <?php
-      echo '<a title="edellinen runo (edellinen esipuhe)" href="http://kalevala.finlit.fi/items/show/'.$previous_item.'">edellinen</a>';
+      echo '<a title="edellinen runo (edellinen esipuhe)" href="http://kalevala-dev.ngrok.io/kalevala/items/show/'.$previous_item.'">edellinen</a>';
       ?>
     </li>
     <li id="next-item" class="next">
       <?php 
-      echo '<a "seuraava runo (seuraava esipuhe)" href="http://kalevala.finlit.fi/items/show/'.$next_item.'">seuraava</a>'; 
+      echo '<a "seuraava runo (seuraava esipuhe)" href="http://kalevala-dev.ngrok.io/kalevala/items/show/'.$next_item.'">seuraava</a>'; 
       ?>
     </li>
 </ul>
