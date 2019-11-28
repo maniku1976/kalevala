@@ -94,7 +94,7 @@
           <ab>impi : neito, naimaton tyttö</ab>
         </note>
         <note n="23">
-          <ab>kassapää : palmikkotukkainen; naimaton nainen, joka ei vielä käytä huivia</ab><ab>Vrt. Lönntorin selitys: kassa-pää = med kort hufvud (Lna 122).<lb/><lb/>Alkuosana on 
+          <ab>kassapää : palmikkotukkainen; naimaton nainen, joka ei vielä käytä huivia</ab><ab>Vrt. Lönnrotin selitys: kassa-pää = med kort hufvud (Lna 122).<lb/><lb/>Alkuosana on 
             <hi rend="italics">kassa</hi> 'hiuspalmikko' (SMS, KKS). Naimattomat neidot pitivät tukkansa palmikoilla, mutta naimisiin mentäessä hiukset leikattiin ja päät hunnutettiin (Turunen 1979).</ab>
         </note>
         <note n="24">
@@ -464,6 +464,10 @@
         </note>
         <note n="142">
           <ab>leivätyys : leivättömyys</ab>
+        </note>
+        <note n="142b">
+          <ab>elo : tavara, omaisuus</ab><ab>Sana <hi rend="underline">elo</hi> karjalan kielessä paitsi 'elämä' myös 'elatus, ansio; omaisuus, varallisuus, rikkaus, tavara, raha; vilja; voitto 
+            (kaupassa); vero; lelu' (KKS). Sanalle tunnetaan samantapaisia merkityksiä myös suomen murteista (SMS).</ab>
         </note>
         <note n="143">
           <ab>Muurikki : vanha suomalainen lehmännimi</ab>
@@ -1296,7 +1300,7 @@
           <l>Tuotako sinä sureksit,</l>
           <l>Tuota huollen huokaelet</l>
           <l><label type="popup" n="141">Lehmityyttä</label>, <label type="popup" n="142">leivätyyttä</label>,</l>
-          <l>260. Ja kaiken elon vähyyttä?</l>
+          <l>260. Ja kaiken <label type="popup" n="142b">elon</label> vähyyttä?</l>
         </lg>
         <lg>
           <l>"Ellös olko milläkänä,<label type="commentary" n="c34">*</label></l>

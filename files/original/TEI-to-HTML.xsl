@@ -17,7 +17,11 @@
       <p><xsl:apply-templates/></p>
     </xsl:template>
 
-    <xsl:template match="//tei:l">
+    <xsl:template match="//tei:note/tei:ab/tei:l">
+      <span class="note_l"><xsl:apply-templates/></span><br />
+    </xsl:template>
+
+    <xsl:template match="//tei:lg/tei:l">
       <span><xsl:apply-templates/></span><br />
     </xsl:template>
 

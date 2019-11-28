@@ -11,7 +11,7 @@ echo head(array('title'=>$pageTitle,'bodyclass' => 'collections browse'));
     <!-- list collections in menu to the left -->
     <div class="col-3">
       <ul id="runot-nav" class="navbar-nav">
-        <?php $collections = get_records('Collection',array('sort_field'=>'Dublin Core,Identifier','sort_dir'=>'a')); ?>
+        <?php $collections = get_records('Collection',array('sort_field'=>'Dublin Core,Identifier','sort_dir'=>'a'), $limit = 20); ?>
         <?php set_loop_records('collections',$collections);?>
         <?php foreach (loop('collections') as $collection): ?>
           <?php $collId = metadata($collection, array('Dublin Core', 'Identifier')); ?>
@@ -31,7 +31,7 @@ echo head(array('title'=>$pageTitle,'bodyclass' => 'collections browse'));
           <ul id="<?php echo $collId;?>" class="navbar-nav">
             
             <?php echo metadata($collection,array('Dublin Core', 'Description'));?>
-            <?php $items = get_records('Item', array('collection'=>$collection)); ?>
+            <?php $items = get_records('Item', array('collection'=>$collection, 'sort_field'=>'Dublin Core,Identifier','sort_dir'=>'a')); ?>
             <?php set_loop_records('items',$items); ?>
             <?php foreach(loop('items') as $item): ?>
               <li class="nav-item">

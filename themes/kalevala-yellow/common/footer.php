@@ -13,13 +13,13 @@
             <!--<p><?php echo __('Proudly powered by <a href="http://omeka.org">Omeka</a>.'); ?></p>-->
             <div class="row">
               <div class="col-xs-6 col-md-6">
-                <a href="https://www.finlit.fi"><img id="sks" src="http://kalevala.finlit.fi/logo-SKS-footer@2x.png" /></a>
+                <a href="https://www.finlit.fi"><img id="sks" src="http://kalevala-dev.ngrok.io/kalevala/logo-SKS-footer@2x.png" /></a>
               </div>
               <div class="col-xs-4 col-md-4">
-                <a href="https://kordelin.fi"><img id="kordelin" src="http://kalevala.finlit.fi/logo-kordelin@2x.png" /></a>
+                <a href="https://kordelin.fi"><img id="kordelin" src="http://kalevala-dev.ngrok.io/kalevala/logo-kordelin@2x.png" /></a>
               </div>
               <div class="col-xs-2 col-md-2">
-                <a href="https://kalevalaseura.fi"><img id="kalevalas" src="http://kalevala.finlit.fi/logo-kalevalaseura@2x.png" /></a>
+                <a href="https://kalevalaseura.fi"><img id="kalevalas" src="http://kalevala-dev.ngrok.io/kalevala/logo-kalevalaseura@2x.png" /></a>
               </div>
             </div>
         </div>

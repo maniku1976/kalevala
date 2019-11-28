@@ -2331,12 +2331,16 @@ td, th, tr {
     color: #484848 !important;
   }
 
-  #julkaisu-osat, #julkaisu-ajatus {
+  #julkaisu-editio, #julkaisu-osat, #julkaisu-osat-2, #julkaisu-ajatus {
     display: none;
   }
 
-  #julkaisu-editio h5, #julkaisu-osat h5, #julkaisu-ajatus h5 {
+  #julkaisu-editio h5, #julkaisu-osat h5, #julkaisu-osat-2 h5, #julkaisu-ajatus h5 {
     margin-bottom: 1em;
+  }
+
+  #julkaisu-osat-2 table {
+    width: 80%;
   }
 
   a:link {
@@ -2523,6 +2527,7 @@ td, th, tr {
   #frontpage_list {
     padding: 0px;
     float:right;
+    height: auto;
   }
 
   #frontpage_list li {
@@ -3110,6 +3115,9 @@ td, th, tr {
 
   /* popup comments */
 
+  span.underline {
+    text-decoration: underline;
+  }
   a.tooltp, a.tooltp2, a.tooltp3 {
     font-size: 1em;
     text-decoration: none;
@@ -3309,6 +3317,12 @@ td, th, tr {
     padding: 0px !important;
   }
 
+  #erisn {
+    background: #F8F6F4 !important;
+    margin: 0;
+    padding: 0px !important;
+  }
+
   #geneettinen-content {
     background: #fff !important;
   }
@@ -3330,12 +3344,17 @@ td, th, tr {
     width: 85%;
   }
 
-  .simple-page #wrap #content #primary .container-fluid .row .col-9 div h5:nth-child(1) {
+  .simple-page #wrap #content #primary .container-fluid .row .col-9 div h5:nth-child(1), 
+  #erisn h5:nth-child(1), #kirjat h5 {
     margin-top: 0px;
     margin-bottom: 1.5em !important;
     padding-top: 10px !important;
     padding-bottom: 10px;
     background: #E3DED5;
+  }
+
+  #kirjat h5 {
+    padding-left: 15px;
   }
 
   #kirjallisuus #wrap #content #primary .container-fluid {
@@ -3344,12 +3363,19 @@ td, th, tr {
     padding-right: 0px;
   }
 
-  #kirjallisuus #wrap #content #primary .container-fluid p {
+  #kirjallisuus #wrap #content #primary .container-fluid p, 
+  #erisnimet #wrap #content #primary .container-fluid p {
     width: 80%;
     padding-left: 15px;
   }
 
-  #kirjallisuus #wrap #content #primary .container-fluid p:nth-child(1) {
+
+  #erisn h5 {
+    padding-left: 15px;
+  }
+
+  #kirjallisuus #wrap #content #primary .container-fluid p:nth-child(1), 
+  #erisnimet #wrap #content #primary .container-fluid p:nth-child(1) {
     width: 100% !important;
     margin-right: 0px !important;
     margin-top: 0px;
@@ -3424,7 +3450,8 @@ td, th, tr {
   }
 
   #geneettinen-vertailu h5, #geneettinen-content h5, #geneettinen-content-2 h5, #temaattinen-toimitustavat h5,
-  #aatehistoriallinen-kansa h5, #aatehistoriallinen-perhe h5, #traditio-esittely h5, #traditio-content h5, #aatehistoriallinen-kehys h5 {
+  #aatehistoriallinen-kansa h5, #aatehistoriallinen-perhe h5, #traditio-esittely h5, #traditio-saetk h5, #traditio-kantel h5 
+  #traditio-content h5, #aatehistoriallinen-kehys h5 {
     margin-top: 1.5em;
     margin-bottom: 1em;
   }
@@ -3436,7 +3463,7 @@ td, th, tr {
 
 
   #geneettinen-content, #geneettinen-content-2, #traditio-content, #traditio-content-2, #kaukonen-ohjeet, #temaattinen-content,
-  #kielellinen-content, #traditio-esittely {
+  #kielellinen-content, #traditio-esittely, #traditio-saetk, #traditio-kantel {
     display: none;
   }
 
@@ -3444,7 +3471,8 @@ td, th, tr {
     font-weight: normal !important;
   }
 
-  #kielellinen-content h5, #geneettinen-content h5, #temaattinen-lyriikka h5, #temaattinen-toimitustavat h5, #esipuhe-erot h5 {
+  #kielellinen-content h5, #geneettinen-content h5, #temaattinen-lyriikka h5, #temaattinen-toimitustavat h5, #esipuhe-erot h5, 
+  #erisn h5 {
     margin-top: 1.5em;
     margin-bottom: 1em;
   }
@@ -3453,21 +3481,25 @@ td, th, tr {
     display: none;
   }
 
-  #temaattinen-submenu1, #temaattinen-submenu2, #temaattinen-submenu3, #geneettinen-submenu1, #geneettinen-submenu2,
-  #geneettinen-submenu3, #geneettinen-submenu4, #traditio-submenu, #esipuhe-submenu, #aatehistoriallinen-submenu, #kielellinen-submenu {
+  #temaattinen-submenu1, #temaattinen-submenu2, #temaattinen-submenu3, #temaattinen-submenu4, #temaattinen-submenu5, 
+  #geneettinen-submenu1, #geneettinen-submenu2, #geneettinen-submenu3, #geneettinen-submenu4, #traditio-submenu, 
+  #esipuhe-submenu, #aatehistoriallinen-submenu, #kielellinen-submenu {
     margin-left: 1em !important;
   }
 
-  #temaattinen-submenu1 a, #temaattinen-submenu2 a, #temaattinen-submenu3 a, #geneettinen-submenu1 a, #geneettinen-submenu2 a,
-  #geneettinen-submenu3 a, #geneettinen-submenu4 a, #traditio-submenu a, #esipuhe-submenu1 a, #esipuhe-submenu2 a,
-  #esipuhe-submenu3 a, #aatehistoriallinen-submenu1 a, #aatehistoriallinen-submenu2 a, #aatehistoriallinen-submenu3 a, #kielellinen-submenu1 a,
+  #temaattinen-submenu1 a, #temaattinen-submenu2 a, #temaattinen-submenu3 a, #temaattinen-submenu4 a, #temaattinen-submenu5 a,
+  #geneettinen-submenu1 a, #geneettinen-submenu2 a, #geneettinen-submenu3 a, #geneettinen-submenu4 a, 
+  #traditio-submenu a, #esipuhe-submenu1 a, #esipuhe-submenu2 a, #esipuhe-submenu3 a, 
+  #aatehistoriallinen-submenu1 a, #aatehistoriallinen-submenu2 a, #aatehistoriallinen-submenu3 a, 
+  #aatehistoriallinen-submenu4 a, #aatehistoriallinen, #kielellinen-submenu1 a,
   #kielellinen-submenu2 a {
     font-weight: normal !important;
   }
 
-  #temaattinen-esittely, #temaattinen-toimitustavat, #geneettinen-esittely, #geneettinen-versiot, #geneettinen-vertailu, #traditio-esittely,
-  #aatehistoriallinen-esittely, #temaattinen-lyriikka, #esipuhe-lajina, #esipuhe-aani, #esipuhe-erot, #aatehistoriallinen-kansa,
-  #aatehistoriallinen-perhe, #aatehistoriallinen-kehys, #traditio-skvr, #kielellinen-esittely, #kielellinen-suomi, #kielellinen-periaatteet {
+  #temaattinen-esittely, #temaattinen-toimitustavat, #temaattinen-sammot, #geneettinen-esittely, #geneettinen-versiot, 
+  #geneettinen-vertailu, #traditio-esittely, #aatehistoriallinen-esittely, #temaattinen-lyriikka, #esipuhe-lajina, 
+  #esipuhe-aani, #esipuhe-erot, #aatehistoriallinen-kansa, #aatehistoriallinen-perhe, #aatehistoriallinen-kehys, 
+  #aatehistoriallinen-tulkinnat, #traditio-saetk, #traditio-skvr, #kielellinen-esittely, #kielellinen-suomi, #kielellinen-periaatteet {
     display: none;
   }
 
@@ -3702,6 +3734,10 @@ td, th, tr {
     outline: 0 !important;
     text-decoration: none;
     color: #E48800 !important;
+  }
+
+  span.note_l {
+    margin-left: 16px;
   }
   /* @end */
 }

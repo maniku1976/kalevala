@@ -1,6 +1,6 @@
 <?php echo head(array('bodyid'=>'home', 'bodyclass' =>'two-col')); ?>
 <div id="primary">
-    <img style="width:90%;" src="http://kalevala.finlit.fi/KalevalaMontage-LowRes.jpg" />
+    <img style="width:90%;" src="http://kalevala-dev.ngrok.io/kalevala/KalevalaMontage-LowRes.jpg" />
     (Kuva: Gary Wornell, SKS 2018)
     <?php if ($homepageText = get_theme_option('Homepage Text')): ?>
     <p><?php echo $homepageText; ?></p>
@@ -12,15 +12,16 @@
 
   <nav class="navbar navbar-expand-md">
     <ul class="nav navbar-nav flex-column" id="frontpage_list">
-      <?php $collections = get_records('Collection',array('sort_field'=>'Dublin Core,Identifier','sort_dir'=>'a')); ?>
+      <?php $collections = get_records('Collection',array('sort_field'=>'Dublin Core,Identifier','sort_dir'=>'a'), $limit = 20); ?>
       <?php set_loop_records('collections',$collections);?>
+
       <?php foreach (loop('collections') as $collection): ?>
           <li class="nav-item coll_title">
             <a class="nav-link"><?php echo metadata($collection, array('Dublin Core', 'Title'));?></a>
           </li>
           <li class="nav-item coll_items">
             <ul>
-            <?php $items = get_records('Item', array('collection'=>$collection)); ?>
+            <?php $items = get_records('Item', array('collection'=>$collection,'sort_field'=>'Dublin Core,Identifier','sort_dir'=>'a')); ?>
             <?php set_loop_records('items',$items); ?>
             <?php foreach(loop('items') as $item): ?>
                 <li class="nav-item" class="coll_item">

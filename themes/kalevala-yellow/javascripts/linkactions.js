@@ -5,22 +5,46 @@ $(document).ready(function() {
     /* Clicking actions in Simple pages page menus: hide/show */
 
     $('#julkaisu-nav1').on('click',function() {
+      $('#julkaisutiedot').hide();
       $('#julkaisu-editio').show();
       $('#julkaisu-osat').hide();
+      $('#julkaisu-osat-2').hide();
       $('#julkaisu-ajatus').hide();
     });
 
     $('#julkaisu-nav2').on('click',function() {
+      $('#julkaisutiedot').hide();
       $('#julkaisu-editio').hide();
       $('#julkaisu-osat').show();
+      $('#julkaisu-osat-2').hide();
       $('#julkaisu-ajatus').hide();
     });
 
     $('#julkaisu-nav3').on('click',function() {
+      $('#julkaisutiedot').hide();
       $('#julkaisu-editio').hide();
       $('#julkaisu-osat').hide();
+      $('#julkaisu-osat-2').hide();
       $('#julkaisu-ajatus').show();
     });
+
+    $('#julkaisu-nav4').on('click',function() {
+      $('#julkaisutiedot').show();
+      $('#julkaisu-editio').hide();
+      $('#julkaisu-osat').hide();
+      $('#julkaisu-osat-2').hide();
+      $('#julkaisu-ajatus').hide();
+    });
+
+    $('#julkaisu-nav5').on('click',function() {
+      $('#julkaisutiedot').hide();
+      $('#julkaisu-editio').hide();
+      $('#julkaisu-osat').hide();
+      $('#julkaisu-osat-2').show();
+      $('#julkaisu-ajatus').hide();
+    });
+
+
     $('#esipuhe-link').find('a').on('click', function() {
       $('#esipuhe-submenu').show();
       $('#esipuhe-intro').show();
@@ -68,6 +92,7 @@ $(document).ready(function() {
         $('#temaattinen-esittely').hide();
         $('#temaattinen-toimitustavat').hide();
         $('#temaattinen-lyriikka').hide();
+        $('#temaattinen-sammot').hide();
         $('#kielellinen-submenu').hide();
         $('#kielellinen-esittely').hide();
         $('#kielellinen-suomi').hide();
@@ -80,9 +105,15 @@ $(document).ready(function() {
         $('#aatehistoriallinen-kansa').hide();
         $('#aatehistoriallinen-perhe').hide();
         $('#aatehistoriallinen-kehys').hide();
+        $('#aatehistoriallinen-tulkinnat').hide();
         $('#traditio-submenu').hide();
         $('#temaattinen-submenu').hide();
         $('#aatehistoriallinen-submenu').hide();
+        $('#temaattinen-valmistuminen').hide();
+        $('#kielellinen-lonnrot').hide();
+        $('#kielellinen-piirteet').hide();
+        $('#traditio-saetk').hide();
+        $('#traditio-kantel').hide();
     });
 
     $('#geneettinen-submenu2').find('a').on('click', function() {
@@ -106,6 +137,13 @@ $(document).ready(function() {
       $('#aatehistoriallinen-kansa').hide();
       $('#aatehistoriallinen-perhe').hide();
       $('#aatehistoriallinen-kehys').hide();
+      $('#temaattinen-sammot').hide();
+      $('#aatehistoriallinen-tulkinnat').hide();
+      $('#temaattinen-valmistuminen').hide();
+      $('#kielellinen-lonnrot').hide();
+      $('#kielellinen-piirteet').hide();
+      $('#traditio-saetk').hide();
+      $('#traditio-kantel').hide();
     });
 
     $('#geneettinen-submenu3').find('a').on('click', function() {
@@ -129,6 +167,13 @@ $(document).ready(function() {
       $('#aatehistoriallinen-kansa').hide();
       $('#aatehistoriallinen-perhe').hide();
       $('#aatehistoriallinen-kehys').hide();
+      $('#temaattinen-sammot').hide();
+      $('#aatehistoriallinen-tulkinnat').hide();
+      $('#temaattinen-valmistuminen').hide();
+      $('#kielellinen-lonnrot').hide();
+      $('#kielellinen-piirteet').hide();
+      $('#traditio-saetk').hide();
+      $('#traditio-kantel').hide();
     });
 
     $('#geneettinen-submenu4').find('a').on('click', function() {
@@ -152,6 +197,13 @@ $(document).ready(function() {
       $('#aatehistoriallinen-kansa').hide();
       $('#aatehistoriallinen-perhe').hide();
       $('#aatehistoriallinen-kehys').hide();
+      $('#temaattinen-sammot').hide();
+      $('#aatehistoriallinen-tulkinnat').hide();
+      $('#temaattinen-valmistuminen').hide();
+      $('#kielellinen-lonnrot').hide();
+      $('#kielellinen-piirteet').hide();
+      $('#traditio-saetk').hide();
+      $('#traditio-kantel').hide();
     });
 
     $('#traditio-link').find('a').on('click', function() {
@@ -180,6 +232,13 @@ $(document).ready(function() {
       $('#temaattinen-submenu').hide();
       $('#aatehistoriallinen-submenu').hide();
       $('#aatehistoriallinen-kehys').hide();
+      $('#temaattinen-sammot').hide();
+      $('#aatehistoriallinen-tulkinnat').hide();
+      $('#temaattinen-valmistuminen').hide();
+      $('#kielellinen-lonnrot').hide();
+      $('#kielellinen-piirteet').hide();
+      $('#traditio-saetk').hide();
+      $('#traditio-kantel').hide();
     });
 
     $('#traditio-submenu1').find('a').on('click', function() {
@@ -203,6 +262,13 @@ $(document).ready(function() {
       $('#aatehistoriallinen-kansa').hide();
       $('#aatehistoriallinen-perhe').hide();
       $('#aatehistoriallinen-kehys').hide();
+      $('#temaattinen-sammot').hide();
+      $('#aatehistoriallinen-tulkinnat').hide();
+      $('#temaattinen-valmistuminen').hide();
+      $('#kielellinen-lonnrot').hide();
+      $('#kielellinen-piirteet').hide();
+      $('#traditio-saetk').hide();
+      $('#traditio-kantel').hide();
     });
 
     $('#traditio-submenu2').find('a').on('click', function() {
@@ -226,6 +292,73 @@ $(document).ready(function() {
       $('#aatehistoriallinen-kansa').hide();
       $('#aatehistoriallinen-perhe').hide();
       $('#aatehistoriallinen-kehys').hide();
+      $('#temaattinen-sammot').hide();
+      $('#aatehistoriallinen-tulkinnat').hide();
+      $('#temaattinen-valmistuminen').hide();
+      $('#kielellinen-lonnrot').hide();
+      $('#kielellinen-piirteet').hide();
+      $('#traditio-saetk').hide();
+      $('#traditio-kantel').hide();
+    });
+
+    $('#traditio-submenu3').find('a').on('click', function() {
+      $('#yleisesittely').hide();
+      $('#traditio-content').hide();
+      $('#traditio-content-2').hide();
+      $('#traditio-esittely').hide();
+      $('#traditio-skvr').hide();
+      $('#temaattinen-esittely').hide();
+      $('#temaattinen-toimitustavat').hide();
+      $('#temaattinen-lyriikka').hide();
+      $('#geneettinen-esittely').hide();
+      $('#geneettinen-versiot').hide();
+      $('#geneettinen-vertailu').hide();
+      $('#geneettinen-content').hide();
+      $('#geneettinen-content-2').hide();
+      $('#kielellinen-esittely').hide();
+      $('#kielellinen-suomi').hide();
+      $('#kielellinen-periaatteet').hide();
+      $('#aatehistoriallinen-esittely').hide();
+      $('#aatehistoriallinen-kansa').hide();
+      $('#aatehistoriallinen-perhe').hide();
+      $('#aatehistoriallinen-kehys').hide();
+      $('#temaattinen-sammot').hide();
+      $('#aatehistoriallinen-tulkinnat').hide();
+      $('#temaattinen-valmistuminen').hide();
+      $('#kielellinen-lonnrot').hide();
+      $('#kielellinen-piirteet').hide();
+      $('#traditio-saetk').show();
+      $('#traditio-kantel').hide();
+    });
+
+    $('#traditio-submenu4').find('a').on('click', function() {
+      $('#yleisesittely').hide();
+      $('#traditio-content').hide();
+      $('#traditio-content-2').hide();
+      $('#traditio-esittely').hide();
+      $('#traditio-skvr').hide();
+      $('#temaattinen-esittely').hide();
+      $('#temaattinen-toimitustavat').hide();
+      $('#temaattinen-lyriikka').hide();
+      $('#geneettinen-esittely').hide();
+      $('#geneettinen-versiot').hide();
+      $('#geneettinen-vertailu').hide();
+      $('#geneettinen-content').hide();
+      $('#geneettinen-content-2').hide();
+      $('#kielellinen-esittely').hide();
+      $('#kielellinen-suomi').hide();
+      $('#kielellinen-periaatteet').hide();
+      $('#aatehistoriallinen-esittely').hide();
+      $('#aatehistoriallinen-kansa').hide();
+      $('#aatehistoriallinen-perhe').hide();
+      $('#aatehistoriallinen-kehys').hide();
+      $('#temaattinen-sammot').hide();
+      $('#aatehistoriallinen-tulkinnat').hide();
+      $('#temaattinen-valmistuminen').hide();
+      $('#kielellinen-lonnrot').hide();
+      $('#kielellinen-piirteet').hide();
+      $('#traditio-saetk').hide();
+      $('#traditio-kantel').show();
     });
 
     $('#kielellinen-link').find('a').on('click', function() {
@@ -254,6 +387,13 @@ $(document).ready(function() {
       $('#temaattinen-submenu').hide();
       $('#aatehistoriallinen-submenu').hide();
       $('#geneettinen-submenu').hide();
+      $('#temaattinen-sammot').hide();
+      $('#aatehistoriallinen-tulkinnat').hide();
+      $('#temaattinen-valmistuminen').hide();
+      $('#kielellinen-lonnrot').hide();
+      $('#kielellinen-piirteet').hide();
+      $('#traditio-saetk').hide();
+      $('#traditio-kantel').hide();
     });
 
     $('#kielellinen-submenu1').find('a').on('click', function() {
@@ -277,6 +417,13 @@ $(document).ready(function() {
       $('#aatehistoriallinen-kansa').hide();
       $('#aatehistoriallinen-perhe').hide();
       $('#aatehistoriallinen-kehys').hide();
+      $('#temaattinen-sammot').hide();
+      $('#aatehistoriallinen-tulkinnat').hide();
+      $('#temaattinen-valmistuminen').hide();
+      $('#kielellinen-lonnrot').hide();
+      $('#kielellinen-piirteet').hide();
+      $('#traditio-saetk').hide();
+      $('#traditio-kantel').hide();
     });
 
     $('#kielellinen-submenu2').find('a').on('click', function() {
@@ -300,6 +447,73 @@ $(document).ready(function() {
       $('#aatehistoriallinen-kansa').hide();
       $('#aatehistoriallinen-perhe').hide();
       $('#aatehistoriallinen-kehys').hide();
+      $('#temaattinen-sammot').hide();
+      $('#aatehistoriallinen-tulkinnat').hide();
+      $('#temaattinen-valmistuminen').hide();
+      $('#kielellinen-lonnrot').hide();
+      $('#kielellinen-piirteet').hide();
+      $('#traditio-saetk').hide();
+      $('#traditio-kantel').hide();
+    });
+
+    $('#kielellinen-submenu3').find('a').on('click', function() {
+      $('#yleisesittely').hide();
+      $('#traditio-content').hide();
+      $('#traditio-content-2').hide();
+      $('#traditio-esittely').hide();
+      $('#traditio-skvr').hide();
+      $('#temaattinen-esittely').hide()
+      $('#temaattinen-toimitustavat').hide();
+      $('#temaattinen-lyriikka').hide();
+      $('#geneettinen-esittely').hide();
+      $('#geneettinen-versiot').hide();
+      $('#geneettinen-vertailu').hide();
+      $('#geneettinen-content').hide();
+      $('#geneettinen-content-2').hide();
+      $('#kielellinen-esittely').hide();
+      $('#kielellinen-suomi').hide();
+      $('#kielellinen-periaatteet').hide();
+      $('#aatehistoriallinen-esittely').hide();
+      $('#aatehistoriallinen-kansa').hide();
+      $('#aatehistoriallinen-perhe').hide();
+      $('#aatehistoriallinen-kehys').hide();
+      $('#temaattinen-sammot').hide();
+      $('#aatehistoriallinen-tulkinnat').hide();
+      $('#temaattinen-valmistuminen').hide();
+      $('#kielellinen-lonnrot').show();
+      $('#kielellinen-piirteet').hide();
+      $('#traditio-saetk').hide();
+      $('#traditio-kantel').hide();
+    });
+
+    $('#kielellinen-submenu4').find('a').on('click', function() {
+      $('#yleisesittely').hide();
+      $('#traditio-content').hide();
+      $('#traditio-content-2').hide();
+      $('#traditio-esittely').hide();
+      $('#traditio-skvr').hide();
+      $('#temaattinen-esittely').hide()
+      $('#temaattinen-toimitustavat').hide();
+      $('#temaattinen-lyriikka').hide();
+      $('#geneettinen-esittely').hide();
+      $('#geneettinen-versiot').hide();
+      $('#geneettinen-vertailu').hide();
+      $('#geneettinen-content').hide();
+      $('#geneettinen-content-2').hide();
+      $('#kielellinen-esittely').hide();
+      $('#kielellinen-suomi').hide();
+      $('#kielellinen-periaatteet').hide();
+      $('#aatehistoriallinen-esittely').hide();
+      $('#aatehistoriallinen-kansa').hide();
+      $('#aatehistoriallinen-perhe').hide();
+      $('#aatehistoriallinen-kehys').hide();
+      $('#temaattinen-sammot').hide();
+      $('#aatehistoriallinen-tulkinnat').hide();
+      $('#temaattinen-valmistuminen').hide();
+      $('#kielellinen-lonnrot').hide();
+      $('#kielellinen-piirteet').show();
+      $('#traditio-saetk').hide();
+      $('#traditio-kantel').hide();
     });
 
     $('#temaattinen-link').find('a').on('click', function() {
@@ -328,6 +542,13 @@ $(document).ready(function() {
         $('#traditio-submenu').hide();
         $('#geneettinen-submenu').hide();
         $('#aatehistoriallinen-submenu').hide();
+        $('#temaattinen-sammot').hide();
+        $('#aatehistoriallinen-tulkinnat').hide();
+        $('#temaattinen-valmistuminen').hide();
+        $('#kielellinen-lonnrot').hide();
+        $('#kielellinen-piirteet').hide();
+        $('#traditio-saetk').hide();
+        $('#traditio-kantel').hide();
     });
 
     $('#temaattinen-submenu2').find('a').on('click', function() {
@@ -352,6 +573,13 @@ $(document).ready(function() {
       $('#aatehistoriallinen-kansa').hide();
       $('#aatehistoriallinen-perhe').hide();
       $('#aatehistoriallinen-kehys').hide();
+      $('#temaattinen-sammot').hide();
+      $('#aatehistoriallinen-tulkinnat').hide();
+      $('#temaattinen-valmistuminen').hide();
+      $('#kielellinen-lonnrot').hide();
+      $('#kielellinen-piirteet').hide();
+      $('#traditio-saetk').hide();
+      $('#traditio-kantel').hide();
     });
 
     $('#temaattinen-submenu3').find('a').on('click', function() {
@@ -376,6 +604,75 @@ $(document).ready(function() {
       $('#aatehistoriallinen-kansa').hide();
       $('#aatehistoriallinen-perhe').hide();
       $('#aatehistoriallinen-kehys').hide();
+      $('#temaattinen-sammot').hide();
+      $('#aatehistoriallinen-tulkinnat').hide();
+      $('#temaattinen-valmistuminen').hide();
+      $('#kielellinen-lonnrot').hide();
+      $('#kielellinen-piirteet').hide();
+      $('#traditio-saetk').hide();
+      $('#traditio-kantel').hide();
+    });
+
+    $('#temaattinen-submenu4').find('a').on('click', function() {
+      $('#temaattinen-lyriikka').hide();
+      $('#yleisesittely').hide();
+      $('#temaattinen-esittely').hide();
+      $('#temaattinen-toimitustavat').hide();
+      $('#traditio-content').hide();
+      $('#traditio-content-2').hide();
+      $('#traditio-esittely').hide();
+      $('#traditio-skvr').hide();
+      $('#geneettinen-esittely').hide();
+      $('#geneettinen-versiot').hide();
+      $('#geneettinen-vertailu').hide();
+      $('#geneettinen-content').hide();
+      $('#geneettinen-content-2').hide();
+      $('#kielellinen-esittely').hide();
+      $('#kielellinen-suomi').hide();
+      $('#kielellinen-periaatteet').hide();
+      $('#aatehistoriallinen-esittely').hide();
+      $('#aatehistoriallinen-submenu').hide();
+      $('#aatehistoriallinen-kansa').hide();
+      $('#aatehistoriallinen-perhe').hide();
+      $('#aatehistoriallinen-kehys').hide();
+      $('#temaattinen-sammot').hide();
+      $('#aatehistoriallinen-tulkinnat').hide();
+      $('#temaattinen-valmistuminen').show();
+      $('#kielellinen-lonnrot').hide();
+      $('#kielellinen-piirteet').hide();
+      $('#traditio-saetk').hide();
+      $('#traditio-kantel').hide();
+    });
+
+    $('#temaattinen-submenu5').find('a').on('click', function() {
+      $('#temaattinen-lyriikka').hide();
+      $('#yleisesittely').hide();
+      $('#temaattinen-esittely').hide();
+      $('#temaattinen-toimitustavat').hide();
+      $('#traditio-content').hide();
+      $('#traditio-content-2').hide();
+      $('#traditio-esittely').hide();
+      $('#traditio-skvr').hide();
+      $('#geneettinen-esittely').hide();
+      $('#geneettinen-versiot').hide();
+      $('#geneettinen-vertailu').hide();
+      $('#geneettinen-content').hide();
+      $('#geneettinen-content-2').hide();
+      $('#kielellinen-esittely').hide();
+      $('#kielellinen-suomi').hide();
+      $('#kielellinen-periaatteet').hide();
+      $('#aatehistoriallinen-esittely').hide();
+      $('#aatehistoriallinen-submenu').hide();
+      $('#aatehistoriallinen-kansa').hide();
+      $('#aatehistoriallinen-perhe').hide();
+      $('#aatehistoriallinen-kehys').hide();
+      $('#temaattinen-sammot').show();
+      $('#aatehistoriallinen-tulkinnat').hide();
+      $('#temaattinen-valmistuminen').hide();
+      $('#kielellinen-lonnrot').hide();
+      $('#kielellinen-piirteet').hide();
+      $('#traditio-saetk').hide();
+      $('#traditio-kantel').hide();
     });
 
     $('#aatehistoriallinen-link').find('a').on('click', function() {
@@ -404,6 +701,13 @@ $(document).ready(function() {
         $('#traditio-submenu').hide();
         $('#temaattinen-submenu').hide();
         $('#geneettinen-submenu').hide();
+        $('#temaattinen-sammot').hide();
+        $('#aatehistoriallinen-tulkinnat').hide();
+        $('#temaattinen-valmistuminen').hide();
+        $('#kielellinen-lonnrot').hide();
+        $('#kielellinen-piirteet').hide();
+        $('#traditio-saetk').hide();
+        $('#traditio-kantel').hide();
     });
 
     $('#aatehistoriallinen-submenu1').find('a').on('click', function() {
@@ -429,6 +733,13 @@ $(document).ready(function() {
       $('#aatehistoriallinen-kehys').show();
       $('#aatehistoriallinen-kansa').hide();
       $('#aatehistoriallinen-perhe').hide();
+      $('#temaattinen-sammot').hide();
+      $('#aatehistoriallinen-tulkinnat').hide();
+      $('#temaattinen-valmistuminen').hide();
+      $('#kielellinen-lonnrot').hide();
+      $('#kielellinen-piirteet').hide();
+      $('#traditio-saetk').hide();
+      $('#traditio-kantel').hide();
     });
 
     $('#aatehistoriallinen-submenu2').find('a').on('click', function() {
@@ -454,6 +765,13 @@ $(document).ready(function() {
       $('#aatehistoriallinen-kansa').show();
       $('#aatehistoriallinen-perhe').hide();
       $('#aatehistoriallinen-kehys').hide();
+      $('#temaattinen-sammot').hide();
+      $('#aatehistoriallinen-tulkinnat').hide();
+      $('#temaattinen-valmistuminen').hide();
+      $('#kielellinen-lonnrot').hide();
+      $('#kielellinen-piirteet').hide();
+      $('#traditio-saetk').hide();
+      $('#traditio-kantel').hide();
     });
 
     $('#aatehistoriallinen-submenu3').find('a').on('click', function() {
@@ -478,6 +796,44 @@ $(document).ready(function() {
       $('#aatehistoriallinen-kansa').hide();
       $('#aatehistoriallinen-perhe').show();
       $('#aatehistoriallinen-kehys').hide();
+      $('#temaattinen-sammot').hide();
+      $('#aatehistoriallinen-tulkinnat').hide();
+      $('#temaattinen-valmistuminen').hide();
+      $('#kielellinen-lonnrot').hide();
+      $('#kielellinen-piirteet').hide();
+      $('#traditio-saetk').hide();
+      $('#traditio-kantel').hide();
+    });
+
+    $('#aatehistoriallinen-submenu4').find('a').on('click', function() {
+      $('#yleisesittely').hide();
+      $('#temaattinen-esittely').hide();
+      $('#temaattinen-toimitustavat').hide();
+      $('#temaattinen-lyriikka').hide();
+      $('#geneettinen-content').hide();
+      $('#traditio-content').hide();
+      $('#traditio-content-2').hide();
+      $('#traditio-esittely').hide();
+      $('#traditio-skvr').hide();
+      $('#geneettinen-esittely').hide();
+      $('#geneettinen-versiot').hide();
+      $('#geneettinen-vertailu').hide();
+      $('#geneettinen-content').hide();
+      $('#geneettinen-content-2').hide();
+      $('#kielellinen-esittely').hide();
+      $('#kielellinen-suomi').hide();
+      $('#kielellinen-periaatteet').hide();
+      $('#aatehistoriallinen-esittely').hide();
+      $('#aatehistoriallinen-kansa').hide();
+      $('#aatehistoriallinen-perhe').hide();
+      $('#aatehistoriallinen-kehys').hide();
+      $('#temaattinen-sammot').hide();
+      $('#aatehistoriallinen-tulkinnat').show();
+      $('#temaattinen-valmistuminen').hide();
+      $('#kielellinen-lonnrot').hide();
+      $('#kielellinen-piirteet').hide();
+      $('#traditio-saetk').hide();
+      $('#traditio-kantel').hide();
     });
 
     $('#geneettinen-more').on('click', function() {
@@ -504,6 +860,10 @@ $(document).ready(function() {
       $(this).parent().parent().parent().next().find('ul').eq(4).hide();
       $(this).parent().parent().parent().next().find('ul').eq(5).hide();
       $(this).parent().parent().parent().next().find('ul').eq(6).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(7).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(8).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(9).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(10).hide();
     });
 
     $('#runot-nav').find('li').eq(1).find('a').click(function() {
@@ -514,6 +874,10 @@ $(document).ready(function() {
       $(this).parent().parent().parent().next().find('ul').eq(4).hide();
       $(this).parent().parent().parent().next().find('ul').eq(5).hide();
       $(this).parent().parent().parent().next().find('ul').eq(6).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(7).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(8).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(9).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(10).hide();
     });
 
     $('#runot-nav').find('li').eq(2).find('a').click(function() {
@@ -524,6 +888,10 @@ $(document).ready(function() {
       $(this).parent().parent().parent().next().find('ul').eq(4).hide();
       $(this).parent().parent().parent().next().find('ul').eq(5).hide();
       $(this).parent().parent().parent().next().find('ul').eq(6).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(7).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(8).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(9).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(10).hide();
     });
 
     $('#runot-nav').find('li').eq(3).find('a').click(function() {
@@ -534,6 +902,10 @@ $(document).ready(function() {
       $(this).parent().parent().parent().next().find('ul').eq(4).hide();
       $(this).parent().parent().parent().next().find('ul').eq(5).hide();
       $(this).parent().parent().parent().next().find('ul').eq(6).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(7).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(8).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(9).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(10).hide();
     });
 
     $('#runot-nav').find('li').eq(4).find('a').click(function() {
@@ -544,6 +916,10 @@ $(document).ready(function() {
       $(this).parent().parent().parent().next().find('ul').eq(3).hide();
       $(this).parent().parent().parent().next().find('ul').eq(5).hide();
       $(this).parent().parent().parent().next().find('ul').eq(6).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(7).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(8).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(9).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(10).hide();
     });
 
     $('#runot-nav').find('li').eq(5).find('a').click(function() {
@@ -554,6 +930,10 @@ $(document).ready(function() {
       $(this).parent().parent().parent().next().find('ul').eq(3).hide();
       $(this).parent().parent().parent().next().find('ul').eq(4).hide();
       $(this).parent().parent().parent().next().find('ul').eq(6).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(7).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(8).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(9).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(10).hide();
     });
 
     $('#runot-nav').find('li').eq(6).find('a').click(function() {
@@ -564,6 +944,66 @@ $(document).ready(function() {
       $(this).parent().parent().parent().next().find('ul').eq(3).hide();
       $(this).parent().parent().parent().next().find('ul').eq(4).hide();
       $(this).parent().parent().parent().next().find('ul').eq(5).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(7).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(8).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(9).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(10).hide();
+    });
+
+    $('#runot-nav').find('li').eq(7).find('a').click(function() {
+      $(this).parent().parent().parent().next().find('ul').eq(7).show();
+      $(this).parent().parent().parent().next().find('ul').eq(0).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(1).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(2).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(3).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(4).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(5).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(6).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(8).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(9).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(10).hide();
+    });
+
+    $('#runot-nav').find('li').eq(8).find('a').click(function() {
+      $(this).parent().parent().parent().next().find('ul').eq(7).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(0).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(1).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(2).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(3).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(4).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(5).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(6).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(8).show();
+      $(this).parent().parent().parent().next().find('ul').eq(9).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(10).hide();
+    });
+
+    $('#runot-nav').find('li').eq(9).find('a').click(function() {
+      $(this).parent().parent().parent().next().find('ul').eq(7).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(0).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(1).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(2).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(3).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(4).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(5).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(6).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(8).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(9).show();
+      $(this).parent().parent().parent().next().find('ul').eq(10).hide();
+    });
+
+    $('#runot-nav').find('li').eq(10).find('a').click(function() {
+      $(this).parent().parent().parent().next().find('ul').eq(7).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(0).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(1).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(2).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(3).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(4).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(5).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(6).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(8).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(9).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(10).show();
     });
 
     /* popup comments, show extended description */
