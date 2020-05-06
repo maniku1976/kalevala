@@ -1,0 +1,848 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Kalevalan viideskymmenes runo</title>
+        <author>Elias Lönnrot</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Avoin Kalevala</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>Suomalaisen Kirjallisuuden Seura</distributor>
+        <date when="2018-01-09">9.1.2018</date>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Helsinki</settlement>
+            <repository>Suomalaisen Kirjallisuuden Seuran arkiston kirjallisuuden ja kulttuurihistorian arkistoaineistot</repository>
+            <idno/>
+          </msIdentifier>
+          <msContents>
+            <msItem n="1" class="letter">
+              <author><surname>Lönnrot</surname>
+                <forename>Elias</forename></author>
+            </msItem>
+            <msItem n="2" class="transcription">
+              <bibl/>
+            </msItem>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="runo">
+        <pb n="1" facs="page_356"/>
+        <p><emph>Viisikymmenes Runo.</emph></p>
+        <lg>
+          <l>Marjatta korea kuopus</l>
+          <l>Se kauan kotona kasvoi,</l>
+          <l>Korkean ison kotona,</l>
+          <l>Emon tuttavan tuvilla;</l>
+          <l>Piti viiet vitjat poikki,</l>
+          <l>Kuuet renkahat kulutti</l>
+          <l>Isonsa avaimilla,</l>
+          <l>Helmassa helottavilla.</l>
+        </lg>
+        <lg>
+          <l>Puolen kynnystä kulutti</l>
+          <l>10. Helevillä helmoillansa,</l>
+          <l>Puolen hirttä päänsä päältä</l>
+          <l>Sileillä silkillänsä,</l>
+          <l>Puolet pihtipuolisia</l>
+          <l>Hienoilla hiansa suilla,</l>
+          <l>Siltalaahkon lattiata</l>
+          <l>Kautokengän kannoillansa.</l>
+        </lg>
+        <lg>
+          <l>Marjatta korea kuopus,</l>
+          <l>Tuo on piika pikkarainen</l>
+          <l>Piti viikoista pyhyyttä,</l>
+          <l>20. Ajan kaiken kainoutta;</l>
+          <l>Syöpi kaunista kaloa,</l>
+          <l>Petäjätä pehmeätä,</l>
+          <l>Ei syönyt kanan munia,</l>
+          <l>Kukerikun riehkatuita,</l>
+          <l>Eikä lampahan lihoa,</l>
+          <l>Ku oli ollut oinahilla.</l>
+        </lg>
+        <lg>
+          <l>Emo käski lypsämähän,</l>
+          <l>Eipä mennyt lypsämähän;</l>
+          <l>Itse tuon sanoiksi virkki:</l>
+          <l>30. "Ei neiti minun näköinen</l>
+          <l>Koske sen lehmän nisähän,</l>
+          <l>Jok' on häilynyt härillä,</l>
+        </lg>
+        <pb n="2" facs="page_357"/>
+        <lg>
+          <l>Kun ei hiehoista herune,</l>
+          <l>Vasikkaisista valune."</l>
+        </lg>
+        <lg>
+          <l>Iso käski orin rekehen,</l>
+          <l>Ei istu orin rekehen,</l>
+          <l>Veikko vei emä-hevoisen,</l>
+          <l>Neiti tuon sanoiksi virkki:</l>
+          <l>"En istu hevon rekehen,</l>
+          <l>40. Joka lie orilla ollut,</l>
+          <l>Kun ei varsaset vetäne,</l>
+          <l>Kuletelle kuutiaiset."</l>
+        </lg>
+        <lg>
+          <l>Marjatta korea kuopus,</l>
+          <l>Aina piikoina elävä,</l>
+          <l>Neitosena niekottava,</l>
+          <l>Kassapäänä kainustava,</l>
+          <l>Päätyi karjan paimeneksi,</l>
+          <l>Läksi lammasten keralle.</l>
+        </lg>
+        <lg>
+          <l>Lampahat meni mäkeä,</l>
+          <l>50. Vuonat vuoren kukkulata,</l>
+          <l>Neiti asteli ahoa,</l>
+          <l>Lepikköä leyhytteli</l>
+          <l>Käen kullan kukkuessa,</l>
+          <l>Hopeisen hoilatessa.</l>
+        </lg>
+        <lg>
+          <l>Marjatta korea kuopus</l>
+          <l>Katselevi, kuuntelevi,</l>
+          <l>Istui marja-mättähälle,</l>
+          <l>Vaipui vaaran rintehelle,</l>
+          <l>Tuossa tuon sanoiksi virkki,</l>
+          <l>60. Itse lausui, noin nimesi:</l>
+          <l>"Kuku kultainen käkönen,</l>
+          <l>Hopeinen hoilattele,</l>
+          <l>Tinarinta riukuttele,</l>
+          <l>Saksan mansikka sanele,</l>
+          <l>Käynkö viikon villapäänä,</l>
+          <l>Kauan karjan paimenena</l>
+          <l>Näillä aavoilla ahoilla,</l>
+          <l>Leveillä lehtomailla:</l>
+          <l>Kesosenko, kaksosenko,</l>
+          <l>70. Viitosenko, kuutosenko,</l>
+          <l>Vainko kymmenen keseä,</l>
+          <l>Tahi ei täytehen tätänä?"</l>
+        </lg>
+        <lg>
+          <l>Marjatta korea kuopus</l>
+          <l>Viikon viipyi paimenessa;</l>
+          <l>Paha on olla paimenessa,</l>
+          <l>Tyttö-lapsen liiatenki:</l>
+          <l>Mato heinässä matavi,</l>
+          <l>Sisiliskot siuottavi.</l>
+        </lg>
+        <lg>
+          <l>Ei mato maellutkana,</l>
+          <l>80. Sisilisko siuotellut,</l>
+          <l>Kirkui marjanen mäeltä,</l>
+          <l>Puolukkainen kankahalta:</l>
+          <l>"Tule neiti noppimahan,</l>
+          <l>Punaposki poimimahan,</l>
+          <l>Tinarinta riipimähän,</l>
+          <l>Vyö-vaski valitsemahan,</l>
+          <l>Ennen kun etana syöpi,</l>
+          <l>Mato musta muikkoavi!</l>
+          <l>Sata on saanut katsomahan,</l>
+          <l>90. Tuhat ilman istumahan,</l>
+          <l>Sata neittä, tuhat naista,</l>
+          <l>Lapsia epälukuisin,</l>
+          <l>Ei ken koskisi minuhun,</l>
+          <l>Poimisi minun poloisen."</l>
+        </lg>
+        <lg>
+          <l>Marjatta korea kuopus</l>
+          <l>Meni matkoa vähäisen,</l>
+          <l>Meni marjan katsantahan,</l>
+          <l>Puna-puolan poimintahan</l>
+          <l>Hyppysillähän hyvillä,</l>
+          <l>100. Kätösillä kaunihilla.</l>
+        </lg>
+        <lg>
+          <l>Keksi marjasen mäeltä,</l>
+          <l>Puna-puolan kankahalta;</l>
+          <l>On marja näkemiänsä,</l>
+          <l>Puola ilmoin luomiansa,</l>
+          <l>Ylähähkö maasta syöä,</l>
+          <l>Alahahko puuhun nousta.</l>
+        </lg>
+        <lg>
+          <l>Tempoi kartun kankahalta,</l>
+          <l>Jolla marjan maahan sorti;</l>
+          <l>Niinpä marja maasta nousi</l>
+          <l>110. Kaunoisille kautoloille,</l>
+          <l>Kaunoisilta kautoloilta</l>
+          <l>Puhtahille polviloille,</l>
+        </lg>
+        <pb n="3" facs="page_358"/>
+        <lg>
+          <l>Puhtahilta polviloilta</l>
+          <l>Heleville helmasille.</l>
+        </lg>
+        <lg>
+          <l>Nousi siitä vyö-rivoille,</l>
+          <l>Vyö-rivoilta rinnoillensa,</l>
+          <l>Rinnoiltansa leuoillensa,</l>
+          <l>Leuoiltansa huulillensa,</l>
+          <l>Siitä suuhun suikahutti,</l>
+          <l>120. Keikahutti kielellensä,</l>
+          <l>Kieleltä keruksisihin,</l>
+          <l>Siitä vatsahan valahti.</l>
+        </lg>
+        <lg>
+          <l>Marjatta korea kuopus</l>
+          <l>Tuosta tyytyi, tuosta täytyi,</l>
+          <l>Tuosta paksuksi panihe,</l>
+          <l>Lihavaksi liittelihe.</l>
+        </lg>
+        <lg>
+          <l>Alkoi pauloitta asua,</l>
+          <l>Ilman vyöttä völlehtiä,</l>
+          <l>Käyä saunassa saloa,</l>
+          <l>130. Pimeissä pistelläitä.</l>
+        </lg>
+        <lg>
+          <l>Emo aina arvelevi,</l>
+          <l>Äitinsä ajattelevi:</l>
+          <l>"Mi on meiän Marjatalla,</l>
+          <l>Ku meiän koti-kanalla,</l>
+          <l>Kun se pauloitta asuvi,</l>
+          <l>Aina vyöttä völlehtivi,</l>
+          <l>Käypi saunassa saloa,</l>
+          <l>Pimeissä pisteleikse?"</l>
+        </lg>
+        <lg>
+          <l>Lapsi saattavi sanoa,</l>
+          <l>140. Lapsi pieni lausuella:</l>
+          <l>"Se on meiän Marjatalla,</l>
+          <l>Sepä Kurjetta rukalla,</l>
+          <l>Kun oli paljon paimenessa,</l>
+          <l>Kauan karjassa käveli."</l>
+        </lg>
+        <lg>
+          <l>Kantoi kohtua kovoa,</l>
+          <l>Vatsan täyttä vaikeata</l>
+          <l>Kuuta seitsemän, kaheksan,</l>
+          <l>Ynnähän yheksän kuuta,</l>
+          <l>Vaimon vanha'an lukuhun</l>
+          <l>150. Kuuta puolen kymmenettä.</l>
+        </lg>
+        <lg>
+          <l>Niin kuulla kymmenennellä</l>
+          <l>Impi tuskalle tulevi,</l>
+          <l>Kohtu kääntyvi kovaksi</l>
+          <l>Painuvi pakolliseksi.</l>
+        </lg>
+        <lg>
+          <l>Kysyi kylpyä emolta:</l>
+          <l>"Oi emoni armahani!</l>
+          <l>Laita suojoa sioa,</l>
+          <l>Lämpymyttä huonehutta</l>
+          <l>Piian pieniksi pyhiksi,</l>
+          <l>160. Vaimon vaiva-huoneheksi!"</l>
+        </lg>
+        <lg>
+          <l>Emo saattavi sanoa,</l>
+          <l>Oma vanhin vastaella:</l>
+          <l>"Voi sinua Hiien huora!</l>
+          <l>Kenen oot makaelema,</l>
+          <l>Ootko miehen naimattoman,</l>
+          <l>Eli nainehen urohon?"</l>
+        </lg>
+        <lg>
+          <l>Marjatta korea kuopus</l>
+          <l>Tuop' on tuohon vastoavi:</l>
+          <l>"En ole miehen naimattoman,</l>
+          <l>170. Enkä nainehen urohon;</l>
+          <l>Menin marjahan mäelle,</l>
+          <l>Puna-puolan poimentahan,</l>
+          <l>Otin marjan mielelläni,</l>
+          <l>Toisen kerran kielelläni,</l>
+          <l>Se kävi kerustimille,</l>
+          <l>Siitä vatsahan valahti;</l>
+          <l>Tuosta tyy'yin, tuosta täy'yin,</l>
+          <l>Tuosta sain kohulliseksi."</l>
+        </lg>
+        <lg>
+          <l>Kysyi kylpyä isolta:</l>
+          <l>180. "Oi isoni armahani!</l>
+          <l>Anna suojoa sioa,</l>
+          <l>Lämpymyttä huonehutta,</l>
+          <l>Jossa huono hoivan saisi,</l>
+          <l>Piika piinansa pitäisi."</l>
+        </lg>
+        <lg>
+          <l>Iso saattavi sanoa,</l>
+          <l>Taatto taisi vastaella:</l>
+          <l>"Mene portto poikemmaksi,</l>
+          <l>Tulen lautta tuonnemmaksi,</l>
+          <l>Kontion kivikotoihin,</l>
+          <l>190. Karhun louhi-kammioihin,</l>
+        </lg>
+        <pb n="4" facs="page_359"/>
+        <lg>
+          <l>Sinne portto poikimahan,</l>
+          <l>Tulen lautta lapsimahan!"</l>
+        </lg>
+        <lg>
+          <l>Marjatta korea kuopus,</l>
+          <l>Tuop' on taiten vastaeli:</l>
+          <l>"En mä portto ollekana,</l>
+          <l>Tulen lautta lienekänä,</l>
+          <l>Olen miehen suuren saava,</l>
+          <l>Jalon synnyn synnyttävä,</l>
+          <l>Joll' on valta vallallenki,</l>
+          <l>200. Väki Wäinämöisellenki."</l>
+        </lg>
+        <lg>
+          <l>Jo on piika pintehissä,</l>
+          <l>Minne mennä, kunne käyä,</l>
+          <l>Kusta kylpyä kysellä;</l>
+          <l>Sanan virkkoi, noin nimesi:</l>
+          <l>"Piltti pienin piikojani,</l>
+          <l>Paras palkkalaisiani!</l>
+          <l>Käypä kylpyä kylästä,</l>
+          <l>Saunoa Sara-ojalta,</l>
+          <l>Jossa huono hoivan saisi,</l>
+          <l>210. Piika piinansa pitäisi;</l>
+          <l>Käy pian, välehen jou'u,</l>
+          <l>Välehemmin tarvitahan!"</l>
+        </lg>
+        <lg>
+          <l>Piltti piika pikkarainen</l>
+          <l>Sanan virkkoi, noin nimesi:</l>
+          <l>"Keltä mä kysyn kylyä,</l>
+          <l>Keltä aihelen apua?"</l>
+        </lg>
+        <lg>
+          <l>Sanoi meiän Marjattainen,</l>
+          <l>Itse virkki, noin nimesi:</l>
+          <l>"Kysy Ruotuksen kylyä,</l>
+          <l>220. Saunoa sarajan-suista!"</l>
+        </lg>
+        <lg>
+          <l>Piltti piika pikkarainen,</l>
+          <l>Tuo oli nöyrä neuvottava,</l>
+          <l>Kärkäs ilman käskemättä,</l>
+          <l>Kehumattaki kepeä,</l>
+          <l>Utuna ulos menevi,</l>
+          <l>Savuna pihalle saapi;</l>
+          <l>Kourin helmansa kokosi,</l>
+          <l>Käsin kääri vaattehensa,</l>
+          <l>Sekä juoksi, jotta joutui</l>
+          <l>230. Kohin Ruotuksen kotia;</l>
+          <l>Mäet mätkyi mennessänsä,</l>
+          <l>Vaarat notkui noustessansa,</l>
+          <l>Kävyt hyppi kankahalla,</l>
+          <l>Someret hajosi suolla;</l>
+          <l>Tuli Ruotuksen tupahan,</l>
+          <l>Sai sisälle salvoksehen.</l>
+        </lg>
+        <lg>
+          <l>Ruma Ruotus paitulainen</l>
+          <l>Syöpi, juopi suurten lailla</l>
+          <l>Päässä pöyän paioillansa,</l>
+          <l>240. Aivan aivinaisillansa.</l>
+        </lg>
+        <lg>
+          <l>Lausui Ruotus ruoaltansa,</l>
+          <l>Tiuskui tiskinsä nojalta:</l>
+          <l>"Mitä sie sanot katala,</l>
+          <l>Kuta kurja juoksentelet?"</l>
+        </lg>
+        <lg>
+          <l>Piltti piika pikkarainen</l>
+          <l>Sanan virkkoi, noin nimesi:</l>
+          <l>"Läksin kylpyä kylästä,</l>
+          <l>Saunoa Sara-ojalta,</l>
+          <l>Jossa huono hoivan saisi,</l>
+          <l>250. Avun ange tarvitseisi."</l>
+        </lg>
+        <lg>
+          <l>Ruma Ruotuksen emäntä</l>
+          <l>Käet puuskassa käveli,</l>
+          <l>Liehoi sillan liitoksella,</l>
+          <l>Laahoi keski-lattialla,</l>
+          <l>Itse ennätti kysyä,</l>
+          <l>Sanan virkkoi, noin nimesi:</l>
+          <l>"Kellen kylpyä kyselet,</l>
+          <l>Kellen aihelet apua?"</l>
+        </lg>
+        <lg>
+          <l>Sanoi Piltti pieni piika:</l>
+          <l>260. "Kysyn meiän Marjatalle."</l>
+        </lg>
+        <lg>
+          <l>Ruma Ruotuksen emäntä</l>
+          <l>Itse tuon sanoiksi virkki:</l>
+          <l>"Ei kylyt kylähän joua,</l>
+          <l>Ei saunat sarajan suulta;</l>
+          <l>On kyly kytömäellä,</l>
+          <l>Hepohuone hongikossa</l>
+          <l>Tuliporton poiat saa'a,</l>
+          <l>Lautan lapsensa latoa;</l>
+        </lg>
+        <pb n="5" facs="page_360"/>
+        <lg>
+          <l>Kun hevoinen hengännevi,</l>
+          <l>270. Niinp' on siinä kylpeötte!"</l>
+        </lg>
+        <lg>
+          <l>Piltti piika pikkarainen</l>
+          <l>Pian pistihe takaisin,</l>
+          <l>Sekä juoksi, jotta joutui,</l>
+          <l>Sanoi tultua ta'atse:</l>
+          <l>"Ei ole kylpyä kylässä,</l>
+          <l>Saunoa Sara-ojalla;</l>
+          <l>Ruma Ruotuksen emäntä</l>
+          <l>Sanan virkkoi, noin nimesi:</l>
+          <l>""Ei kylyt kylähän joua,</l>
+          <l>280. Ei saunat sarajan suulta;</l>
+          <l>On kyly kytömäellä,</l>
+          <l>Hepohuone hongikossa</l>
+          <l>Tuliporton poiat saa'a,</l>
+          <l>Lautan lapsensa latoa;</l>
+          <l>Kun hevoinen hengännevi,</l>
+          <l>Niin on siinä kylpeköhön!""</l>
+          <l>Niinp' on niin sanoi mokomin,</l>
+          <l>Niinpä vainen vastaeli."</l>
+        </lg>
+        <lg>
+          <l>Marjatta matala neiti</l>
+          <l>290. Tuosta täytyi itkemähän,</l>
+          <l>Itse tuon sanoiksi virkki:</l>
+          <l>"Lähteä minun tulevi,</l>
+          <l>Niinkun muinenki kasakan,</l>
+          <l>Eli orjan palkollisen,</l>
+          <l>Lähteä kytömäelle,</l>
+          <l>Käyä hongikko-keolle."</l>
+        </lg>
+        <lg>
+          <l>Käsin kääri vaattehensa,</l>
+          <l>Kourin helmansa kokosi;</l>
+          <l>Otti vastan varjoksensa,</l>
+          <l>300. Lehen lempi suojaksensa,</l>
+          <l>Astua taputtelevi</l>
+          <l>Vatsan vaivoissa kovissa</l>
+          <l>Huonehesen hongikkohon,</l>
+          <l>Tallihin Tapiomäelle.</l>
+        </lg>
+        <lg>
+          <l>Sanovi sanalla tuolla,</l>
+          <l>Lausui tuolla lausehella:</l>
+          <l>"Tule luoja turvakseni,</l>
+          <l>Avukseni armollinen</l>
+          <l>Näissä töissä työlähissä,</l>
+          <l>310. Ajoissa ani kovissa!</l>
+          <l>Päästä piika pintehestä,</l>
+          <l>Vaimo vatsan vääntehestä,</l>
+          <l>Ettei vaivoihin vajoisi,</l>
+          <l>Tuskihinsa tummeneisi!"</l>
+        </lg>
+        <lg>
+          <l>Niin perille päästyänsä</l>
+          <l>Itse tuon sanoiksi virkki:</l>
+          <l>"Henkeäs hyvä hevoinen,</l>
+          <l>Huokoas vetäjä varsa,</l>
+          <l>Kyly-löyly löyhäytä,</l>
+          <l>320. Sauna lämpöinen lähetä,</l>
+          <l>Jotta huono hoivan saisin,</l>
+          <l>Avun ange tarvitseisin!"</l>
+        </lg>
+        <lg>
+          <l>Henkäsi hyvä hevoinen,</l>
+          <l>Huokasi vetäjä varsa</l>
+          <l>Vatsan kautta vaivaloisen;</l>
+          <l>Min hevonen hengähtävi,</l>
+          <l>On kun löyly lyötäessä,</l>
+          <l>Viskattaessa vetonen.</l>
+        </lg>
+        <lg>
+          <l>Marjatta matala neiti,</l>
+          <l>330. Pyhä piika pikkarainen</l>
+          <l>Kylpi kylyn kyllältänsä,</l>
+          <l>Vatsan löylyn vallaltansa;</l>
+          <l>Teki tuonne pienen poian,</l>
+          <l>Latoi lapsensa vakaisen</l>
+          <l>Heinille hevoisen luoksi,</l>
+          <l>Sorajouhen soimen päähän.</l>
+        </lg>
+        <lg>
+          <l>Pesi pienen poikuensa,</l>
+          <l>Kääri kääreliinahansa;</l>
+          <l>Otti pojan polvillensa,</l>
+          <l>340. Laittoi lapsen helmahansa.</l>
+        </lg>
+        <lg>
+          <l>Piiletteli poiuttansa,</l>
+          <l>Kasvatteli kaunoistansa,</l>
+          <l>Kullaista omenuttansa,</l>
+          <l>Hopeista sauvoansa,</l>
+          <l>Sylissänsä syöttelevi,</l>
+          <l>Käsissänsä kääntelevi.</l>
+        </lg>
+        <lg>
+          <l>Laski pojan polvillensa,</l>
+          <l>Lapsen lantehuisillensa,</l>
+        </lg>
+        <pb n="6" facs="page_361"/>
+        <lg>
+          <l>Alkoi päätänsä sukia,</l>
+          <l>350. Hapsiansa harjaella;</l>
+          <l>Katoi poika polviltansa,</l>
+          <l>Lapsi lanne-puoliltansa.</l>
+        </lg>
+        <lg>
+          <l>Marjatta matala neiti</l>
+          <l>Tuosta tuskille tulevi;</l>
+          <l>Rapasihe etsimähän,</l>
+          <l>Etsi pientä poiuttansa,</l>
+          <l>Kullaista omenuttansa,</l>
+          <l>Hopeista sauvoansa</l>
+          <l>Alta jauhavan kivosen,</l>
+          <l>360. Alta juoksevan jalaksen,</l>
+          <l>Alta seulan seulottavan,</l>
+          <l>Alta korvon kannettavan,</l>
+          <l>Puiten puut, jaellen ruohot,</l>
+          <l>Hajotellen hienot heinät.</l>
+        </lg>
+        <lg>
+          <l>Viikon etsi poiuttansa,</l>
+          <l>Poiuttansa, pienuttansa,</l>
+          <l>Etsi mäiltä männiköiltä,</l>
+          <l>Kannoilta kanervikoilta,</l>
+          <l>Katsoen joka kanervan,</l>
+          <l>370. Joka varvikon vatoen,</l>
+          <l>Kaivellen kataja-juuret,</l>
+          <l>Ojennellen puien oksat.</l>
+        </lg>
+        <lg>
+          <l>Astua ajattelevi,</l>
+          <l>Käyä kääpäröittelevi;</l>
+          <l>Tähti vastahan tulevi,</l>
+          <l>Tähelle kumarteleikse:</l>
+          <l>"Oi Tähti Jumalan luoma!</l>
+          <l>Etkö tieä poiuttani,</l>
+          <l>Miss' on pieni poikueni,</l>
+          <l>380. Kultainen omenueni?"</l>
+        </lg>
+        <lg>
+          <l>Tähti taisi vastaella:</l>
+          <l>"Tietäisinkö, en sanoisi;</l>
+          <l>Hänpä on minunki luonut</l>
+          <l>Näille päiville pahoille</l>
+          <l>Kylmillä kimaltamahan,</l>
+          <l>Pimeillä pilkkimähän."</l>
+        </lg>
+        <lg>
+          <l>Astua ajattelevi,</l>
+          <l>Käyä kääpäröittelevi;</l>
+          <l>Kuuhut vastahan tulevi,</l>
+          <l>390. Niin Kuulle kumartelekse:</l>
+          <l>"Oi Kuuhut Jumalan luoma!</l>
+          <l>Etkö tieä poiuttani,</l>
+          <l>Miss' on pieni poikueni,</l>
+          <l>Kultainen omenueni?"</l>
+        </lg>
+        <lg>
+          <l>Kuuhut taisi vastaella:</l>
+          <l>"Tietäisinkö, en sanoisi,</l>
+          <l>Hänpä on minunki luonut</l>
+          <l>Näille päiville pahoille</l>
+          <l>Yksin öillä valvomahan,</l>
+          <l>400. Päivällä makoamahan."</l>
+        </lg>
+        <lg>
+          <l>Astua ajattelevi,</l>
+          <l>Käyä kääpäröittelevi;</l>
+          <l>Päätyi Päivyt vastahansa,</l>
+          <l>Päivälle kumarteleikse:</l>
+          <l>"Oi Päivyt Jumalan luoma!</l>
+          <l>Etkö tieä poiuttani,</l>
+          <l>Miss' on pieni poikueni,</l>
+          <l>Kultainen omenueni?"</l>
+        </lg>
+        <lg>
+          <l>Päivyt taiten vastaeli:</l>
+          <l>410. "Kyllä tieän poikuesi;</l>
+          <l>Hänpä on minunki luonut</l>
+          <l>Näille päiville hyville</l>
+          <l>Kullassa kulisemahan,</l>
+          <l>Hopeassa helkkimähän."</l>
+        </lg>
+        <lg>
+          <l>"Jopa tieän poikuesi,</l>
+          <l>Voi, poloinen, poiuttasi!</l>
+          <l>Tuoll' on pieni poikuesi,</l>
+          <l>Kultainen omenuesi,</l>
+          <l>Onp' on suossa suonivyöstä,</l>
+          <l>420. Kankahassa kainalosta."</l>
+        </lg>
+        <lg>
+          <l>Marjatta matala neiti</l>
+          <l>Etsi suolta poikoansa;</l>
+          <l>Poika suolta löyettihin,</l>
+          <l>Tuolta tuotihin kotia.</l>
+        </lg>
+        <lg>
+          <l>Siitä meiän Marjatalle</l>
+          <l>Kasvoi poika kaunokainen;</l>
+          <l>Ei tietä nimeä tuolle,</l>
+          <l>Millä mainita nimellä,</l>
+        </lg>
+        <pb n="7" facs="page_362"/>
+        <lg>
+          <l>Emo kutsui kukkaseksi,</l>
+          <l>430. Vieras vennon joutioksi.</l>
+        </lg>
+        <lg>
+          <l>Etsittihin ristiätä,</l>
+          <l>Katsottihin kastajata;</l>
+          <l>Tuli ukko ristimähän,</l>
+          <l>Virokannas kastamahan.</l>
+        </lg>
+        <lg>
+          <l>Ukko tuon sanoiksi virkki,</l>
+          <l>Itse lausui, noin nimesi:</l>
+          <l>"En mä risti riivattua,</l>
+          <l>Katalata kastakana,</l>
+          <l>Kun ei ensin tutkittane,</l>
+          <l>440. Tutkittane, tuomittane."</l>
+        </lg>
+        <lg>
+          <l>Kenpä tuohon tutkiaksi,</l>
+          <l>Tutkiaksi, tuomariksi?</l>
+          <l>Vaka vanha Wäinämöinen,</l>
+          <l>Tietäjä iän-ikuinen,</l>
+          <l>Sepä tuohon tutkiaksi,</l>
+          <l>Tutkiaksi, tuomariksi.</l>
+        </lg>
+        <lg>
+          <l>Vaka vanha Wäinämöinen</l>
+          <l>Tuop' on tuossa tuomitsevi:</l>
+          <l>"Kun lie poika suolta saatu,</l>
+          <l>450. Maalta marjasta siennyt,</l>
+          <l>Poika maahan pantakohon,</l>
+          <l>Marjamättähän sivulle,</l>
+          <l>Tahi suolle vietäköhön,</l>
+          <l>Puulla päähän lyötäköhön!"</l>
+        </lg>
+        <lg>
+          <l>Puhui poika puolikuinen,</l>
+          <l>Kaksiviikkoinen kajahui:</l>
+          <l>"Ohoh sinua ukko utra,</l>
+          <l>Ukko utra, unteloinen,</l>
+          <l>Kun olet tuhmin tuominnunna,</l>
+          <l>460. Väärin laskenna lakia!</l>
+          <l>Eipä syistä suuremmista,</l>
+          <l>Töistä tuhmemmistakana</l>
+          <l>Itseäsi suolle viety,</l>
+          <l>Eikä puulla päähän lyöty,</l>
+          <l>Kun sa miesnä nuorempana</l>
+          <l>Lainasit emosi lapsen</l>
+          <l>Oman pääsi päästimeksi,</l>
+          <l>Itsesi lunastimeksi."</l>
+        </lg>
+        <lg>
+          <l>"Ei sinua silloinkana,</l>
+          <l>470. Eip' on vielä suolle viety,</l>
+          <l>Kun sa miesnä nuorempana</l>
+          <l>Menettelit neiet nuoret</l>
+          <l>Alle aaltojen syvien,</l>
+          <l>Päälle mustien mutien."</l>
+        </lg>
+        <lg>
+          <l>Ukko risti ripsahutti,</l>
+          <l>Kasti lapsen kapsahutti</l>
+          <l>Karjalan kuninkahaksi,</l>
+          <l>Kaiken vallan vartiaksi.</l>
+        </lg>
+        <lg>
+          <l>Siitä suuttui Wäinämöinen,</l>
+          <l>480. Jopa suuttui ja häpesi,</l>
+          <l>Itse läksi astumahan</l>
+          <l>Rannalle merelliselle,</l>
+          <l>Tuossa loihe laulamahan,</l>
+          <l>Lauloi kerran viimeisensä,</l>
+          <l>Lauloi vaskisen venehen,</l>
+          <l>Kuparisen umpi-purren.</l>
+        </lg>
+        <lg>
+          <l>Itse istuvi perähän,</l>
+          <l>Läksi selvälle selälle;</l>
+          <l>Virkki vielä mennessänsä,</l>
+          <l>490. Lausui lähtiellessänsä:</l>
+          <l>"Annapas ajan kulua,</l>
+          <l>Päivän mennä, toisen tulla,</l>
+          <l>Taas minua tarvitahan,</l>
+          <l>Katsotahan, kaivatahan</l>
+          <l>Uuen sammon saattajaksi,</l>
+          <l>Uuen soiton suoriaksi,</l>
+          <l>Uuen kuun kulettajaksi,</l>
+          <l>Uuen päivän päästäjäksi,</l>
+          <l>Kun ei kuuta, aurinkoa,</l>
+          <l>500. Eikä ilmaista iloa."</l>
+        </lg>
+        <lg>
+          <l>Siitä vanha Wäinämöinen</l>
+          <l>Laskea karehtelevi</l>
+          <l>Venehellä vaskisella,</l>
+          <l>Kuutilla kuparisella</l>
+          <l>Yläisihin maa-emihin,</l>
+          <l>Alaisihin taivosihin.</l>
+        </lg>
+        <lg>
+          <l>Sinne puuttui pursinensa,</l>
+          <l>Venehinensä väsähtyi,</l>
+        </lg>
+        <pb n="8" facs="page_363"/>
+        <lg>
+          <l>Jätti kantelon jälille,</l>
+          <l>510. Soiton Suomelle sorean,</l>
+          <l>Kansalle ilon ikuisen,</l>
+          <l>Laulut suuret lapsillensa.</l>
+          <l>           *              *</l>
+          <l>                   *</l>
+          <l>Suuni jo sulkea pitäisi,</l>
+          <l>Kiinni kieleni sitoa,</l>
+          <l>Laata virren laulannasta,</l>
+          <l>Heretä heläjännästä;</l>
+          <l>Hevoinenki hengähtävi</l>
+          <l>Matkan pitkän mentyänsä,</l>
+          <l>Rautanenki raukeavi</l>
+          <l>520. Kesäheinän lyötyänsä,</l>
+          <l>Vetonenki vierähtävi</l>
+          <l>Joen polvet juostuansa,</l>
+          <l>Tulonenki tuikahtavi</l>
+          <l>Yön pitkän palettuansa;</l>
+          <l>Niin miks' ei runo väsyisi,</l>
+          <l>Virret vienot vierähtäisi</l>
+          <l>Illan pitkiltä iloilta,</l>
+          <l>Päivänlaskun laulannoilta?</l>
+        </lg>
+        <lg>
+          <l>Noin kuulin saneltavaksi,</l>
+          <l>530. Toisin tutkaeltavaksi:</l>
+          <l>"Eipä koski vuolaskana</l>
+          <l>Laske vettänsä loputen,</l>
+          <l>Eikä laulaja hyväinen</l>
+          <l>Laula tyyni taitoansa;</l>
+          <l>Mieli on jäämähän parempi</l>
+          <l>Kun on kesken katkemahan."</l>
+        </lg>
+        <lg>
+          <l>Niin luonen, lopettanenki,</l>
+          <l>Herennenki, heittänenki,</l>
+          <l>Kerin virteni kerälle,</l>
+          <l>540. Sykkyrälle syylättelen,</l>
+          <l>Panen aitan parven päähän,</l>
+          <l>Luisten lukkojen sisälle,</l>
+          <l>Jost' ei pääse päivinänsä,</l>
+          <l>Selviä sinä ikänä</l>
+          <l>Ilman luien lonsumatta,</l>
+          <l>Leukojen leveämättä,</l>
+          <l>Hammasten hajoamatta,</l>
+          <l>Kielen keikkelehtämättä.</l>
+        </lg>
+        <lg>
+          <l>Mitäs tuosta, jos ma laulan,</l>
+          <l>550. Jos ma paljoki pajahan,</l>
+          <l>Jos laulan jokaisen lakson,</l>
+          <l>Joka kuusikon kujerran?</l>
+          <l>Ei ole emo elossa,</l>
+          <l>Oma vanhin valvehella,</l>
+          <l>Eikä kulta kuulemassa,</l>
+          <l>Oma armas oppimassa;</l>
+          <l>On mua kuuset kuulemassa,</l>
+          <l>Hongan oksat oppimassa,</l>
+          <l>Koivun lehvät lempimässä,</l>
+          <l>560. Pihlajat pitelemässä.</l>
+        </lg>
+        <lg>
+          <l>Piennä jäin minä emosta,</l>
+          <l>Matalana maammostani,</l>
+          <l>Jäin kuin kiuruksi kivelle,</l>
+          <l>Rastahaksi rauniolle,</l>
+          <l>Kiuruna kivertämähän,</l>
+          <l>Rastahana raikkumahan,</l>
+          <l>Vaimon vierahan varahan,</l>
+          <l>Ehtohon emintimäisen;</l>
+          <l>Se mun karkoitti katalan,</l>
+          <l>570. Ajoi lapsen armottoman</l>
+          <l>Tuuli-puolelle tupoa,</l>
+          <l>Pohjais-puolelle kotia</l>
+          <l>Vieä tuulen turvatointa,</l>
+          <l>Ahavaisen armotointa.</l>
+        </lg>
+        <lg>
+          <l>Sainpa kiuru kiertämähän,</l>
+          <l>Lintu kurja kulkemahan,</l>
+          <l>Vieno maita vieremähän,</l>
+          <l>Vaivainen, vaeltamahan,</l>
+          <l>Joka tuulen tuntemahan,</l>
+          <l>580. Ärjynnän älyämähän,</l>
+          <l>Vilussa värisemähän,</l>
+          <l>Pakkaisessa parkumahan.</l>
+        </lg>
+        <lg>
+          <l>Moni nyt minulla onpi,</l>
+          <l>Usea olettelevi</l>
+          <l>Virkkaja vihaisen äänen,</l>
+          <l>Äänen tuiman tuikuttaja;</l>
+        </lg>
+        <pb n="9" facs="page_364"/>
+        <lg>
+          <l>Ken se kieltäni kirosi,</l>
+          <l>Kenpä ääntä ärjähteli,</l>
+          <l>Soimasi sorisevani,</l>
+          <l>590. Lausui liioin laulavani,</l>
+          <l>Pahasti pajattavani,</l>
+          <l>Väärin virttä vääntäväni.</l>
+        </lg>
+        <lg>
+          <l>Elkätte hyvät imeiset</l>
+          <l>Tuota ouoksi otelko,</l>
+          <l>Jos ma lapsi liioin lauloin,</l>
+          <l>Pieni pilpatin pahasti!</l>
+          <l>En ole opissa ollut,</l>
+          <l>Käynyt mailla mahtimiesten,</l>
+          <l>Saanut ulkoa sanoja,</l>
+          <l>600. Loitompata lausehia.</l>
+        </lg>
+        <lg>
+          <l>Muut kaikki oli opissa,</l>
+          <l>Mie en joutanut kotoa</l>
+          <l>Emon ainoan avusta,</l>
+          <l>Yksinäisen ympäriltä;</l>
+          <l>Piti oppia kotona,</l>
+          <l>Oman aitan orren alla,</l>
+          <l>Oman äitin värttinöillä,</l>
+          <l>Veikon veistos-lastusilla,</l>
+          <l>Senki piennä pikkaraisna,</l>
+          <l>610. Paita-ressuna pahaisna.</l>
+        </lg>
+        <lg>
+          <l>Vaan kuitenki, kaikitenki</l>
+          <l>Laun hiihin laulajoille,</l>
+          <l>Laun hiihin, latvan taitoin,</l>
+          <l>Oksat karsin, tien osoitin;</l>
+          <l>Siitäpä nyt tie menevi,</l>
+          <l>Ura uusi urkenevi</l>
+          <l>Laajemmille laulajoille,</l>
+          <l>Runsahammille runoille</l>
+          <l>Nuorisossa nousevassa,</l>
+          <l>620. Kansassa kasuavassa.</l>
+        </lg>
+        <lg>
+          <l>LOPPU.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

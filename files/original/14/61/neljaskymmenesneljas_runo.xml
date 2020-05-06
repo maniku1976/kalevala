@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Kalevalan neljäskymmenesneljäs runo</title>
+        <author>Elias Lönnrot</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Avoin Kalevala</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>Suomalaisen Kirjallisuuden Seura</distributor>
+        <date when="2018-01-09">9.1.2018</date>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Helsinki</settlement>
+            <repository>Suomalaisen Kirjallisuuden Seuran arkiston kirjallisuuden ja kulttuurihistorian arkistoaineistot</repository>
+            <idno/>
+          </msIdentifier>
+          <msContents>
+            <msItem n="1" class="letter">
+              <author><surname>Lönnrot</surname>
+                <forename>Elias</forename></author>
+            </msItem>
+            <msItem n="2" class="transcription">
+              <bibl/>
+            </msItem>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="runo">
+        <pb n="1" facs="page_318"/>
+        <p><emph>Neljäsviidettä Runo.</emph></p>
+        <lg>
+          <l>Vaka vanha Wäinämöinen</l>
+          <l>Arvelevi aivossansa:</l>
+          <l>"Nytpä soitanto sopisi,</l>
+          <l>Ilon teentä kelpoaisi</l>
+          <l>Näillä uusilla oloilla,</l>
+          <l>Kaunihilla kartanoilla;</l>
+          <l>Vaan on kantele kaonnut,</l>
+          <l>Iloni iäti mennyt</l>
+          <l>Kalaisehen kartanohon,</l>
+          <l>10. Lohisehen louhikkohon,</l>
+          <l>Meren hauan haltioille,</l>
+          <l>Wellamon iki-väelle;</l>
+          <l>Eikä tuota tuonekana,</l>
+          <l>Ahto antane takaisin."</l>
+        </lg>
+        <lg>
+          <l>"Oi on seppo Ilmarinen!</l>
+          <l>Taoit ennen, taoit eilen,</l>
+          <l>Taopa tänäki päänä,</l>
+          <l>Tao rautainen harava,</l>
+          <l>Haravahan piit tiheät,</l>
+          <l>20. Piit tiheät, varsi pitkä,</l>
+          <l>Jolla lainehet haroan,</l>
+          <l>Laposille aallot lasken,</l>
+          <l>Meren ruoikot ruolle,</l>
+          <l>Rannat kaikki karhikoille,</l>
+          <l>Soitto jälle saa'akseni,</l>
+          <l>Kantelo tavatakseni</l>
+          <l>Kalaisesta kaartehesta,</l>
+          <l>Lohisesta louhikosta!"</l>
+        </lg>
+        <lg>
+          <l>Se on seppo Ilmarinen,</l>
+          <l>30. Takoja iän-ikuinen</l>
+          <l>Takoi rautaisen haravan</l>
+          <l>Varren vaskisen keralla,</l>
+          <l>Piit takoi satoa syltä,</l>
+          <l>Varren viittä valmisteli.</l>
+        </lg>
+        <lg>
+          <l>Siitä vanha Wäinämöinen</l>
+          <l>Otti rautaisen haravan,</l>
+          <l>Astui tietä pikkaraisen,</l>
+          <l>Kulki matkoa palasen</l>
+          <l>Teloille teräksisille,</l>
+          <l>40. Vaskisille valkamoille.</l>
+        </lg>
+        <lg>
+          <l>Tuoss' oli purtta, kaksi purtta,</l>
+          <l>Kaksi valmista venettä</l>
+          <l>Teloilla teräksisillä,</l>
+          <l>Vaskisilla valkamoilla,</l>
+        </lg>
+        <pb n="2" facs="page_319"/>
+        <lg>
+          <l>Yksi pursi uusi pursi,</l>
+          <l>Toinen pursi vanha pursi.</l>
+        </lg>
+        <lg>
+          <l>Sanoi vanha Wäinämöinen,</l>
+          <l>Virkki uuelle venolle:</l>
+          <l>"Lähepä veno vesille,</l>
+          <l>50. Pursi aalloillen ajaite</l>
+          <l>Käsivarren kääntämättä,</l>
+          <l>Peukalon pitelemättä!"</l>
+        </lg>
+        <lg>
+          <l>Läksipä veno vesille,</l>
+          <l>Pursi aalloillen ajoihe;</l>
+          <l>Vaka vanha Wäinämöinen</l>
+          <l>Itse istuihe perähän,</l>
+          <l>Läksi merta luutimahan,</l>
+          <l>Lainetta lakaisemahan;</l>
+          <l>Luopi lumpehet kokohon,</l>
+          <l>60. Haravoipi rannan raiskat,</l>
+          <l>Ruoposteli ruo'on ruutut,</l>
+          <l>Ruo'on ruutut, kaislan kaitut,</l>
+          <l>Joka hauanki harasi,</l>
+          <l>Karit kaikki karhieli,</l>
+          <l>Eipä saanut, ei tavannut</l>
+          <l>Hauin luista soittoansa,</l>
+          <l>Iki-mennyttä iloa,</l>
+          <l>Kaonnutta kanteloa.</l>
+        </lg>
+        <lg>
+          <l>Vaka vanha Wäinämöinen</l>
+          <l>70. Astuvi kohen kotia,</l>
+          <l>Alla päin, pahoilla mielin,</l>
+          <l>Kaiken kallella kypärin,</l>
+          <l>Itse tuon sanoiksi kertoi:</l>
+          <l>"Ei tuota enämpi olle</l>
+          <l>Hauin hampahan iloa,</l>
+          <l>Kalanluista luikutusta."</l>
+        </lg>
+        <lg>
+          <l>Astuessansa ahoa,</l>
+          <l>Saloviertä vierressänsä</l>
+          <l>Kuuli koivun itkeväksi,</l>
+          <l>80. Puun visan vetistäväksi;</l>
+          <l>Jopa luoksi luontelihe,</l>
+          <l>Lähemmäksi laittelihe.</l>
+        </lg>
+        <lg>
+          <l>Kysytteli, lausutteli:</l>
+          <l>"Mit' itket ihana koivu,</l>
+          <l>Puu vihanta vierettelet,</l>
+          <l>Vyöhyt valkea valitat?</l>
+          <l>Ei sua sotahan vieä,</l>
+          <l>Ei tahota tappelohon."</l>
+        </lg>
+        <lg>
+          <l>Koivu taiten vastaeli,</l>
+          <l>90. Itse virkki puu vihanta:</l>
+          <l>"Niinpä muutamat sanovi,</l>
+          <l>Moniahat arvelevi</l>
+          <l>Elävän minun ilossa,</l>
+          <l>Riemussa remuelevan;</l>
+          <l>Minä hoikka huolissani,</l>
+          <l>Ikävissäni iloitsen,</l>
+          <l>Panen pakko-päivissäni,</l>
+          <l>Murehissa murmattelen."</l>
+        </lg>
+        <lg>
+          <l>"Typeryyttä tyhjä itken,</l>
+          <l>100 Vajauttani valitan,</l>
+          <l>Kun olen osatoin raukka,</l>
+          <l>Tuiki vaivainen varatoin</l>
+          <l>Näillä paikoilla pahoilla,</l>
+          <l>Lakeilla laitumilla."</l>
+        </lg>
+        <lg>
+          <l>"Osalliset, onnelliset</l>
+          <l>Tuota toivovat alati</l>
+          <l>Kesän kaunihin tulevan,</l>
+          <l>Suven suuren lämpiävän;</l>
+          <l>Toisinpa minä typerä,</l>
+          <l>110. Minä vaivainen varoan:</l>
+          <l>Kuoreni kolottavaksi,</l>
+          <l>Lehti-varvat vietäväksi."</l>
+        </lg>
+        <lg>
+          <l>"Useinpa minun utuisen,</l>
+          <l>Usein utuisen raukan</l>
+          <l>Lapset kerkeän keväimen</l>
+          <l>Luokseni lähenteleikse,</l>
+          <l>Veitsin viisin viiltelevät</l>
+          <l>Halki mahlaisen mahani,</l>
+          <l>Paimenet pahat kesällä</l>
+          <l>120. Vievät vyöni valkeaisen,</l>
+          <l>Ken lipiksi, ken tupeksi,</l>
+          <l>Kenpä marja-tuohiseksi."</l>
+        </lg>
+        <pb n="3" facs="page_320"/>
+        <lg>
+          <l>"Usein minun utuisen,</l>
+          <l>Usein utuisen raukan</l>
+          <l>Tytöt allani asuvat,</l>
+          <l>Vierelläni viehkuroivat,</l>
+          <l>Lehvät päältä leikkelevät,</l>
+          <l>Varvat vastoiksi sitovat."</l>
+        </lg>
+        <lg>
+          <l>"Usein minä utuinen,</l>
+          <l>130. Usein utuinen raukka</l>
+          <l>Kaaetahan kaski-puiksi,</l>
+          <l>Pino-puiksi pilkotahan;</l>
+          <l>Kolmasti tänäi kesänä,</l>
+          <l>Tänä suurena suvena</l>
+          <l>Miehet allani asuivat,</l>
+          <l>Kirvestänsä kitkuttivat</l>
+          <l>Mun poloisen pään menoksi,</l>
+          <l>Heikon henkeni lähöksi."</l>
+        </lg>
+        <lg>
+          <l>"Se oli ilo kesästä,</l>
+          <l>140. Riemu suuresta suvesta;</l>
+          <l>Ei ole talvi sen parempi,</l>
+          <l>Lumen aika armahampi."</l>
+        </lg>
+        <lg>
+          <l>"Jopa aina aikaisehen</l>
+          <l>Mure muo'on muuttelevi,</l>
+          <l>Pääni painuvi pahaksi,</l>
+          <l>Kasvot käypi kalveaksi</l>
+          <l>Muistellessa mustat päivät,</l>
+          <l>Pahat ajat arvellessa."</l>
+        </lg>
+        <lg>
+          <l>"Siitä tuuli tuskat tuopi,</l>
+          <l>150. Halla huolet haikeimmat;</l>
+          <l>Tuuli vie vihannan turkin,</l>
+          <l>Halla kaunihin hamehen,</l>
+          <l>Niin minä vähävarainen,</l>
+          <l>Minä koito koivu raukka</l>
+          <l>Jään aivan alastomaksi,</l>
+          <l>Varsin vaattehettomaksi</l>
+          <l>Vilussa värisemähän,</l>
+          <l>Pakkasessa parkumahan."</l>
+        </lg>
+        <lg>
+          <l>Sanoi vanha Wäinämöinen:</l>
+          <l>160. "Elä itke, puu vihanta,</l>
+          <l>Vesa lehti vierettele,</l>
+          <l>Vyöhyt valkea valita!</l>
+          <l>Saat sinä olevan onnen,</l>
+          <l>Elon uuen armahamman;</l>
+          <l>Kohta itkenet ilosta,</l>
+          <l>Riemusta remahutellet."</l>
+        </lg>
+        <lg>
+          <l>Siitä vanha Wäinämöinen</l>
+          <l>Koivun soitoksi kuvasi;</l>
+          <l>Veisteli kesäisen päivän,</l>
+          <l>170. Kalkutteli kanteletta</l>
+          <l>Nenässä utuisen niemen,</l>
+          <l>Päässä saaren terhenisen;</l>
+          <l>Veisti kopan kanteletta,</l>
+          <l>Emäpuun iloa uutta,</l>
+          <l>Kopan koivusta lujasta,</l>
+          <l>Emäpuun visaperästä.</l>
+        </lg>
+        <lg>
+          <l>Sanoi vanha Wäinämöinen,</l>
+          <l>Itse lausui, noin nimesi:</l>
+          <l>"Tuoss' on koppa kanteletta,</l>
+          <l>180. Emäpuu iki-iloa;</l>
+          <l>Mistä naulat saatanehe,</l>
+          <l>Vääntimet perittänehe?"</l>
+        </lg>
+        <lg>
+          <l>Kasvoi tammi tanhualla,</l>
+          <l>Puu pitkä pihan perällä,</l>
+          <l>Tammessa tasaiset oksat,</l>
+          <l>Joka oksalla omena,</l>
+          <l>Omenalla kulta-pyörä,</l>
+          <l>Kulta-pyörällä käkönen.</l>
+        </lg>
+        <lg>
+          <l>Kun käki kukahtelevi,</l>
+          <l>190. Sanoin viisin virkkelevi,</l>
+          <l>Kulta suusta kumpuavi,</l>
+          <l>Hopea valahtelevi</l>
+          <l>Kultaiselle kunnahalle,</l>
+          <l>Hopeiselle mäelle;</l>
+          <l>Siitä naulat kantelehen,</l>
+          <l>Vääntimet visaperähän.</l>
+        </lg>
+        <lg>
+          <l>Sanoi vanha Wäinämöinen,</l>
+          <l>Itse virkki, noin nimesi:</l>
+        </lg>
+        <pb n="4" facs="page_321"/>
+        <lg>
+          <l>"Sain ma naulat kantelehen,</l>
+          <l>200. Vääntimet visaperähän;</l>
+          <l>Vielä uupuvi vähäisen,</l>
+          <l>Viittä kieltä kanteloinen;</l>
+          <l>Mistä tuohon kielet saisin,</l>
+          <l>Äänöset asetteleisin?"</l>
+        </lg>
+        <lg>
+          <l>Läksi kieltä etsimähän,</l>
+          <l>Astuvi ahoa myöten;</l>
+          <l>Istui immikkö aholla,</l>
+          <l>Nuori neitonen norolla,</l>
+          <l>Ei se impi itkenynnä,</l>
+          <l>210. Ei varsin ilonnutkana,</l>
+          <l>Ilman lauloi itseksensä,</l>
+          <l>Lauloi iltansa kuluksi,</l>
+          <l>Sulhon toivossa tulevan,</l>
+          <l>Armahansa aikehessa.</l>
+        </lg>
+        <lg>
+          <l>Vaka vanha Wäinämöinen</l>
+          <l>Tuonne kengättä kepitti,</l>
+          <l>Ilman hampsi hattaratta;</l>
+          <l>Sitte sinne tultuansa</l>
+          <l>Alkoi hapsia anella,</l>
+          <l>220. Itse tuon sanoiksi virkki:</l>
+          <l>"Anna impi hapsiasi,</l>
+          <l>Kieprukka hivuksiasi</l>
+          <l>Kanteloisen kielosiksi,</l>
+          <l>Ääniksi ilon ikuisen?"</l>
+        </lg>
+        <lg>
+          <l>Antoi impi hapsiansa,</l>
+          <l>Hienoja hivuksiansa,</l>
+          <l>Antoi hasta viisi, kuusi,</l>
+          <l>Sekä seitsemän hivusta,</l>
+          <l>Siit' on kielet kantelessa,</l>
+          <l>230. Ääntimet iki-ilossa.</l>
+        </lg>
+        <lg>
+          <l>Saip' on soitto valmihiksi;</l>
+          <l>Siitä vanha Wäinämöinen</l>
+          <l>Istuiksen alakivelle,</l>
+          <l>Paatiselle portahalle.</l>
+        </lg>
+        <lg>
+          <l>Otti kantelon käsille,</l>
+          <l>Ilon itsensä lähemmä,</l>
+          <l>Kären käänti taivahalle,</l>
+          <l>Ponnen polville tukesi,</l>
+          <l>Ääniä asettelevi,</l>
+          <l>240. Säveliä sääntelevi.</l>
+        </lg>
+        <lg>
+          <l>Sai äänet asetetuksi,</l>
+          <l>Soittonsa sovitetuksi;</l>
+          <l>Niin käänti ala-käsille,</l>
+          <l>Poikki puolin polvillensa,</l>
+          <l>Laski kynttä kymmenkunnan,</l>
+          <l>Viisi sormea viritti</l>
+          <l>Kielille kapahumahan,</l>
+          <l>Sävelille hyppimähän.</l>
+        </lg>
+        <lg>
+          <l>Siinä vanha Wäinämöinen</l>
+          <l>250. Kun on soitti kanteletta</l>
+          <l>Käsin pienin, hoikin sormin,</l>
+          <l>Peukalon ulos kiverin,</l>
+          <l>Jopa virkki puu visainen,</l>
+          <l>Vesa lehti vieretteli,</l>
+          <l>Kukahti käkösen kulta,</l>
+          <l>Hivus impyen ilosi.</l>
+        </lg>
+        <lg>
+          <l>Sormin soitti Wäinämöinen,</l>
+          <l>Kielin kantelo kajasi,</l>
+          <l>Vuoret loukkui, paaet paukkui</l>
+          <l>260. Kaikki kalliot tärähti,</l>
+          <l>Kivet laikkui lainehilla,</l>
+          <l>Somerot vesillä souti,</l>
+          <l>Petäjät piti iloa,</l>
+          <l>Kannot hyppi kankahilla.</l>
+        </lg>
+        <lg>
+          <l>Kälykset Kalevan naiset</l>
+          <l>Kesken kirjan neulomisen</l>
+          <l>Ne tuohon jokena juoksi,</l>
+          <l>Kaikki virtana vilisi,</l>
+          <l>Nuoret naiset nauru-suulla,</l>
+          <l>270. Emännät ilolla mielin</l>
+          <l>Soitteloa kuulemahan,</l>
+          <l>Iloa imehtimähän.</l>
+        </lg>
+        <pb n="5" facs="page_322"/>
+        <lg>
+          <l>Mi oli miehiä lähellä,</l>
+          <l>Ne kaikki lakit käessä,</l>
+          <l>Mi oli akkoja lähellä,</l>
+          <l>Ne kaikki käsi posella,</l>
+          <l>Tyttäret vesissä silmin,</l>
+          <l>Pojat maassa polvillansa,</l>
+          <l>Kanteloista kuuntelivat,</l>
+          <l>280. Iloa imehtelivät,</l>
+          <l>Sanoivat samalla suulla,</l>
+          <l>Yhen kielen kerkesivät:</l>
+          <l>"Ei ole tuota ennen kuultu</l>
+          <l>Noin suloista soitantoa</l>
+          <l>Sinä ilmoisna ikänä,</l>
+          <l>Kuuna kullan valkeana."</l>
+        </lg>
+        <lg>
+          <l>Kuuluvi sorea soitto,</l>
+          <l>Kuului kuutehen kylähän;</l>
+          <l>Eik' ollut sitä otusta,</l>
+          <l>290. Ku ei tullut kuulemahan</l>
+          <l>Tuota soittoa suloista,</l>
+          <l>Kajahusta kanteloisen.</l>
+        </lg>
+        <lg>
+          <l>Mi oli metsän eläintä,</l>
+          <l>Kyykistyivät kynsillehen</l>
+          <l>Kanteloista kuulemahan,</l>
+          <l>Iloa imehtimähän;</l>
+          <l>Ilman linnut lentäväiset</l>
+          <l>Varvuille varustelihe,</l>
+          <l>Veen kalaset kaiken laiset</l>
+          <l>300. Rantahan rakentelihe,</l>
+          <l>Matosetki maan alaiset</l>
+          <l>Päälle mullan muuttelihe,</l>
+          <l>Käänteleivät, kuuntelevat</l>
+          <l>Tuota soittoa suloista,</l>
+          <l>Kantelen iki-iloa,</l>
+          <l>Wäinämöisen väännätystä.</l>
+        </lg>
+        <lg>
+          <l>Siinä vanha Wäinämöinen</l>
+          <l>Kyllä soitteli somasti,</l>
+          <l>Kajahutti kaunihisti;</l>
+          <l>310. Soitti päivän, soitti toisen</l>
+          <l>Yhtehen rupeamahan,</l>
+          <l>Yhen aamun atriahan,</l>
+          <l>Yhen vyönsä vyötäntähän,</l>
+          <l>Yhen paitansa panohon.</l>
+        </lg>
+        <lg>
+          <l>Kun hän soitteli kotona,</l>
+          <l>Huonehessa honkaisessa,</l>
+          <l>Niin katot kajahtelivat,</l>
+          <l>Permannot pemahtelivat,</l>
+          <l>Laet lauloi, ukset ulvoi,</l>
+          <l>320. Kaikki ikkunat iloitsi,</l>
+          <l>Kiukoa kivinen liikkui,</l>
+          <l>Patsas patvinen pajahti.</l>
+        </lg>
+        <lg>
+          <l>Kun hän kulki kuusikossa,</l>
+          <l>Vaelti petäjikössä,</l>
+          <l>Kuusoset kumartelihe,</l>
+          <l>Männyt mäellä kääntelihe,</l>
+          <l>Käpöset keolle vieri,</l>
+          <l>Havut juurelle hajosi.</l>
+        </lg>
+        <lg>
+          <l>Kun hän liikahti lehossa,</l>
+          <l>330. Tahi astahti aholla,</l>
+          <l>Lehot leikkiä pitivät,</l>
+          <l>Ahot ainoista iloa,</l>
+          <l>Kukat kulkivat kutuhun,</l>
+          <l>Vesat nuoret notkahteli.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

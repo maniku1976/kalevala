@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="<?php echo get_html_lang(); ?>">
 <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MBCFHXJ');</script>
+    <!-- End Google Tag Manager -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php if ( $description = option('description')): ?>
@@ -117,34 +124,37 @@
             <?php fire_plugin_hook('public_header', array('view'=>$this)); ?>
             <div id="site-title">
               <?php echo link_to_home_page(theme_logo()); ?>
-              <a href="http://www.finlit.fi"><img src="http://kalevala-dev.ngrok.io/kalevala/logo-SKS@2x.png" /></a>
+              <a href="http://www.finlit.fi"><img src="http://kalevala.finlit.fi/logo-SKS@2x.png" /></a>
             </div>
             <div style="width: 100%; display:inline;">
             <nav class="navbar navbar-expand-md">
               <ul class="navbar-nav">
                  <li class="nav-item">
-                   <a class="nav-link" href="/kalevala/">Etusivu</a>
+                   <a class="nav-link" href="/">Etusivu</a>
                  </li>
                  <li class="nav-item">
-                   <a class="nav-link" href="/kalevala/esittely">Esittely</a>
+                   <a class="nav-link" href="/esittely">Esittely</a>
                  </li>
                  <li class="nav-item">
-                   <a class="nav-link" href="/kalevala/esipuhe">Kalevalan esipuheet</a>
+                   <a class="nav-link" href="/esipuhe">Kalevalan esipuheet</a>
                  </li>
                  <li class="nav-item">
-                   <a class="nav-link" href="/kalevala/collections">Runot</a>
+                   <a class="nav-link" href="/collections">Runot</a>
                  </li>
                  <li class="nav-item">
-                   <a class="nav-link" href="/kalevala/toimitustasot">Toimitustasot</a>
+                   <a class="nav-link" href="/toimitustasot">Toimitustasot</a>
                  </li>
                  <li class="nav-item">
-                   <a class="nav-link" href="/kalevala/erisnimet">Nimiä ja nimityksiä</a>
+                   <a class="nav-link" href="/erisnimet">Nimiä ja nimityksiä</a>
                  </li>
                  <li class="nav-item">
-                   <a class="nav-link" href="/kalevala/kirjallisuus">Kirjallisuus</a>
+                   <a class="nav-link" href="/kirjallisuus">Kirjallisuus</a>
                  </li>
                  <li class="nav-item">
-                  <a class="nav-link" href="/kalevala/ohjeet">Ohjeet</a>
+                  <a class="nav-link" href="/ohjeet">Ohjeet</a>
+                </li>
+                <li class="nav-item" style="margin-left:3em;">
+                  <a class="nav-link" href="https://matkallakalevalaan.finlit.fi" target="_blank">Matkalla Kalevalaan</a>
                 </li>
                </ul>
             </nav>

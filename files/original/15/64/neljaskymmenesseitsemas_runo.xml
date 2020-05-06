@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Kalevalan neljäskymmenesseitsemäs runo</title>
+        <author>Elias Lönnrot</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Avoin Kalevala</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>Suomalaisen Kirjallisuuden Seura</distributor>
+        <date when="2018-01-09">9.1.2018</date>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Helsinki</settlement>
+            <repository>Suomalaisen Kirjallisuuden Seuran arkiston kirjallisuuden ja kulttuurihistorian arkistoaineistot</repository>
+            <idno/>
+          </msIdentifier>
+          <msContents>
+            <msItem n="1" class="letter">
+              <author><surname>Lönnrot</surname>
+                <forename>Elias</forename></author>
+            </msItem>
+            <msItem n="2" class="transcription">
+              <bibl/>
+            </msItem>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="runo">
+        <pb n="1" facs="page_338"/>
+        <p><emph>Seitsemäsviidettä Runo.</emph></p>
+        <lg>
+          <l>Vaka vanha Wäinämöinen</l>
+          <l>Kauan soitti kanteletta,</l>
+          <l>Sekä soitti, jotta lauloi,</l>
+          <l>Jotta ilmankin iloitsi.</l>
+        </lg>
+        <lg>
+          <l>Soitto kuului kuun tupihin,</l>
+          <l>Ilo päivän ikkunoille,</l>
+          <l>Kuu tuvastahan tulevi,</l>
+          <l>Astui koivun konkelolle,</l>
+          <l>Päivä päätyi linnastansa,</l>
+          <l>10. Loihe latvahan petäjän</l>
+          <l>Kanteletta kuulemahan,</l>
+          <l>Iloa imehtimähän.</l>
+        </lg>
+        <lg>
+          <l>Louhi Pohjolan emäntä,</l>
+          <l>Pohjan akka harvahammas</l>
+          <l>Siitä päivän kiinni saapi,</l>
+          <l>Kuuhuen käsin tavoitti,</l>
+          <l>Kuun on koivun konkelolta,</l>
+          <l>Päivän latvasta petäjän;</l>
+          <l>Ne kohta kotihin saattoi,</l>
+          <l>20. Pimeähän Pohjolahan.</l>
+        </lg>
+        <lg>
+          <l>Kätki kuun kumottamasta</l>
+          <l>Kirjarintahan kivehen,</l>
+          <l>Lauloi päivän paistamasta</l>
+          <l>Vuorehen teräksisehen,</l>
+          <l>Itse tuossa noin saneli:</l>
+          <l>"Ellös täältä ilman pääskö,</l>
+          <l>Nousko kuu kumottamahan,</l>
+          <l>Pääskö päivä paistamahan,</l>
+          <l>Kun en käyne päästämähän,</l>
+          <l>30. Itse tulle noutamahan</l>
+          <l>Yheksän orihin kanssa,</l>
+          <l>Yhen tamman kantamalla!"</l>
+        </lg>
+        <lg>
+          <l>Kun oli kuun kulettanunna,</l>
+          <l>Sekä päivän saattanunna</l>
+          <l>Pohjolan kivimäkehen,</l>
+          <l>Rautaisehen kalliohon,</l>
+          <l>Jopa valkean varasti,</l>
+          <l>Tulen Wäinölän tuvilta;</l>
+          <l>Sai tuvat tulettomaksi,</l>
+          <l>40. Pirtit valkeattomaksi.</l>
+        </lg>
+        <pb n="2" facs="page_339"/>
+        <lg>
+          <l>Jo oli yö alin-omainen,</l>
+          <l>Pitkä pilkkosen pimeä,</l>
+          <l>Oli yö Kalevalassa,</l>
+          <l>Noilla Wäinölän tuvilla,</l>
+          <l>Sekä tuolla taivahassa,</l>
+          <l>Ukon ilman istumilla.</l>
+        </lg>
+        <lg>
+          <l>Tukela on tuletta olla,</l>
+          <l>Vaiva suuri valkeatta,</l>
+          <l>Ikävä inehmisien,</l>
+          <l>50. Ikävä itsen Ukonki.</l>
+        </lg>
+        <lg>
+          <l>Tuo Ukko ylijumala,</l>
+          <l>Itse ilman suuri luoja,</l>
+          <l>Alkoi tuota ouostella,</l>
+          <l>Arvelee, ajattelevi,</l>
+          <l>Mikä kumma kuun e'essä,</l>
+          <l>Mikä terhen päivän tiessä,</l>
+          <l>Kun ei kuu kumotakana,</l>
+          <l>Eikä päivä paistakana.</l>
+        </lg>
+        <lg>
+          <l>Astui pilven äärtä myöten,</l>
+          <l>60. Taivahan rajoa myöten</l>
+          <l>Sukassa sinertävässa,</l>
+          <l>Kirjavassa kaplukassa,</l>
+          <l>Kävi kuuta etsimähän,</l>
+          <l>Päiveä tapoamahan;</l>
+          <l>Eipä kuuta löyäkänä,</l>
+          <l>Päiveä tapoakana.</l>
+        </lg>
+        <lg>
+          <l>Tulta iski ilman Ukko,</l>
+          <l>Valahutti valkeata</l>
+          <l>Miekalla tuliterällä,</l>
+          <l>70. Säilällä säkenevällä;</l>
+          <l>Iski tulta kyntehensä,</l>
+          <l>Järskytti jäsenehensä</l>
+          <l>Ylähällä taivosessa,</l>
+          <l>Tähtitarhojen tasalla.</l>
+        </lg>
+        <lg>
+          <l>Saipa tulta iskemällä,</l>
+          <l>Kätkevi tulikipunan</l>
+          <l>Kultaisehen kukkarohon,</l>
+          <l>Hopeisehen kehä'än,</l>
+          <l>Antoi neien tuuitella,</l>
+          <l>80. Ilman immen vaapotella</l>
+          <l>Kuun uuen kuvoamaksi,</l>
+          <l>Uuen auringon aluksi.</l>
+        </lg>
+        <lg>
+          <l>Neiti pitkän pilven päällä,</l>
+          <l>Impi ilman partahalla</l>
+          <l>Tuota tulta tuuitteli,</l>
+          <l>Valkeaista vaapotteli</l>
+          <l>Kultaisessa kätkyessä,</l>
+          <l>Hihnoissa hopeisissa.</l>
+        </lg>
+        <lg>
+          <l>Hopeiset orret notkui,</l>
+          <l>90. Kätkyt kultainen kulisi,</l>
+          <l>Pilvet liikkui, taivot naukui,</l>
+          <l>Taivon kannet kallistihe</l>
+          <l>Tulta tuuiteltaessa,</l>
+          <l>Valkeaista vaapottaissa.</l>
+        </lg>
+        <lg>
+          <l>Impi tulta tuuitteli,</l>
+          <l>Vaapotteli valkeaista,</l>
+          <l>Tulta sormilla somitti,</l>
+          <l>Käsin vaali valkeaista,</l>
+          <l>Tuli tuhmalta putosi,</l>
+          <l>100. Valkea varattomalta,</l>
+          <l>Kätösiltä käänteliän,</l>
+          <l>Sormilta somitteliän.</l>
+        </lg>
+        <lg>
+          <l>Taivas reikihin repesi,</l>
+          <l>Ilma kaikki ikkunoihin;</l>
+          <l>Kirposi tulikipuna,</l>
+          <l>Suikahti puna soronen,</l>
+          <l>Läpi läikkyi taivosista,</l>
+          <l>Puhki pilvistä pirisi,</l>
+          <l>Läpi taivahan yheksän,</l>
+          <l>110. Halki kuuen kirjokannen.</l>
+        </lg>
+        <lg>
+          <l>Sanoi vanha Wäinämöinen:</l>
+          <l>"Veli seppo Ilmarinen!</l>
+          <l>Lähtekämme katsomahan,</l>
+          <l>Saakamme opastumahan,</l>
+          <l>Mikä tuo tuli tulonen,</l>
+          <l>Outo valkea valahti</l>
+        </lg>
+        <pb n="3" facs="page_340"/>
+        <lg>
+          <l>Yläisistä taivosista</l>
+          <l>Alaisihin maa-emihin:</l>
+          <l>Jos olisi kuun kehänen,</l>
+          <l>120. Eli päivän pyöryläinen."</l>
+        </lg>
+        <lg>
+          <l>Läksivät urosta kaksi,</l>
+          <l>Astuivat, ajattelivat,</l>
+          <l>Miten tuonne tullaksensa,</l>
+          <l>Ja kuten osataksensa</l>
+          <l>Tulen siirtymä-sioille,</l>
+          <l>Valkean valanto-maille.</l>
+        </lg>
+        <lg>
+          <l>Joki joutuvi etehen,</l>
+          <l>Melkeän meren tapainen;</l>
+          <l>Siinä vanha Wäinämöinen</l>
+          <l>130. Alkoi veisteä venettä,</l>
+          <l>Alla korven kolkutella,</l>
+          <l>Toinen seppo Ilmarinen</l>
+          <l>Laati kuusesta meloja,</l>
+          <l>Petäjästä järkäleitä.</l>
+        </lg>
+        <lg>
+          <l>Sai venonen valmihiksi</l>
+          <l>Hankoinensa, airoinensa;</l>
+          <l>Niin veivät venon vesille,</l>
+          <l>Soutelevat, joutelevat</l>
+          <l>Ympäri Nevan jokea,</l>
+          <l>140. Nevan nientä kiertelevät.</l>
+        </lg>
+        <lg>
+          <l>Ilmatar ihana impi,</l>
+          <l>Vanhin luonnon tyttäristä,</l>
+          <l>Tuopa vastahan tulevi</l>
+          <l>Puhutellen, lausutellen:</l>
+          <l>"Mitä miehiä olette,</l>
+          <l>Kuinka teitä kutsutahan?"</l>
+        </lg>
+        <lg>
+          <l>Sanoi vanha Wäinämöinen:</l>
+          <l>"Merimiehiä olemme,</l>
+          <l>Minä vanha Wäinämöinen,</l>
+          <l>150. Toinen seppo Ilmarinen;</l>
+          <l>Vaan sano oma sukusi,</l>
+          <l>Kuin sinua kutsutahan?"</l>
+        </lg>
+        <lg>
+          <l>Vaimo tuon sanoiksi virkki:</l>
+          <l>"Minä olen vanhin vaimoksia,</l>
+          <l>Vanhin ilman impilöitä,</l>
+          <l>Ensin emä itselöitä,</l>
+          <l>"Joll' on vihki viien vaimon,</l>
+          <l>Muoto kuuen morsiamen;</l>
+          <l>Minne te menette miehet,</l>
+          <l>160. Kunne läksitte urohot?"</l>
+        </lg>
+        <lg>
+          <l>Sanoi vanha Wäinämöinen,</l>
+          <l>Itse virkki, noin nimesi:</l>
+          <l>"Tukehtui tulonen meiltä,</l>
+          <l>Vaipui meiltä valkeainen,</l>
+          <l>Viikon on tuletta oltu,</l>
+          <l>Pimeissä piileskelty;</l>
+          <l>Nyt on meillä mielessämme</l>
+          <l>Mennä tulta tietämähän,</l>
+          <l>Jok' on tullut taivahasta,</l>
+          <l>170. Päältä pilvien puonnut."</l>
+        </lg>
+        <lg>
+          <l>Vaimo tuon sanoiksi virkki,</l>
+          <l>Itse lausui, noin nimesi:</l>
+          <l>"Tuli on tuima tie'ettävä,</l>
+          <l>Valkeainen vaaittava;</l>
+          <l>Jo teki tuli tekoset,</l>
+          <l>Valkea vahingot laati:</l>
+          <l>Tuikahti tulikipuna,</l>
+          <l>Putosi puna keränen</l>
+          <l>Luojan luomilta tiloilta,</l>
+          <l>180. Ukon ilman iskemiltä</l>
+          <l>Läpi taivahan tasaisen,</l>
+          <l>Halki tuon ihalan ilman,</l>
+          <l>Puhki reppänän retuisen,</l>
+          <l>Kautta kuivan kurkihirren</l>
+          <l>Tuurin uutehen tupahan,</l>
+          <l>Palvoisen laettomahan."</l>
+        </lg>
+        <lg>
+          <l>"Sitte sinne tultuansa</l>
+          <l>Tuurin uutehen tupahan</l>
+          <l>Panihe pahoille töille,</l>
+          <l>190. Löihe töille törkeille,</l>
+          <l>Rikkoi rinnat tyttäriltä,</l>
+          <l>Neitosilta nännit näppi,</l>
+        </lg>
+        <pb n="4" facs="page_341"/>
+        <lg>
+          <l>Turmeli pojalta polvet,</l>
+          <l>Isännältä parran poltti."</l>
+        </lg>
+        <lg>
+          <l>"Äiti lastansa imetti</l>
+          <l>Kätkyessä vaivaisessa,</l>
+          <l>Tuohon tultua tulonen</l>
+          <l>Jo teki pahinta työtä,</l>
+          <l>Poltti lapsen kätkyestä,</l>
+          <l>200. Poltti paarmahat emolta;</l>
+          <l>Se lapsi meni Manalle,</l>
+          <l>Toki poika Tuonelahan,</l>
+          <l>Ku oli luotu kuolemahan,</l>
+          <l>Katsottu katoamahan</l>
+          <l>Tuskissa tulen punaisen,</l>
+          <l>Vaikeissa valkeaisen."</l>
+        </lg>
+        <lg>
+          <l>"Niin emo enemmän tiesi,</l>
+          <l>Ei emo Manalle mennyt,</l>
+          <l>Se tunsi tulen manata,</l>
+          <l>210. Valkeaisen vaivutella</l>
+          <l>Läpi pienen neulan silmän</l>
+          <l>Halki kirvehen hamaran,</l>
+          <l>Puhki kuuman tuuran putken,</l>
+          <l>Pitkin pellon pientaretta."</l>
+        </lg>
+        <lg>
+          <l>Vaka vanha Wäinämöinen</l>
+          <l>Itse ennätti kysyä:</l>
+          <l>"Kunne tulet tuosta läksi,</l>
+          <l>Kunne kiiähti kipunat</l>
+          <l>Tuurin pellon pientarelta,</l>
+          <l>220. Metsällenkö vai merelle?"</l>
+        </lg>
+        <lg>
+          <l>Vaimo vastaten sanovi,</l>
+          <l>Itse virkki, noin nimesi:</l>
+          <l>"Tuli tuosta mennessänsä,</l>
+          <l>Valkeainen vierressänsä</l>
+          <l>Ensin poltti paljo maita,</l>
+          <l>Paljo maita, paljo soita,</l>
+          <l>Viimein vierähti vetehen,</l>
+          <l>Aaltoihin Aluen järven,</l>
+          <l>Se oli syttyä tulehen,</l>
+          <l>230. Säkehinä säihkyellä."</l>
+        </lg>
+        <lg>
+          <l>"Kolmasti kesäisnä yönä,</l>
+          <l>Yheksästi syksy-yönä</l>
+          <l>Kuohui kuusien tasalle,</l>
+          <l>Ärjyi päälle äyrähien</l>
+          <l>Tuon tuiman tulen käsissä,</l>
+          <l>Varin valkean väessä."</l>
+        </lg>
+        <lg>
+          <l>"Kuohui kuiville kalansa,</l>
+          <l>Arinoille ahvenensa;</l>
+          <l>Kalat tuossa katselevat,</l>
+          <l>240. Ahvenet ajattelevat,</l>
+          <l>Miten olla, kuin eleä;</l>
+          <l>Ahven itki aittojansa,</l>
+          <l>Kalat kartanoisiansa,</l>
+          <l>Kiiski linnoa kivistä."</l>
+        </lg>
+        <lg>
+          <l>"Läksi ahven kyrmy-niska,</l>
+          <l>Tavoitti tuli soroista,</l>
+          <l>Eipä ahven saanutkana;</l>
+          <l>Niin meni sinervä siika,</l>
+          <l>Se nieli tuli soroisen,</l>
+          <l>250. Vajotteli valkeaisen."</l>
+        </lg>
+        <lg>
+          <l>"Jo vettyi Aluen järvi,</l>
+          <l>Pääsi päältä äyrästensä</l>
+          <l>Siallensa entiselle</l>
+          <l>Yhtenä kesäisnä yönä."</l>
+        </lg>
+        <lg>
+          <l>"Oli aikoa vähäisen,</l>
+          <l>Tuli tuska nieliälle,</l>
+          <l>Vaikea vajottajalle,</l>
+          <l>Pakko paljo syönehelle."</l>
+        </lg>
+        <lg>
+          <l>"Uiskenteli, kuiskenteli,</l>
+          <l>260. Uipi päivän, uipi toisen</l>
+          <l>Siikasaarien sivuja,</l>
+          <l>Lohiluotojen lomia,</l>
+          <l>Tuhannen nenätse niemen,</l>
+          <l>Sa'an saaren kainalotse;</l>
+          <l>Joka niemi neuvon pisti,</l>
+          <l>Joka saari sai sanoman:</l>
+          <l>""Ei ole vienossa ve'essä,</l>
+          <l>Aluessa ankehessa</l>
+        </lg>
+        <pb n="5" facs="page_342"/>
+        <lg>
+          <l>Kalan kurjan nieliätä,</l>
+          <l>270. Katalan kaottajata</l>
+          <l>Näissä tuskissa tulosen,</l>
+          <l>Vaivannoissa valkeaisen.""</l>
+        </lg>
+        <lg>
+          <l>"Niin kuuli kulea kuuja,</l>
+          <l>Nieli tuon sinervän siian;</l>
+          <l>Oli aikoa vähäisen,</l>
+          <l>Tuli tuska nieliälle,</l>
+          <l>Vaikea vajottajalle,</l>
+          <l>Pakko paljo syönehelle."</l>
+        </lg>
+        <lg>
+          <l>"Uiskenteli, kuiskenteli,</l>
+          <l>280. Uipi päivän, uipi toisen</l>
+          <l>Lohiluotojen lomia,</l>
+          <l>Kalahauin kartanoita,</l>
+          <l>Tuhannen nenitse niemen,</l>
+          <l>Sa'an saaren kainaloitse;</l>
+          <l>Joka niemi neuvon pisti,</l>
+          <l>Joka saari sai sanoman:</l>
+          <l>""Ei ole vienossa ve'essä,</l>
+          <l>Aluessa ankehessa</l>
+          <l>Kalan kurjan appajata,</l>
+          <l>290. Katalan kaottajata</l>
+          <l>Tuskissa tulen palavan,</l>
+          <l>Vaivannoissa valkeaisen.""</l>
+        </lg>
+        <lg>
+          <l>"Niin tuli halea hauki,</l>
+          <l>Nieli tuon kulean kuujan;</l>
+          <l>Oli aikoa vähäisen,</l>
+          <l>Tuli tuska nieliälle,</l>
+          <l>Vaikea vajottajalle,</l>
+          <l>Pakko paljo syönehelle."</l>
+        </lg>
+        <lg>
+          <l>"Uiskenteli, kuiskenteli,</l>
+          <l>300. Uipi päivän, uipi toisen</l>
+          <l>Lokkiluotojen lomitse,</l>
+          <l>Kajavan kivikaritse,</l>
+          <l>Tuhannen nenätse niemen,</l>
+          <l>Sa'an saaren kainalotse;</l>
+          <l>Joka niemi neuvon pisti,</l>
+          <l>Joka saari sai sanoman:</l>
+          <l>""Ei ole vienossa ve'essä,</l>
+          <l>Aluessa ankehessa</l>
+          <l>Kalan kurjan nieliätä,</l>
+          <l>310. Katalan kaottajata</l>
+          <l>Tuskissa tulen palavan,</l>
+          <l>Vaivannoissa valkeaisen.""</l>
+        </lg>
+        <lg>
+          <l>Vaka vanha Wäinämöinen,</l>
+          <l>Toinen seppo Ilmarinen,</l>
+          <l>Nuotan niinisen kutovi,</l>
+          <l>Katajaisen kaikuttavi,</l>
+          <l>Sen painoi paju-vesillä,</l>
+          <l>Raian kuorilla rakenti.</l>
+        </lg>
+        <lg>
+          <l>Vaka vanha Wäinämöinen</l>
+          <l>320. Työnti naiset nuottaselle;</l>
+          <l>Läksi naiset nuottaselle,</l>
+          <l>Sisarekset silpomahan,</l>
+          <l>Soutelevat, luitelevat</l>
+          <l>Niemi nientä, saari saarta</l>
+          <l>Lohiluotojen lomatse,</l>
+          <l>Siikasaarien sivutse</l>
+          <l>Ruskeahan ruoikkohon,</l>
+          <l>Kaunihisen kaislikkohon.</l>
+        </lg>
+        <lg>
+          <l>Pyritähän, pyyetähän,</l>
+          <l>330. Ve'etähän, vellotahan,</l>
+          <l>Nurin nuotta potketahan,</l>
+          <l>Väärin veetähän apaja,</l>
+          <l>Ei saa'a sitä kaloa,</l>
+          <l>Kuta kilvoin pyyetähän.</l>
+        </lg>
+        <lg>
+          <l>Veljekset vesille läksi,</l>
+          <l>Miehet nuotalle menevät;</l>
+          <l>Pohetahan, potketahan,</l>
+          <l>Ve'etähän, vennotahan</l>
+          <l>Lahen suita, luo'on päitä,</l>
+          <l>340. Kalevan kivikaria,</l>
+          <l>Ei saa'a kaloa tuota</l>
+          <l>Mitä tarkoin tarvittihin,</l>
+          <l>Tullut ei halea hauki</l>
+          <l>Vienoilta lahen vesiltä,</l>
+          <l>Eikä suurelta selältä;</l>
+          <l>Kalat pienet, verkot harvat.</l>
+        </lg>
+        <pb n="6" facs="page_343"/>
+        <lg>
+          <l>Jo tuossa kalat valitti,</l>
+          <l>Hauki hauille sanovi,</l>
+          <l>Kysyi siika säynähältä,</l>
+          <l>350. Lohi toiselta lohelta:</l>
+          <l>"Joko kuoli kuulut miehet,</l>
+          <l>Katosi Kalevan poiat,</l>
+          <l>Liina-nuotan nuikuttujat,</l>
+          <l>Lanka-paulan laaittajat,</l>
+          <l>Suuren tarpoimen talujat,</l>
+          <l>Pitkän varren vaikuttajat?"</l>
+        </lg>
+        <lg>
+          <l>Kuuli vanha Wäinämöinen,</l>
+          <l>Itse tuon sanoiksi virkki:</l>
+          <l>"Ei ole kuollehet urohot,</l>
+          <l>360. Kaatunut Kalevan kansa;</l>
+          <l>Yksi kuoli, kaksi syntyi,</l>
+          <l>Joill' on tarpoimet paremmat,</l>
+          <l>Varret vaaksoa pitemmät,</l>
+          <l>Nuotat kahta kauheammat."</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

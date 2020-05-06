@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Kalevalan neljäskymmenesviides runo</title>
+        <author>Elias Lönnrot</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Avoin Kalevala</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>Suomalaisen Kirjallisuuden Seura</distributor>
+        <date when="2018-01-09">9.1.2018</date>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Helsinki</settlement>
+            <repository>Suomalaisen Kirjallisuuden Seuran arkiston kirjallisuuden ja kulttuurihistorian arkistoaineistot</repository>
+            <idno/>
+          </msIdentifier>
+          <msContents>
+            <msItem n="1" class="letter">
+              <author><surname>Lönnrot</surname>
+                <forename>Elias</forename></author>
+            </msItem>
+            <msItem n="2" class="transcription">
+              <bibl/>
+            </msItem>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="runo">
+        <pb n="1" facs="page_323"/>
+        <p><emph>Viidesviidettä Runo.</emph></p>
+        <lg>
+          <l>Louhi Pohjolan emäntä</l>
+          <l>Sai sanoman korvihinsa</l>
+          <l>Wäinölän eleleväksi,</l>
+          <l>Kalevalan kasvavaksi</l>
+          <l>Sammon saauilla muruilla,</l>
+          <l>Kirjokannen kappaleilla.</l>
+        </lg>
+        <lg>
+          <l>Tuo tuota kovin kaehti,</l>
+          <l>Itse aina arvelevi,</l>
+          <l>Minkä surman suorittaisi,</l>
+          <l>10. Kunka kuoleman kokisi</l>
+          <l>Tuolle Wäinölän väelle,</l>
+          <l>Kansalle Kalevalaisten.</l>
+        </lg>
+        <lg>
+          <l>Ukkoa rukoelevi,</l>
+          <l>Pauannetta palvoavi:</l>
+          <l>"Oi Ukko ylijumala!</l>
+          <l>Kaataos Kalevan kansa</l>
+          <l>Rakehilla rautaisilla,</l>
+          <l>Neuloilla teräsnenillä,</l>
+          <l>Tahikka tauilla tapata,</l>
+          <l>20. Surmoa suku katala,</l>
+          <l>Miehet pitkille pihoille,</l>
+          <l>Naiset läävän lattioille!"</l>
+        </lg>
+        <lg>
+          <l>Tyttö oli Tuonelan sokea,</l>
+          <l>Loviatar vaimo vanha,</l>
+          <l>Pahin Tuonen tyttäriä,</l>
+          <l>Ilkein Manuttaria,</l>
+          <l>Alku kaikille pahoille,</l>
+          <l>Tuhansille turmioille;</l>
+          <l>Sill' oli muoto mustan lainen,</l>
+          <l>30. Iho inhon karvallinen.</l>
+        </lg>
+        <lg>
+          <l>Tuopa musta Tuonen tyttö,</l>
+          <l>Ulappalan umpisilmä</l>
+          <l>Teki tielle vuotehensa,</l>
+          <l>Pahnansa pahalle maalle;</l>
+          <l>Selin tuulehen makasi,</l>
+          <l>Kaltoin säähän karkeahan,</l>
+          <l>Perin viimahan viluhun,</l>
+          <l>Kohin päivän koittehesen.</l>
+        </lg>
+        <lg>
+          <l>Tuli suuri tuulen puuska,</l>
+          <l>40. Iästä iso vihuri,</l>
+          <l>Tuuli tuhman raskahaksi,</l>
+          <l>Kostutti kohulliseksi</l>
+          <l>Aholla vesattomalla,</l>
+          <l>Maalla mättähättömällä.</l>
+        </lg>
+        <lg>
+          <l>Kantoi kohtua kovoa,</l>
+          <l>Vatsan täyttä vaikeata,</l>
+          <l>Kantoi kuuta kaksi, kolme,</l>
+          <l>Neljännenki, viiennenki,</l>
+          <l>Kuuta seitsemän, kaheksan</l>
+        </lg>
+        <pb n="2" facs="page_324"/>
+        <lg>
+          <l>50. Ympäri yheksän kuuta,</l>
+          <l>Vaimon vanha'an lukuhun</l>
+          <l>Kuuta puolen kymmenettä.</l>
+        </lg>
+        <lg>
+          <l>Yheksännen kuun lopulla,</l>
+          <l>Kuun alulla kymmenennen</l>
+          <l>Kohtu kääntyvi kovaksi,</l>
+          <l>Painuvi pakolliseksi;</l>
+          <l>Eikä synny syntyminen,</l>
+          <l>Luovu luomaiset sikiöt.</l>
+        </lg>
+        <lg>
+          <l>Siirrälti sian aloa,</l>
+          <l>60. Paneutti toisen paikan,</l>
+          <l>Meni portto poikimahan,</l>
+          <l>Tuulen lautta lapsimahan</l>
+          <l>Kahen kallion välihin,</l>
+          <l>Viien vuoren viukelohon;</l>
+          <l>Eipä tuolla synty synny,</l>
+          <l>Luovu luomainen sikiö.</l>
+        </lg>
+        <lg>
+          <l>Etsi synnytös-sioa,</l>
+          <l>Vatsansa vajennus-maata</l>
+          <l>Heiluvilla hettehillä,</l>
+          <l>70. Läikkyvillä lähtehillä;</l>
+          <l>Ei siellä sioa saanut,</l>
+          <l>Vajennusta vatsallensa.</l>
+        </lg>
+        <lg>
+          <l>Synnytteli poikiansa,</l>
+          <l>Vajenteli vatsoansa</l>
+          <l>Kuohussa tulisen kosken,</l>
+          <l>Ve'en vankan vääntehessä,</l>
+          <l>Alla kolmen kosken koprun,</l>
+          <l>Alla äyrähän yheksän,</l>
+          <l>Vaan ei vielä synty synny,</l>
+          <l>80. Kehnon kohtu ei kevene.</l>
+        </lg>
+        <lg>
+          <l>Alkoi itkeä iletys,</l>
+          <l>Parkua paha kuvatus,</l>
+          <l>Ei tieä mihin menisi,</l>
+          <l>Kunne kulkea pitäisi</l>
+          <l>Vatsansa vajentamahan,</l>
+          <l>Poikiansa poikimahan.</l>
+        </lg>
+        <lg>
+          <l>Puhui pilvestä Jumala,</l>
+          <l>Lausui luoja taivahalta:</l>
+          <l>"Tuoll' on suolla kolmisoppi,</l>
+          <l>90. Rannalla meryttä vasten</l>
+          <l>Pimeässä Pohjolassa,</l>
+          <l>Sangassa Sariolassa;</l>
+          <l>Mene sinne poikimahan,</l>
+          <l>Kohtusi keventämähän,</l>
+          <l>Siellä silma tarvitahan,</l>
+          <l>Väkeäsi vuotetahan!"</l>
+        </lg>
+        <lg>
+          <l>Tuopa musta Tuonen tyttö,</l>
+          <l>Ilkeä Manalan impi</l>
+          <l>Tuli Pohjolan tuville,</l>
+          <l>100. Sariolan saunan maille</l>
+          <l>Latomahan lapsiansa,</l>
+          <l>Saamahan sikiöitänsä.</l>
+        </lg>
+        <lg>
+          <l>Louhi Pohjolan emäntä,</l>
+          <l>Pohjan akka harvahammas,</l>
+          <l>Vei tuon saunahan saloa,</l>
+          <l>Kylin kylpy-huonehesen</l>
+          <l>Kyläkunnan kuulematta,</l>
+          <l>Sanan saamatta kylähän.</l>
+        </lg>
+        <lg>
+          <l>Lämmitti saloa saunan,</l>
+          <l>110. Rikenehen riuahutti,</l>
+          <l>Oluella ukset voiti,</l>
+          <l>Kasti kaljalla saranat,</l>
+          <l>Jott' ei ukset ulvonunna,</l>
+          <l>Saranat narahtanunna.</l>
+        </lg>
+        <lg>
+          <l>Siitä tuon sanoiksi virkki,</l>
+          <l>Itse lausui, noin nimesi:</l>
+          <l>"Kave eukko, luonnon tyttö,</l>
+          <l>Kave kultainen korea,</l>
+          <l>Jok' olet vanhin vaimoloita,</l>
+          <l>120. Ensin emä itselöitä!</l>
+          <l>Juokse polvesta merehen,</l>
+          <l>Vyö-lapasta lainehesen,</l>
+          <l>Ota kiiskiltä kinoa,</l>
+        </lg>
+        <pb n="3" facs="page_325"/>
+        <lg>
+          <l>Matehelta nuljaskata,</l>
+          <l>Jolla voiat luun lomia,</l>
+          <l>Sivelet sivuja myöten,</l>
+          <l>Päästät piian pintehistä,</l>
+          <l>Vaimon vatsan vääntehistä,</l>
+          <l>Tästä tuskasta kovasta,</l>
+          <l>130. Vatsan työstä vaikeasta!"</l>
+        </lg>
+        <lg>
+          <l>"Kun ei tuosta kyllin liene,</l>
+          <l>Oi Ukko ylijumala!</l>
+          <l>Tule tänne tarvittaissa,</l>
+          <l>Käy tänne kutsuttaessa,</l>
+          <l>Tääll' on piika pintehessä,</l>
+          <l>Vaimo vatsan vääntehessä</l>
+          <l>Saunassa savun seassa,</l>
+          <l>Kylän kylpy-huonehessa!"</l>
+        </lg>
+        <lg>
+          <l>"Ota kultainen kurikka</l>
+          <l>140. Kätehesi oikeahan,</l>
+          <l>Sillä haittoja hajota,</l>
+          <l>Pihtipuoliset porota,</l>
+          <l>Lukot luojan lonkahuta,</l>
+          <l>Takasalvat poikki taita</l>
+          <l>Mennä suuren, mennä pienen,</l>
+          <l>Kulkea vähäväkisen!"</l>
+        </lg>
+        <lg>
+          <l>Siinä tuo paha pahennus,</l>
+          <l>Tuonen tyttö umpisilmä</l>
+          <l>Jopa vatsansa vajenti,</l>
+          <l>150. Latoi lapsensa vihaiset</l>
+          <l>Alla vaipan vaskikirjan,</l>
+          <l>Alla uutimen utuisen.</l>
+        </lg>
+        <lg>
+          <l>Teki poikoa yheksän</l>
+          <l>Yhtenä kesäisnä yönä,</l>
+          <l>Yhen löylyn lyötävillä,</l>
+          <l>Yhen saunan saatavilla,</l>
+          <l>Yhestä vatsan väestä,</l>
+          <l>Kohun täyestä kovasta.</l>
+        </lg>
+        <lg>
+          <l>Nimitteli poikiansa,</l>
+          <l>160. Laaitteli lapsiansa,</l>
+          <l>Kun kuki tekemiänsä,</l>
+          <l>Itse ilmi luomiansa:</l>
+          <l>Minkä pisti pistokseksi,</l>
+          <l>Kunka änkäsi ähyksi,</l>
+          <l>Minkä laati luuvaloksi,</l>
+          <l>Kunka riieksi risasi,</l>
+          <l>Minkä painoi paiseheksi,</l>
+          <l>Kunka ruohutti ruveksi,</l>
+          <l>Minkä syöjäksi sysäsi,</l>
+          <l>170. Kunka ruhtosi rutoksi.</l>
+        </lg>
+        <lg>
+          <l>Jäi yksi nimittämättä,</l>
+          <l>Poika pahnan pohjimmainen,</l>
+          <l>Senpä sitte käski tuonne,</l>
+          <l>Työnti velhoiksi vesille,</l>
+          <l>Noi'iksi noroperille,</l>
+          <l>Katehiksi kaikin paikoin.</l>
+        </lg>
+        <lg>
+          <l>Louhi Pohjolan emäntä</l>
+          <l>Muut on käski käyä tuonne</l>
+          <l>Nenähän utuisen niemen,</l>
+          <l>180. Päähän saaren terhenisen;</l>
+          <l>Ärrytti äkäiset luomat,</l>
+          <l>Tavattomat tauit työnti</l>
+          <l>Vasten Wäinölän väkeä,</l>
+          <l>Surmaksi su'un Kalevan.</l>
+        </lg>
+        <lg>
+          <l>Pojat Wäinölän potevi,</l>
+          <l>Läsivi Kalevan kansa</l>
+          <l>Tautia tavattomia,</l>
+          <l>Nimen tietämättömiä;</l>
+          <l>Alta lattiat lahovi,</l>
+          <l>190. Päältä peite märkänevi.</l>
+        </lg>
+        <lg>
+          <l>Silloin vanha Wäinämöinen,</l>
+          <l>Tietäjä iän-ikuinen</l>
+          <l>Läksi päitä päästämähän,</l>
+          <l>Henkiä lunastamahan,</l>
+          <l>Läksi Tuonelle sotahan,</l>
+          <l>Kera tauin tappelohon.</l>
+        </lg>
+        <pb n="4" facs="page_326"/>
+        <lg>
+          <l>Saattoi saunan lämpimäksi,</l>
+          <l>Kivet löylyn lyötäväksi</l>
+          <l>Puuhuilla puhtahilla,</l>
+          <l>200. Ve'en tuomilla haloilla;</l>
+          <l>Vei on vettä verhossansa,</l>
+          <l>Kantoi vastat varjossansa,</l>
+          <l>Hauteli haluiset vastat,</l>
+          <l>Satalatvat lauhutteli.</l>
+        </lg>
+        <lg>
+          <l>Löi siitä simaisen löylyn,</l>
+          <l>Mesi löylyn löyhäytti</l>
+          <l>Läpi kuumien kivien,</l>
+          <l>Palavojen paaterojen,</l>
+          <l>Sanovi sanalla tuolla,</l>
+          <l>210. Lausui tuolla lausehella:</l>
+          <l>"Tule nyt löylyhyn Jumala,</l>
+          <l>Iso ilman lämpimähän,</l>
+          <l>Tekemähän terveyttä,</l>
+          <l>Rauhoa rakentamahan!</l>
+          <l>Pyyhi pois pyhät kipunat,</l>
+          <l>Pyhät saastat sammuttele,</l>
+          <l>Lyötä maahan liika löyly,</l>
+          <l>Paha löyly pois lähetä,</l>
+          <l>Ettei polta poikiasi,</l>
+          <l>220. Turmele tekemiäsi!"</l>
+        </lg>
+        <lg>
+          <l>"Minkä vettä viskaelen</l>
+          <l>Noille kuumille kiville,</l>
+          <l>Se me'eksi muuttukohon,</l>
+          <l>Simaksi sirahtakohon;</l>
+          <l>Juoskohon joki metinen,</l>
+          <l>Sima-lampi laikkukohon</l>
+          <l>Läpi kiukahan kivisen,</l>
+          <l>Läpi saunan sammalisen!"</l>
+        </lg>
+        <lg>
+          <l>"Ei nyt meitä syyttä syöä,</l>
+          <l>230. Eikä tauitta tapeta,</l>
+          <l>Ei luvatta suuren luojan,</l>
+          <l>Ilman surmatta Jumalan;</l>
+          <l>Kenpä meitä syyttä söisi,</l>
+          <l>Suuhunsa omat sanansa,</l>
+          <l>Päähänsä pahat panonsa,</l>
+          <l>Ajatukset itsehensä!"</l>
+        </lg>
+        <lg>
+          <l>"Jos ei minussa miestä liene,</l>
+          <l>Urosta ukon pojassa</l>
+          <l>Rikkehistä riisumahan,</l>
+          <l>240. Päättehistä päästämähän,</l>
+          <l>Onp' on itsessä Ukossa,</l>
+          <l>Joka pilviä pitävi,</l>
+          <l>Pouta-pilvessä asuvi,</l>
+          <l>Hattaroissa hallitsevi."</l>
+        </lg>
+        <lg>
+          <l>"Oi Ukko ylijumala,</l>
+          <l>Pilven päällinen Jumala!</l>
+          <l>Tule tänne tarvittaissa,</l>
+          <l>Ajaite anottaessa</l>
+          <l>Nämä tuskat tuntemahan,</l>
+          <l>250. Hätäpäivät häätämähän,</l>
+          <l>Rikonnaiset riisumahan,</l>
+          <l>Puutunnaiset purkamahan!"</l>
+        </lg>
+        <lg>
+          <l>"Tuo mulle tulinen miekka,</l>
+          <l>Säkehinen säilä kanna,</l>
+          <l>Jolla ma pahat pitelen,</l>
+          <l>Ilkeät iki asetan,</l>
+          <l>Tuskat tuulen teitä myöten,</l>
+          <l>Kivut aavoillen ahoille."</l>
+        </lg>
+        <lg>
+          <l>"Tuonne ma kipuja kiistän</l>
+          <l>260. Tuonne tuskia manoan</l>
+          <l>Kivisihin kellarihin,</l>
+          <l>Rautaisihin raunioihin</l>
+          <l>Kiviä kivistämähän,</l>
+          <l>Paasia pakottamahan;</l>
+          <l>Ei kivi kipuja itke,</l>
+          <l>Paasi ei vaivoja valita,</l>
+          <l>Vaikka paljo pantahisi,</l>
+          <l>Määrättä mätettähisi."</l>
+        </lg>
+        <lg>
+          <l>"Kipu-tyttö Tuonen neiti,</l>
+        </lg>
+        <pb n="5" facs="page_327"/>
+        <lg>
+          <l>270. Joka istut kipu-kivellä,</l>
+          <l>Joen kolmen juoksevassa,</l>
+          <l>Veen kolmen jakaimessa,</l>
+          <l>Jauhaen kipu-kiveä,</l>
+          <l>Kipu-vuorta väännätellen!</l>
+          <l>Käy kivut kereämähän</l>
+          <l>Kitahan kiven sinisen,</l>
+          <l>Tahi vieretä vetehen,</l>
+          <l>Syytäise meren syvähän,</l>
+          <l>Tuulen tuntumattomahan,</l>
+          <l>280. Päivän paistamattomahan!"</l>
+        </lg>
+        <lg>
+          <l>"Kun ei tuosta kyllin liene,</l>
+          <l>Kivutar hyvä emäntä,</l>
+          <l>Vammatar valio vaimo,</l>
+          <l>Tule kanssa, käy keralla</l>
+          <l>Tekemähän terveyttä,</l>
+          <l>Rauhoa rakentamahan!</l>
+          <l>Tee kivut kivuttomaksi,</l>
+          <l>Vammat värjymättömäksi,</l>
+          <l>Jotta saisi sairas maata,</l>
+          <l>290. Huono huoletta levätä,</l>
+          <l>Tuskahinen tunnin olla,</l>
+          <l>Vikahinen vieretellä."</l>
+        </lg>
+        <lg>
+          <l>"Ota kivut kippasehen,</l>
+          <l>Vaivat vaski-vakkasehen,</l>
+          <l>Kivut tuonne vieäksesi,</l>
+          <l>Vammat vaivutellaksesi</l>
+          <l>Keskelle Kipumäkeä,</l>
+          <l>Kipuvuoren kukkulata;</l>
+          <l>Siellä keittäös kipuja</l>
+          <l>300. Pikkuisessa kattilassa,</l>
+          <l>Yhen sormen mentävässä,</l>
+          <l>Peukalon mahuttavassa!"</l>
+        </lg>
+        <lg>
+          <l>"Kivi on keskellä mäkeä,</l>
+          <l>Reikä keskellä kiveä,</l>
+          <l>Jok' on väätty vääntiällä,</l>
+          <l>Puhkaistu puraisimella;</l>
+          <l>Siihen kivut kiskotahan,</l>
+          <l>Pahat vammat vallatahan,</l>
+          <l>Tuskat tuimat tungetahan,</l>
+          <l>310. Pakkopäivät painetahan</l>
+          <l>Öin yrittämättömiksi,</l>
+          <l>Päivin pääsemättömiksi."</l>
+        </lg>
+        <lg>
+          <l>Siitä vanha Wäinämöinen,</l>
+          <l>Tietäjä iän-ikuinen</l>
+          <l>Vielä voiteli vikoja,</l>
+          <l>Noita vammoja valeli</l>
+          <l>Yheksillä voitehilla,</l>
+          <l>Kaheksilla katsehilla,</l>
+          <l>Sanovi sanalla tuolla,</l>
+          <l>320. Lausui tuolla lausehella:</l>
+          <l>"Oi Ukko ylijumala,</l>
+          <l>Mies on vanha taivahinen!</l>
+          <l>Iätä iästä pilvi,</l>
+          <l>Nosta lonka luotehesta,</l>
+          <l>Länkä lännestä lähetä,</l>
+          <l>Sa'a mettä, sa'a vettä</l>
+          <l>Kipehille voitehiksi,</l>
+          <l>Vammoille valantehiksi!"</l>
+        </lg>
+        <lg>
+          <l>"En minä mitänä voine,</l>
+          <l>330. Kun ei luojani luvanne;</l>
+          <l>Avun luoja antakohon,</l>
+          <l>Avun tuokohon Jumala</l>
+          <l>Minun silmin nähtyäni,</l>
+          <l>Käsin päällä käytyäni,</l>
+          <l>Suin sulin puheltuani,</l>
+          <l>Hengin henkäeltyäni!"</l>
+        </lg>
+        <lg>
+          <l>"Kuhun ei käteni käyne,</l>
+          <l>Käyköhön käet Jumalan;</l>
+          <l>Kuhun ei sormeni sopine,</l>
+          <l>340. Sopikohon luojan sormet:</l>
+          <l>Luojan on somemmat sormet,</l>
+          <l>Luojan kämmenet käpeät!"</l>
+        </lg>
+        <lg>
+          <l>"Tule nyt luoja loitsimahan,</l>
+          <l>Jumala puhelemahan,</l>
+          <l>Kaikkivalta katsomahan!</l>
+        </lg>
+        <pb n="6" facs="page_328"/>
+        <lg>
+          <l>Tehkös yöllä terveheksi,</l>
+          <l>Päivällä imanteheksi,</l>
+          <l>Jott' ei tuska päällä tunnu,</l>
+          <l>Kipu keskeä kivistä,</l>
+          <l>350. Pakko ei syämmehen paneite,</l>
+          <l>Jott' ei tunnu pikkuistana,</l>
+          <l>Vaivoa vähäistäkänä</l>
+          <l>Sinä ilmoisna ikänä,</l>
+          <l>Kuuna kullan valkeana!"</l>
+        </lg>
+        <lg>
+          <l>Vaka vanha Wäinämöinen,</l>
+          <l>Tietäjä iän-ikuinen</l>
+          <l>Sillä riisui rikkehiä,</l>
+          <l>Purkaeli puuttehia;</l>
+          <l>Poies poisti poikenluomat,</l>
+          <l>360. Paranti pahat panoset,</l>
+          <l>Päästi kansan kuolemasta,</l>
+          <l>Kalevan katoamasta.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

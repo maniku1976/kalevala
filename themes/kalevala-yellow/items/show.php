@@ -28,8 +28,8 @@
       <nav id="pic_nav" class="navbar navbar-expand-md">
         <ul class="navbar-nav">
            <li id="pic_nav1" class="nav-item" title="näytä sananselitykset">
-             <input type="checkbox" title="näytä sananselitykset"> Sananselitykset
-           </li>
+              <input type="checkbox" title="näytä sananselitykset"> Sananselitykset
+            </li>
            <?php if (metadata('item', array('Dublin Core', 'Title')) == 'Neljäs runo'): ?>
              <li id="pic_nav2" class="nav-item" title="näytä säeviitteet">
                <input type="checkbox" title="näytä säeviitteet"> Säeviitteet
@@ -55,8 +55,11 @@
           || metadata('item', array('Dublin Core', 'Title')) == 'Neljästoista runo'
           || metadata('item', array('Dublin Core', 'Title')) == 'Viidestoista runo'
           || metadata('item', array('Dublin Core', 'Title')) == 'Yhdestoista runo'
+          || metadata('item', array('Dublin Core', 'Title')) == 'Kahdeskymmeneskuudes runo'
           || metadata('item', array('Dublin Core', 'Title')) == 'Kahdeskymmenesseitsemäs runo'
-          || metadata('item', array('Dublin Core', 'Title')) == 'Kahdeskymmeneskahdeksas runo'): ?>
+          || metadata('item', array('Dublin Core', 'Title')) == 'Kahdeskymmeneskahdeksas runo'
+          || metadata('item', array('Dublin Core', 'Title')) == 'Neljäskymmenestoinen runo'
+          || metadata('item', array('Dublin Core', 'Title')) == 'Neljäskymmeneskolmas runo'): ?>
             <li id="pic_nav3" class="nav-item" title="näytä kommentaarit">
               <input type="checkbox" title="näytä kommentaarit"> Kommentaarit
             </li>
@@ -150,7 +153,8 @@
 <nav>
 <?php
 $ids = array('9','21','6','7','8','24','25','26','27','32','23','28','29','30','31','37','38','39','40','41','42','33','34',
-'43','44','35','36','46','45','47','48','49','50','22','5');
+'43','44','35','36','46','45','47','48','49','50','53','54','55','56','57','58','59','60','51','52','61','62','63','64',
+'65','66','67','22','5');
 $current_id = array_search($item->id, $ids);
 $previous_item = '';
 $next_item = '';

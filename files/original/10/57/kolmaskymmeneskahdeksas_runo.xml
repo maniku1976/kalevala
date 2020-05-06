@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Kalevalan kolmaskymmeneskahdeksas runo</title>
+        <author>Elias Lönnrot</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Avoin Kalevala</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>Suomalaisen Kirjallisuuden Seura</distributor>
+        <date when="2018-01-09">9.1.2018</date>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Helsinki</settlement>
+            <repository>Suomalaisen Kirjallisuuden Seuran arkiston kirjallisuuden ja kulttuurihistorian arkistoaineistot</repository>
+            <idno/>
+          </msIdentifier>
+          <msContents>
+            <msItem n="1" class="letter">
+              <author><surname>Lönnrot</surname>
+                <forename>Elias</forename></author>
+            </msItem>
+            <msItem n="2" class="transcription">
+              <bibl/>
+            </msItem>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="runo">
+        <pb n="1" facs="page_282"/>
+        <p><emph>Kahdeksasneljättä Runo.</emph></p>
+        <lg>
+          <l>Tuop' on seppo Ilmarinen,</l>
+          <l>Takoja iän-ikuinen</l>
+          <l>Heitti kultaisen kuvansa,</l>
+          <l>Hopeisen neitosensa;</l>
+          <l>Pisti varsan valjahisin,</l>
+          <l>Ruskean re'en etehen,</l>
+          <l>Itse istuvi rekehen,</l>
+          <l>Kohennaikse korjahansa,</l>
+          <l>Lähteäksensä lupasi,</l>
+          <l>10. Sekä mietti mennäksensä</l>
+          <l>Pyytämähän Pohjolasta</l>
+          <l>Toista Pohjolan tytärtä.</l>
+        </lg>
+        <lg>
+          <l>Sai päivän ajaneheksi,</l>
+          <l>Tuosta toisen vierneheksi,</l>
+          <l>Päivälläpä kolmannella</l>
+          <l>Tuli Pohjolan pihalle.</l>
+        </lg>
+        <lg>
+          <l>Louhi Pohjolan emäntä</l>
+          <l>Itse päätyvi pihalle,</l>
+          <l>Sai tuossa sanelemahan,</l>
+          <l>20. Kääntihe kyselemähän</l>
+          <l>Oman lapsensa oloa,</l>
+          <l>Asuntoa armahansa</l>
+          <l>Miniänä miehelässä,</l>
+          <l>Naisena anoppelassa.</l>
+        </lg>
+        <lg>
+          <l>Se on seppo Ilmarinen</l>
+          <l>Alla päin, pahoilla mielin,</l>
+          <l>Kaiken kallella kypärin</l>
+          <l>Sanan virkkoi, noin nimesi:</l>
+          <l>"Ellös nyt anoppiseni,</l>
+          <l>30. Ellös sie kyselkö tuota,</l>
+          <l>Elämiä tyttäresi,</l>
+          <l>Asuntoa armahasi!</l>
+          <l>Jo sen on surma suin piellyt,</l>
+          <l>Kova loppu loukahtanut;</l>
+          <l>Maassa on jo marjaseni,</l>
+          <l>Kankahassa kaunoseni,</l>
+          <l>Mustakulmani kulossa,</l>
+          <l>Hopeani heinikossa;</l>
+          <l>Läksin toista tyttöäsi,</l>
+          <l>40. Nuorempata neitoasi;</l>
+          <l>Annapa anoppiseni,</l>
+          <l>Työnnä toinen tyttäresi</l>
+          <l>Naisen entisen eloille,</l>
+          <l>Sialle sisaruensa!"</l>
+        </lg>
+        <pb n="2" facs="page_283"/>
+        <lg>
+          <l>Louhi Pohjolan emäntä</l>
+          <l>Sanan virkkoi, noin nimesi:</l>
+          <l>"Pahoin tein minä poloinen,</l>
+          <l>Pahoinpa polon alainen,</l>
+          <l>Kun ma lapseni lupasin,</l>
+          <l>50. Työnsin sulle toisenkana</l>
+          <l>Nuorena nukahtamahan,</l>
+          <l>Verevänä vieremähän,</l>
+          <l>Annoin kun sutosen suuhun,</l>
+          <l>Karhun kiljuvan kitahan."</l>
+        </lg>
+        <lg>
+          <l>"En nyt toista annakana,</l>
+          <l>En mä työnnä tyttöäni</l>
+          <l>Nokiesi nuohojaksi,</l>
+          <l>Karstojesi kaapiaksi;</l>
+          <l>Ennen työnnän tyttäreni,</l>
+          <l>60. Laitan lapseni vakavan</l>
+          <l>Koskehen kohisevahan,</l>
+          <l>Palavahan pyörtehesen,</l>
+          <l>Manalan matikan suuhun,</l>
+          <l>Tuonen hauin hampahisin."</l>
+        </lg>
+        <lg>
+          <l>Siitä seppo Ilmarinen</l>
+          <l>Murti suuta, väänti päätä,</l>
+          <l>Murti mustoa haventa,</l>
+          <l>Käänti päätä käiväräistä;</l>
+          <l>Itse tunkihe tupahan,</l>
+          <l>70. Alle kattojen ajoihe,</l>
+          <l>Sanan virkkoi, noin nimesi:</l>
+          <l>"Tulepa minulle tyttö</l>
+          <l>Sialle sisaruesi,</l>
+          <l>Naisen entisen eloille,</l>
+          <l>Mesileivän leipojaksi,</l>
+          <l>Oluen osoajaksi!"</l>
+        </lg>
+        <lg>
+          <l>Lauloi lapsi lattialta,</l>
+          <l>Sekä lauloi, jotta lausui:</l>
+          <l>"Pois on liika linnastamme,</l>
+          <l>80. Mies outo ovilta näiltä!</l>
+          <l>Tukon linnoa tuhosit,</l>
+          <l>Palan linnoa pahensit</l>
+          <l>Kerran ennen käytyäsi,</l>
+          <l>Ovillen osattuasi."</l>
+        </lg>
+        <lg>
+          <l>"Neitonen, sinä sisari,</l>
+          <l>Elä sulho'on ihastu,</l>
+          <l>Elä sulhon suun pitohon,</l>
+          <l>Eläkä jalkoihin jaloihin!</l>
+          <l>Sulholl' on suen ikenet,</l>
+          <l>90. Revon koukut kormanossa,</l>
+          <l>Karhun kynnet kainalossa,</l>
+          <l>Veren juojan veitsi vyöllä,</l>
+          <l>Jolla päätä piirtelevi,</l>
+          <l>Selkeä sirettelevi."</l>
+        </lg>
+        <lg>
+          <l>Neiti itse noin saneli</l>
+          <l>Ilmariselle sepolle:</l>
+          <l>"En lähe minä sinulle,</l>
+          <l>Enkä huoli huitukoille;</l>
+          <l>Tapoit naisen ennen naiun,</l>
+          <l>100. Surmasit sisarueni,</l>
+          <l>Vielä tappaisit minunki,</l>
+          <l>Surmoaisit itseniki;</l>
+          <l>Onpa tässä neitosessa</l>
+          <l>Paremmanki miehen verta,</l>
+          <l>Kaunihimman varren kauppa,</l>
+          <l>Koreamman korjan täysi,</l>
+          <l>Paikoille paremmillenki,</l>
+          <l>Isommille istuimille,</l>
+          <l>Ei sepon sysi-sioille,</l>
+          <l>110. Miehen tuhmaisen tulille."</l>
+        </lg>
+        <lg>
+          <l>Se on seppo Ilmarinen,</l>
+          <l>Takoja iän-ikuinen</l>
+          <l>Murti suuta, väänti päätä,</l>
+          <l>Murti mustoa haventa;</l>
+          <l>Saautti tytön samassa,</l>
+          <l>Käärälti käpälihinsä,</l>
+          <l>Läksi tuiskuna tuvasta,</l>
+          <l>Riepsahti rekensä luoksi,</l>
+          <l>Työnnälti tytön rekehen,</l>
+          <l>120. Koksahutti korjahansa,</l>
+        </lg>
+        <pb n="3" facs="page_284"/>
+        <lg>
+          <l>Läksi kohta kulkemahan,</l>
+          <l>Valmistui vaeltamahan,</l>
+          <l>Käsi ohjassa orosen,</l>
+          <l>Toinen neien nännisillä.</l>
+        </lg>
+        <lg>
+          <l>Neiti itki ja urisi,</l>
+          <l>Sanan virkkoi, noin nimesi:</l>
+          <l>"Sain nyt suolle karpalohon,</l>
+          <l>Vehkahan vesiperille,</l>
+          <l>Tuonne ma kana katoan,</l>
+          <l>130. Kuolen lintu liian surman."</l>
+        </lg>
+        <lg>
+          <l>"Kuule seppo Ilmarinen!</l>
+          <l>Kun et laskene minua,</l>
+          <l>Potkin korjasi paloiksi,</l>
+          <l>Sären reen repalehiksi,</l>
+          <l>Potkin poikki polvillani,</l>
+          <l>Sären säärivarsillani."</l>
+        </lg>
+        <lg>
+          <l>Se on seppo Ilmarinen</l>
+          <l>Itse tuon sanoiksi virkki:</l>
+          <l>"Sen tähen sepon rekosen</l>
+          <l>140. Laiat rautahan rakettu,</l>
+          <l>Jotta potkia pitävi,</l>
+          <l>Hyvän immen heiskaroia."</l>
+        </lg>
+        <lg>
+          <l>Neitonen kujertelevi,</l>
+          <l>Vyö vaski valittelevi,</l>
+          <l>Sormiansa murtelevi,</l>
+          <l>Katkovi kätösiänsä,</l>
+          <l>Sanan virkkoi, noin nimesi:</l>
+          <l>"Kun et laskene minua,</l>
+          <l>Laulaime meren kalaksi,</l>
+          <l>150. Syvän aallon siikaseksi."</l>
+        </lg>
+        <lg>
+          <l>Se on seppo Ilmarinen</l>
+          <l>Itse tuon sanoiksi virkki:</l>
+          <l>"Etpä sinä sinne pääse,</l>
+          <l>Minä haukina jälessä."</l>
+        </lg>
+        <lg>
+          <l>Neitonen kujertelevi,</l>
+          <l>Vyö vaski valittelevi,</l>
+          <l>Sormiansa murtelevi,</l>
+          <l>Katkovi kätösiänsä,</l>
+          <l>Sanan virkkoi, noin nimesi:</l>
+          <l>160. "Kun et laskene minua,</l>
+          <l>Metsähän menetteleime</l>
+          <l>Kärpäksi kiven kolohon."</l>
+        </lg>
+        <lg>
+          <l>Se on seppo Ilmarinen</l>
+          <l>Itse tuon sanoiksi virkki:</l>
+          <l>"Etpä sinä sinne pääse,</l>
+          <l>Minä saukkona jälessä."</l>
+        </lg>
+        <lg>
+          <l>Neitonen kujertelevi,</l>
+          <l>Vyö vaski valittelevi,</l>
+          <l>Sormiansa murtelevi,</l>
+          <l>170. Katkovi kätösiänsä,</l>
+          <l>Sanan virkkoi, noin nimesi:</l>
+          <l>"Kun et laskene minua,</l>
+          <l>Kiuruna kiverteleime</l>
+          <l>Taaksi pilven piilemähän."</l>
+        </lg>
+        <lg>
+          <l>Se on seppo Ilmarinen</l>
+          <l>Itse tuon sanoiksi virkki:</l>
+          <l>"Etpä sinä sinne pääse,</l>
+          <l>Minä kokkona jälessä."</l>
+        </lg>
+        <lg>
+          <l>Kulki matkoa palasen,</l>
+          <l>180. Ajoi tietä pikkuruisen,</l>
+          <l>Jo hepo höryeleikse,</l>
+          <l>Luppakorva luonteleikse.</l>
+        </lg>
+        <lg>
+          <l>Neiti päätänsä kohotti,</l>
+          <l>Näki jälkiä lumessa,</l>
+          <l>Kysytteli, lausutteli:</l>
+          <l>"Mi on tästä poikki juosnut?"</l>
+          <l>Sanoi seppo Ilmarinen:</l>
+          <l>"Jänö on juosnut siitä poikki."</l>
+        </lg>
+        <lg>
+          <l>Neiti parka huokaiseikse,</l>
+          <l>190. Huokaiseikse, henkäiseikse,</l>
+          <l>Sanan virkkoi, noin nimesi:</l>
+          <l>"Voi minua kurja raukka!</l>
+          <l>Parempi minun olisi,</l>
+          <l>Parempi oletteleisi</l>
+          <l>Jänön juoksevan jälillä,</l>
+        </lg>
+        <pb n="4" facs="page_285"/>
+        <lg>
+          <l>Koukkupolven polkemilla,</l>
+          <l>Kun tämän kosian reessä,</l>
+          <l>Viirunaaman viltin alla;</l>
+          <l>Jänön on karvat kaunihimmat,</l>
+          <l>200. Jänön suumalo somempi."</l>
+        </lg>
+        <lg>
+          <l>Se on seppo Ilmarinen</l>
+          <l>Puri huulta, väänti päätä,</l>
+          <l>Ajoa kahattelevi;</l>
+          <l>Ajoi matkoa palasen,</l>
+          <l>Taas hepo höryeleikse,</l>
+          <l>Luppakorva luonteleikse.</l>
+        </lg>
+        <lg>
+          <l>Neiti päätänsä kohotti,</l>
+          <l>Näki jälkiä lumessa,</l>
+          <l>Kysytteli, lausutteli:</l>
+          <l>210. "Mi on tästä poikki juosnut?"</l>
+          <l>Sanoi seppo Ilmarinen:</l>
+          <l>"Repo on juosnut siitä poikki."</l>
+        </lg>
+        <lg>
+          <l>Neiti parka huokaiseikse,</l>
+          <l>Huokaiseikse, henkäiseikse,</l>
+          <l>Sanan virkkoi, noin nimesi:</l>
+          <l>"Voi minua kurja raukka!</l>
+          <l>Parempi minun olisi,</l>
+          <l>Parempi oletteleisi</l>
+          <l>Revon reyhkävän re'essä,</l>
+          <l>220. Aina käyvän ahkiossa,</l>
+          <l>Kun tämän kosian reessä,</l>
+          <l>Viirunaaman viltin alla;</l>
+          <l>Revon on karvat kaunihimmat,</l>
+          <l>Revon suumalo somempi."</l>
+        </lg>
+        <lg>
+          <l>Se on seppo Ilmarinen</l>
+          <l>Puri huulta, väänti päätä,</l>
+          <l>Ajoa kahattelevi;</l>
+          <l>Ajoi matkoa palasen,</l>
+          <l>Taas hepo höryeleikse,</l>
+          <l>230. Luppakorva luonteleikse.</l>
+        </lg>
+        <lg>
+          <l>Neiti päätänsä kohotti,</l>
+          <l>Näki jälkiä lumessa,</l>
+          <l>Kysytteli, lausutteli:</l>
+          <l>"Mi on tästä poikki juosnut?"</l>
+          <l>Sanoi seppo Ilmarinen:</l>
+          <l>"Hukka on juosnut siitä poikki."</l>
+        </lg>
+        <lg>
+          <l>Neiti parka huokaiseikse,</l>
+          <l>Huokaiseikse, henkäiseikse,</l>
+          <l>Sanan virkkoi, noin nimesi:</l>
+          <l>240. "Voi minua kurja raukka!</l>
+          <l>Parempi minun olisi,</l>
+          <l>Parempi oletteleisi</l>
+          <l>Hukan hurskavan jälillä,</l>
+          <l>Alakärsän askelilla,</l>
+          <l>Kun tämän kosian reessä,</l>
+          <l>Viirunaaman viltin alla;</l>
+          <l>Hukan on karva kaunihimpi,</l>
+          <l>Hukan suumalo somempi."</l>
+        </lg>
+        <lg>
+          <l>Se on seppo Ilmarinen</l>
+          <l>250. Puri huulta, väänti päätä,</l>
+          <l>Ajoa kahattelevi</l>
+          <l>Yöksi uutehen kylähän.</l>
+        </lg>
+        <lg>
+          <l>Matkalta väsynehenä</l>
+          <l>Seppo nukkuvi sikein,</l>
+          <l>Toinen naista naurattavi</l>
+          <l>Mieheltä unekkahalta.</l>
+        </lg>
+        <lg>
+          <l>Siitä seppo Ilmarinen</l>
+          <l>Aamulla havattuansa</l>
+          <l>Murti suuta, väänti päätä,</l>
+          <l>260. Murti mustoa haventa;</l>
+          <l>Sanoi seppo Ilmarinen,</l>
+          <l>Itse mietti, noin nimesi:</l>
+          <l>"Joko luome laulamahan,</l>
+          <l>Laulan moisen morsiamen</l>
+          <l>Metsähän metsän omaksi,</l>
+          <l>Vai vetehen veen omaksi?"</l>
+        </lg>
+        <lg>
+          <l>"En laula metsän omaksi,</l>
+          <l>Metsä kaikki kaihostuisi;</l>
+        </lg>
+        <pb n="5" facs="page_286"/>
+        <lg>
+          <l>Enkäpä ve'en omaksi,</l>
+          <l>270. Vieroaisi veen kalaset;</l>
+          <l>Ennen kaa'an kalvallani,</l>
+          <l>Menettelen miekallani."</l>
+        </lg>
+        <lg>
+          <l>Miekka mietti miehen kielen,</l>
+          <l>Arvasi uron pakinan,</l>
+          <l>Sanan virkkoi, noin nimesi:</l>
+          <l>"Ei liene minua luotu</l>
+          <l>Naisia menettämähän,</l>
+          <l>Kataloita kaatamahan."</l>
+        </lg>
+        <lg>
+          <l>Se on seppo Ilmarinen</l>
+          <l>280. Jopa loihe laulamahan,</l>
+          <l>Syäntyi sanelemahan,</l>
+          <l>Lauloi naisensa lokiksi</l>
+          <l>Luo'olle lokottamahan,</l>
+          <l>Veen karille kaikkumahan,</l>
+          <l>Nenät nienten niukumahan,</l>
+          <l>Vastatuulet vaapumahan.</l>
+        </lg>
+        <lg>
+          <l>Siitä seppo Ilmarinen</l>
+          <l>Rekehensä reutoaikse,</l>
+          <l>Ajoa kahattelevi</l>
+          <l>290. Alla päin, pahoilla mielin,</l>
+          <l>Matkasi omille maille,</l>
+          <l>Tuli maille tuttaville.</l>
+        </lg>
+        <lg>
+          <l>Vaka vanha Wäinämöinen</l>
+          <l>Tiellä vastahan tulevi,</l>
+          <l>Sai tuosta sanelemahan:</l>
+          <l>"Veli seppo Ilmarinen,</l>
+          <l>Mit' olet pahoilla mielin,</l>
+          <l>Kahta kallella kypärin</l>
+          <l>Pohjolasta tullessasi?</l>
+          <l>300. Miten Pohjola elävi?"</l>
+        </lg>
+        <lg>
+          <l>Sanoi seppo Ilmarinen:</l>
+          <l>"Mi on Pohjolan eleä!</l>
+          <l>Siell' on sampo jauhamassa,</l>
+          <l>Kirjokansi kallumassa,</l>
+          <l>Päivän jauhoi syötäviä,</l>
+          <l>Päivän toisen myötäviä,</l>
+          <l>Kolmannen kotipitoja."</l>
+        </lg>
+        <lg>
+          <l>"Jotta sanon, kun sanonki,</l>
+          <l>Vielä kerran kertaelen:</l>
+          <l>310. Mi on Pohjolan eleä,</l>
+          <l>Kun on sampo Pohjolassa!</l>
+          <l>Siin' on kyntö, siinä kylvö,</l>
+          <l>Siinä kasvo kaikenlainen,</l>
+          <l>Siinäpä ikuinen onni."</l>
+        </lg>
+        <lg>
+          <l>Sanoi vanha Wäinämöinen:</l>
+          <l>"Veli seppo Ilmarinen!</l>
+          <l>Minne heitit naisen nuoren,</l>
+          <l>Kunne kuulun morsiamen,</l>
+          <l>Kun sa tyhjänä tuletki,</l>
+          <l>320. Aina naisetta ajelet?"</l>
+        </lg>
+        <lg>
+          <l>Se on seppo Ilmarinen</l>
+          <l>Sanan virkkoi, noin nimesi:</l>
+          <l>"Lauloin ma mokoman naisen</l>
+          <l>Meren luo'olle lokiksi;</l>
+          <l>Nyt se lokkina lojuvi,</l>
+          <l>Kajavana kaakahtavi,</l>
+          <l>Kiljuvi vesikivillä,</l>
+          <l>Kariloilla kaljahuvi."</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

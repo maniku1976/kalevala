@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Kalevalan kolmaskymmenesviides runo</title>
+        <author>Elias Lönnrot</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Avoin Kalevala</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>Suomalaisen Kirjallisuuden Seura</distributor>
+        <date when="2018-01-09">9.1.2018</date>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Helsinki</settlement>
+            <repository>Suomalaisen Kirjallisuuden Seuran arkiston kirjallisuuden ja kulttuurihistorian arkistoaineistot</repository>
+            <idno/>
+          </msIdentifier>
+          <msContents>
+            <msItem n="1" class="letter">
+              <author><surname>Lönnrot</surname>
+                <forename>Elias</forename></author>
+            </msItem>
+            <msItem n="2" class="transcription">
+              <bibl/>
+            </msItem>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="runo">
+        <pb n="1" facs="page_266"/>
+        <p><emph>Viidesneljättä Runo.</emph></p>
+        <lg>
+          <l>Kullervo Kalervon poika,</l>
+          <l>Sinisukka äiön lapsi</l>
+          <l>Sai tuosta elelemähän</l>
+          <l>Alla varjon vanhempien;</l>
+          <l>Ei saanut älyämähän,</l>
+          <l>Miehen mieltä ottamahan,</l>
+          <l>Kun oli kaltoin kasvateltu,</l>
+          <l>Tuhmin lasna tuuiteltu</l>
+          <l>Luona kalton kasvattajan,</l>
+          <l>10. Tuon on tuhman tuuittajan.</l>
+        </lg>
+        <lg>
+          <l>Poika työlle työnteleikse,</l>
+          <l>Raaolle rakenteleikse,</l>
+          <l>Kaalasi kalastamahan,</l>
+          <l>Nuotan suuren souantahan;</l>
+          <l>Itse tuossa noin sanovi,</l>
+          <l>Airo käessä arvelevi:</l>
+          <l>"Veänkö väen mukahan,</l>
+          <l>Souan tarmoni takoa,</l>
+          <l>Vai veän asun mukahan,</l>
+          <l>20. Souan tarpehen takoa?"</l>
+        </lg>
+        <lg>
+          <l>Perimies perältä lausui,</l>
+          <l>Sanan virkkoi, noin nimesi:</l>
+          <l>"Jos veät väen mukahan,</l>
+          <l>Souat tarmosi takoa,</l>
+          <l>Et vetäne purtta poikki,</l>
+          <l>Etkä hankoja hajalle."</l>
+        </lg>
+        <lg>
+          <l>Kullervo Kalervon poika</l>
+          <l>Veälti väen mukahan,</l>
+          <l>Souti tarmonsa takoa,</l>
+          <l>30. Souti poikki puiset hangat,</l>
+          <l>Katajaiset kaaret katkoi,</l>
+          <l>Venon haapaisen hajotti.</l>
+        </lg>
+        <lg>
+          <l>Sai Kalervo katsomahan,</l>
+          <l>Sanan virkkoi, noin nimesi:</l>
+          <l>"Ei sinusta soutajaksi,</l>
+          <l>Souit poikki puiset hangat,</l>
+        </lg>
+        <pb n="2" facs="page_267"/>
+        
+        <lg>
+          <l>Katajaiset kaaret katkoit,</l>
+          <l>Koko haapion hajotit;</l>
+          <l>Mene nuotan tarvontahan,</l>
+          <l>40. Lienet tarpoja parempi!"</l>
+        </lg>
+        <lg>
+          <l>Kullervo Kalervon poika</l>
+          <l>Meni nuotan tarvontahan,</l>
+          <l>Itse tuossa tarpoimelta</l>
+          <l>Sanan virkkoi, noin nimesi:</l>
+          <l>"Tarvonko olan takoa,</l>
+          <l>Panen miehuuen nojassa,</l>
+          <l>Vai panen asun mukahan,</l>
+          <l>Tarvon tarpehen takoa?"</l>
+        </lg>
+        <lg>
+          <l>Vetäjä sanansa virkki:</l>
+          <l>50. "Mi on siitä tarpojasta,</l>
+          <l>Ku ei tarvo olan takoa,</l>
+          <l>Pane miehuuen nojassa?"</l>
+        </lg>
+        <lg>
+          <l>Kullervo Kalervon poika</l>
+          <l>Tarpaisi olan takoa,</l>
+          <l>Pani miehuuen nojassa,</l>
+          <l>Ve'en velliksi seotti,</l>
+          <l>Tarpoi nuotan tappuroiksi,</l>
+          <l>Kalat liivaksi litsotti.</l>
+        </lg>
+        <lg>
+          <l>Sai Kalervo katsomahan,</l>
+          <l>60. Sanan virkkoi, noin nimesi:</l>
+          <l>"Ei sinusta tarpojaksi,</l>
+          <l>Tarvoit nuotan tappuroiksi,</l>
+          <l>Ruumeniksi pullot rouhit,</l>
+          <l>Selykset paloin paloitit;</l>
+          <l>Lähe viemähän vetoja,</l>
+          <l>Maarahoja maksamahan!</l>
+          <l>Lienet matkassa parempi,</l>
+          <l>Taipalella taitavampi."</l>
+        </lg>
+        <lg>
+          <l>Kullervo Kalervon poika,</l>
+          <l>70. Sinisukka äiön lapsi,</l>
+          <l>Hivus keltainen korea,</l>
+          <l>Kengän kauto kaunokainen</l>
+          <l>Läksi viemähän vetoja,</l>
+          <l>Maajyviä maksamahan.</l>
+        </lg>
+        <lg>
+          <l>Vietyä vetoperänsä,</l>
+          <l>Maajyväset maksettua</l>
+          <l>Rekehensä reutoaikse,</l>
+          <l>Kohennaikse korjahansa;</l>
+          <l>Alkoi kulkea kotihin,</l>
+          <l>80. Matkata omille maille.</l>
+        </lg>
+        <lg>
+          <l>Ajoa järyttelevi,</l>
+          <l>Matkoansa mittelevi</l>
+          <l>Noilla Wäinön kankahilla,</l>
+          <l>Ammoin raatuilla ahoilla.</l>
+        </lg>
+        <lg>
+          <l>Neiti vastahan tulevi,</l>
+          <l>Hivus kulta hiihtelevi</l>
+          <l>Noilla Wäinön kankahilla,</l>
+          <l>Ammoin raatuilla ahoilla.</l>
+        </lg>
+        <lg>
+          <l>Kullervo Kalervon poika</l>
+          <l>90. Jo tuossa piättelevi,</l>
+          <l>Alkoi neittä haastatella,</l>
+          <l>Haastatella, houkutella:</l>
+          <l>"Nouse neito korjahani,</l>
+          <l>Taaksi maata taljoilleni!"</l>
+        </lg>
+        <lg>
+          <l>Neiti suksilta sanovi,</l>
+          <l>Hiihtimiltä hiioavi:</l>
+          <l>"Surma sulle korjahasi,</l>
+          <l>Tauti taaksi taljoillesi!"</l>
+        </lg>
+        <lg>
+          <l>Kullervo Kalervon poika,</l>
+          <l>100. Sinisukka äiön lapsi</l>
+          <l>Iski virkkua vitsalla,</l>
+          <l>Helähytti helmivyöllä,</l>
+          <l>Virkku juoksi, matka joutui,</l>
+          <l>Tie vieri, reki rasasi;</l>
+          <l>Ajoa järyttelevi,</l>
+          <l>Matkoansa mittelevi</l>
+          <l>Selvällä meren selällä,</l>
+          <l>Ulapalla aukealla.</l>
+        </lg>
+        <lg>
+          <l>Neiti vastahan tulevi,</l>
+          <l>110. Kautokenkä kaaloavi</l>
+          <l>Selvällä meren selällä,</l>
+          <l>Ulapalla aukealla.</l>
+        </lg>
+        <lg>
+          <l>Kullervo Kalervon poika</l>
+          <l>Hevoista piättelevi,</l>
+        </lg>
+        <pb n="3" facs="page_268"/>
+        
+        <lg>
+          <l>Suutansa sovittelevi,</l>
+          <l>Sanojansa säätelevi:</l>
+          <l>"Tule korjahan korea,</l>
+          <l>Maan valio matkoihini!"</l>
+        </lg>
+        <lg>
+          <l>Neiti vastahan sanovi,</l>
+          <l>120. Kautokenkä kalkuttavi:</l>
+          <l>"Tuoni sulle korjahasi,</l>
+          <l>Manalainen matkoihisi!"</l>
+        </lg>
+        <lg>
+          <l>Kullervo Kalervon poika,</l>
+          <l>Sinisukka äiön lapsi</l>
+          <l>Iski virkkua vitsalla,</l>
+          <l>Helähytti helmivyöllä,</l>
+          <l>Virkku juoksi, matka joutui,</l>
+          <l>Reki vieri, tie lyheni;</l>
+          <l>Ajavi karettelevi,</l>
+          <l>130. Matkoansa mittelevi</l>
+          <l>Noilla Pohjan kankahilla,</l>
+          <l>Lapin laajoilla rajoilla.</l>
+        </lg>
+        <lg>
+          <l>Neiti vastahan tulevi,</l>
+          <l>Tinarinta riioavi</l>
+          <l>Noilla Pohjan kankahilla,</l>
+          <l>Lapin laajoilla rajoilla.</l>
+        </lg>
+        <lg>
+          <l>Kullervo Kalervon poika</l>
+          <l>Hevoistansa hillitsevi,</l>
+          <l>Suutansa sovittelevi,</l>
+          <l>140. Sanojansa säätelevi:</l>
+          <l>"Käy neito rekoseheni,</l>
+          <l>Armas alle vilttieni</l>
+          <l>Syömähän omeniani,</l>
+          <l>Puremahan päähkeniä!"</l>
+        </lg>
+        <lg>
+          <l>Neiti vastahan sanovi,</l>
+          <l>Tinarinta riuskuttavi:</l>
+          <l>"Sylen kehno kelkkahasi,</l>
+          <l>Retkale rekosehesi;</l>
+          <l>Vilu on olla viltin alla,</l>
+          <l>150. Kolkko korjassa eleä."</l>
+        </lg>
+        <lg>
+          <l>Kullervo Kalervon poika,</l>
+          <l>Sinisukka äiön lapsi</l>
+          <l>Koppoi neion korjahansa,</l>
+          <l>Reualti rekosehensa,</l>
+          <l>Asetteli taljoillensa,</l>
+          <l>Alle viltin vieretteli.</l>
+        </lg>
+        <lg>
+          <l>Neiti tuossa noin sanovi,</l>
+          <l>Tinarinta riitelevi:</l>
+          <l>"Päästä pois minua tästä,</l>
+          <l>160. Laske lasta vallallensa,</l>
+          <l>Kunnotointa kuulemasta,</l>
+          <l>Pahalaista palvomasta,</l>
+          <l>Tahi potkin pohjan puhki,</l>
+          <l>Levittelen liistehesi,</l>
+          <l>Korjasi pilastehiksi,</l>
+          <l>Rämäksi re'en retukan."</l>
+        </lg>
+        <lg>
+          <l>Kullervo Kalervon poika,</l>
+          <l>Sinisukka äiön lapsi</l>
+          <l>Aukaisi rahaisen arkun,</l>
+          <l>170. Kimahutti kirja-kannen,</l>
+          <l>Näytteli hopeitansa,</l>
+          <l>Verkaliuskoja levitti,</l>
+          <l>Kultasuita sukkasia,</l>
+          <l>Vöitänsä hopeapäitä.</l>
+        </lg>
+        <lg>
+          <l>Verat veivät neien mielen,</l>
+          <l>Raha muutti morsiamen,</l>
+          <l>Hopea hukuttelevi,</l>
+          <l>Kulta kuihauttelevi.</l>
+        </lg>
+        <lg>
+          <l>Kullervo Kalervon poika,</l>
+          <l>180. Sinisukka äiön lapsi</l>
+          <l>Tuossa neittä mairotteli,</l>
+          <l>Kuihutteli, kutkutteli,</l>
+          <l>Käsi orosen ohjaksissa,</l>
+          <l>Toinen neitosen nisoissa.</l>
+        </lg>
+        <lg>
+          <l>Siinä neitosen kisasi,</l>
+          <l>Tinarinnan riu'utteli</l>
+          <l>Alla vaipan vaskikirjan,</l>
+          <l>Päällä taljon taplikkaisen.</l>
+        </lg>
+        <lg>
+          <l>Jo antoi Jumala aamun,</l>
+          <l>190. Toi Jumala toisen päivän,</l>
+          <l>Niin neiti sanoiksi virkki,</l>
+          <l>Kysytteli, lausutteli:</l>
+        </lg>
+        <pb n="4" facs="page_269"/>
+        <lg>
+          <l>"Mist' olet sinä sukuisin</l>
+          <l>Kusta rohkea rotuisin?</l>
+          <l>Lienet suurtaki sukua,</l>
+          <l>Isoa isän aloa."</l>
+        </lg>
+        <lg>
+          <l>Kullervo Kalervon poika</l>
+          <l>Sanan virkkoi, noin nimesi:</l>
+          <l>"En ole sukua suurta,</l>
+          <l>200. Enkä suurta, enkä pientä,</l>
+          <l>Olen kerran keskimmäistä,</l>
+          <l>Kalervon katala poika,</l>
+          <l>Tuhma poika tuiretuinen,</l>
+          <l>Lapsi kehjo keiretyinen;</l>
+          <l>Vaan sano oma sukusi,</l>
+          <l>Oma rohkea rotusi,</l>
+          <l>Jos olet sukua suurta,</l>
+          <l>Isoa isän aloa."</l>
+        </lg>
+        <lg>
+          <l>Neiti varsin vastoavi,</l>
+          <l>210. Sanan virkkoi, noin nimesi:</l>
+          <l>"En ole sukua suurta,</l>
+          <l>Enkä suurta, enkä pientä,</l>
+          <l>Olen kerran keskimmäistä,</l>
+          <l>Kalervon katala tyttö,</l>
+          <l>Tyhjä tyttö tuiretuinen,</l>
+          <l>Lapsi kehjo keiretyinen."</l>
+        </lg>
+        <lg>
+          <l>"Ennen lasna ollessani</l>
+          <l>Emon ehtoisen eloilla,</l>
+          <l>Läksin marjahan metsälle,</l>
+          <l>220. Alle vaaran vaapukkahan;</l>
+          <l>Poimin maalta mansikoita,</l>
+          <l>Alta vaaran vaapukoita,</l>
+          <l>Poimin päivän, yön lepäsin,</l>
+          <l>Poimin päivän, poimin toisen,</l>
+          <l>Päivälläpä kolmannella</l>
+          <l>En tiennyt kotihin tietä;</l>
+          <l>Tiehyt metsähän veteli,</l>
+          <l>Ura saatteli salolle."</l>
+        </lg>
+        <lg>
+          <l>"Siinä istuin, jotta itkin,</l>
+          <l>230. Itkin päivän, jotta toisen,</l>
+          <l>Päivänäpä kolmantena</l>
+          <l>Nousin suurelle mäelle,</l>
+          <l>Korkealle kukkulalle,</l>
+          <l>Tuossa huusin, hoilaelin,</l>
+          <l>Salot vastahan saneli,</l>
+          <l>Kankahat kajahtelivat:</l>
+          <l>""Elä huua hullu tyttö,</l>
+          <l>Elä mieletöin melua,</l>
+          <l>Ei se kuulu kumminkana,</l>
+          <l>240. Ei kuulu kotihin huuto!""</l>
+        </lg>
+        <lg>
+          <l>"Päivän päästä kolmen, neljän,</l>
+          <l>Viien, kuuen viimeistäki</l>
+          <l>Kohennihin kuolemahan,</l>
+          <l>Heitihin katoamahan;</l>
+          <l>Enkä kuollut kuitenkana,</l>
+          <l>En mä kalkinen kaonnut."</l>
+        </lg>
+        <lg>
+          <l>"Oisin kuollut kurja raukka,</l>
+          <l>Oisin katkennut katala,</l>
+          <l>Äsken tuosta toisna vuonna,</l>
+          <l>250. Kohta kolmanna kesänä,</l>
+          <l>Oisin heinänä helynnyt,</l>
+          <l>Kukostellut kukka-päänä,</l>
+          <l>Maassa marjana hyvänä,</l>
+          <l>Punaisena puolukkana</l>
+          <l>Nämät kummat kuulematta,</l>
+          <l>Haikeat havaitsematta."</l>
+        </lg>
+        <lg>
+          <l>Sai toki sanoneheksi,</l>
+          <l>Kerran kertoelleheksi;</l>
+          <l>Heti repsahti re'estä,</l>
+          <l>260. Siitä juoksihe jokehen,</l>
+          <l>Kosken kuohu'un kovahan,</l>
+          <l>Palavahan pyörtehesen;</l>
+          <l>Siihen surmansa sukesi,</l>
+          <l>Kuolemansa kohtaeli,</l>
+          <l>Löyti turvan Tuonelassa,</l>
+          <l>Armon aaltojen seassa.</l>
+        </lg>
+        <lg>
+          <l>Kullervo Kalervon poika</l>
+          <l>Pyyhältihe korjastansa,</l>
+          <l>Alkoi itkeä isosti,</l>
+          <l>270. Valitella vaikeasti:</l>
+          <l>"Voi poloinen päiviäni,</l>
+          <l>Voipa kurja kummiani,</l>
+        </lg>
+        <pb n="5" facs="page_270"/>
+        <lg>
+          <l>Kun pi'in sisarueni,</l>
+          <l>Turmelin emoni tuoman!</l>
+          <l>Voi isoni, voi emoni,</l>
+          <l>Voi on valta vanhempani,</l>
+          <l>Minnekä minua loitte,</l>
+          <l>Kunne kannoitte katalan!</l>
+          <l>Parempi olisin ollut</l>
+          <l>280. Syntymättä, kasvamatta,</l>
+          <l>Ilmahan sikeämättä,</l>
+          <l>Maalle tälle täytymättä;</l>
+          <l>Eikä surma suorin tehnyt,</l>
+          <l>Tauti oikein osannut,</l>
+          <l>Kun ei tappanut minua,</l>
+          <l>Kaottanut kaksi-öisnä."</l>
+        </lg>
+        <lg>
+          <l>Veitsin länkensä levitti,</l>
+          <l>Rauoin rahnoi rahkehensa;</l>
+          <l>Hyppäsi hyvän selälle,</l>
+          <l>290. Hyvän laukin lautasille,</l>
+          <l>Ajavi palasen maata,</l>
+          <l>Pikkaraisen piirrältävi,</l>
+          <l>Päätyvi ison pihoille,</l>
+          <l>Oman taaton tanterelle.</l>
+        </lg>
+        <lg>
+          <l>Emo päätyvi pihalle:</l>
+          <l>"Oi emoni kantajani!</l>
+          <l>Kun oisit emo kuluni</l>
+          <l>Synnyteltäissä minua</l>
+          <l>Pannut saunahan savua,</l>
+          <l>300. Lyönyt saunan salpa päälle,</l>
+          <l>Tukahuttanut savuhun,</l>
+          <l>Kaottanut kaksi-öisnä,</l>
+          <l>Vienyt hurstilla vetehen,</l>
+          <l>Upotellut uutimella,</l>
+          <l>Luonut tuutusen tulehen,</l>
+          <l>Liekun lietehen sysännyt!"</l>
+        </lg>
+        <lg>
+          <l>"Oisiko kylä kysynyt:</l>
+          <l>""Missä tuutunen tuvasta,</l>
+          <l>Mitä sauna salpa päällä?""</l>
+          <l>310. Sinä oisit vastannunna:</l>
+          <l>""Tuutusen tulessa poltin,</l>
+          <l>Liekun liesi-valkeassa;</l>
+          <l>Saunassa tein ituja,</l>
+          <l>Maustelin maltahia.""</l>
+        </lg>
+        <lg>
+          <l>Emo ennätti kysyä,</l>
+          <l>Vanhempansa tutkaella:</l>
+          <l>"Mi sinulla poikaseni,</l>
+          <l>Mikä kumma kuulumassa?</l>
+          <l>On kuin Tuonelta tulisit,</l>
+          <l>320. Manalalta matkoaisit."</l>
+        </lg>
+        <lg>
+          <l>Kullervo Kalervon poika</l>
+          <l>Sanan virkkoi, noin nimesi:</l>
+          <l>"Jo nyt on kummat kuulununna,</l>
+          <l>Turmiot tapahtununna,</l>
+          <l>Kun pi'in oman sisaren,</l>
+          <l>Turmelin emoni tuoman."</l>
+        </lg>
+        <lg>
+          <l>"Tulin viennästä vetojen,</l>
+          <l>Maarahojen maksannasta,</l>
+          <l>Päätyi neito vastahani,</l>
+          <l>330. Mie tuota kisauttelin;</l>
+          <l>Se oli sisarueni,</l>
+          <l>Se oman emoni lapsi."</l>
+        </lg>
+        <lg>
+          <l>"Se jo surmansa sukesi,</l>
+          <l>Kuolemansa kohtaeli</l>
+          <l>Kosken kuohu'un kovahan,</l>
+          <l>Palavahan pyörtehesen;</l>
+          <l>Itse en nyt tieäkänä,</l>
+          <l>Arvoa, älyäkänä,</l>
+          <l>Kunne surmani sukean,</l>
+          <l>340. Kunne kurja kuoletaime:</l>
+          <l>Suuhun ulvovan sutosen,</l>
+          <l>Karhun kiljuvan kitahan,</l>
+          <l>Vainko vatsahan valahan,</l>
+          <l>Meren hauin hampahisin?"</l>
+        </lg>
+        <lg>
+          <l>Emo tuon sanoiksi virkki:</l>
+          <l>"Ellös menkö poikaseni</l>
+          <l>Suuhun ulvovan sutosen,</l>
+          <l>Karhun kiljuvan kitahan,</l>
+          <l>Eläkä vatsahan valahan,</l>
+          <l>350. Hauin hirmun hampahisin!</l>
+          <l>Onpa suurta Suomen nientä,</l>
+          <l>Sankoa Savon rajoa</l>
+        </lg>
+        <pb n="6" facs="page_271"/>
+        <lg>
+          <l>Piillä miehen pillojansa,</l>
+          <l>Hävetä pahoja töitä,</l>
+          <l>Piillä vuotta viisi, kuusi,</l>
+          <l>Ynnähän yheksän vuotta,</l>
+          <l>Kunnes aika armon tuopi,</l>
+          <l>Vuoet huolen huojentavi."</l>
+        </lg>
+        <lg>
+          <l>Kullervo Kalervon poika,</l>
+          <l>360. Sanan virkkoi, noin nimesi:</l>
+          <l>"Enkä lähe piilemähän,</l>
+          <l>En paha pakenemahan;</l>
+          <l>Lähen surman suun esille,</l>
+          <l>Kalman kartanon oville,</l>
+          <l>Suurille sota-sioille,</l>
+          <l>Miesten tappo-tanterille:</l>
+          <l>Viel' on Unto oikeana,</l>
+          <l>Mies katala kaatamatta,</l>
+          <l>Kostamatta taaton kohlut,</l>
+          <l>370. Maammon mahlat maksamatta,</l>
+          <l>Muistamatta muutki vaivat,</l>
+          <l>Itseni hyvin piännät."</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

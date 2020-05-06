@@ -114,6 +114,9 @@ $(document).ready(function() {
         $('#kielellinen-piirteet').hide();
         $('#traditio-saetk').hide();
         $('#traditio-kantel').hide();
+        $('#ainolemm-submenu').hide();
+        $('#ainolemm-aino').hide();
+        $('#ainolemm-lemminkainen').hide();
     });
 
     $('#geneettinen-submenu2').find('a').on('click', function() {
@@ -144,6 +147,9 @@ $(document).ready(function() {
       $('#kielellinen-piirteet').hide();
       $('#traditio-saetk').hide();
       $('#traditio-kantel').hide();
+      $('#ainolemm-submenu').hide();
+      $('#ainolemm-aino').hide();
+      $('#ainolemm-lemminkainen').hide();
     });
 
     $('#geneettinen-submenu3').find('a').on('click', function() {
@@ -174,6 +180,9 @@ $(document).ready(function() {
       $('#kielellinen-piirteet').hide();
       $('#traditio-saetk').hide();
       $('#traditio-kantel').hide();
+      $('#ainolemm-submenu').hide();
+      $('#ainolemm-aino').hide();
+      $('#ainolemm-lemminkainen').hide();
     });
 
     $('#geneettinen-submenu4').find('a').on('click', function() {
@@ -204,6 +213,9 @@ $(document).ready(function() {
       $('#kielellinen-piirteet').hide();
       $('#traditio-saetk').hide();
       $('#traditio-kantel').hide();
+      $('#ainolemm-submenu').hide();
+      $('#ainolemm-aino').hide();
+      $('#ainolemm-lemminkainen').hide();
     });
 
     $('#traditio-link').find('a').on('click', function() {
@@ -239,6 +251,9 @@ $(document).ready(function() {
       $('#kielellinen-piirteet').hide();
       $('#traditio-saetk').hide();
       $('#traditio-kantel').hide();
+      $('#ainolemm-submenu').hide();
+      $('#ainolemm-aino').hide();
+      $('#ainolemm-lemminkainen').hide();
     });
 
     $('#traditio-submenu1').find('a').on('click', function() {
@@ -269,6 +284,9 @@ $(document).ready(function() {
       $('#kielellinen-piirteet').hide();
       $('#traditio-saetk').hide();
       $('#traditio-kantel').hide();
+      $('#ainolemm-submenu').hide();
+      $('#ainolemm-aino').hide();
+      $('#ainolemm-lemminkainen').hide();
     });
 
     $('#traditio-submenu2').find('a').on('click', function() {
@@ -299,6 +317,9 @@ $(document).ready(function() {
       $('#kielellinen-piirteet').hide();
       $('#traditio-saetk').hide();
       $('#traditio-kantel').hide();
+      $('#ainolemm-submenu').hide();
+      $('#ainolemm-aino').hide();
+      $('#ainolemm-lemminkainen').hide();
     });
 
     $('#traditio-submenu3').find('a').on('click', function() {
@@ -329,6 +350,9 @@ $(document).ready(function() {
       $('#kielellinen-piirteet').hide();
       $('#traditio-saetk').show();
       $('#traditio-kantel').hide();
+      $('#ainolemm-submenu').hide();
+      $('#ainolemm-aino').hide();
+      $('#ainolemm-lemminkainen').hide();
     });
 
     $('#traditio-submenu4').find('a').on('click', function() {
@@ -359,6 +383,9 @@ $(document).ready(function() {
       $('#kielellinen-piirteet').hide();
       $('#traditio-saetk').hide();
       $('#traditio-kantel').show();
+      $('#ainolemm-submenu').hide();
+      $('#ainolemm-aino').hide();
+      $('#ainolemm-lemminkainen').hide();
     });
 
     $('#kielellinen-link').find('a').on('click', function() {
@@ -394,6 +421,9 @@ $(document).ready(function() {
       $('#kielellinen-piirteet').hide();
       $('#traditio-saetk').hide();
       $('#traditio-kantel').hide();
+      $('#ainolemm-submenu').hide();
+      $('#ainolemm-aino').hide();
+      $('#ainolemm-lemminkainen').hide();
     });
 
     $('#kielellinen-submenu1').find('a').on('click', function() {
@@ -424,6 +454,9 @@ $(document).ready(function() {
       $('#kielellinen-piirteet').hide();
       $('#traditio-saetk').hide();
       $('#traditio-kantel').hide();
+      $('#ainolemm-submenu').hide();
+      $('#ainolemm-aino').hide();
+      $('#ainolemm-lemminkainen').hide();
     });
 
     $('#kielellinen-submenu2').find('a').on('click', function() {
@@ -454,6 +487,9 @@ $(document).ready(function() {
       $('#kielellinen-piirteet').hide();
       $('#traditio-saetk').hide();
       $('#traditio-kantel').hide();
+      $('#ainolemm-submenu').hide();
+      $('#ainolemm-aino').hide();
+      $('#ainolemm-lemminkainen').hide();
     });
 
     $('#kielellinen-submenu3').find('a').on('click', function() {
@@ -484,6 +520,9 @@ $(document).ready(function() {
       $('#kielellinen-piirteet').hide();
       $('#traditio-saetk').hide();
       $('#traditio-kantel').hide();
+      $('#ainolemm-submenu').hide();
+      $('#ainolemm-aino').hide();
+      $('#ainolemm-lemminkainen').hide();
     });
 
     $('#kielellinen-submenu4').find('a').on('click', function() {
@@ -514,6 +553,9 @@ $(document).ready(function() {
       $('#kielellinen-piirteet').show();
       $('#traditio-saetk').hide();
       $('#traditio-kantel').hide();
+      $('#ainolemm-submenu').hide();
+      $('#ainolemm-aino').hide();
+      $('#ainolemm-lemminkainen').hide();
     });
 
     $('#temaattinen-link').find('a').on('click', function() {
@@ -549,6 +591,9 @@ $(document).ready(function() {
         $('#kielellinen-piirteet').hide();
         $('#traditio-saetk').hide();
         $('#traditio-kantel').hide();
+        $('#ainolemm-submenu').hide();
+        $('#ainolemm-aino').hide();
+        $('#ainolemm-lemminkainen').hide();
     });
 
     $('#temaattinen-submenu2').find('a').on('click', function() {
@@ -580,6 +625,9 @@ $(document).ready(function() {
       $('#kielellinen-piirteet').hide();
       $('#traditio-saetk').hide();
       $('#traditio-kantel').hide();
+      $('#ainolemm-submenu').hide();
+      $('#ainolemm-aino').hide();
+      $('#ainolemm-lemminkainen').hide();
     });
 
     $('#temaattinen-submenu3').find('a').on('click', function() {
@@ -611,6 +659,9 @@ $(document).ready(function() {
       $('#kielellinen-piirteet').hide();
       $('#traditio-saetk').hide();
       $('#traditio-kantel').hide();
+      $('#ainolemm-submenu').hide();
+      $('#ainolemm-aino').hide();
+      $('#ainolemm-lemminkainen').hide();
     });
 
     $('#temaattinen-submenu4').find('a').on('click', function() {
@@ -642,6 +693,9 @@ $(document).ready(function() {
       $('#kielellinen-piirteet').hide();
       $('#traditio-saetk').hide();
       $('#traditio-kantel').hide();
+      $('#ainolemm-submenu').hide();
+      $('#ainolemm-aino').hide();
+      $('#ainolemm-lemminkainen').hide();
     });
 
     $('#temaattinen-submenu5').find('a').on('click', function() {
@@ -673,6 +727,9 @@ $(document).ready(function() {
       $('#kielellinen-piirteet').hide();
       $('#traditio-saetk').hide();
       $('#traditio-kantel').hide();
+      $('#ainolemm-submenu').hide();
+      $('#ainolemm-aino').hide();
+      $('#ainolemm-lemminkainen').hide();
     });
 
     $('#aatehistoriallinen-link').find('a').on('click', function() {
@@ -708,6 +765,9 @@ $(document).ready(function() {
         $('#kielellinen-piirteet').hide();
         $('#traditio-saetk').hide();
         $('#traditio-kantel').hide();
+        $('#ainolemm-submenu').hide();
+        $('#ainolemm-aino').hide();
+        $('#ainolemm-lemminkainen').hide();
     });
 
     $('#aatehistoriallinen-submenu1').find('a').on('click', function() {
@@ -740,6 +800,9 @@ $(document).ready(function() {
       $('#kielellinen-piirteet').hide();
       $('#traditio-saetk').hide();
       $('#traditio-kantel').hide();
+      $('#ainolemm-submenu').hide();
+      $('#ainolemm-aino').hide();
+      $('#ainolemm-lemminkainen').hide();
     });
 
     $('#aatehistoriallinen-submenu2').find('a').on('click', function() {
@@ -772,6 +835,9 @@ $(document).ready(function() {
       $('#kielellinen-piirteet').hide();
       $('#traditio-saetk').hide();
       $('#traditio-kantel').hide();
+      $('#ainolemm-submenu').hide();
+      $('#ainolemm-aino').hide();
+      $('#ainolemm-lemminkainen').hide();
     });
 
     $('#aatehistoriallinen-submenu3').find('a').on('click', function() {
@@ -803,6 +869,9 @@ $(document).ready(function() {
       $('#kielellinen-piirteet').hide();
       $('#traditio-saetk').hide();
       $('#traditio-kantel').hide();
+      $('#ainolemm-submenu').hide();
+      $('#ainolemm-aino').hide();
+      $('#ainolemm-lemminkainen').hide();
     });
 
     $('#aatehistoriallinen-submenu4').find('a').on('click', function() {
@@ -834,6 +903,113 @@ $(document).ready(function() {
       $('#kielellinen-piirteet').hide();
       $('#traditio-saetk').hide();
       $('#traditio-kantel').hide();
+      $('#ainolemm-submenu').hide();
+      $('#ainolemm-aino').hide();
+      $('#ainolemm-lemminkainen').hide();
+    });
+
+    $('#ainolemm-link').find('a').on('click', function() {
+      $('#ainolemm-submenu').show();
+      $('#ainolemm-aino').show();
+      $('#ainolemm-lemminkainen').hide();
+      $('#yleisesittely').hide();
+      $('#traditio-submenu').hide();
+      $('#traditio-content').hide();
+      $('#traditio-content-2').hide();
+      $('#traditio-esittely').hide();
+      $('#traditio-skvr').hide();
+      $('#temaattinen-esittely').hide();
+      $('#temaattinen-toimitustavat').hide()
+      $('#temaattinen-lyriikka').hide();
+      $('#geneettinen-esittely').hide();
+      $('#geneettinen-versiot').hide();
+      $('#geneettinen-vertailu').hide();
+      $('#geneettinen-content').hide();
+      $('#geneettinen-content-2').hide();
+      $('#kielellinen-submenu').hide();
+      $('#kielellinen-esittely').hide();
+      $('#kielellinen-suomi').hide();
+      $('#kielellinen-periaatteet').hide();
+      $('#aatehistoriallinen-esittely').hide();
+      $('#aatehistoriallinen-kansa').hide();
+      $('#aatehistoriallinen-perhe').hide();
+      $('#geneettinen-submenu').hide();
+      $('#temaattinen-submenu').hide();
+      $('#aatehistoriallinen-submenu').hide();
+      $('#aatehistoriallinen-kehys').hide();
+      $('#temaattinen-sammot').hide();
+      $('#aatehistoriallinen-tulkinnat').hide();
+      $('#temaattinen-valmistuminen').hide();
+      $('#kielellinen-lonnrot').hide();
+      $('#kielellinen-piirteet').hide();
+      $('#traditio-saetk').hide();
+      $('#traditio-kantel').hide();
+    });
+
+    $('#ainolemm-submenu1').find('a').on('click', function() {
+      $('#yleisesittely').hide();
+      $('#temaattinen-esittely').hide();
+      $('#temaattinen-toimitustavat').hide();
+      $('#temaattinen-lyriikka').hide();
+      $('#geneettinen-content').hide();
+      $('#traditio-content').hide();
+      $('#traditio-content-2').hide();
+      $('#traditio-esittely').hide();
+      $('#traditio-skvr').hide();
+      $('#geneettinen-esittely').hide();
+      $('#geneettinen-versiot').hide();
+      $('#geneettinen-vertailu').hide();
+      $('#geneettinen-content').hide();
+      $('#geneettinen-content-2').hide();
+      $('#kielellinen-esittely').hide();
+      $('#kielellinen-suomi').hide();
+      $('#kielellinen-periaatteet').hide();
+      $('#aatehistoriallinen-esittely').hide();
+      $('#aatehistoriallinen-kansa').hide();
+      $('#aatehistoriallinen-perhe').hide();
+      $('#aatehistoriallinen-kehys').hide();
+      $('#temaattinen-sammot').hide();
+      $('#aatehistoriallinen-tulkinnat').hide();
+      $('#temaattinen-valmistuminen').hide();
+      $('#kielellinen-lonnrot').hide();
+      $('#kielellinen-piirteet').hide();
+      $('#traditio-saetk').hide();
+      $('#traditio-kantel').hide();
+      $('#ainolemm-aino').show();
+      $('#ainolemm-lemminkainen').hide();
+    });
+
+    $('#ainolemm-submenu2').find('a').on('click', function() {
+      $('#yleisesittely').hide();
+      $('#temaattinen-esittely').hide();
+      $('#temaattinen-toimitustavat').hide();
+      $('#temaattinen-lyriikka').hide();
+      $('#geneettinen-content').hide();
+      $('#traditio-content').hide();
+      $('#traditio-content-2').hide();
+      $('#traditio-esittely').hide();
+      $('#traditio-skvr').hide();
+      $('#geneettinen-esittely').hide();
+      $('#geneettinen-versiot').hide();
+      $('#geneettinen-vertailu').hide();
+      $('#geneettinen-content').hide();
+      $('#geneettinen-content-2').hide();
+      $('#kielellinen-esittely').hide();
+      $('#kielellinen-suomi').hide();
+      $('#kielellinen-periaatteet').hide();
+      $('#aatehistoriallinen-esittely').hide();
+      $('#aatehistoriallinen-kansa').hide();
+      $('#aatehistoriallinen-perhe').hide();
+      $('#aatehistoriallinen-kehys').hide();
+      $('#temaattinen-sammot').hide();
+      $('#aatehistoriallinen-tulkinnat').hide();
+      $('#temaattinen-valmistuminen').hide();
+      $('#kielellinen-lonnrot').hide();
+      $('#kielellinen-piirteet').hide();
+      $('#traditio-saetk').hide();
+      $('#traditio-kantel').hide();
+      $('#ainolemm-aino').hide();
+      $('#ainolemm-lemminkainen').show();
     });
 
     $('#geneettinen-more').on('click', function() {
@@ -864,11 +1040,14 @@ $(document).ready(function() {
       $(this).parent().parent().parent().next().find('ul').eq(8).hide();
       $(this).parent().parent().parent().next().find('ul').eq(9).hide();
       $(this).parent().parent().parent().next().find('ul').eq(10).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(11).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(12).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(13).hide();
     });
 
     $('#runot-nav').find('li').eq(1).find('a').click(function() {
-      $(this).parent().parent().parent().next().find('ul').eq(1).show();
       $(this).parent().parent().parent().next().find('ul').eq(0).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(1).show();
       $(this).parent().parent().parent().next().find('ul').eq(2).hide();
       $(this).parent().parent().parent().next().find('ul').eq(3).hide();
       $(this).parent().parent().parent().next().find('ul').eq(4).hide();
@@ -878,12 +1057,15 @@ $(document).ready(function() {
       $(this).parent().parent().parent().next().find('ul').eq(8).hide();
       $(this).parent().parent().parent().next().find('ul').eq(9).hide();
       $(this).parent().parent().parent().next().find('ul').eq(10).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(11).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(12).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(13).hide();
     });
 
     $('#runot-nav').find('li').eq(2).find('a').click(function() {
-      $(this).parent().parent().parent().next().find('ul').eq(2).show();
       $(this).parent().parent().parent().next().find('ul').eq(0).hide();
       $(this).parent().parent().parent().next().find('ul').eq(1).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(2).show();
       $(this).parent().parent().parent().next().find('ul').eq(3).hide();
       $(this).parent().parent().parent().next().find('ul').eq(4).hide();
       $(this).parent().parent().parent().next().find('ul').eq(5).hide();
@@ -892,13 +1074,16 @@ $(document).ready(function() {
       $(this).parent().parent().parent().next().find('ul').eq(8).hide();
       $(this).parent().parent().parent().next().find('ul').eq(9).hide();
       $(this).parent().parent().parent().next().find('ul').eq(10).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(11).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(12).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(13).hide();
     });
 
     $('#runot-nav').find('li').eq(3).find('a').click(function() {
-      $(this).parent().parent().parent().next().find('ul').eq(3).show();
       $(this).parent().parent().parent().next().find('ul').eq(0).hide();
       $(this).parent().parent().parent().next().find('ul').eq(1).hide();
       $(this).parent().parent().parent().next().find('ul').eq(2).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(3).show();
       $(this).parent().parent().parent().next().find('ul').eq(4).hide();
       $(this).parent().parent().parent().next().find('ul').eq(5).hide();
       $(this).parent().parent().parent().next().find('ul').eq(6).hide();
@@ -906,52 +1091,63 @@ $(document).ready(function() {
       $(this).parent().parent().parent().next().find('ul').eq(8).hide();
       $(this).parent().parent().parent().next().find('ul').eq(9).hide();
       $(this).parent().parent().parent().next().find('ul').eq(10).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(11).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(12).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(13).hide();
     });
 
     $('#runot-nav').find('li').eq(4).find('a').click(function() {
-      $(this).parent().parent().parent().next().find('ul').eq(4).show();
       $(this).parent().parent().parent().next().find('ul').eq(0).hide();
       $(this).parent().parent().parent().next().find('ul').eq(1).hide();
       $(this).parent().parent().parent().next().find('ul').eq(2).hide();
       $(this).parent().parent().parent().next().find('ul').eq(3).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(4).show();
       $(this).parent().parent().parent().next().find('ul').eq(5).hide();
       $(this).parent().parent().parent().next().find('ul').eq(6).hide();
       $(this).parent().parent().parent().next().find('ul').eq(7).hide();
       $(this).parent().parent().parent().next().find('ul').eq(8).hide();
       $(this).parent().parent().parent().next().find('ul').eq(9).hide();
       $(this).parent().parent().parent().next().find('ul').eq(10).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(11).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(12).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(13).hide();
     });
 
     $('#runot-nav').find('li').eq(5).find('a').click(function() {
-      $(this).parent().parent().parent().next().find('ul').eq(5).show();
       $(this).parent().parent().parent().next().find('ul').eq(0).hide();
       $(this).parent().parent().parent().next().find('ul').eq(1).hide();
       $(this).parent().parent().parent().next().find('ul').eq(2).hide();
       $(this).parent().parent().parent().next().find('ul').eq(3).hide();
       $(this).parent().parent().parent().next().find('ul').eq(4).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(5).show();
       $(this).parent().parent().parent().next().find('ul').eq(6).hide();
       $(this).parent().parent().parent().next().find('ul').eq(7).hide();
       $(this).parent().parent().parent().next().find('ul').eq(8).hide();
       $(this).parent().parent().parent().next().find('ul').eq(9).hide();
       $(this).parent().parent().parent().next().find('ul').eq(10).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(11).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(12).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(13).hide();
     });
 
     $('#runot-nav').find('li').eq(6).find('a').click(function() {
-      $(this).parent().parent().parent().next().find('ul').eq(6).show();
       $(this).parent().parent().parent().next().find('ul').eq(0).hide();
       $(this).parent().parent().parent().next().find('ul').eq(1).hide();
       $(this).parent().parent().parent().next().find('ul').eq(2).hide();
       $(this).parent().parent().parent().next().find('ul').eq(3).hide();
       $(this).parent().parent().parent().next().find('ul').eq(4).hide();
       $(this).parent().parent().parent().next().find('ul').eq(5).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(6).show();
       $(this).parent().parent().parent().next().find('ul').eq(7).hide();
       $(this).parent().parent().parent().next().find('ul').eq(8).hide();
       $(this).parent().parent().parent().next().find('ul').eq(9).hide();
       $(this).parent().parent().parent().next().find('ul').eq(10).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(11).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(12).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(13).hide();
     });
 
     $('#runot-nav').find('li').eq(7).find('a').click(function() {
-      $(this).parent().parent().parent().next().find('ul').eq(7).show();
       $(this).parent().parent().parent().next().find('ul').eq(0).hide();
       $(this).parent().parent().parent().next().find('ul').eq(1).hide();
       $(this).parent().parent().parent().next().find('ul').eq(2).hide();
@@ -959,13 +1155,16 @@ $(document).ready(function() {
       $(this).parent().parent().parent().next().find('ul').eq(4).hide();
       $(this).parent().parent().parent().next().find('ul').eq(5).hide();
       $(this).parent().parent().parent().next().find('ul').eq(6).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(7).show();
       $(this).parent().parent().parent().next().find('ul').eq(8).hide();
       $(this).parent().parent().parent().next().find('ul').eq(9).hide();
       $(this).parent().parent().parent().next().find('ul').eq(10).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(11).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(12).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(13).hide();
     });
 
     $('#runot-nav').find('li').eq(8).find('a').click(function() {
-      $(this).parent().parent().parent().next().find('ul').eq(7).hide();
       $(this).parent().parent().parent().next().find('ul').eq(0).hide();
       $(this).parent().parent().parent().next().find('ul').eq(1).hide();
       $(this).parent().parent().parent().next().find('ul').eq(2).hide();
@@ -973,13 +1172,16 @@ $(document).ready(function() {
       $(this).parent().parent().parent().next().find('ul').eq(4).hide();
       $(this).parent().parent().parent().next().find('ul').eq(5).hide();
       $(this).parent().parent().parent().next().find('ul').eq(6).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(7).hide();
       $(this).parent().parent().parent().next().find('ul').eq(8).show();
       $(this).parent().parent().parent().next().find('ul').eq(9).hide();
       $(this).parent().parent().parent().next().find('ul').eq(10).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(11).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(12).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(13).hide();
     });
 
     $('#runot-nav').find('li').eq(9).find('a').click(function() {
-      $(this).parent().parent().parent().next().find('ul').eq(7).hide();
       $(this).parent().parent().parent().next().find('ul').eq(0).hide();
       $(this).parent().parent().parent().next().find('ul').eq(1).hide();
       $(this).parent().parent().parent().next().find('ul').eq(2).hide();
@@ -987,13 +1189,16 @@ $(document).ready(function() {
       $(this).parent().parent().parent().next().find('ul').eq(4).hide();
       $(this).parent().parent().parent().next().find('ul').eq(5).hide();
       $(this).parent().parent().parent().next().find('ul').eq(6).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(7).hide();
       $(this).parent().parent().parent().next().find('ul').eq(8).hide();
       $(this).parent().parent().parent().next().find('ul').eq(9).show();
       $(this).parent().parent().parent().next().find('ul').eq(10).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(11).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(12).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(13).hide();
     });
 
     $('#runot-nav').find('li').eq(10).find('a').click(function() {
-      $(this).parent().parent().parent().next().find('ul').eq(7).hide();
       $(this).parent().parent().parent().next().find('ul').eq(0).hide();
       $(this).parent().parent().parent().next().find('ul').eq(1).hide();
       $(this).parent().parent().parent().next().find('ul').eq(2).hide();
@@ -1001,9 +1206,64 @@ $(document).ready(function() {
       $(this).parent().parent().parent().next().find('ul').eq(4).hide();
       $(this).parent().parent().parent().next().find('ul').eq(5).hide();
       $(this).parent().parent().parent().next().find('ul').eq(6).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(7).hide();
       $(this).parent().parent().parent().next().find('ul').eq(8).hide();
       $(this).parent().parent().parent().next().find('ul').eq(9).hide();
       $(this).parent().parent().parent().next().find('ul').eq(10).show();
+      $(this).parent().parent().parent().next().find('ul').eq(11).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(12).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(13).hide();
+    });
+
+    $('#runot-nav').find('li').eq(11).find('a').click(function() {
+      $(this).parent().parent().parent().next().find('ul').eq(0).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(1).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(2).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(3).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(4).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(5).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(6).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(7).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(8).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(9).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(10).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(11).show();
+      $(this).parent().parent().parent().next().find('ul').eq(12).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(13).hide();
+    });
+
+    $('#runot-nav').find('li').eq(12).find('a').click(function() {
+      $(this).parent().parent().parent().next().find('ul').eq(0).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(1).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(2).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(3).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(4).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(5).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(6).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(7).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(8).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(9).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(10).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(11).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(12).show();
+      $(this).parent().parent().parent().next().find('ul').eq(13).hide();
+    });
+
+    $('#runot-nav').find('li').eq(13).find('a').click(function() {
+      $(this).parent().parent().parent().next().find('ul').eq(0).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(1).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(2).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(3).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(4).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(5).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(6).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(7).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(8).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(9).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(10).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(11).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(12).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(13).show();
     });
 
     /* popup comments, show extended description */

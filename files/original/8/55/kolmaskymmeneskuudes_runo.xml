@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Kalevalan kolmaskymmeneskuudes runo</title>
+        <author>Elias Lönnrot</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Avoin Kalevala</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>Suomalaisen Kirjallisuuden Seura</distributor>
+        <date when="2018-01-09">9.1.2018</date>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Helsinki</settlement>
+            <repository>Suomalaisen Kirjallisuuden Seuran arkiston kirjallisuuden ja kulttuurihistorian arkistoaineistot</repository>
+            <idno/>
+          </msIdentifier>
+          <msContents>
+            <msItem n="1" class="letter">
+              <author><surname>Lönnrot</surname>
+                <forename>Elias</forename></author>
+            </msItem>
+            <msItem n="2" class="transcription">
+              <bibl/>
+            </msItem>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="runo">
+        <pb n="1" facs="page_272"/>
+        <p><emph>Kuudesneljättä Runo.</emph></p>
+        <lg>
+          <l>Kullervo Kalervon poika,</l>
+          <l>Sinisukka äiön lapsi</l>
+          <l>Siitä suorikse sotahan,</l>
+          <l>Vaino-tielle valmistaikse;</l>
+          <l>Hioi hetken miekkoansa,</l>
+          <l>Toisen keihoa teroitti.</l>
+        </lg>
+        <lg>
+          <l>Emo tuon sanoiksi virkki:</l>
+          <l>"Ellös poikani poloinen</l>
+          <l>Saako suurehen sotahan,</l>
+          <l>10. Menkö miekan melskehesen!</l>
+          <l>Ken suotta sotahan saapi,</l>
+          <l>Tahallansa tappelohon,</l>
+          <l>Se soassa surmatahan,</l>
+          <l>Tapetahan tappelossa,</l>
+          <l>Miekkoihin menetähän,</l>
+          <l>Kalpoihinsa kaaetahan."</l>
+        </lg>
+        <lg>
+          <l>"Lähet vuohella sotahan,</l>
+          <l>Kaurihilla tappelohon,</l>
+          <l>Pian vuohi voitetahan,</l>
+          <l>20. Kauris kaatahan likahan,</l>
+          <l>Tulet koiralla kotihin,</l>
+          <l>Sammakolla saat piha'an."</l>
+        </lg>
+        <lg>
+          <l>Kullervo Kalervon poika</l>
+          <l>Sanan virkkoi, noin nimesi:</l>
+          <l>"En mä silloin suohon sorru,</l>
+          <l>Enkä kaau kankahalle,</l>
+          <l>Korppien kotisioille,</l>
+          <l>Variksien vainiolle,</l>
+          <l>Kun sorrun sota-tiloille,</l>
+          <l>30. Vaivun vaino-tanterille;</l>
+          <l>Somap' on sotahan kuolla,</l>
+          <l>Kaunis miekan kalskehesen,</l>
+          <l>Sorea sotainen tauti,</l>
+          <l>Äkin poika pois tulevi,</l>
+          <l>Potematta pois menevi,</l>
+          <l>Laihtumatta lankeavi."</l>
+        </lg>
+        <lg>
+          <l>Tuon emo sanoiksi virkki:</l>
+          <l>"Kun sinä sotahan kuolet,</l>
+        </lg>
+        <pb n="2" facs="page_273"/>
+        <lg>
+          <l>Mitä jääpi taatollesi</l>
+          <l>40. Vanhan päivänsä varaksi?"</l>
+        </lg>
+        <lg>
+          <l>Kullervo Kalervon poika</l>
+          <l>Sanan virkkoi, noin nimesi:</l>
+          <l>"Kuolkohon kuja-rikoille,</l>
+          <l>Kaatukohon kartanolle!"</l>
+        </lg>
+        <lg>
+          <l>"Mitä jääpi maammollesi</l>
+          <l>Vanhan päivänsä varaksi?"</l>
+        </lg>
+        <lg>
+          <l>"Kuolkohon kupo sylihin,</l>
+          <l>Läävähän läkähtyköhön!"</l>
+        </lg>
+        <lg>
+          <l>"Mitä jääpi veikollesi</l>
+          <l>50. Päivän vastaisen varaksi?"</l>
+        </lg>
+        <lg>
+          <l>"Metsähän menettyköhön,</l>
+          <l>Vainiolle vaipukohon!"</l>
+        </lg>
+        <lg>
+          <l>"Mitä jääpi siskollesi</l>
+          <l>Päivän vastaisen varaksi?"</l>
+        </lg>
+        <lg>
+          <l>"Kaivotielle kaatukohon,</l>
+          <l>Sotkutielle sortukohon!"</l>
+        </lg>
+        <lg>
+          <l>Kullervo Kalervon poika</l>
+          <l>Kohta lähtevi koista,</l>
+          <l>Sanovi sanan isolle:</l>
+          <l>60. "Hyvästi hyvä isoni!</l>
+          <l>Itketkö sinä minua,</l>
+          <l>Koskas kuulet kuolleheksi,</l>
+          <l>Kansasta kaonneheksi,</l>
+          <l>Sortuneheksi su'usta?"</l>
+        </lg>
+        <lg>
+          <l>Tuon isä sanoiksi virkki:</l>
+          <l>"En minä sinua itke,</l>
+          <l>Jospa kuulen kuolleheksi;</l>
+          <l>Poika toinen tehtänehe,</l>
+          <l>Poika paljoa parempi,</l>
+          <l>70. Äieä älykkähämpi."</l>
+        </lg>
+        <lg>
+          <l>Kullervo Kalervon poika</l>
+          <l>Sanan virkkoi, noin nimesi:</l>
+          <l>"Enkä itke mie sinua,</l>
+          <l>Kuulisinko kuolleheksi;</l>
+          <l>Saan minä mokoman taaton,</l>
+          <l>Suun savesta, pään kivestä,</l>
+          <l>Silmät suolta karpaloista,</l>
+          <l>Parran kuivista kuloista,</l>
+          <l>Jalat raian haarukasta,</l>
+          <l>80. Muun lihan lahosta puusta."</l>
+        </lg>
+        <lg>
+          <l>Virkkoi siitä veikollensa:</l>
+          <l>"Jää hyvästi veikkoseni!</l>
+          <l>Itketkö sinä minua,</l>
+          <l>Koskas kuulet kuolleheksi,</l>
+          <l>Kansasta kaonneheksi,</l>
+          <l>Sortuneheksi su'usta?"</l>
+        </lg>
+        <lg>
+          <l>Veikko tuon sanoiksi virkki:</l>
+          <l>"En itke minä sinua,</l>
+          <l>Josko kuulen kuolleheksi;</l>
+          <l>90. Veli toinen saatanehe,</l>
+          <l>Veli paljoa parempi,</l>
+          <l>Kahta mointa kaunihimpi."</l>
+        </lg>
+        <lg>
+          <l>Kullervo Kalervon poika</l>
+          <l>Sanan virkkoi, noin nimesi:</l>
+          <l>"Enkä itke mie sinua,</l>
+          <l>Kuulisinko kuolleheksi;</l>
+          <l>Saan minä mokoman veljen,</l>
+          <l>Pään kivestä, suun savesta,</l>
+          <l>Silmät suolta karpaloista,</l>
+          <l>100. Hiukset kuivista kuloista,</l>
+          <l>Jalat raian haarukasta,</l>
+          <l>Muun lihan lahosta puusta."</l>
+        </lg>
+        <lg>
+          <l>Sanoi siitä siskollensa:</l>
+          <l>"Hyvästi sisarueni!</l>
+          <l>Itketkö sinä minua,</l>
+          <l>Koskas kuulet kuolleheksi,</l>
+          <l>Kansasta kaonneheksi,</l>
+          <l>Sortuneheksi su'usta?"</l>
+        </lg>
+        <lg>
+          <l>Noin sisar sanoiksi virkki:</l>
+          <l>110. "En itke minä sinua,</l>
+          <l>Josko kuulen kuolleheksi;</l>
+          <l>Veli toinen saatanehe,</l>
+          <l>Veli paljoa parempi,</l>
+          <l>Äieä älykkähämpi."</l>
+        </lg>
+        <lg>
+          <l>Kullervo Kalervon poika</l>
+          <l>Sanan virkkoi, noin nimesi:</l>
+          <l>"Enkä itke mie sinua,</l>
+          <l>Kuulisinko kuolleheksi;</l>
+        </lg>
+        <pb n="3" facs="page_274"/>
+        <lg>
+          <l>Saan minä mokoman siskon,</l>
+          <l>120. Pään kivestä, suun savesta,</l>
+          <l>Silmät suolta karpaloista,</l>
+          <l>Hiukset kuivista kuloista,</l>
+          <l>Korvat lammin lumpehista,</l>
+          <l>Varren vaahteren vesasta."</l>
+        </lg>
+        <lg>
+          <l>Sanoi siitä äitillensä:</l>
+          <l>"Äitiseni, armaiseni,</l>
+          <l>Minun kaunis kantajani,</l>
+          <l>Kultainen kulettajani!</l>
+          <l>Itketkö sinä minua,</l>
+          <l>130. Koskas kuulet kuolleheksi,</l>
+          <l>Kansasta kaonneheksi,</l>
+          <l>Sortuneheksi su'usta?"</l>
+        </lg>
+        <lg>
+          <l>Tuon emo sanoiksi virkki,</l>
+          <l>Itse lausui, noin nimesi:</l>
+          <l>"Et älyä äitin mieltä,</l>
+          <l>Arvoa emon syäntä;</l>
+          <l>Itkenpä minä sinua,</l>
+          <l>Kun sun kuulen kuolleheksi,</l>
+          <l>Väestä vähenneheksi,</l>
+          <l>140. Sortunehensi su'usta;</l>
+          <l>Itken tulville tupamme,</l>
+          <l>Siltalauat lainehille,</l>
+          <l>Kujat kaikki kuurullani,</l>
+          <l>Läävät länkämöisilläni;</l>
+          <l>Lumet itken iljeniksi,</l>
+          <l>Iljenet suliksi maiksi,</l>
+          <l>Sulat maat vihottaviksi,</l>
+          <l>Vihottavat viereviksi."</l>
+        </lg>
+        <lg>
+          <l>"Mit' en itkeä ilenne,</l>
+          <l>150. Kut' en voine voivotella,</l>
+          <l>Itkeä inehmisissä,</l>
+          <l>Itken saunassa saloa,</l>
+          <l>Yliset kulasvesille,</l>
+          <l>Saunan lauat lainehille."</l> 
+        </lg>
+        <lg>
+          <l>Kullervo Kalervon poika,</l>
+          <l>Sinisukka äiön lapsi</l>
+          <l>Läksi soitellen sotahan,</l>
+          <l>Ilotellen tappelohon;</l>
+          <l>Soitti suolla, soitti maalla,</l>
+          <l>160. Kajahutti kankahalla,</l>
+          <l>Rojahutti ruohokossa,</l>
+          <l>Kulahutteli kulossa.</l>
+        </lg>
+        <lg>
+          <l>Vieri viestinen jälestä,</l>
+          <l>Sai sanoma korvihinsa:</l>
+          <l>"Jo iso kotona kuoli,</l>
+          <l>Vaipui valta-vanhempasi;</l>
+          <l>Käypäs tuota katsomahan,</l>
+          <l>Kuten kuollut hauatahan!"</l>
+        </lg>
+        <lg>
+          <l>Kullervo Kalervon poika,</l>
+          <l>170. Hänpä varsin vastaeli:</l>
+          <l>"Kun lie kuollut, kuolkahansa;</l>
+          <l>On meillä kotona ruuna,</l>
+          <l>Millä maahan vietäkähän,</l>
+          <l>Kalmahan katettakahan!"</l>
+        </lg>
+        <lg>
+          <l>Soitti suolla mennessänsä,</l>
+          <l>Patakoitteli palolla;</l>
+          <l>Vieri viestinen jälestä,</l>
+          <l>Sai sanoma korvihinsa:</l>
+          <l>"Jo veli kotona kuoli,</l>
+          <l>180. Vaipui lapsi vanhempasi;</l>
+          <l>Käypäs tuota katsomahan,</l>
+          <l>Kuten kuollut hauatahan!"</l>
+        </lg>
+        <lg>
+          <l>Kullervo Kalervon poika,</l>
+          <l>Hänpä varsin vastaeli:</l>
+          <l>"Kun lie kuollut, kuolkahansa;</l>
+          <l>On siellä ori kotona,</l>
+          <l>Millä maahan vietäkähän,</l>
+          <l>Kalmahan katettakahan!"</l>
+        </lg>
+        <lg>
+          <l>Soitti suolla käyessänsä,</l>
+          <l>190. Kullervoitsi kuusikossa;</l>
+          <l>Vieri viestinen jälestä,</l>
+          <l>Sai sanoma korvihinsa:</l>
+          <l>"Jo sisar kotona kuoli,</l>
+          <l>Vaipui lapsi vanhempasi;</l>
+        </lg>
+        <pb n="4" facs="page_275"/>
+        <lg>
+          <l>Käypäs tuota katsomahan,</l>
+          <l>Kuten kuollut hauatahan!"</l>
+        </lg>
+        <lg>
+          <l>Kullervo Kalervon poika,</l>
+          <l>Hänpä varsin vastaeli:</l>
+          <l>"Kun lie kuollut, kuolkahansa;</l>
+          <l>200. On meillä kotona tamma,</l>
+          <l>Millä maahan vietäkähän,</l>
+          <l>Kalmahan katettakahan!"</l>
+        </lg>
+        <lg>
+          <l>Kulaten kulossa astui,</l>
+          <l>Heläellen heinikossa;</l>
+          <l>Vieri viestinen jälestä,</l>
+          <l>Sai sanoma korvihinsa:</l>
+          <l>"Kuoli ehtoinen emosi,</l>
+          <l>Kaatui maire maammuesi;</l>
+          <l>Käypäs tuota katsomahan,</l>
+          <l>210. Miten miero hautoavi!"</l>
+        </lg>
+        <lg>
+          <l>Kullervo Kalervon poika</l>
+          <l>Sanan virkkoi, noin nimesi:</l>
+          <l>"Voi minä poloinen poika,</l>
+          <l>Kun kuoli emo minulta,</l>
+          <l>Uupui uutimen tekiä,</l>
+          <l>Vaipui vaipan kirjoittaja,</l>
+          <l>Pitkän piustan kehreäjä,</l>
+          <l>Väki-värttinän vetäjä;</l>
+          <l>Enk' ollut luona luopuessa,</l>
+          <l>220. Läsnä hengen lähtiessä,</l>
+          <l>Lie kuollut kovin viluhun,</l>
+          <l>Vainko leivän puuttehesen!"</l>
+        </lg>
+        <lg>
+          <l>"Kuollut koissa pestäköhön</l>
+          <l>Saksan saipua-vesillä,</l>
+          <l>Silkkihin sieltäköhön,</l>
+          <l>Palttinoihin pantakohon,</l>
+          <l>Siitä maahan vietäköhön,</l>
+          <l>Kalmahan katettakohon,</l>
+          <l>Itkuvirsin vietäköhön,</l>
+          <l>230. Laulaen lasettakohon;</l>
+          <l>En vielä kotihin joua,</l>
+          <l>Viel' on Unto kostamatta,</l> 
+          <l>Mies katala kaatamatta,</l>
+          <l>Ilkeä hävittämättä."</l>
+        </lg>
+        <lg>
+          <l>Meni soitellen sotahan,</l>
+          <l>Ilon lyöen Untolahan,</l>
+          <l>Sanan virkkoi, noin nimesi:</l>
+          <l>"Oi Ukko ylijumala!</l>
+          <l>Jos nyt mulle miekan saisit,</l>
+          <l>240. Sekä kalvan kaunihimman,</l>
+          <l>Joka joukolle pitäisi,</l>
+          <l>Saattaisi satalu'ulle."</l>
+        </lg>
+        <lg>
+          <l>Saip' on miekan mielehisen,</l>
+          <l>Kalvan kaikkien parahan,</l>
+          <l>Jolla kaatoi kaiken kansan,</l>
+          <l>Joukon Untamon hävitti;</l>
+          <l>Tuvat poltteli poroksi,</l>
+          <l>Kypeniksi kyyätteli,</l>
+          <l>Kivet jätti kiukahista,</l>
+          <l>250. Pitkän pihlajan pihoista.</l>
+        </lg>
+        <lg>
+          <l>Kullervo Kalervon poika</l>
+          <l>Jo tuosta kotihin kääntyi</l>
+          <l>Ison entisen tuville,</l>
+          <l>Vanhempansa vainioille;</l>
+          <l>Tupa on tyhjä tultuansa,</l>
+          <l>Autio avattuansa,</l>
+          <l>Ei tulla likistämähän,</l>
+          <l>Käyä kättä antamahan.</l>
+        </lg>
+        <lg>
+          <l>Antoi kättä hiilokselle,</l>
+          <l>260. Hiilet kylmät hiiloksessa;</l>
+          <l>Tuosta tunsi tultuansa,</l>
+          <l>Ei ole emo elossa.</l>
+        </lg>
+        <lg>
+          <l>Pisti kättä kiukahalle,</l>
+          <l>Kivet kylmät kiukahassa;</l>
+          <l>Tuosta tunsi tultuansa,</l>
+          <l>Ei ole iso elossa.</l>
+        </lg>
+        <lg>
+          <l>Loi on silmät sillan päälle,</l>
+          <l>Silta kaikki siivomatta;</l>
+          <l>Tuosta tunsi tultuansa,</l>
+          <l>270. Ei ole sisar elossa.</l>
+        </lg>
+        <lg>
+          <l>Vieri valkama-vesille,</l>
+          <l>Ei venettä valkamassa;</l>
+        </lg>
+        <pb n="5" facs="page_276"/>
+        <lg>
+          <l>Tuosta tunsi tultuansa,</l>
+          <l>Ei ole veli elossa.</l>
+        </lg>
+        <lg>
+          <l>Loihe siitä itkemähän,</l>
+          <l>Itki päivän, itki toisen,</l>
+          <l>Itse tuon sanoiksi virkki:</l>
+          <l>"Oi on ehtoinen emoni,</l>
+          <l>Mitäs mulle tänne heitit</l>
+          <l>280 Eläessä tällä maalla?"</l>
+        </lg>
+        <lg>
+          <l>"Et kuule emo minua,</l>
+          <l>Jos ma silmillä siherrän,</l>
+          <l>Eli kulmilla kujerran,</l>
+          <l>Päälaella lausuelen!"</l>
+        </lg>
+        <lg>
+          <l>Emo hauasta havasi,</l>
+          <l>Alta mullan muistuttavi:</l>
+          <l>"Jäi hän multa Musti koira</l>
+          <l>Käyäksesi metsämaille;</l>
+          <l>Ota koirasi keralle,</l>
+          <l>290. Mene tuonne metsämaille,</l>
+          <l>Ylös korpehen kohoa</l>
+          <l>Metsän tyttöjen tyköhön,</l>
+          <l>Sinipiikojen pihalle,</l>
+          <l>Havulinnan liepehille</l>
+          <l>Evähiä etsimähän,</l>
+          <l>Antia anelemahan!"</l>
+        </lg>
+        <lg>
+          <l>Kullervo Kalervon poika</l>
+          <l>Otti koiransa keralle,</l>
+          <l>Läksi tietä telkkimähän,</l>
+          <l>300. Korpehen kohoamahan;</l>
+          <l>Kävi matkoa vähäisen,</l>
+          <l>Astui tietä pikkaraisen,</l>
+          <l>Tuli tuolle saarekselle,</l>
+          <l>Tuolle paikalle tapahtui,</l>
+          <l>Kuss' oli piian pillannunna,</l>
+          <l>Turmellut emonsa tuoman.</l>
+        </lg>
+        <lg>
+          <l>Siin' itki ihana nurmi,</l>
+          <l>Aho armahin valitti,</l>
+          <l>Nuoret heinät hellitteli,</l>
+          <l>310. Kuikutti kukat kanervan</l>
+          <l>Tuota piian pillamusta,</l>
+          <l>Emon tuoman turmellusta,</l>
+          <l>Eikä nousnut nuori heinä,</l>
+          <l>Kasvanut kanervan kukka,</l>
+          <l>Ylennyt sialla sillä,</l>
+          <l>Tuolla paikalla pahalla,</l>
+          <l>Kuss' oli piian pillannunna,</l>
+          <l>Emon tuoman turmellunna.</l>
+        </lg>
+        <lg>
+          <l>Kullervo Kalervon poika</l>
+          <l>320. Tempasi terävän miekan,</l>
+          <l>Katselevi, kääntelevi,</l>
+          <l>Kyselevi, tietelevi;</l>
+          <l>Kysyi mieltä miekaltansa,</l>
+          <l>Tokko tuon tekisi mieli</l>
+          <l>Syöä syyllistä lihoa,</l>
+          <l>Viallista verta juoa.</l>
+        </lg>
+        <lg>
+          <l>Miekka mietti miehen mielen,</l>
+          <l>Arvasi uron pakinan,</l>
+          <l>Vastasi sanalla tuolla:</l>
+          <l>330. "Miks' en söisi mielelläni,</l>
+          <l>Söisi syyllistä lihoa,</l>
+          <l>Viallista verta joisi,</l>
+          <l>Syön lihoa syyttömänki,</l>
+          <l>Juon verta viattomanki."</l>
+        </lg>
+        <lg>
+          <l>Kullervo Kalervon poika,</l>
+          <l>Sinisukka äiön lapsi</l>
+          <l>Pään on peltohon sysäsi,</l>
+          <l>Perän painoi kankahasen,</l>
+          <l>Kären käänti rintahansa,</l>
+          <l>340. Itse iskihe kärelle,</l>
+          <l>Siihen surmansa sukesi,</l>
+          <l>Kuolemansa kohtaeli.</l>
+        </lg>
+        <lg>
+          <l>Se oli surma nuoren miehen,</l>
+          <l>Kuolo Kullervo-urohon,</l>
+          <l>Loppu ainakin urosta,</l>
+          <l>Kuolema kova-osaista.</l>
+        </lg>
+        <lg>
+          <l>Silloin vanha Wäinämöinen,</l>
+          <l>Kunpa kuuli kuolleheksi,</l>
+          <l>Kullervon kaonneheksi,</l>
+          <l>350. Sanan virkkoi, noin nimesi:</l>
+          <l>"Elkötte etinen kansa</l>
+          <l>Lasta kaltoin kasvatelko</l>
+        </lg>
+        <pb n="6" facs="page_277"/>
+        <lg>
+          <l>Luona tuhman tuuittajan,</l>
+          <l>Vierahan väsytteliän!</l>
+          <l>Lapsi kaltoin kasvattama,</l>
+          <l>Poika tuhmin tuuittama</l>
+          <l>Ei tule älyämähän,</l>
+          <l>Miehen mieltä ottamahan,</l>
+          <l>Vaikka vanhaksi eläisi,</l>
+          <l>360. Varreltansa vahvistuisi."</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

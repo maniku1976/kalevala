@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Kalevalan kolmaskymmenesseitsemäs runo</title>
+        <author>Elias Lönnrot</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Avoin Kalevala</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>Suomalaisen Kirjallisuuden Seura</distributor>
+        <date when="2018-01-09">9.1.2018</date>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Helsinki</settlement>
+            <repository>Suomalaisen Kirjallisuuden Seuran arkiston kirjallisuuden ja kulttuurihistorian arkistoaineistot</repository>
+            <idno/>
+          </msIdentifier>
+          <msContents>
+            <msItem n="1" class="letter">
+              <author><surname>Lönnrot</surname>
+                <forename>Elias</forename></author>
+            </msItem>
+            <msItem n="2" class="transcription">
+              <bibl/>
+            </msItem>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="runo">
+        <pb n="1" facs="page_278"/>
+        <p><emph>Seitsemäsneljättä Runo.</emph></p>
+        <lg>
+          <l>Se on seppo Ilmarinen</l>
+          <l>Naista itki illat kaiket,</l>
+          <l>Yöt itki unettomana,</l>
+          <l>Päivät einehettömänä,</l>
+          <l>Aamut aikaisin valitti,</l>
+          <l>Huomeniset huokaeli,</l>
+          <l>Kun oli kuollut nuori nainen,</l>
+          <l>Kaunis kalmahan katettu;</l>
+          <l>Eipä kääntynyt käessä</l>
+          <l>10. Vaskinen vasaran varsi,</l>
+          <l>Kuulunut pajasta kalke,</l>
+          <l>Yhen kuuhuen kululla.</l>
+        </lg>
+        <lg>
+          <l>Sanoi seppo Ilmarinen:</l>
+          <l>"En tieä poloinen poika,</l>
+          <l>Miten olla, kuin eleä;</l>
+          <l>Istun yön eli makoan,</l>
+          <l>Äiä on yötä, tunti tuhma,</l>
+          <l>Vaivoja matala mahti."</l>
+        </lg>
+        <lg>
+          <l>"Ikävät on iltaseni,</l>
+          <l>20. Apeat on aamuseni,</l>
+          <l>Äsken yöllä äitelämpi,</l>
+          <l>Havatessa haikeampi;</l>
+          <l>Ei ole iltoja ikävä,</l>
+          <l>Ei apea aamujani,</l>
+          <l>Mure muita aikojani:</l>
+          <l>Ihanaistani ikävä,</l>
+          <l>Apeainen armastani,</l>
+          <l>Mure musta-kulmaistani."</l>
+        </lg>
+        <lg>
+          <l>"Jo vainen iällä tällä</l>
+          <l>30. Usein minun utuisen</l>
+          <l>Keskiöisissä unissa</l>
+          <l>Koura tyhjeä kokevi,</l>
+          <l>Käsi vaalivi valetta</l>
+          <l>Kupehelta kummaltaki."</l>
+        </lg>
+        <lg>
+          <l>Seppo naisetta elävi,</l>
+          <l>Puolisotta vanhenevi;</l>
+          <l>Itki kuuta kaksi, kolme,</l>
+          <l>Niinpä kuulla neljännellä,</l>
+          <l>Poimi kultia mereltä</l>
+        </lg>
+        <pb n="2" facs="page_279"/>
+        <lg>
+          <l>40. Hopeita lainehilta;</l>
+          <l>Keräsi kekosen puita,</l>
+          <l>Kolmekymmentä rekoista,</l>
+          <l>Puunsa poltti hiililöiksi,</l>
+          <l>Hiilet ahjohon ajeli.</l>
+        </lg>
+        <lg>
+          <l>Otti noita kultiansa,</l>
+          <l>Valitsi hopeitansa</l>
+          <l>Sykysyisen uuhen verran,</l>
+          <l>Verran talvisen jäniksen,</l>
+          <l>Työnti kullat kuumentohon,</l>
+          <l>50. Ajoi ahjohon hopeat,</l>
+          <l>Pani orjat lietsomahan,</l>
+          <l>Palkkalaiset painamahan.</l>
+        </lg>
+        <lg>
+          <l>Orjat lietsoi löyhytteli,</l>
+          <l>Palkkalaiset painatteli</l>
+          <l>Kintahattomin kätösin,</l>
+          <l>Hatuttoman hartioisen;</l>
+          <l>Itse seppo Ilmarinen</l>
+          <l>Ahjoa kohentelevi,</l>
+          <l>Pyyti kullaista kuvaista,</l>
+          <l>60. Hopeista morsianta.</l>
+        </lg>
+        <lg>
+          <l>Ei orjat hyvästi lietso,</l>
+          <l>Eikä paina palkkalaiset,</l>
+          <l>Se on seppo Ilmarinen</l>
+          <l>Itse löihe lietsomahan;</l>
+          <l>Lietsahutti kerran, kaksi,</l>
+          <l>Niin kerralla kolmannella</l>
+          <l>Katsoi ahjonsa alusta,</l>
+          <l>Lietsehensä liepehiä,</l>
+          <l>Mitä ahjosta ajaikse,</l>
+          <l>70. Tungeikse tulisiasta.</l>
+        </lg>
+        <lg>
+          <l>Uuhi ahjosta ajaikse,</l>
+          <l>Lähetäikse lietsehestä,</l>
+          <l>Karva kulta, toinen vaski,</l>
+          <l>Kolmas on hopea karva;</l>
+          <l>Muut tuota ihastelevi,</l>
+          <l>Ei ihastu Ilmarinen.</l>
+        </lg>
+        <lg>
+          <l>Sanoi seppo Ilmarinen:</l>
+          <l>"Se susi sinuista toivoi!</l>
+          <l>Toivon kullaista sopua,</l>
+          <l>80. Hopeista puolisoa."</l>
+        </lg>
+        <lg>
+          <l>Siitä seppo Ilmarinen</l>
+          <l>Uuhen työntävi tulehen,</l>
+          <l>Liitti kultia lisäksi,</l>
+          <l>Hopeita täytteheksi,</l>
+          <l>Pani orjat lietsomahan,</l>
+          <l>Palkkalaiset painamahan.</l>
+        </lg>
+        <lg>
+          <l>Orjat lietsoi löyhytteli,</l>
+          <l>Palkkalaiset painatteli</l>
+          <l>Kintahattomin kätösin,</l>
+          <l>90. Hatuttoman hartioisen;</l>
+          <l>Itse seppo Ilmarinen</l>
+          <l>Ahjoa kohentelevi,</l>
+          <l>Pyyti kullaista kuvoa,</l>
+          <l>Hopeaista morsianta.</l>
+        </lg>
+        <lg>
+          <l>Ei orjat hyvästi lietso,</l>
+          <l>Eikä paina palkkalaiset,</l>
+          <l>Se on seppo Ilmarinen</l>
+          <l>Itse loihe lietsomahan;</l>
+          <l>Lietsahutti kerran, kaksi,</l>
+          <l>100. Niin kerralla kolmannella</l>
+          <l>Katsoi ahjonsa alusta,</l>
+          <l>Lietsehensä liepehiä,</l>
+          <l>Mitä ahjosta ajaikse,</l>
+          <l>Lähetäikse lietsehestä.</l>
+        </lg>
+        <lg>
+          <l>Varsa ahjosta ajaikse,</l>
+          <l>Lähetäikse lietsehestä,</l>
+          <l>Harja kulta, pää hopea,</l>
+          <l>Kaikki vaskesta kaviot;</l>
+          <l>Muut tuota hyvin ihastui,</l>
+          <l>110. Ei ihastu Ilmarinen.</l>
+        </lg>
+        <lg>
+          <l>Sanoi seppo Ilmarinen:</l>
+          <l>"Se susi sinuista toivoi!</l>
+          <l>Toivon kullaista sopua,</l>
+          <l>Hopeista puolisoa."</l>
+        </lg>
+        <lg>
+          <l>Siitä seppo Ilmarinen</l>
+          <l>Varsan työntävi tulehen,</l>
+          <l>Liitti kultia lisäksi,</l>
+          <l>Hopeita täytteheksi,</l>
+        </lg>
+        <pb n="3" facs="page_280"/>
+        <lg>
+          <l>Pani orjat lietsomahan,</l>
+          <l>120. Palkkalaiset painamahan.</l>
+        </lg>
+        <lg>
+          <l>Orjat lietsoi löyhytteli,</l>
+          <l>Palkkalaiset painatteli</l>
+          <l>Kintahattomin kätösin,</l>
+          <l>Hatuttoman hartioisen;</l>
+          <l>Itse seppo Ilmarinen</l>
+          <l>Ahjoa kohentelevi,</l>
+          <l>Pyyti kullaista kuvoa,</l>
+          <l>Hopeista morsianta.</l>
+        </lg>
+        <lg>
+          <l>Ei orjat hyvästi lietso,</l>
+          <l>130. Eikä paina palkkalaiset,</l>
+          <l>Se on seppo Ilmarinen</l>
+          <l>Itse loihe lietsomahan;</l>
+          <l>Lietsahutti kerran, kaksi,</l>
+          <l>Niin kerralla kolmannella</l>
+          <l>Katsoi ahjonsa alusta,</l>
+          <l>Lietsehensä liepehiä,</l>
+          <l>Mitä ahjosta ajaikse,</l>
+          <l>Lähetäikse lietsehestä.</l>
+        </lg>
+        <lg>
+          <l>Neiti ahjosta ajaikse,</l>
+          <l>140. Kulta-letti lietsehestä,</l>
+          <l>Pää hopea, kassa kulta,</l>
+          <l>Varsi kaikki kaunokainen;</l>
+          <l>Muut tuota pahoin pelästyi,</l>
+          <l>Ei pelästy Ilmarinen.</l>
+        </lg>
+        <lg>
+          <l>Siitä seppo Ilmarinen</l>
+          <l>Takoi kullaista kuvoa,</l>
+          <l>Takoi yön levähtämättä,</l>
+          <l>Päivän pouahuttamatta;</l>
+          <l>Jalat laati neitoselle,</l>
+          <l>150. Jalat laati, käet kuvasi,</l>
+          <l>Eipä jalka nousekana,</l>
+          <l>Käänny käet syleilemähän.</l>
+        </lg>
+        <lg>
+          <l>Takoi korvat neiollensa,</l>
+          <l>Eipä korvat kuulekana;</l>
+          <l>Niin sovitti suun sorean,</l>
+          <l>Suun sorean, sirkut silmät,</l>
+          <l>Saanut ei sanoa suuhun,</l>
+          <l>Eikä silmähän suloa.</l>
+        </lg>
+        <lg>
+          <l>Sanoi seppo Ilmarinen:</l>
+          <l>160. "Oisi tuo sorea neito,</l>
+          <l>Kun oisi sanallisena,</l>
+          <l>Mielellisnä, kielellisnä."</l>
+        </lg>
+        <lg>
+          <l>Saattoi siitä neitosensa</l>
+          <l>Utuisehen uutimehen,</l>
+          <l>Pehmeille pää-aloille,</l>
+          <l>Sulkkuisille vuotehille.</l>
+        </lg>
+        <lg>
+          <l>Siitä seppo Ilmarinen</l>
+          <l>Lämmitti kylyn utuisen,</l>
+          <l>Laati saunan saipuaisen,</l>
+          <l>170. Vastat varpaiset varusti,</l>
+          <l>Vettä kolme korvollista,</l>
+          <l>Jolla peiponen peseikse,</l>
+          <l>Pulmunen puhasteleikse</l>
+          <l>Noista kullan kuonasista.</l>
+        </lg>
+        <lg>
+          <l>Kylpi seppo kyllitellen,</l>
+          <l>Valelihe vallotellen,</l>
+          <l>Neien vierehen venähti</l>
+          <l>Utuisehen uutimehen,</l>
+          <l>Teltahan teräksisehen,</l>
+          <l>180. Rankisehen rautaisehen.</l>
+        </lg>
+        <lg>
+          <l>Siinä seppo Ilmarinen</l>
+          <l>Heti yönä ensimmäisnä</l>
+          <l>Kyllä peitettä kysyvi,</l>
+          <l>Vaippoja varustelevi,</l>
+          <l>Kahet, kolmet karhuntaljat,</l>
+          <l>Viiet, kuuet villavaipat</l>
+          <l>Maata kera puolisonsa,</l>
+          <l>Tuon on kultaisen kuvansa.</l>
+        </lg>
+        <lg>
+          <l>Se oli kylki kyllä lämmin,</l>
+          <l>190. Ku oli vasten vaippojansa,</l>
+          <l>Ku oli nuorta neittä vasten,</l>
+          <l>Vasten kullaista kuvoa,</l>
+          <l>Se oli kylki kylmimässä,</l>
+          <l>Oli hyyksi hyytymässä,</l>
+        </lg>
+        <pb n="4" facs="page_281"/>
+        <lg>
+          <l>Meren jääksi jäätymässä,</l>
+          <l>Kiveksi kovoamassa.</l>
+        </lg>
+        <lg>
+          <l>Sanoi seppo Ilmarinen:</l>
+          <l>"Ei tämä hyvä minulle;</l>
+          <l>Vienen neien Wäinölähän</l>
+          <l>200. Wäinämöiselle varaksi,</l>
+          <l>Polviseksi puolisoksi,</l>
+          <l>Kainaloiseksi kanaksi."</l>
+        </lg>
+        <lg>
+          <l>Viepi neien Wäinölähän;</l>
+          <l>Sitte sinne tultuansa</l>
+          <l>Sanan virkkoi, noin nimesi:</l>
+          <l>"Oi sie vanha Wäinämöinen,</l>
+          <l>Tuossa on sinulle tyttö,</l>
+          <l>Neiti kaunis katsannolta,</l>
+          <l>Eik' ole suuri suun piolta,</l>
+          <l>210. Kovin leuoilta leveä."</l>
+        </lg>
+        <lg>
+          <l>Vaka vanha Wäinämöinen</l>
+          <l>Katsahti kuvoa tuota,</l>
+          <l>Luopi silmät kullan päälle,</l>
+          <l>Sanan virkkoi, noin nimesi:</l>
+          <l>"Miksi toit minulle tuota,</l>
+          <l>Tuota kullan kummitusta?"</l>
+        </lg>
+        <lg>
+          <l>Sanoi seppo Ilmarinen:</l>
+          <l>"Miksi muuksi, kun hyväksi:</l>
+          <l>Polviseksi puolisoksi,</l>
+          <l>220. Kainaloiseksi kanaksi."</l>
+        </lg>
+        <lg>
+          <l>Sanoi vanha Wäinämöinen:</l>
+          <l>"Oi on seppo veikkoseni!</l>
+          <l>Tunge neitosi tulehen,</l>
+          <l>Tao kaikiksi kaluiksi,</l>
+          <l>Tahi vie Wenäehelle,</l>
+          <l>Saata Saksahan kuvasi</l>
+          <l>Rikkahien riian naia,</l>
+          <l>Suurien soan kosia;</l>
+          <l>Ei sovi minun su'ulle,</l>
+          <l>230. Ei minullen itselleni</l>
+          <l>Naista kullaista kosia,</l>
+          <l>Hopeista huolitella."</l>
+        </lg>
+        <lg>
+          <l>Siitä kielti Wäinämöinen,</l>
+          <l>Epäsi suvannon sulho,</l>
+          <l>Kielti kansan kasvavaisen,</l>
+          <l>Epäsi yleneväisen</l>
+          <l>Kullalle kumartamasta,</l>
+          <l>Hopealle horjumasta;</l>
+          <l>Sanovi sanalla tuolla,</l>
+          <l>240. Lausui tuolla lausehella:</l>
+          <l>"Elkätte pojat poloiset,</l>
+          <l>Vasta kasvavat urohot,</l>
+          <l>Ollette elonkeraiset,</l>
+          <l>Elikkä elottomatki,</l>
+          <l>Sinä ilmoisna ikänä,</l>
+          <l>Kuuna kullan valkeana</l>
+          <l>Naista kullaista kosiko,</l>
+          <l>Hopeista huolitelko!</l>
+          <l>Kylmän kulta kuumottavi,</l>
+          <l>250. Vilun huohtavi hopea."</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

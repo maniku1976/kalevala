@@ -2045,15 +2045,26 @@ td, th, tr {
   #footer-text .row {
     float: right;
     position:absolute;
-    right: 5px;
-    top: 20px;
+    left:15px;
+    top:30px;
     display: inline !important;
-    width: auto;
+    width: 100% !important;
+    height: 100%; !important;
+  }
+
+  #footer-text .row div:nth-child(1) {
+    margin-right: 35%;
+    margin-left: 5px;
+  }
+
+  #footer-text .row div:nth-child(1) img {
+    width: 100%;
+    height: auto;
   }
 
   #sks {
-    width: 318px;
-    height: 64px;
+    width: auto;
+    max-height: 64px;
   }
 
   #kordelin {
@@ -3247,16 +3258,24 @@ td, th, tr {
 
   #poems {
     background: #F8F6F4;
-    padding-top: 10px;
+    padding: 0px;
+    width: 100%;
   }
 
   #poems ul {
-    width: 80%;
+    width: 100%;
   }
 
   #poems ul li {
-    display: inline;
-    margin-bottom: 1em;
+    display: inline-block;
+    width: 80%;
+    padding-left: 15px;
+
+  }
+
+  #poems ul div p {
+    padding-left: 15px;
+    width: 80%;
   }
 
   #poems ul li span:nth-child(1) {
@@ -3294,15 +3313,32 @@ td, th, tr {
     float: left !important;
   }
 
-  #coll2 div h5 {
-    margin-top: 0px;
-    margin-bottom: 1.5em !important;
+  #poems ul div h5 {
+    margin-top: 1.5em;
+    margin-bottom: 1em;
     padding-top: 10px !important;
     padding-bottom: 10px;
+  }
+
+  #poems ul div:nth-child(1) h5:nth-child(1) {
     background: #E3DED5;
+    width: 100% !important;
+    padding-left: 15px; 
+    margin-top: 0 !important;
+    margin-bottom: 1.5em;
+  }
+
+  #poems ul h5 {
+    background: #E3DED5;
+    width: 100% !important;
+    margin-bottom: 1.5em;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   .collections #wrap #content .container-fluid .row ul li a span:nth-child(3) {
-    display: none;
+    font-weight: normal;
+    font-size: 14px;
   }
 
   .simple-page {
@@ -3451,7 +3487,7 @@ td, th, tr {
 
   #geneettinen-vertailu h5, #geneettinen-content h5, #geneettinen-content-2 h5, #temaattinen-toimitustavat h5,
   #aatehistoriallinen-kansa h5, #aatehistoriallinen-perhe h5, #traditio-esittely h5, #traditio-saetk h5, #traditio-kantel h5 
-  #traditio-content h5, #aatehistoriallinen-kehys h5 {
+  #traditio-content h5, #aatehistoriallinen-kehys h5, #aatehistoriallinen-tulkinnat h5 {
     margin-top: 1.5em;
     margin-bottom: 1em;
   }
@@ -3472,18 +3508,19 @@ td, th, tr {
   }
 
   #kielellinen-content h5, #geneettinen-content h5, #temaattinen-lyriikka h5, #temaattinen-toimitustavat h5, #esipuhe-erot h5, 
-  #erisn h5 {
+  #erisn h5, #temaattinen-sammot h5 {
     margin-top: 1.5em;
     margin-bottom: 1em;
   }
 
-  #temaattinen-submenu, #geneettinen-submenu, #traditio-submenu, #esipuhe-submenu, #aatehistoriallinen-submenu, #kielellinen-submenu {
+  #temaattinen-submenu, #geneettinen-submenu, #traditio-submenu, #esipuhe-submenu, #aatehistoriallinen-submenu, 
+  #kielellinen-submenu, #ainolemm-submenu {
     display: none;
   }
 
   #temaattinen-submenu1, #temaattinen-submenu2, #temaattinen-submenu3, #temaattinen-submenu4, #temaattinen-submenu5, 
   #geneettinen-submenu1, #geneettinen-submenu2, #geneettinen-submenu3, #geneettinen-submenu4, #traditio-submenu, 
-  #esipuhe-submenu, #aatehistoriallinen-submenu, #kielellinen-submenu {
+  #esipuhe-submenu, #aatehistoriallinen-submenu, #kielellinen-submenu, #ainolemm-submenu {
     margin-left: 1em !important;
   }
 
@@ -3492,16 +3529,33 @@ td, th, tr {
   #traditio-submenu a, #esipuhe-submenu1 a, #esipuhe-submenu2 a, #esipuhe-submenu3 a, 
   #aatehistoriallinen-submenu1 a, #aatehistoriallinen-submenu2 a, #aatehistoriallinen-submenu3 a, 
   #aatehistoriallinen-submenu4 a, #aatehistoriallinen, #kielellinen-submenu1 a,
-  #kielellinen-submenu2 a {
+  #kielellinen-submenu2 a, #ainolemm-submenu1 a, #ainolemm-submenu2 a {
     font-weight: normal !important;
   }
 
   #temaattinen-esittely, #temaattinen-toimitustavat, #temaattinen-sammot, #geneettinen-esittely, #geneettinen-versiot, 
   #geneettinen-vertailu, #traditio-esittely, #aatehistoriallinen-esittely, #temaattinen-lyriikka, #esipuhe-lajina, 
   #esipuhe-aani, #esipuhe-erot, #aatehistoriallinen-kansa, #aatehistoriallinen-perhe, #aatehistoriallinen-kehys, 
-  #aatehistoriallinen-tulkinnat, #traditio-saetk, #traditio-skvr, #kielellinen-esittely, #kielellinen-suomi, #kielellinen-periaatteet {
+  #aatehistoriallinen-tulkinnat, #traditio-saetk, #traditio-skvr, #kielellinen-esittely, #kielellinen-suomi, 
+  #kielellinen-periaatteet, #ainolemm-aino, #ainolemm-lemminkainen {
     display: none;
   }
+
+  #ainolemm-aino h5, #ainolemm-lemminkainen h5 {
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+  }
+
+  #ainolemm-aino h5:nth-child(1), #ainolemm-lemminkainen h5:nth-child(1) {
+    margin-top: 0 !important;
+    margin-bottom: 1em;
+  }
+
+  #ainolemm-lemminkainen ul li {
+    margin-bottom: 1em;
+  }
+
+
 
   #traditio-esittely h4 {
     margin-bottom: 1em;
