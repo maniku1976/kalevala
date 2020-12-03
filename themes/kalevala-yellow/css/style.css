@@ -4,6 +4,7 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
+
 html {
   font-family: sans-serif;
   /* 1 */
@@ -2040,26 +2041,35 @@ td, th, tr {
   #footer-text {
     width: 100%;
     position:relative;
+    display: flex;
+    justify-content: space-between;
   }
 
-  #footer-text .row {
-    float: right;
-    position:absolute;
-    left:15px;
-    top:30px;
-    display: inline !important;
-    width: 100% !important;
-    height: 100%; !important;
+  #footer-text div {
+    display: flex;
+    margin-top: 1em;
+
   }
 
-  #footer-text .row div:nth-child(1) {
-    margin-right: 35%;
-    margin-left: 5px;
+  #footer-text div:nth-child(1) {
+    margin-left: 16px;
+    flex-direction: column;
   }
 
-  #footer-text .row div:nth-child(1) img {
-    width: 100%;
-    height: auto;
+  #footer-text div:nth-child(2) {
+    margin-right: 16px;
+  }
+
+  #footer-text div:nth-child(1) a {
+    color: black !important;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 20px;
+  }
+
+  #tsva {
+    max-height: 100%;
+    width: auto;
   }
 
   #sks {
@@ -2069,14 +2079,12 @@ td, th, tr {
 
   #kordelin {
     width: auto;
-    height: 110px;
-    margin-right: 10px !important;
+    max-height: 110px;
   }
 
   #kalevalas {
     width: auto;
-    height: 110px;
-    margin-right: 16px;
+    max-height: 110px;
   }
 
   #footer-text .row .col-xs-6, #footer-text .row .col-md-6, 
@@ -2527,10 +2535,6 @@ td, th, tr {
     font-weight: normal;
     font-size: 14px;
     margin-left: 5px;
-  }
-
-  .coll_title a:hover, .coll_title a:active {
-
   }
 
   /* front page texts list */
@@ -3014,6 +3018,7 @@ td, th, tr {
     display: inline;
     border-bottom: none;
     margin-bottom: 6px !important;
+    color: black !important;
   }
 
   #pic_nav4 a:hover {
@@ -3101,6 +3106,11 @@ td, th, tr {
     width: auto;
   }
 
+  #showFacs:focus {
+    border: 2px solid blue !important;
+    border-radius: 3px;
+  }
+
   #showFacs a, #showComm a {
     cursor: pointer;
     display: inline;
@@ -3108,6 +3118,10 @@ td, th, tr {
     font-weight: normal !important;
   }
 
+  #showFacs a:focus {
+    border: 2px solid blue !important;
+    border-radius: 3px;
+  }
   #showFacs a, #showComm a, #showFacs + li a {
     font-size: 14px;
     line-height: 14px;
@@ -3638,6 +3652,11 @@ td, th, tr {
     margin-bottom: 2em;
   }
 
+  #esipuhe-link:focus {
+    border: 2px solid black;
+    border-radius: 3px;
+  }
+
   /*Kaukosen säetutkimus*/
   a.kauk1 {
     font-size: 1em;
@@ -3792,6 +3811,24 @@ td, th, tr {
 
   span.note_l {
     margin-left: 16px;
+  }
+
+  .statement__div {
+    margin-bottom: 1.5em;
+    margin-left: 16px;
+  }
+
+  .flaw__wcag {
+    margin-bottom: 1em;
+  }
+
+  .flaws .flaw {
+    margin-bottom: 1em;
+  }
+
+  .nav-link:focus {
+    border: 1px solid black;
+    border-radius: 3px;
   }
   /* @end */
 }

@@ -16,7 +16,7 @@
       <?php set_loop_records('collections',$collections);?>
 
       <?php foreach (loop('collections') as $collection): ?>
-          <li class="nav-item coll_title">
+          <li class="nav-item coll_title" tabindex="0">
             <a class="nav-link"><?php echo metadata($collection, array('Dublin Core', 'Title'));?></a>
           </li>
           <li class="nav-item coll_items">

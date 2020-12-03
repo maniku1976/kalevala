@@ -28,21 +28,21 @@
       <nav id="pic_nav" class="navbar navbar-expand-md">
         <ul class="navbar-nav">
            <li id="pic_nav1" class="nav-item" title="näytä sananselitykset">
-              <input type="checkbox" title="näytä sananselitykset"> Sananselitykset
+              <input type="checkbox" title="näytä sananselitykset" tabindex="0"> Sananselitykset
             </li>
            <?php if (metadata('item', array('Dublin Core', 'Title')) == 'Neljäs runo'): ?>
              <li id="pic_nav2" class="nav-item" title="näytä säeviitteet">
-               <input type="checkbox" title="näytä säeviitteet"> Säeviitteet
+               <input type="checkbox" title="näytä säeviitteet" tabindex="0"> Säeviitteet
              </li>
              <li id="pic_nav3" class="nav-item" title="näytä kommentaarit">
-               <input type="checkbox" title="näytä kommentaarit"> Kommentaarit
+               <input type="checkbox" title="näytä kommentaarit" tabindex="0"> Kommentaarit
              </li>
           <?php elseif (metadata('item', array('Dublin Core', 'Title')) == 'Kahdeskymmenestoinen runo'): ?>
             <li id="pic_nav3" class="nav-item" title="näytä kommentaarit">
-              <input type="checkbox" title="näytä kommentaarit"> Kommentaarit
+              <input type="checkbox" title="näytä kommentaarit" tabindex="0"> Kommentaarit
             </li>
              <li id="pic_nav2" class="nav-item" title="näytä säeviitteet">
-               <input type="checkbox" title="näytä säeviitteet"> Säeviitteet
+               <input type="checkbox" title="näytä säeviitteet" tabindex="0"> Säeviitteet
              </li>
           <?php elseif (metadata('item', array('Dublin Core', 'Title')) == 'Uuden Kalevalan esipuhe'
           || metadata('item', array('Dublin Core', 'Title')) == 'Vanhan Kalevalan esipuhe'
@@ -61,11 +61,11 @@
           || metadata('item', array('Dublin Core', 'Title')) == 'Neljäskymmenestoinen runo'
           || metadata('item', array('Dublin Core', 'Title')) == 'Neljäskymmeneskolmas runo'): ?>
             <li id="pic_nav3" class="nav-item" title="näytä kommentaarit">
-              <input type="checkbox" title="näytä kommentaarit"> Kommentaarit
+              <input type="checkbox" title="näytä kommentaarit" tabindex="0"> Kommentaarit
             </li>
           <?php endif ?>
            <li id="pic_nav4" class="nav-item">
-             <a id="prevPic" class="nav-link" title="edellinen sivu"><i class="fas fa-arrow-left"></i></a><a id="nextPic" class="nav-link" title="seuraava sivu"><i class="fas fa-arrow-right"></i></a>
+             <a id="prevPic" class="nav-link" title="edellinen sivu" tabindex="0"><i class="fas fa-arrow-left"></i></a><a id="nextPic" class="nav-link" title="seuraava sivu" tabindex="0"><i class="fas fa-arrow-right"></i></a>
            </li>
          </ul>
        </nav>
@@ -73,10 +73,10 @@
     <div class="col-sm">
       <nav id="pic_nav5" class="navbar navbar-expand-md">
         <ul class="navbar-nav">
-           <li id="showFacs" class="nav-item">
+           <li id="showFacs" class="nav-item" tabindex="0">
              <a class="nav-link" title="avaa käsikirjoitus">Käsikirjoitus</a>
            </li>
-           <li class="nav-item">
+           <li class="nav-item" tabindex="0">
              <?php
              $files = $item->Files;
              foreach ($files as $file) {
@@ -103,7 +103,7 @@
       }
       ?>
     </div>
-    <div class="col-sm" id="show_col_2">
+    <div class="col-sm" id="show_col_2" tabindex="0">
       <div style="position:relative;">
       <?php
       // Fetch each item's XML file and convert to XHTML using DOMDocument()
@@ -136,7 +136,7 @@
   $files = $item->Files;
   foreach ($files as $file) {
     if ($file->getExtension() == 'jpg' && (strpos(metadata($file, 'filename'), 'lna038') !== false || strpos(metadata($file, 'filename'), 'lna036') !== false)) {
-      echo '<img title="kaksoisklikkaus = kuvan suurennus ja pienennys" class="pic2" src="http://kalevala.finlit.fi/files/original/'.metadata($file, 'filename').'" />';
+      echo '<img title="kaksoisklikkaus = kuvan suurennus ja pienennys" alt="Uuden Kalevalan käsikirjoituskuva" class="pic2" src="http://kalevala.finlit.fi/files/original/'.metadata($file, 'filename').'" />';
     }
   }
   ?>

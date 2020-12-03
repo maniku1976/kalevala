@@ -119,7 +119,7 @@
     </xsl:template>
 
     <xsl:template match="tei:label[@type = 'commentary']">
-      <a class="tooltp2">
+      <a class="tooltp2" tabindex="0">
         <xsl:value-of select="current()" />
       </a>
       <span class="value3">
@@ -134,7 +134,7 @@
     </xsl:template>
 
     <xsl:template match="tei:label[@type = 'kaukonen']">
-      <a class="tooltp3">
+      <a class="tooltp3" tabindex="0">
         <xsl:value-of select="current()" />
       </a>
       <span class="value3">

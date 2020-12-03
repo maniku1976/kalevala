@@ -1028,6 +1028,7 @@ $(document).ready(function() {
       }
     });
 
+    // header poem menu, mouse click navigation
     $('#runot-nav').find('li').eq(0).find('a').click(function() {
       $(this).parent().parent().parent().next().find('ul').eq(0).show();
       $(this).parent().parent().parent().next().find('ul').eq(1).hide();
@@ -1266,6 +1267,273 @@ $(document).ready(function() {
       $(this).parent().parent().parent().next().find('ul').eq(13).show();
     });
 
+     // header poem menu, enter navigation
+     $('#runot-nav').find('li').eq(0).keypress(function(e) { 
+      if(e.which == 13) {
+      $(this).parent().parent().next().find('ul').eq(0).show();
+      $(this).parent().parent().next().find('ul').eq(1).hide();
+      $(this).parent().parent().next().find('ul').eq(2).hide();
+      $(this).parent().parent().next().find('ul').eq(3).hide();
+      $(this).parent().parent().next().find('ul').eq(4).hide();
+      $(this).parent().parent().next().find('ul').eq(5).hide();
+      $(this).parent().parent().next().find('ul').eq(6).hide();
+      $(this).parent().parent().next().find('ul').eq(7).hide();
+      $(this).parent().parent().next().find('ul').eq(8).hide();
+      $(this).parent().parent().next().find('ul').eq(9).hide();
+      $(this).parent().parent().next().find('ul').eq(10).hide();
+      $(this).parent().parent().next().find('ul').eq(11).hide();
+      $(this).parent().parent().next().find('ul').eq(12).hide();
+      $(this).parent().parent().next().find('ul').eq(13).hide();
+      }
+    });
+
+    $('#runot-nav').find('li').eq(1).keypress(function(e) {
+      if(e.which == 13) {
+      $(this).parent().parent().next().find('ul').eq(0).hide();
+      $(this).parent().parent().next().find('ul').eq(1).show();
+      $(this).parent().parent().next().find('ul').eq(2).hide();
+      $(this).parent().parent().next().find('ul').eq(3).hide();
+      $(this).parent().parent().next().find('ul').eq(4).hide();
+      $(this).parent().parent().next().find('ul').eq(5).hide();
+      $(this).parent().parent().next().find('ul').eq(6).hide();
+      $(this).parent().parent().next().find('ul').eq(7).hide();
+      $(this).parent().parent().next().find('ul').eq(8).hide();
+      $(this).parent().parent().next().find('ul').eq(9).hide();
+      $(this).parent().parent().next().find('ul').eq(10).hide();
+      $(this).parent().parent().next().find('ul').eq(11).hide();
+      $(this).parent().parent().next().find('ul').eq(12).hide();
+      $(this).parent().parent().next().find('ul').eq(13).hide();
+      }
+    });
+
+    $('#runot-nav').find('li').eq(2).keypress(function(e) {
+      if(e.which == 13) {
+      $(this).parent().parent().next().find('ul').eq(0).hide();
+      $(this).parent().parent().next().find('ul').eq(1).hide();
+      $(this).parent().parent().next().find('ul').eq(2).show();
+      $(this).parent().parent().next().find('ul').eq(3).hide();
+      $(this).parent().parent().next().find('ul').eq(4).hide();
+      $(this).parent().parent().next().find('ul').eq(5).hide();
+      $(this).parent().parent().next().find('ul').eq(6).hide();
+      $(this).parent().parent().next().find('ul').eq(7).hide();
+      $(this).parent().parent().next().find('ul').eq(8).hide();
+      $(this).parent().parent().next().find('ul').eq(9).hide();
+      $(this).parent().parent().next().find('ul').eq(10).hide();
+      $(this).parent().parent().next().find('ul').eq(11).hide();
+      $(this).parent().parent().next().find('ul').eq(12).hide();
+      $(this).parent().parent().next().find('ul').eq(13).hide();
+      }
+    });
+
+    $('#runot-nav').find('li').eq(3).keypress(function(e) {
+      if(e.which == 13) {
+      $(this).parent().parent().next().find('ul').eq(0).hide();
+      $(this).parent().parent().next().find('ul').eq(1).hide();
+      $(this).parent().parent().next().find('ul').eq(2).hide();
+      $(this).parent().parent().next().find('ul').eq(3).show();
+      $(this).parent().parent().next().find('ul').eq(4).hide();
+      $(this).parent().parent().next().find('ul').eq(5).hide();
+      $(this).parent().parent().next().find('ul').eq(6).hide();
+      $(this).parent().parent().next().find('ul').eq(7).hide();
+      $(this).parent().parent().next().find('ul').eq(8).hide();
+      $(this).parent().parent().next().find('ul').eq(9).hide();
+      $(this).parent().parent().next().find('ul').eq(10).hide();
+      $(this).parent().parent().next().find('ul').eq(11).hide();
+      $(this).parent().parent().next().find('ul').eq(12).hide();
+      $(this).parent().parent().next().find('ul').eq(13).hide();
+      }
+    });
+
+    $('#runot-nav').find('li').eq(4).keypress(function(e) {
+      if(e.which == 13) {
+      $(this).parent().parent().next().find('ul').eq(0).hide();
+      $(this).parent().parent().next().find('ul').eq(1).hide();
+      $(this).parent().parent().next().find('ul').eq(2).hide();
+      $(this).parent().parent().next().find('ul').eq(3).hide();
+      $(this).parent().parent().next().find('ul').eq(4).show();
+      $(this).parent().parent().next().find('ul').eq(5).hide();
+      $(this).parent().parent().next().find('ul').eq(6).hide();
+      $(this).parent().parent().next().find('ul').eq(7).hide();
+      $(this).parent().parent().next().find('ul').eq(8).hide();
+      $(this).parent().parent().next().find('ul').eq(9).hide();
+      $(this).parent().parent().next().find('ul').eq(10).hide();
+      $(this).parent().parent().next().find('ul').eq(11).hide();
+      $(this).parent().parent().next().find('ul').eq(12).hide();
+      $(this).parent().parent().next().find('ul').eq(13).hide();
+      }
+    });
+
+    $('#runot-nav').find('li').eq(5).keypress(function(e) {
+      if(e.which == 13) {
+      $(this).parent().parent().next().find('ul').eq(0).hide();
+      $(this).parent().parent().next().find('ul').eq(1).hide();
+      $(this).parent().parent().next().find('ul').eq(2).hide();
+      $(this).parent().parent().next().find('ul').eq(3).hide();
+      $(this).parent().parent().next().find('ul').eq(4).hide();
+      $(this).parent().parent().next().find('ul').eq(5).show();
+      $(this).parent().parent().next().find('ul').eq(6).hide();
+      $(this).parent().parent().next().find('ul').eq(7).hide();
+      $(this).parent().parent().next().find('ul').eq(8).hide();
+      $(this).parent().parent().next().find('ul').eq(9).hide();
+      $(this).parent().parent().next().find('ul').eq(10).hide();
+      $(this).parent().parent().next().find('ul').eq(11).hide();
+      $(this).parent().parent().next().find('ul').eq(12).hide();
+      $(this).parent().parent().next().find('ul').eq(13).hide();
+      }
+    });
+
+    $('#runot-nav').find('li').eq(6).keypress(function(e) {
+      if(e.which == 13) {
+      $(this).parent().parent().next().find('ul').eq(0).hide();
+      $(this).parent().parent().next().find('ul').eq(1).hide();
+      $(this).parent().parent().next().find('ul').eq(2).hide();
+      $(this).parent().parent().next().find('ul').eq(3).hide();
+      $(this).parent().parent().next().find('ul').eq(4).hide();
+      $(this).parent().parent().next().find('ul').eq(5).hide();
+      $(this).parent().parent().next().find('ul').eq(6).show();
+      $(this).parent().parent().next().find('ul').eq(7).hide();
+      $(this).parent().parent().next().find('ul').eq(8).hide();
+      $(this).parent().parent().next().find('ul').eq(9).hide();
+      $(this).parent().parent().next().find('ul').eq(10).hide();
+      $(this).parent().parent().next().find('ul').eq(11).hide();
+      $(this).parent().parent().next().find('ul').eq(12).hide();
+      $(this).parent().parent().next().find('ul').eq(13).hide();
+      }
+    });
+
+    $('#runot-nav').find('li').eq(7).keypress(function(e) {
+      if(e.which == 13) {
+      $(this).parent().parent().next().find('ul').eq(0).hide();
+      $(this).parent().parent().next().find('ul').eq(1).hide();
+      $(this).parent().parent().next().find('ul').eq(2).hide();
+      $(this).parent().parent().next().find('ul').eq(3).hide();
+      $(this).parent().parent().next().find('ul').eq(4).hide();
+      $(this).parent().parent().next().find('ul').eq(5).hide();
+      $(this).parent().parent().next().find('ul').eq(6).hide();
+      $(this).parent().parent().next().find('ul').eq(7).show();
+      $(this).parent().parent().next().find('ul').eq(8).hide();
+      $(this).parent().parent().next().find('ul').eq(9).hide();
+      $(this).parent().parent().next().find('ul').eq(10).hide();
+      $(this).parent().parent().next().find('ul').eq(11).hide();
+      $(this).parent().parent().next().find('ul').eq(12).hide();
+      $(this).parent().parent().next().find('ul').eq(13).hide();
+      }
+    });
+
+    $('#runot-nav').find('li').eq(8).keypress(function(e) {
+      if(e.which == 13) {
+      $(this).parent().parent().next().find('ul').eq(0).hide();
+      $(this).parent().parent().next().find('ul').eq(1).hide();
+      $(this).parent().parent().next().find('ul').eq(2).hide();
+      $(this).parent().parent().next().find('ul').eq(3).hide();
+      $(this).parent().parent().next().find('ul').eq(4).hide();
+      $(this).parent().parent().next().find('ul').eq(5).hide();
+      $(this).parent().parent().next().find('ul').eq(6).hide();
+      $(this).parent().parent().next().find('ul').eq(7).hide();
+      $(this).parent().parent().next().find('ul').eq(8).show();
+      $(this).parent().parent().next().find('ul').eq(9).hide();
+      $(this).parent().parent().next().find('ul').eq(10).hide();
+      $(this).parent().parent().next().find('ul').eq(11).hide();
+      $(this).parent().parent().next().find('ul').eq(12).hide();
+      $(this).parent().parent().next().find('ul').eq(13).hide();
+      }
+    });
+
+    $('#runot-nav').find('li').eq(9).keypress(function(e) {
+      if(e.which == 13) {
+      $(this).parent().parent().next().find('ul').eq(0).hide();
+      $(this).parent().parent().next().find('ul').eq(1).hide();
+      $(this).parent().parent().next().find('ul').eq(2).hide();
+      $(this).parent().parent().next().find('ul').eq(3).hide();
+      $(this).parent().parent().next().find('ul').eq(4).hide();
+      $(this).parent().parent().next().find('ul').eq(5).hide();
+      $(this).parent().parent().next().find('ul').eq(6).hide();
+      $(this).parent().parent().next().find('ul').eq(7).hide();
+      $(this).parent().parent().next().find('ul').eq(8).hide();
+      $(this).parent().parent().next().find('ul').eq(9).show();
+      $(this).parent().parent().next().find('ul').eq(10).hide();
+      $(this).parent().parent().next().find('ul').eq(11).hide();
+      $(this).parent().parent().next().find('ul').eq(12).hide();
+      $(this).parent().parent().next().find('ul').eq(13).hide();
+      }
+    });
+
+    $('#runot-nav').find('li').eq(10).keypress(function(e) {
+      if(e.which == 13) {
+      $(this).parent().parent().next().find('ul').eq(0).hide();
+      $(this).parent().parent().next().find('ul').eq(1).hide();
+      $(this).parent().parent().next().find('ul').eq(2).hide();
+      $(this).parent().parent().next().find('ul').eq(3).hide();
+      $(this).parent().parent().next().find('ul').eq(4).hide();
+      $(this).parent().parent().next().find('ul').eq(5).hide();
+      $(this).parent().parent().next().find('ul').eq(6).hide();
+      $(this).parent().parent().next().find('ul').eq(7).hide();
+      $(this).parent().parent().next().find('ul').eq(8).hide();
+      $(this).parent().parent().next().find('ul').eq(9).hide();
+      $(this).parent().parent().next().find('ul').eq(10).show();
+      $(this).parent().parent().next().find('ul').eq(11).hide();
+      $(this).parent().parent().next().find('ul').eq(12).hide();
+      $(this).parent().parent().next().find('ul').eq(13).hide();
+      }
+    });
+
+    $('#runot-nav').find('li').eq(11).keypress(function(e) {
+      if(e.which == 13) {
+      $(this).parent().parent().next().find('ul').eq(0).hide();
+      $(this).parent().parent().next().find('ul').eq(1).hide();
+      $(this).parent().parent().next().find('ul').eq(2).hide();
+      $(this).parent().parent().next().find('ul').eq(3).hide();
+      $(this).parent().parent().next().find('ul').eq(4).hide();
+      $(this).parent().parent().next().find('ul').eq(5).hide();
+      $(this).parent().parent().next().find('ul').eq(6).hide();
+      $(this).parent().parent().next().find('ul').eq(7).hide();
+      $(this).parent().parent().next().find('ul').eq(8).hide();
+      $(this).parent().parent().next().find('ul').eq(9).hide();
+      $(this).parent().parent().next().find('ul').eq(10).hide();
+      $(this).parent().parent().next().find('ul').eq(11).show();
+      $(this).parent().parent().next().find('ul').eq(12).hide();
+      $(this).parent().parent().next().find('ul').eq(13).hide();
+      }
+    });
+
+    $('#runot-nav').find('li').eq(12).keypress(function(e) {
+      if(e.which == 13) {
+      $(this).parent().parent().next().find('ul').eq(0).hide();
+      $(this).parent().parent().next().find('ul').eq(1).hide();
+      $(this).parent().parent().next().find('ul').eq(2).hide();
+      $(this).parent().parent().next().find('ul').eq(3).hide();
+      $(this).parent().parent().next().find('ul').eq(4).hide();
+      $(this).parent().parent().next().find('ul').eq(5).hide();
+      $(this).parent().parent().next().find('ul').eq(6).hide();
+      $(this).parent().parent().next().find('ul').eq(7).hide();
+      $(this).parent().parent().next().find('ul').eq(8).hide();
+      $(this).parent().parent().next().find('ul').eq(9).hide();
+      $(this).parent().parent().next().find('ul').eq(10).hide();
+      $(this).parent().parent().next().find('ul').eq(11).hide();
+      $(this).parent().parent().next().find('ul').eq(12).show();
+      $(this).parent().parent().next().find('ul').eq(13).hide();
+      }
+    });
+
+    $('#runot-nav').find('li').eq(13).keypress(function(e) {
+      if(e.which == 13) {
+      $(this).parent().parent().next().find('ul').eq(0).hide();
+      $(this).parent().parent().next().find('ul').eq(1).hide();
+      $(this).parent().parent().next().find('ul').eq(2).hide();
+      $(this).parent().parent().next().find('ul').eq(3).hide();
+      $(this).parent().parent().next().find('ul').eq(4).hide();
+      $(this).parent().parent().next().find('ul').eq(5).hide();
+      $(this).parent().parent().next().find('ul').eq(6).hide();
+      $(this).parent().parent().next().find('ul').eq(7).hide();
+      $(this).parent().parent().next().find('ul').eq(8).hide();
+      $(this).parent().parent().next().find('ul').eq(9).hide();
+      $(this).parent().parent().next().find('ul').eq(10).hide();
+      $(this).parent().parent().next().find('ul').eq(11).hide();
+      $(this).parent().parent().next().find('ul').eq(12).hide();
+      $(this).parent().parent().next().find('ul').eq(13).show();
+      }
+    });
+
     /* popup comments, show extended description */
 
     $('.more').on('click', function() {
@@ -1288,7 +1556,7 @@ $(document).ready(function() {
     });
 
     
-    /* show longer commentaries in third column */
+    /* show longer commentaries in third column, mouse button */
     $('.tooltp2').on('click', function() {
      $('#show_col_3').css('padding','1em');
      $('#show_col_3').html($(this).next('.value3').html());
@@ -1310,8 +1578,32 @@ $(document).ready(function() {
       });
     });
 
+    /* show longer commentaries in third column, enter */
+    $('.tooltp2').on('keypress', function(e) {
+      if(e.which == 13) {
+      $('#show_col_3').css('padding','1em');
+      $('#show_col_3').html($(this).next('.value3').html());
+      $.each(skvr, function(key, value) {
+         var after = $('#show_col_3').html().indexOf(key) + key.length;
+         var pos_after = $('#show_col_3').html().charAt(after);
+         var before = $('#show_col_3').html().indexOf(key) - 1;
+         var pos_before = $('#show_col_3').html().charAt(before);
+         var regex = new RegExp(key, 'gi');
+         if ((pos_before == ' ' || pos_before == '(' || pos_before == ';') && (pos_after == ' ' || pos_after == ';' || pos_after == ',' || pos_after == ')' 
+         || pos_after == ':' || pos_after == '.')) {
+           $('#show_col_3').html($('#show_col_3').html().replace(regex,'<a href="' + value + '" target="_blank">' + key + '</a>')); 
+         }
+       });
+       $('#show_col_3').find('a.tooltp').each(function() {
+         $(this).hover(function() {
+           $(this).next('.value1').css('margin-left','-20px');
+         });
+       });
+      }
+     });    
 
-    /* Dynamically add SKVR links from skvr.js to commentary texts shown in 3rd column */
+
+    /* Dynamically add SKVR links from skvr.js to commentary texts shown in 3rd column, mouse button */
     $('.tooltp3').on('click', function() {
      $('#show_col_3').css('padding','1em');
      $('#show_col_3').html($(this).next('.value3').html());
@@ -1328,7 +1620,26 @@ $(document).ready(function() {
       });
     });
 
-    /* show/hide popup comments and links for longer commentaries in third column */
+      /* Dynamically add SKVR links from skvr.js to commentary texts shown in 3rd column, enter */
+      $('.tooltp3').on('keypress', function(e) {
+        if(e.which == 13) {
+        $('#show_col_3').css('padding','1em');
+        $('#show_col_3').html($(this).next('.value3').html());
+        $.each(skvr, function(key, value) {
+           var after = $('#show_col_3').html().indexOf(key) + key.length;
+           var pos_after = $('#show_col_3').html().charAt(after);
+           var before = $('#show_col_3').html().indexOf(key) - 1;
+           var pos_before = $('#show_col_3').html().charAt(before);
+           var regex = new RegExp(key, 'gi');
+           if ((pos_before == ' ' || pos_before == '(' || pos_before == ';') && (pos_after == ' ' || pos_after == ';' || pos_after == ',' || pos_after == ')' 
+           || pos_after == ':' || pos_after == '.')) {
+             $('#show_col_3').html($('#show_col_3').html().replace(regex,'<a href="' + value + '" target="_blank">' + key + '</a>')); 
+           }
+         });
+        }
+       });  
+
+    /* show/hide popup comments and links for longer commentaries in third column, mouse button */
     $('#pic_nav1').find('input').on('click',function() {
       if ($(this).is(':checked')) {
         $('.tooltp').css('background-color','rgba(205, 161, 191, 0.7)');
@@ -1355,6 +1666,43 @@ $(document).ready(function() {
       }
     });
 
+        /* show/hide popup comments and links for longer commentaries in third column, enter */
+        $('#pic_nav1').find('input').on('keypress',function(e) {
+          if(e.which == 13) {
+          if ($(this).is(':checked')) {
+            $('.tooltp').css('background-color','#fff');
+            $(this).prop('checked', false);
+          } else {
+            $('.tooltp').css('background-color','rgba(205, 161, 191, 0.7)');
+            $(this).prop('checked', true);
+          }
+        }
+        });
+    
+        $('#pic_nav2').find('input').on('keypress',function(e) {
+          if(e.which == 13) {
+          if ($(this).is(':checked')) {
+            $('.tooltp3').hide();
+            $(this).prop('checked', false);
+          } else {
+            $('.tooltp3').show();
+            $(this).prop('checked', true);
+          }
+        }
+        });
+    
+        $('#pic_nav3').find('input').on('keypress',function(e) {
+          if(e.which == 13) {
+          if ($(this).is(':checked')) {
+            $('.tooltp2').hide();
+            $(this).prop('checked', false);
+          } else {
+            $('.tooltp2').show();
+            $(this).prop('checked', true);
+          }
+        }
+        });
+
     $('.resultsBtn').on('click',function() {
       if ($(this).parent().next('.hl').is(":visible")) {
         $(this).parent().next().hide();
@@ -1373,7 +1721,7 @@ $(document).ready(function() {
       }
     });
 
-    // Show/hide items in collections on front pages
+    // Show/hide items in collections on front pages, mouse click
     $('.coll_title').on('click',function() {
       if ($(this).next('.coll_items').find('ul').is(':visible')) {
         $(this).next('.coll_items').find('ul').hide();
@@ -1387,6 +1735,27 @@ $(document).ready(function() {
         $(this).parent().parent().next('div').hide();
       } else {
         $(this).parent().parent().next('div').show();
+      }
+    });
+
+    // Show/hide items in collections on front pages, enter
+    $('.coll_title').on('keypress',function(e) {
+      if (e.which == 13) {
+        if ($(this).next('.coll_items').find('ul').is(':visible')) {
+          $(this).next('.coll_items').find('ul').hide();
+        } else {
+          $(this).next('.coll_items').find('ul').show();
+        }
+      }
+    });
+
+    $('.coll-more').on('keypress',function(e) {
+      if (e.which == 13) {
+        if ($(this).parent().parent().next('div').is(':visible')) {
+          $(this).parent().parent().next('div').hide();
+        } else {
+          $(this).parent().parent().next('div').show();
+        }
       }
     });
 });

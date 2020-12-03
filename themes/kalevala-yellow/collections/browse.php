@@ -16,7 +16,7 @@ echo head(array('title'=>$pageTitle,'bodyclass' => 'collections browse'));
         <?php foreach (loop('collections') as $collection): ?>
           <?php $collId = metadata($collection, array('Dublin Core', 'Identifier')); ?>
           <?php if (strpos($collId, 'coll') !== false):?>
-            <li class="nav-item"><a class="nav-link"><?php echo metadata('collection', array('Dublin Core', 'Title')) ;?></a></li>
+            <li class="nav-item" tabindex="0"><a class="nav-link"><?php echo metadata('collection', array('Dublin Core', 'Title')) ;?></a></li>
           <?php endif;?>
         <?php endforeach; ?>
       </ul>
