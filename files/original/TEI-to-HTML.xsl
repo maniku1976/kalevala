@@ -49,6 +49,10 @@
       <em><xsl:apply-templates /></em>
     </xsl:template>
 
+    <xsl:template match="tei:hi[@rend = 'cit']">
+      <span class="citation"><xsl:apply-templates /></span>
+    </xsl:template>
+
     <xsl:template match="tei:lb">
       <xsl:text disable-output-escaping="yes">&lt;br&gt;</xsl:text>
     </xsl:template>

@@ -78,7 +78,7 @@
         <note n="20"><ab>manutar : Tuonelan tyttäriä</ab></note> 
         <note n="21"><ab></ab><ab>Lönnrot kommentoi säettä 27: "Kaikki pahat eivät kuitenkaan olleet manalasta peräisin" (Lna 121).</ab></note>
         <note n="22"><ab>turmio : loitsimalla aiheutettu vahinko, sairaus</ab></note>
-        <note n="23"><ab>muoto : ulkonäkö, väri</ab></note>
+        <note n="23"><ab>ulkonäkö, väri</ab></note>
         <note n="24"><ab>mustanlainen : mustahko</ab></note>
         <note n="25"><ab>inhonkarvallinen : inhottavan värinen</ab></note>
         <note n="26"><ab>Tuonelan nuorempi naispuolinen haltia</ab></note>
@@ -244,9 +244,9 @@
           portto Pohjolan emäntä.<lb/><lb/>Suomen <hi rend="italics">noita-</hi>sanalla on vastineita sukukielissä, eikä sillä ole alkuaan tarkoitettu 
           uskomusolentoa tai satuhahmoa vaan aikansa arvostettua ammattihenkilöä, samaania ja tietäjää (NESK s.v. <hi rend="italics">noita</hi>).</ab></note>
         <note n="130"><ab>noroperä : kostea, vetinen notko</ab></note>
-        <note n="131"><ab>Vrt. sanan muut merkitykset Kalevalassa: kateellinen, kadehtiva (32:195); viha, kosto (6:25); häviäminen, kuolema (29:513) 
+        <note n="131"><ab>kade : noita</ab><ab>Vrt. sanan muut merkitykset Kalevalassa: kateellinen, kadehtiva (32:195); viha, kosto (6:25); häviäminen, kuolema (29:513) 
           (Jussila 2009). Ks. kapeet eli luonnottaret (Siikala 2012: 289).<lb/><lb/>Rahvaan runoissa kateet, kateuteen ja kiroihin liittyvät voimat, olivat 
-          vahingollisia onnelle ja terveydelle sekä aikaansaivat epätasapainoa yhteisössä ja elinkeinojen harjoittamisessa. Kade-sanalla tarkoitettiin sekä 
+          vahingollisia onnelle ja terveydelle sekä aikaansaivat epätasapainoa yhteisössä ja elinkeinojen harjoittamisessa. <hi rend="italics">Kade</hi>-sanalla tarkoitettiin sekä 
           kateellista kanssaihmistä, joka oli tavallisesti naapuri, että vihamielistä noitaa (ns. vastanoita). (Tarkka 2005: 97.)</ab></note>
         <note n="132"><ab>nenä : pää, kärki</ab></note>
         <note n="133"><ab>utuinen : sumuinen</ab><ab>Vrt. sanan muut merkitykset Kalevalassa: surullinen (23:599; 44:113 ym.); hienoinen (3:325; 15:345 ym.); 
@@ -260,7 +260,6 @@
         <note n="138"><ab>nimentietämätön : tuntematon, vailla nimeä oleva</ab></note>
         <note n="139"><ab></ab><ab>Lönnrot kommentoi säkeitä 189 ja 190: "Niin kauvan, että lämpimästä, hiestä ja muista sairasten hierteistä lattiaki jo 
           alkoi lahota" (Lna 121).</ab></note>
-        <note n="140"><ab>mädätä : mädäntyä, lahota</ab></note>
         <note n="141"><ab>Väinämöinen : tietäjä, runolaulaja, Kalevalan keskushahmo</ab><ab>Väinämöinen on Karjalan eeppisten runojen päähenkilö, jonka 
           epiteettejä ovat "vaka vanha", "tietäjä" tai "laulaja iänikuinen" (vrt. inkeriläisissä runoissa V. esiintyy harvoin).<lb/><lb/>Tutkijoilla on 
           erilaisia käsityksiä Väinämöisen perusolemuksesta. Mikael Agricolan mukaan Väinämöinen oli hämäläisten jumala; hahmoa on pidetty lisäksi muun 
@@ -311,7 +310,7 @@
         <note n="170"><ab>pääte : vamma, taudinkohtaus</ab></note>
         <note n="171"><ab>pitää : pidätellä jossakin paikassa, estää siirtymästä</ab></note>
         <note n="172"><ab>ajaa, refl. ajaite : ajaudu</ab></note>
-        <note n="174"><ab>rikonnainen : rike : maagisesti aiheutettu paha</ab></note>
+        <note n="174"><ab>rikonnainen : rike, maagisesti aiheutettu paha</ab></note>
         <note n="175"><ab>puutunnainen : tarttunut tai tahallaan tartutettu tauti</ab></note> 
         <note n="176"><ab></ab><ab>Lönnrot kommentoi säkeitä 253 ja 254: "Ukko taisi miekkansa itse käyttää tahi muillen antaa s.o. panna korkeamman voiman 
           heidän miekkoihinsa" (Lna 121).</ab></note>
@@ -657,7 +656,7 @@
           <l>Tautia tavattomia,</l>
           <l><label type="popup" n="138">Nimen tietämättömiä</label>;</l>
           <l><label type="popup" n="139">Alta lattiat lahovi,</label></l>
-          <l>190. Päältä peite <label type="popup" n="140">märkänevi</label>.</l>
+          <l>190. Päältä peite märkänevi.</l>
         </lg>
         <lg>
           <l>Silloin vanha <label type="popup" n="141">Wäinämöinen</label>,</l>

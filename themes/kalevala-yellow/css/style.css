@@ -2068,8 +2068,8 @@ td, th, tr {
   }
 
   #tsva {
-    max-height: 100%;
-    width: auto;
+    width: 357px;
+    height: 88px;
   }
 
   #sks {
@@ -2350,15 +2350,15 @@ td, th, tr {
     color: #484848 !important;
   }
 
-  #julkaisu-editio, #julkaisu-osat, #julkaisu-osat-2, #julkaisu-ajatus {
+  #julkaisu-editio, #julkaisu-osat, #julkaisu-osat-2, #julkaisu-osat-3, #julkaisu-ajatus {
     display: none;
   }
 
-  #julkaisu-editio h5, #julkaisu-osat h5, #julkaisu-osat-2 h5, #julkaisu-ajatus h5 {
+  #julkaisu-editio h5, #julkaisu-osat h5, #julkaisu-osat-2 h5, #julkaisu-osat-3 h5, #julkaisu-ajatus h5 {
     margin-bottom: 1em;
   }
 
-  #julkaisu-osat-2 table {
+  #julkaisu-osat-2 table, #julkaisu-osat-3 table {
     width: 80%;
   }
 
@@ -2974,6 +2974,9 @@ td, th, tr {
     -moz-background-size: 100% !important;
   }
 
+  #show_col_3 a, #show_col_3 a:visited, p a, p a:visited {
+    color: #BF1722 !important;
+  }
   #pic_nav {
     max-height: 100%;
     width: 100% !important;
@@ -3522,7 +3525,7 @@ td, th, tr {
   }
 
   #kielellinen-content h5, #geneettinen-content h5, #temaattinen-lyriikka h5, #temaattinen-toimitustavat h5, #esipuhe-erot h5, 
-  #erisn h5, #temaattinen-sammot h5 {
+  #erisn h5, #temaattinen-sammot h5, #kullervo h5 {
     margin-top: 1.5em;
     margin-bottom: 1em;
   }
@@ -3532,35 +3535,36 @@ td, th, tr {
     display: none;
   }
 
-  #temaattinen-submenu1, #temaattinen-submenu2, #temaattinen-submenu3, #temaattinen-submenu4, #temaattinen-submenu5, 
-  #geneettinen-submenu1, #geneettinen-submenu2, #geneettinen-submenu3, #geneettinen-submenu4, #traditio-submenu, 
+  #temaattinen-submenu1, #temaattinen-submenu2, #temaattinen-submenu3, #temaattinen-submenu4, #temaattinen-submenu5, #temaattinen-submenu6,
+  #temaattinen-submenu7, #geneettinen-submenu1, #geneettinen-submenu2, #geneettinen-submenu3, #geneettinen-submenu4, #traditio-submenu, 
   #esipuhe-submenu, #aatehistoriallinen-submenu, #kielellinen-submenu, #ainolemm-submenu {
     margin-left: 1em !important;
   }
 
-  #temaattinen-submenu1 a, #temaattinen-submenu2 a, #temaattinen-submenu3 a, #temaattinen-submenu4 a, #temaattinen-submenu5 a,
-  #geneettinen-submenu1 a, #geneettinen-submenu2 a, #geneettinen-submenu3 a, #geneettinen-submenu4 a, 
+  #temaattinen-submenu1 a, #temaattinen-submenu2 a, #temaattinen-submenu3 a, #temaattinen-submenu4 a, #temaattinen-submenu5 a, #temaattinen-submenu6 a,
+  #temaattinen-submenu7 a, #geneettinen-submenu1 a, #geneettinen-submenu2 a, #geneettinen-submenu3 a, #geneettinen-submenu4 a, 
   #traditio-submenu a, #esipuhe-submenu1 a, #esipuhe-submenu2 a, #esipuhe-submenu3 a, 
   #aatehistoriallinen-submenu1 a, #aatehistoriallinen-submenu2 a, #aatehistoriallinen-submenu3 a, 
   #aatehistoriallinen-submenu4 a, #aatehistoriallinen, #kielellinen-submenu1 a,
-  #kielellinen-submenu2 a, #ainolemm-submenu1 a, #ainolemm-submenu2 a {
+  #kielellinen-submenu2 a, #ainolemm-submenu1 a, #ainolemm-submenu2 a, #kullervo-submenu1 a {
     font-weight: normal !important;
   }
 
-  #temaattinen-esittely, #temaattinen-toimitustavat, #temaattinen-sammot, #geneettinen-esittely, #geneettinen-versiot, 
-  #geneettinen-vertailu, #traditio-esittely, #aatehistoriallinen-esittely, #temaattinen-lyriikka, #esipuhe-lajina, 
+  #temaattinen-esittely, #temaattinen-toimitustavat, #temaattinen-sammot, #temaattinen-maailmansynty, #geneettinen-esittely, #geneettinen-versiot, 
+  #geneettinen-vertailu, #traditio-esittely, #aatehistoriallinen-esittely, #temaattinen-lyriikka, #temaattinen-haat, #esipuhe-lajina, 
   #esipuhe-aani, #esipuhe-erot, #aatehistoriallinen-kansa, #aatehistoriallinen-perhe, #aatehistoriallinen-kehys, 
   #aatehistoriallinen-tulkinnat, #traditio-saetk, #traditio-skvr, #kielellinen-esittely, #kielellinen-suomi, 
-  #kielellinen-periaatteet, #ainolemm-aino, #ainolemm-lemminkainen {
+  #kielellinen-periaatteet, #ainolemm-aino, #ainolemm-lemminkainen, #kullervo {
     display: none;
   }
 
-  #ainolemm-aino h5, #ainolemm-lemminkainen h5 {
+  #ainolemm-aino h5, #ainolemm-lemminkainen h5, #kullervo h5, #temaattinen-maailmansynty h5, #temaattinen-haat h5 {
     margin-top: 1.5em;
     margin-bottom: 1em;
   }
 
-  #ainolemm-aino h5:nth-child(1), #ainolemm-lemminkainen h5:nth-child(1) {
+  #ainolemm-aino h5:nth-child(1), #ainolemm-lemminkainen h5:nth-child(1), #kullervo h5:nth-child(1), #temaattinen-maailmansynty h5:nth-child(1),
+  #temaattinen-haat h5:nth-child(1) {
     margin-top: 0 !important;
     margin-bottom: 1em;
   }
@@ -3829,6 +3833,15 @@ td, th, tr {
   .nav-link:focus {
     border: 1px solid black;
     border-radius: 3px;
+  }
+
+  #toimitus-nav li .nav-link:focus, #toimitus-nav li ul li .nav-link:focus, a.tooltp2:focus, a.tooltp2:active, 
+  #julkaisu-nav li .nav-link:focus {
+    border: 1px solid white !important;
+  }
+
+  span.citation {
+    font-size: 80%;
   }
   /* @end */
 }

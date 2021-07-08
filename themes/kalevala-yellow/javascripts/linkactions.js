@@ -9,6 +9,7 @@ $(document).ready(function() {
       $('#julkaisu-editio').show();
       $('#julkaisu-osat').hide();
       $('#julkaisu-osat-2').hide();
+      $('#julkaisu-osat-3').hide();            
       $('#julkaisu-ajatus').hide();
     });
 
@@ -17,6 +18,7 @@ $(document).ready(function() {
       $('#julkaisu-editio').hide();
       $('#julkaisu-osat').show();
       $('#julkaisu-osat-2').hide();
+      $('#julkaisu-osat-3').hide();            
       $('#julkaisu-ajatus').hide();
     });
 
@@ -25,6 +27,7 @@ $(document).ready(function() {
       $('#julkaisu-editio').hide();
       $('#julkaisu-osat').hide();
       $('#julkaisu-osat-2').hide();
+      $('#julkaisu-osat-3').hide();            
       $('#julkaisu-ajatus').show();
     });
 
@@ -33,6 +36,7 @@ $(document).ready(function() {
       $('#julkaisu-editio').hide();
       $('#julkaisu-osat').hide();
       $('#julkaisu-osat-2').hide();
+      $('#julkaisu-osat-3').hide();            
       $('#julkaisu-ajatus').hide();
     });
 
@@ -41,6 +45,16 @@ $(document).ready(function() {
       $('#julkaisu-editio').hide();
       $('#julkaisu-osat').hide();
       $('#julkaisu-osat-2').show();
+      $('#julkaisu-osat-3').hide();      
+      $('#julkaisu-ajatus').hide();
+    });
+
+    $('#julkaisu-nav6').on('click',function() {
+      $('#julkaisutiedot').hide();
+      $('#julkaisu-editio').hide();
+      $('#julkaisu-osat').hide();
+      $('#julkaisu-osat-2').hide();
+      $('#julkaisu-osat-3').show();            
       $('#julkaisu-ajatus').hide();
     });
 
@@ -92,7 +106,9 @@ $(document).ready(function() {
         $('#temaattinen-esittely').hide();
         $('#temaattinen-toimitustavat').hide();
         $('#temaattinen-lyriikka').hide();
+        $('#temaattinen-haat').hide();
         $('#temaattinen-sammot').hide();
+        $('#temaattinen-maailmansynty').hide();
         $('#kielellinen-submenu').hide();
         $('#kielellinen-esittely').hide();
         $('#kielellinen-suomi').hide();
@@ -117,6 +133,8 @@ $(document).ready(function() {
         $('#ainolemm-submenu').hide();
         $('#ainolemm-aino').hide();
         $('#ainolemm-lemminkainen').hide();
+        $('#kullervo-submenu1').hide();
+        $('#kullervo').hide();
     });
 
     $('#geneettinen-submenu2').find('a').on('click', function() {
@@ -129,6 +147,8 @@ $(document).ready(function() {
       $('#temaattinen-esittely').hide();
       $('#temaattinen-toimitustavat').hide();
       $('#temaattinen-lyriikka').hide();
+      $('#temaattinen-haat').hide();
+      $('#temaattinen-maailmansynty').hide();
       $('#traditio-content').hide();
       $('#traditio-content-2').hide();
       $('#traditio-esittely').hide();
@@ -150,6 +170,8 @@ $(document).ready(function() {
       $('#ainolemm-submenu').hide();
       $('#ainolemm-aino').hide();
       $('#ainolemm-lemminkainen').hide();
+      $('#kullervo-submenu1').hide();
+      $('#kullervo').hide();
     });
 
     $('#geneettinen-submenu3').find('a').on('click', function() {
@@ -162,6 +184,8 @@ $(document).ready(function() {
       $('#temaattinen-esittely').hide();
       $('#temaattinen-toimitustavat').hide();
       $('#temaattinen-lyriikka').hide();
+      $('#temaattinen-haat').hide();
+      $('#temaattinen-maailmansynty').hide();
       $('#traditio-content').hide();
       $('#traditio-content-2').hide();
       $('#traditio-esittely').hide();
@@ -183,6 +207,8 @@ $(document).ready(function() {
       $('#ainolemm-submenu').hide();
       $('#ainolemm-aino').hide();
       $('#ainolemm-lemminkainen').hide();
+      $('#kullervo-submenu1').hide();
+      $('#kullervo').hide();
     });
 
     $('#geneettinen-submenu4').find('a').on('click', function() {
@@ -195,6 +221,8 @@ $(document).ready(function() {
       $('#temaattinen-esittely').hide()
       $('#temaattinen-toimitustavat').hide();
       $('#temaattinen-lyriikka').hide();
+      $('#temaattinen-haat').hide();
+      $('#temaattinen-maailmansynty').hide();
       $('#traditio-content').hide();
       $('#traditio-content-2').hide();
       $('#traditio-esittely').hide();
@@ -216,6 +244,8 @@ $(document).ready(function() {
       $('#ainolemm-submenu').hide();
       $('#ainolemm-aino').hide();
       $('#ainolemm-lemminkainen').hide();
+      $('#kullervo-submenu1').hide();
+      $('#kullervo').hide();
     });
 
     $('#traditio-link').find('a').on('click', function() {
@@ -228,6 +258,8 @@ $(document).ready(function() {
       $('#temaattinen-esittely').hide();
       $('#temaattinen-toimitustavat').hide()
       $('#temaattinen-lyriikka').hide();
+      $('#temaattinen-haat').hide();
+      $('#temaattinen-maailmansynty').hide();
       $('#geneettinen-esittely').hide();
       $('#geneettinen-versiot').hide();
       $('#geneettinen-vertailu').hide();
@@ -254,6 +286,8 @@ $(document).ready(function() {
       $('#ainolemm-submenu').hide();
       $('#ainolemm-aino').hide();
       $('#ainolemm-lemminkainen').hide();
+      $('#kullervo-submenu1').show();
+      $('#kullervo').hide();
     });
 
     $('#traditio-submenu1').find('a').on('click', function() {
@@ -265,6 +299,8 @@ $(document).ready(function() {
       $('#temaattinen-esittely').hide();
       $('#temaattinen-toimitustavat').hide();
       $('#temaattinen-lyriikka').hide();
+      $('#temaattinen-haat').hide();
+      $('#temaattinen-maailmansynty').hide();
       $('#geneettinen-esittely').hide();
       $('#geneettinen-versiot').hide();
       $('#geneettinen-vertailu').hide();
@@ -287,6 +323,7 @@ $(document).ready(function() {
       $('#ainolemm-submenu').hide();
       $('#ainolemm-aino').hide();
       $('#ainolemm-lemminkainen').hide();
+      $('#kullervo').hide();
     });
 
     $('#traditio-submenu2').find('a').on('click', function() {
@@ -298,6 +335,8 @@ $(document).ready(function() {
       $('#temaattinen-esittely').hide();
       $('#temaattinen-toimitustavat').hide();
       $('#temaattinen-lyriikka').hide();
+      $('#temaattinen-haat').hide();
+      $('#temaattinen-maailmansynty').hide();
       $('#geneettinen-esittely').hide();
       $('#geneettinen-versiot').hide();
       $('#geneettinen-vertailu').hide();
@@ -320,6 +359,7 @@ $(document).ready(function() {
       $('#ainolemm-submenu').hide();
       $('#ainolemm-aino').hide();
       $('#ainolemm-lemminkainen').hide();
+      $('#kullervo').hide();
     });
 
     $('#traditio-submenu3').find('a').on('click', function() {
@@ -331,6 +371,8 @@ $(document).ready(function() {
       $('#temaattinen-esittely').hide();
       $('#temaattinen-toimitustavat').hide();
       $('#temaattinen-lyriikka').hide();
+      $('#temaattinen-haat').hide();
+      $('#temaattinen-maailmansynty').hide();
       $('#geneettinen-esittely').hide();
       $('#geneettinen-versiot').hide();
       $('#geneettinen-vertailu').hide();
@@ -353,6 +395,7 @@ $(document).ready(function() {
       $('#ainolemm-submenu').hide();
       $('#ainolemm-aino').hide();
       $('#ainolemm-lemminkainen').hide();
+      $('#kullervo').hide();
     });
 
     $('#traditio-submenu4').find('a').on('click', function() {
@@ -364,6 +407,8 @@ $(document).ready(function() {
       $('#temaattinen-esittely').hide();
       $('#temaattinen-toimitustavat').hide();
       $('#temaattinen-lyriikka').hide();
+      $('#temaattinen-haat').hide();
+      $('#temaattinen-maailmansynty').hide();
       $('#geneettinen-esittely').hide();
       $('#geneettinen-versiot').hide();
       $('#geneettinen-vertailu').hide();
@@ -386,6 +431,7 @@ $(document).ready(function() {
       $('#ainolemm-submenu').hide();
       $('#ainolemm-aino').hide();
       $('#ainolemm-lemminkainen').hide();
+      $('#kullervo').hide();
     });
 
     $('#kielellinen-link').find('a').on('click', function() {
@@ -397,6 +443,8 @@ $(document).ready(function() {
       $('#temaattinen-esittely').hide()
       $('#temaattinen-toimitustavat').hide();
       $('#temaattinen-lyriikka').hide();
+      $('#temaattinen-haat').hide();
+      $('#temaattinen-maailmansynty').hide();
       $('#geneettinen-esittely').hide();
       $('#geneettinen-versiot').hide();
       $('#geneettinen-vertailu').hide();
@@ -424,6 +472,8 @@ $(document).ready(function() {
       $('#ainolemm-submenu').hide();
       $('#ainolemm-aino').hide();
       $('#ainolemm-lemminkainen').hide();
+      $('#kullervo-submenu1').hide();
+      $('#kullervo').hide();
     });
 
     $('#kielellinen-submenu1').find('a').on('click', function() {
@@ -435,6 +485,8 @@ $(document).ready(function() {
       $('#temaattinen-esittely').hide()
       $('#temaattinen-toimitustavat').hide();
       $('#temaattinen-lyriikka').hide();
+      $('#temaattinen-haat').hide();
+      $('#temaattinen-maailmansynty').hide();
       $('#geneettinen-esittely').hide();
       $('#geneettinen-versiot').hide();
       $('#geneettinen-vertailu').hide();
@@ -457,6 +509,8 @@ $(document).ready(function() {
       $('#ainolemm-submenu').hide();
       $('#ainolemm-aino').hide();
       $('#ainolemm-lemminkainen').hide();
+      $('#kullervo-submenu1').hide();
+      $('#kullervo').hide();
     });
 
     $('#kielellinen-submenu2').find('a').on('click', function() {
@@ -468,6 +522,8 @@ $(document).ready(function() {
       $('#temaattinen-esittely').hide()
       $('#temaattinen-toimitustavat').hide();
       $('#temaattinen-lyriikka').hide();
+      $('#temaattinen-haat').hide();
+      $('#temaattinen-maailmansynty').hide();
       $('#geneettinen-esittely').hide();
       $('#geneettinen-versiot').hide();
       $('#geneettinen-vertailu').hide();
@@ -490,6 +546,8 @@ $(document).ready(function() {
       $('#ainolemm-submenu').hide();
       $('#ainolemm-aino').hide();
       $('#ainolemm-lemminkainen').hide();
+      $('#kullervo-submenu1').hide();
+      $('#kullervo').hide();
     });
 
     $('#kielellinen-submenu3').find('a').on('click', function() {
@@ -501,6 +559,8 @@ $(document).ready(function() {
       $('#temaattinen-esittely').hide()
       $('#temaattinen-toimitustavat').hide();
       $('#temaattinen-lyriikka').hide();
+      $('#temaattinen-haat').hide();
+      $('#temaattinen-maailmansynty').hide();
       $('#geneettinen-esittely').hide();
       $('#geneettinen-versiot').hide();
       $('#geneettinen-vertailu').hide();
@@ -523,6 +583,8 @@ $(document).ready(function() {
       $('#ainolemm-submenu').hide();
       $('#ainolemm-aino').hide();
       $('#ainolemm-lemminkainen').hide();
+      $('#kullervo-submenu1').hide();
+      $('#kullervo').hide();
     });
 
     $('#kielellinen-submenu4').find('a').on('click', function() {
@@ -534,6 +596,8 @@ $(document).ready(function() {
       $('#temaattinen-esittely').hide()
       $('#temaattinen-toimitustavat').hide();
       $('#temaattinen-lyriikka').hide();
+      $('#temaattinen-haat').hide();
+      $('#temaattinen-maailmansynty').hide();
       $('#geneettinen-esittely').hide();
       $('#geneettinen-versiot').hide();
       $('#geneettinen-vertailu').hide();
@@ -556,13 +620,17 @@ $(document).ready(function() {
       $('#ainolemm-submenu').hide();
       $('#ainolemm-aino').hide();
       $('#ainolemm-lemminkainen').hide();
+      $('#kullervo-submenu1').hide();
+      $('#kullervo').hide();
     });
 
     $('#temaattinen-link').find('a').on('click', function() {
         $('#temaattinen-submenu').show();
         $('#temaattinen-esittely').show();
         $('#temaattinen-lyriikka').hide();
+        $('#temaattinen-haat').hide();
         $('#temaattinen-toimitustavat').hide();
+        $('#temaattinen-maailmansynty').hide();
         $('#geneettinen-esittely').hide();
         $('#geneettinen-content').hide();
         $('#geneettinen-content-2').hide();
@@ -594,6 +662,8 @@ $(document).ready(function() {
         $('#ainolemm-submenu').hide();
         $('#ainolemm-aino').hide();
         $('#ainolemm-lemminkainen').hide();
+        $('#kullervo-submenu1').hide();
+        $('#kullervo').hide();
     });
 
     $('#temaattinen-submenu2').find('a').on('click', function() {
@@ -601,6 +671,8 @@ $(document).ready(function() {
       $('#temaattinen-esittely').hide();
       $('#temaattinen-toimitustavat').show();
       $('#temaattinen-lyriikka').hide();
+      $('#temaattinen-haat').hide();
+      $('#temaattinen-maailmansynty').hide();
       $('#traditio-content').hide();
       $('#traditio-content-2').hide();
       $('#traditio-esittely').hide();
@@ -628,6 +700,8 @@ $(document).ready(function() {
       $('#ainolemm-submenu').hide();
       $('#ainolemm-aino').hide();
       $('#ainolemm-lemminkainen').hide();
+      $('#kullervo-submenu1').hide();
+      $('#kullervo').hide();
     });
 
     $('#temaattinen-submenu3').find('a').on('click', function() {
@@ -635,6 +709,8 @@ $(document).ready(function() {
       $('#yleisesittely').hide();
       $('#temaattinen-esittely').hide();
       $('#temaattinen-toimitustavat').hide();
+      $('#temaattinen-haat').hide();
+      $('#temaattinen-maailmansynty').hide();
       $('#traditio-content').hide();
       $('#traditio-content-2').hide();
       $('#traditio-esittely').hide();
@@ -662,6 +738,8 @@ $(document).ready(function() {
       $('#ainolemm-submenu').hide();
       $('#ainolemm-aino').hide();
       $('#ainolemm-lemminkainen').hide();
+      $('#kullervo-submenu1').hide();
+      $('#kullervo').hide();
     });
 
     $('#temaattinen-submenu4').find('a').on('click', function() {
@@ -669,6 +747,8 @@ $(document).ready(function() {
       $('#yleisesittely').hide();
       $('#temaattinen-esittely').hide();
       $('#temaattinen-toimitustavat').hide();
+      $('#temaattinen-maailmansynty').hide();
+      $('#temaattinen-haat').hide();
       $('#traditio-content').hide();
       $('#traditio-content-2').hide();
       $('#traditio-esittely').hide();
@@ -696,6 +776,8 @@ $(document).ready(function() {
       $('#ainolemm-submenu').hide();
       $('#ainolemm-aino').hide();
       $('#ainolemm-lemminkainen').hide();
+      $('#kullervo-submenu1').hide();
+      $('#kullervo').hide();
     });
 
     $('#temaattinen-submenu5').find('a').on('click', function() {
@@ -703,6 +785,8 @@ $(document).ready(function() {
       $('#yleisesittely').hide();
       $('#temaattinen-esittely').hide();
       $('#temaattinen-toimitustavat').hide();
+      $('#temaattinen-maailmansynty').hide();
+      $('#temaattinen-haat').hide();
       $('#traditio-content').hide();
       $('#traditio-content-2').hide();
       $('#traditio-esittely').hide();
@@ -730,7 +814,85 @@ $(document).ready(function() {
       $('#ainolemm-submenu').hide();
       $('#ainolemm-aino').hide();
       $('#ainolemm-lemminkainen').hide();
+      $('#kullervo-submenu1').hide();
+      $('#kullervo').hide();
     });
+
+    $('#temaattinen-submenu6').find('a').on('click', function() {
+      $('#temaattinen-lyriikka').hide();
+      $('#yleisesittely').hide();
+      $('#temaattinen-esittely').hide();
+      $('#temaattinen-toimitustavat').hide();
+      $('#temaattinen-maailmansynty').show();
+      $('#temaattinen-haat').hide();
+      $('#traditio-content').hide();
+      $('#traditio-content-2').hide();
+      $('#traditio-esittely').hide();
+      $('#traditio-skvr').hide();
+      $('#geneettinen-esittely').hide();
+      $('#geneettinen-versiot').hide();
+      $('#geneettinen-vertailu').hide();
+      $('#geneettinen-content').hide();
+      $('#geneettinen-content-2').hide();
+      $('#kielellinen-esittely').hide();
+      $('#kielellinen-suomi').hide();
+      $('#kielellinen-periaatteet').hide();
+      $('#aatehistoriallinen-esittely').hide();
+      $('#aatehistoriallinen-submenu').hide();
+      $('#aatehistoriallinen-kansa').hide();
+      $('#aatehistoriallinen-perhe').hide();
+      $('#aatehistoriallinen-kehys').hide();
+      $('#temaattinen-sammot').hide();
+      $('#aatehistoriallinen-tulkinnat').hide();
+      $('#temaattinen-valmistuminen').hide();
+      $('#kielellinen-lonnrot').hide();
+      $('#kielellinen-piirteet').hide();
+      $('#traditio-saetk').hide();
+      $('#traditio-kantel').hide();
+      $('#ainolemm-submenu').hide();
+      $('#ainolemm-aino').hide();
+      $('#ainolemm-lemminkainen').hide();
+      $('#kullervo-submenu1').hide();
+      $('#kullervo').hide();
+    });
+
+    $('#temaattinen-submenu7').find('a').on('click', function() {
+      $('#temaattinen-lyriikka').hide();
+      $('#yleisesittely').hide();
+      $('#temaattinen-esittely').hide();
+      $('#temaattinen-toimitustavat').hide();
+      $('#temaattinen-maailmansynty').hide();
+      $('#temaattinen-haat').show();
+      $('#traditio-content').hide();
+      $('#traditio-content-2').hide();
+      $('#traditio-esittely').hide();
+      $('#traditio-skvr').hide();
+      $('#geneettinen-esittely').hide();
+      $('#geneettinen-versiot').hide();
+      $('#geneettinen-vertailu').hide();
+      $('#geneettinen-content').hide();
+      $('#geneettinen-content-2').hide();
+      $('#kielellinen-esittely').hide();
+      $('#kielellinen-suomi').hide();
+      $('#kielellinen-periaatteet').hide();
+      $('#aatehistoriallinen-esittely').hide();
+      $('#aatehistoriallinen-submenu').hide();
+      $('#aatehistoriallinen-kansa').hide();
+      $('#aatehistoriallinen-perhe').hide();
+      $('#aatehistoriallinen-kehys').hide();
+      $('#temaattinen-sammot').hide();
+      $('#aatehistoriallinen-tulkinnat').hide();
+      $('#temaattinen-valmistuminen').hide();
+      $('#kielellinen-lonnrot').hide();
+      $('#kielellinen-piirteet').hide();
+      $('#traditio-saetk').hide();
+      $('#traditio-kantel').hide();
+      $('#ainolemm-submenu').hide();
+      $('#ainolemm-aino').hide();
+      $('#ainolemm-lemminkainen').hide();
+      $('#kullervo-submenu1').hide();
+      $('#kullervo').hide();
+    });    
 
     $('#aatehistoriallinen-link').find('a').on('click', function() {
         $('#aatehistoriallinen-submenu').show();
@@ -740,6 +902,8 @@ $(document).ready(function() {
         $('#aatehistoriallinen-kehys').hide();
         $('#temaattinen-esittely').hide();
         $('#temaattinen-lyriikka').hide();
+        $('#temaattinen-haat').hide();
+        $('#temaattinen-maailmansynty').hide();
         $('#temaattinen-toimitustavat').hide();
         $('#geneettinen-esittely').hide();
         $('#geneettinen-content').hide();
@@ -768,6 +932,8 @@ $(document).ready(function() {
         $('#ainolemm-submenu').hide();
         $('#ainolemm-aino').hide();
         $('#ainolemm-lemminkainen').hide();
+        $('#kullervo-submenu1').hide();
+        $('#kullervo').hide();
     });
 
     $('#aatehistoriallinen-submenu1').find('a').on('click', function() {
@@ -776,6 +942,8 @@ $(document).ready(function() {
       $('#temaattinen-esittely').hide();
       $('#temaattinen-toimitustavat').hide();
       $('#temaattinen-lyriikka').hide();
+      $('#temaattinen-haat').hide();
+      $('#temaattinen-maailmansynty').hide();
       $('#geneettinen-content').hide();
       $('#traditio-content').hide();
       $('#traditio-content-2').hide();
@@ -803,6 +971,8 @@ $(document).ready(function() {
       $('#ainolemm-submenu').hide();
       $('#ainolemm-aino').hide();
       $('#ainolemm-lemminkainen').hide();
+      $('#kullervo-submenu1').hide();
+      $('#kullervo').hide();
     });
 
     $('#aatehistoriallinen-submenu2').find('a').on('click', function() {
@@ -810,7 +980,8 @@ $(document).ready(function() {
       $('#yleisesittely').hide();
       $('#temaattinen-esittely').hide();
       $('#temaattinen-toimitustavat').hide();
-      $('#temaattinen-lyriikka').hide();
+      $('#temaattinen-haat').hide();
+      $('#temaattinen-maailmansynty').hide();
       $('#geneettinen-content').hide();
       $('#traditio-content').hide();
       $('#traditio-content-2').hide();
@@ -838,6 +1009,8 @@ $(document).ready(function() {
       $('#ainolemm-submenu').hide();
       $('#ainolemm-aino').hide();
       $('#ainolemm-lemminkainen').hide();
+      $('#kullervo-submenu1').hide();
+      $('#kullervo').hide();
     });
 
     $('#aatehistoriallinen-submenu3').find('a').on('click', function() {
@@ -845,6 +1018,8 @@ $(document).ready(function() {
       $('#temaattinen-esittely').hide();
       $('#temaattinen-toimitustavat').hide();
       $('#temaattinen-lyriikka').hide();
+      $('#temaattinen-haat').hide();
+      $('#temaattinen-maailmansynty').hide();
       $('#geneettinen-content').hide();
       $('#traditio-content').hide();
       $('#traditio-content-2').hide();
@@ -872,6 +1047,8 @@ $(document).ready(function() {
       $('#ainolemm-submenu').hide();
       $('#ainolemm-aino').hide();
       $('#ainolemm-lemminkainen').hide();
+      $('#kullervo-submenu1').hide();
+      $('#kullervo').hide();
     });
 
     $('#aatehistoriallinen-submenu4').find('a').on('click', function() {
@@ -879,6 +1056,8 @@ $(document).ready(function() {
       $('#temaattinen-esittely').hide();
       $('#temaattinen-toimitustavat').hide();
       $('#temaattinen-lyriikka').hide();
+      $('#temaattinen-haat').hide();
+      $('#temaattinen-maailmansynty').hide();
       $('#geneettinen-content').hide();
       $('#traditio-content').hide();
       $('#traditio-content-2').hide();
@@ -906,6 +1085,8 @@ $(document).ready(function() {
       $('#ainolemm-submenu').hide();
       $('#ainolemm-aino').hide();
       $('#ainolemm-lemminkainen').hide();
+      $('#kullervo-submenu1').hide();
+      $('#kullervo').hide();
     });
 
     $('#ainolemm-link').find('a').on('click', function() {
@@ -921,6 +1102,8 @@ $(document).ready(function() {
       $('#temaattinen-esittely').hide();
       $('#temaattinen-toimitustavat').hide()
       $('#temaattinen-lyriikka').hide();
+      $('#temaattinen-haat').hide();
+      $('#temaattinen-maailmansynty').hide();
       $('#geneettinen-esittely').hide();
       $('#geneettinen-versiot').hide();
       $('#geneettinen-vertailu').hide();
@@ -944,6 +1127,8 @@ $(document).ready(function() {
       $('#kielellinen-piirteet').hide();
       $('#traditio-saetk').hide();
       $('#traditio-kantel').hide();
+      $('#kullervo-submenu1').hide();
+      $('#kullervo').hide();
     });
 
     $('#ainolemm-submenu1').find('a').on('click', function() {
@@ -951,6 +1136,8 @@ $(document).ready(function() {
       $('#temaattinen-esittely').hide();
       $('#temaattinen-toimitustavat').hide();
       $('#temaattinen-lyriikka').hide();
+      $('#temaattinen-haat').hide();
+      $('#temaattinen-maailmansynty').hide();
       $('#geneettinen-content').hide();
       $('#traditio-content').hide();
       $('#traditio-content-2').hide();
@@ -977,6 +1164,7 @@ $(document).ready(function() {
       $('#traditio-kantel').hide();
       $('#ainolemm-aino').show();
       $('#ainolemm-lemminkainen').hide();
+      $('#kullervo').hide();
     });
 
     $('#ainolemm-submenu2').find('a').on('click', function() {
@@ -984,6 +1172,8 @@ $(document).ready(function() {
       $('#temaattinen-esittely').hide();
       $('#temaattinen-toimitustavat').hide();
       $('#temaattinen-lyriikka').hide();
+      $('#temaattinen-haat').hide();
+      $('#temaattinen-maailmansynty').hide();
       $('#geneettinen-content').hide();
       $('#traditio-content').hide();
       $('#traditio-content-2').hide();
@@ -1010,6 +1200,43 @@ $(document).ready(function() {
       $('#traditio-kantel').hide();
       $('#ainolemm-aino').hide();
       $('#ainolemm-lemminkainen').show();
+      $('#kullervo').hide();
+    });
+
+    $('#kullervo-submenu1').find('a').on('click', function() {
+      $('#yleisesittely').hide();
+      $('#temaattinen-esittely').hide();
+      $('#temaattinen-toimitustavat').hide();
+      $('#temaattinen-lyriikka').hide();
+      $('#temaattinen-haat').hide();
+      $('#temaattinen-maailmansynty').hide();
+      $('#geneettinen-content').hide();
+      $('#traditio-content').hide();
+      $('#traditio-content-2').hide();
+      $('#traditio-esittely').hide();
+      $('#traditio-skvr').hide();
+      $('#geneettinen-esittely').hide();
+      $('#geneettinen-versiot').hide();
+      $('#geneettinen-vertailu').hide();
+      $('#geneettinen-content').hide();
+      $('#geneettinen-content-2').hide();
+      $('#kielellinen-esittely').hide();
+      $('#kielellinen-suomi').hide();
+      $('#kielellinen-periaatteet').hide();
+      $('#aatehistoriallinen-esittely').hide();
+      $('#aatehistoriallinen-kansa').hide();
+      $('#aatehistoriallinen-perhe').hide();
+      $('#aatehistoriallinen-kehys').hide();
+      $('#temaattinen-sammot').hide();
+      $('#aatehistoriallinen-tulkinnat').hide();
+      $('#temaattinen-valmistuminen').hide();
+      $('#kielellinen-lonnrot').hide();
+      $('#kielellinen-piirteet').hide();
+      $('#traditio-saetk').hide();
+      $('#traditio-kantel').hide();
+      $('#ainolemm-aino').hide();
+      $('#ainolemm-lemminkainen').hide();
+      $('#kullervo').show();
     });
 
     $('#geneettinen-more').on('click', function() {

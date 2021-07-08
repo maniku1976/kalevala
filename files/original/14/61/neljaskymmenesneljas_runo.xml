@@ -209,7 +209,7 @@
         <note n="131"><ab>naimaton neito, tyttö, nainen</ab><ab>Runoissa <hi rend="italics">impi neidon</hi> synonyymi: "Mitä itket impi rukka, / impi rukka, 
           neito nuori" (SKVR I2 1164). Vrt. myös loitsuissa: "Neiti kosken korvallin[en], / Impi virran vierell[inen]" (SKVR I4 817; myös I4 836, I4 905, 
           I4 1126; VII5 4596). Suomen sanan vastineita ovat karjalan <hi rend="italics">impi</hi> ja eteläviron <hi rend="italics">impe',</hi> mutta kaikissa kielissä sanat ovat lähinnä runokielen aineksia (NESK).</ab></note>
-        <note n="132"><ab>hieprukka : korea neito, kaunokainen</ab><ab>Sanassa on painovirhe</ab></note>
+        <note n="132"><ab>hieprukka : korea neito, kaunokainen</ab></note>
         <note n="133"><ab>hivus : hius</ab></note>
         <note n="134"><ab>saada : tulla</ab></note>
         <note n="135"><ab>istua, refl. istuiksen : istuutuu</ab></note>
@@ -236,7 +236,7 @@
         <note n="152"><ab>lehtivesa : nuori lehtipuu</ab></note>
         <note n="153"><ab></ab><ab>Lönnrot kommentoi säkeitä 255 ja 256: "Käkösen kulta nauloina" (Lna 121).</ab></note>
         <note n="154"><ab>ilota : soida</ab><ab>Vrt. sanan toinen merkitys Kalevalassa: riemuita (42:192) (Jussila 2009).</ab></note>
-        <note n="155"><ab></ab><ab>sana <hi rend="italics">loukkua</hi> 'kaikua, kolahdella, kajahdella, paukkua'. Vrt. sanan toinen merkitys Kalevalassa: 
+        <note n="155"><ab></ab><ab>Sana <hi rend="italics">loukkua</hi> 'kaikua, kolahdella, kajahdella, paukkua'. Vrt. sanan toinen merkitys Kalevalassa: 
           loukuttaa, irrottaa pellavan tai hampun kuituja erityisellä laitteella, loukulla (48:47). (Jussila 2009.)<lb/><lb/>Lönnrot kommentoi säkeitä 
           259−264: "Suloinen, mielenperäinen soitto laittaa ihmiset tanssihaluisiksi, joka luonto tässä omistetaan hengettömillenkin olennoille" (Lna 121).</ab></note>
         <note n="156"><ab>laikkua : läikkyä</ab></note>
@@ -645,7 +645,7 @@
         <lg>
           <l>Sormin soitti Wäinämöinen,</l>
           <l>Kielin kantelo kajasi,</l>
-          <l>Vuoret <label type="popup" n="155">loukkui</label>, paaet paukkui</l>
+          <l><label type="popup" n="155">Vuoret loukkui, paaet paukkui</label></l>
           <l>260. Kaikki kalliot tärähti,</l>
           <l>Kivet <label type="popup" n="156">laikkui</label> lainehilla,</l>
           <l><label type="popup" n="157">Somerot</label> vesillä <label type="popup" n="158">souti</label>,</l>

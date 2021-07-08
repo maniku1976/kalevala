@@ -124,34 +124,34 @@
             <?php fire_plugin_hook('public_header', array('view'=>$this)); ?>
             <div id="site-title">
               <?php echo link_to_home_page(theme_logo()); ?>
-              <a href="http://www.finlit.fi"><img src="http://kalevala.finlit.fi/logo-SKS@2x.png" /></a>
+              <a href="http://www.finlit.fi"><img src="http://kalevala-dev.ngrok.io/kalevala/logo-SKS@2x.png" /></a>
             </div>
             <div style="width: 100%; display:inline;">
             <nav class="navbar navbar-expand-md">
               <ul class="navbar-nav">
                  <li class="nav-item">
-                   <a class="nav-link" href="/">Etusivu</a>
+                   <a class="nav-link" href="/kalevala/">Etusivu</a>
                  </li>
                  <li class="nav-item">
-                   <a class="nav-link" href="/esittely">Esittely</a>
+                   <a class="nav-link" href="/kalevala/esittely">Esittely</a>
                  </li>
                  <li class="nav-item">
-                   <a class="nav-link" href="/esipuhe">Kalevalan esipuheet</a>
+                   <a class="nav-link" href="/kalevala/esipuhe">Kalevalan esipuheet</a>
                  </li>
                  <li class="nav-item">
-                   <a class="nav-link" href="/collections">Runot</a>
+                   <a class="nav-link" href="/kalevala/collections">Runot</a>
                  </li>
                  <li class="nav-item">
-                   <a class="nav-link" href="/toimitustasot">Toimitustasot</a>
+                   <a class="nav-link" href="/kalevala/toimitustasot">Toimitustasot</a>
                  </li>
                  <li class="nav-item">
-                   <a class="nav-link" href="/erisnimet">Nimiä ja nimityksiä</a>
+                   <a class="nav-link" href="/kalevala/erisnimet">Nimiä ja nimityksiä</a>
                  </li>
                  <li class="nav-item">
-                   <a class="nav-link" href="/kirjallisuus">Kirjallisuus</a>
+                   <a class="nav-link" href="/kalevala/kirjallisuus">Kirjallisuus</a>
                  </li>
                  <li class="nav-item">
-                  <a class="nav-link" href="/ohjeet">Ohjeet</a>
+                  <a class="nav-link" href="/kalevala/ohjeet">Ohjeet</a>
                 </li>
                 <li class="nav-item" style="margin-left:3em;">
                   <a class="nav-link" href="https://matkallakalevalaan.finlit.fi" target="_blank">Matkalla Kalevalaan</a>
