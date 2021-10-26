@@ -1,0 +1,640 @@
+2021-09-28T15:58:06+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-27360mv4IXz6G0jW0' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_170b4e9d40f5a89a64bdfa0a2b17cf6d.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-09-28T15:58:06+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-09-29T09:53:00+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-16318KyRqf8M3pYf5' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_ba093d988032136af78bb0152d64301c.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-09-29T09:53:00+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-09-29T12:34:07+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-17541kzNHCRwzCp2w' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_819e65dedc6f963b99e5efad342bd757.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-09-29T12:34:07+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-09-29T12:50:34+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-17673xW2xgcDdgyjz' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_404445865b62ffb0516b78e721e14d3b.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-09-29T12:50:34+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-09-29T12:52:24+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-17686u-yIgWxYICHw' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_87e1edef26de93cf1932f7b92c769554.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-09-29T12:52:24+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-09-29T12:59:23+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-18071DIxU21tNsMfD' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_87981b5170a27111a6f92c4ace4de56b.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-09-29T12:59:23+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-09-29T13:00:14+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-18102fzjZY6mkTJeZ' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_76c18962559985670ee73d93a8fbbb2a.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-09-29T13:00:14+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-09-29T13:11:25+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-18211H3hO2Gn8xdVd' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_60244578e0b5564b5be76894857df154.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-09-29T13:11:25+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-09-29T13:14:19+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-18234iva0dnAJZ7mW' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_8b459eba199012b7811d59bc8c2d9df5.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-09-29T13:14:19+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-09-29T13:15:12+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-18243QRbhLNgikb5B' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_0c1e6d0127d317607467e931e5abc60b.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-09-29T13:15:12+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-09-29T13:17:10+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-182576b0CyogPv2FI' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_b34aceb12aab17495bd531a67d83b021.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-09-29T13:17:10+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-09-29T13:21:32+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-18298jMpQPKlNkjrO' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_3780904d075ebb8083a369d7e638517a.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-09-29T13:21:32+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-09-29T13:40:39+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-18477nS_IjUgVIT9j' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_14f0c9ebe0b4da9e21606d775f801b7b.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-09-29T13:40:39+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-09-29T14:11:00+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-18676cqAzmAaPIKDp' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_86fd494d19f7dfe56f8bf55c6f3a485c.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-09-29T14:11:00+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-09-29T14:31:27+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-1876525Z0_FVkw1E7' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_a4b2a50065da1935792e6f6a691d2fe2.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-09-29T14:31:27+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-09-29T14:41:15+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-189164fN_b9ZO7HOv' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_bff33580867f408be45c44aad273f94e.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-09-29T14:41:15+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-09-29T15:02:36+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-19124ADmFLznLmY8f' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_5faca4f6450d7f3eb388a4e93f471cac.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-09-29T15:02:36+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-09-29T15:29:46+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-19664TheTYe1F7z46' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_c5b99d17116ed05556e009cda1cac661.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-09-29T15:29:46+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-09-29T15:38:01+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-19722KK-NSyWIAS1t' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_21b0b3c269d5d2ff5e1962996e8918c5.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-09-29T15:38:01+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-09-29T16:00:43+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-19912urK9Yh87TFnS' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_e88ba48db509df35fcf5f907f0b70d7d.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-09-29T16:00:43+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-09-29T16:12:18+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-20106KKtiLi24SgZx' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_eb1b25bb07e7131083c92d8c7ca4e7da.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-09-29T16:12:18+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-09-30T10:12:58+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-72032-0qU5pPKo6R' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_74a1b29a2b2ac728370e474c691985f6.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-09-30T10:12:58+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-09-30T11:06:39+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-7513NiC_7kSZn0gg' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_54569b531d3c9dbac0fb2f20462388b2.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-09-30T11:06:39+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-09-30T11:56:24+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-7881I4391cwv7GI8' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_43cf54ef21d75861359748cc77f6d540.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-09-30T11:56:24+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-09-30T12:34:17+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-8111DuNb18dPss3v' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_aa0cf7512905119de0acd2c826595626.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-09-30T12:34:17+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-09-30T12:39:15+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-8149jR3ngc9j9mmp' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_a6422f6c10d54044be2ebb5792896ea6.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-09-30T12:39:15+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-09-30T14:19:04+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-89265dKwxqQoieS6' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_f9a7fb0a53afaaf3ab5abcf85b1e1841.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-09-30T14:19:04+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-09-30T15:17:17+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-10287-Lo7B46RQ8c3' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_15c9d58ccb1b76f89de7ba6e7df120c3.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-09-30T15:17:17+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-01T13:55:20+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-8522UnwNRkj8Pa3y' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_43b35c0c4b2277cb049928bd10db54e2.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-01T13:55:20+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-01T13:55:43+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-8534K15WUP1yxyzt' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_3b379d6425880a06bbec3184c0a86bb5.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-01T13:55:43+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-01T13:56:06+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-854368Wpi41Jy9ra' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_02cea89db73cb9f03edfcb3b958f7aa5.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-01T13:56:06+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-01T13:56:26+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-8553wgD5HCcG7CjU' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_c5ddafce5ef6ace0ba4e7e1551473aa3.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-01T13:56:26+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-01T13:57:37+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-8565NRUV2t0XAYHS' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_f20320867df354b41477511c09429caf.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-01T13:57:37+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-01T13:57:59+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-8575yCr44-XD8KCA' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_7897b14022e6c5a92b6ec7684fc1054f.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-01T13:57:59+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-01T13:58:19+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-8584Dmji_7tBrMki' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_cfc44cdb3b004a0568bbe15ccbfb0a8c.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-01T13:58:19+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-01T13:58:47+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-8593KsiA5BGS8o2V' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_d932dd4d3c4c3e362a62ba8f5e5b9f05.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-01T13:58:47+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-01T13:59:24+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-86030pJX1oAvIsUH' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_bc2da04f019c07ac0eec6c4f2283b7d6.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-01T13:59:24+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-01T13:59:47+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-861398xLOr3zDBIt' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_34ce518ff206b740dde25988ee610d14.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-01T13:59:47+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-01T14:00:19+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-8646bbdJigWq2thZ' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_11d4e0cb814c6bee9bbedd6293f5533d.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-01T14:00:19+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-01T14:00:58+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-8656uX20ANVCzCkI' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_115794180bfe1fc9ebc49989a1d97998.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-01T14:00:58+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-01T14:02:22+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-8671poUSG2tGHZZP' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_472c04eb07a82f2019ec875bdf7f8348.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-01T14:02:22+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-01T14:02:58+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-8680d38yvZqn8jTw' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_2675c77a497157e27318ceb4dd5c29ca.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-01T14:02:58+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-01T14:03:19+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-8690vTferxGoW1zh' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_db226a44b0377994fab2a4d28f1e9f9d.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-01T14:03:19+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-01T14:03:45+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-8700PQ3nOKsAklj3' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_29310ea0fc9ed0fb547a9fa54e71d644.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-01T14:03:45+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-01T14:04:10+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-8709t9ETKVIVKHjK' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_1208b3975f13c3d8cf31b53a0544e8b8.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-01T14:04:10+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-01T14:04:52+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-8720KnOfe96aQUvy' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_a01c8a928537add763c45fa7cc28e629.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-01T14:04:52+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-01T14:05:27+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-8730M9VRRJLjrKkl' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_5c388a6655278934095146961ccf7d15.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-01T14:05:27+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-01T14:06:02+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-8739ftddI8Jg4h6X' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_393f485a839aac69c4f430375f694a86.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-01T14:06:02+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-01T14:06:26+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-8748aijgMw1xzMcE' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_9c68df07e695a45c8a8b19d280ec7d14.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-01T14:06:26+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-01T14:06:55+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-8757j_od3vITl28l' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_ebdefce6d642b832a9bc640173e6d661.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-01T14:06:55+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-01T14:07:13+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-8766zuCVON4Q1yN2' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_4eebf6ed79b54dabfa11be40280a070c.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-01T14:07:13+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-01T14:07:52+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-8776An_JM3ekdkyP' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_bdbf11994eaa883277393fea4bdd70f0.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-01T14:07:52+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-01T14:08:51+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-8786a3r_c4QoJbMz' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_0e0a3c578c8608a3313bc10c1f013827.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-01T14:08:51+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-01T14:09:29+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-8869XSO4DvbIOYCN' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_1b61b4399ec54cf29d93436c47ef3f34.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-01T14:09:29+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-01T14:10:19+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-8880LwXOSsXE5k0E' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_1afe070a88659637e96ca50e0230a2cd.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-01T14:10:19+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-01T14:11:00+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-8891JBJvcPZPvqax' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_50f0bfad53153f8385b3c17a1bb9cd8e.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-01T14:11:00+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-01T14:11:23+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-8901TjxKDu3AJqZh' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_4ac465663b09ddc907c061d3a5520a56.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-01T14:11:23+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-01T14:12:01+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-8911ZrTBKv0rZMsZ' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_3d88a7ef5538d93349be276d10491207.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-01T14:12:01+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-01T14:12:46+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-8920J8gUQMBI1m2H' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_f3814baec6855acaaac3e74bc3d44be1.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-01T14:12:46+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-01T14:13:19+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-8930EuVglN4TcO0r' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_3c70db1f4610415041ba07b50185f4e4.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-01T14:13:19+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-01T14:13:43+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-89396RsGU3pSjIa8' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_cb680c18db3271bbbe46c2386afdc5fe.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-01T14:13:43+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-01T14:14:46+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-8952wDAN4I2lNkJ4' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_a6dd522bdcd3815886e50008a0d4f82c.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-01T14:14:46+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-01T14:15:35+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-8963tvfsA0e4E4GV' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_6edce1d13dcf70827c58dd7bea0678b1.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-01T14:15:35+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-01T14:16:45+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-8974vnNfzRaEXnaK' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_7a7aff65232d377f1a9786fd6d55111b.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-01T14:16:45+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-01T14:17:30+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-8990DzG0ZGF8WWG0' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_aec1f9dd6ca8c4d60bc0a68cf816d1c8.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-01T14:17:30+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-01T14:17:49+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-89999lgU01rKMndD' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_2ef3ed0f94923f587a5fecf5012a88c0.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-01T14:17:49+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-01T14:18:05+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-90094Aa2Jg4nr6po' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_f65b17974df543c8d9d04e04cadde111.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-01T14:18:05+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-01T14:18:22+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-9018LYBVhB11NKs7' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_6710da282800aea47ec4dee8de9be3e7.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-01T14:18:22+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-01T14:18:39+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-9027dh0A3XKwM46J' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_c8480a7992391a8e10ee75ba8fcb3418.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-01T14:18:39+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-01T14:18:57+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-9036U3Nn8ub41VKu' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_1dbb843f23e76c962a120889ce5b009e.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-01T14:18:57+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-01T14:19:12+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-9046QuyBob9RvvOd' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_da986b8d4d4d04f89f61dce313e06bac.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-01T14:19:12+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-01T14:19:30+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-9055MC93maWUUodT' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_f79d5c8cf2407d728bb64a7f364fee60.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-01T14:19:30+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-01T14:19:57+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-90661fAb4nSpVSLH' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_14f62d55a356a4ef0fa7e9a930ebe390.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-01T14:19:57+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-01T14:20:19+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-9098CzS01oOGT038' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_34561607e31421f60d777e964f93932c.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-01T14:20:19+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-01T14:20:50+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-9107lQnRt0623pQO' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_ce058938531d3f748b5216f955f670ee.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-01T14:20:50+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-01T14:21:10+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-9117cyNXKo10kZXz' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_3df05d175cf32528d7386a328178b17b.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-01T14:21:10+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-01T14:21:28+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-9127oVrNZ4cnGBhj' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_ccee656463deb1b77f97b5750546001d.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-01T14:21:28+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-01T14:21:48+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-9137_V3W9e1QGgO5' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_e059e9b55231023c5ffc58f09f55e07c.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-01T14:21:48+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-01T14:22:09+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-9147GkF8U-uTe39Q' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_165133e2d9a8257006bc9d7f65c8fdcf.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-01T14:22:09+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-01T14:22:27+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-9157jqhzKikqFz4A' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_fb03825cfb1aa40258ec04b7f97f24e6.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-01T14:22:27+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-01T14:22:43+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-9165Ea88MnCXr4cb' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_d809a9b09c05a29efa1e60f9638c2c86.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-01T14:22:43+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-01T14:23:01+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-9174CsKEN5QXQNyU' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_0efa83293161c3c1839409daffd717d7.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-01T14:23:01+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-07T12:32:38+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-9948dlUrotcHXXuq' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_95c3ae2078f617ae4069c73932a6260f.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-07T12:32:38+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-07T16:25:46+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-12801cODZg0gCnNd7' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_04a731fdeb843d3f3e9c9993ed5db419.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-07T16:25:46+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-07T16:31:31+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-12820xKRw7AxnsWFB' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_6e089bdf0ebf7717b2e82504fdf21678.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-07T16:31:31+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-07T16:33:31+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-12832d9SmPRj6UtHt' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_688138e4c840c4fa737bf9ba7b414751.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-07T16:33:31+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-07T16:37:04+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-12863tLfIqQAZY6DQ' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_5a792cea7decb0f3c313fd270adb04d2.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-07T16:37:04+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-07T16:48:19+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-131436DveEqDkt5V2' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_9b2fc8264f903e89c866ac37cbb9e96e.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-07T16:48:19+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-07T17:00:03+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-13194j4sXN-EdZtHQ' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_5999ebc264ef274742a36856ca2de381.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-07T17:00:03+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-07T17:02:24+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-13210gL_QSI4FjM05' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_57dd0cbc8fd7dce8c09fea588aec8c3c.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-07T17:02:24+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-07T17:03:49+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-13218aF2uEx4nuz0G' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_07633bcca0133e942ceadde5f3b50408.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-07T17:03:49+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-07T17:04:50+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-13227b_dvt1TJB2Mo' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_dd59b6863587f84deb2ba5b4e79dabd8.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-07T17:04:50+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-07T17:09:24+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-13314ca8oppPV00RX' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_464c08a56d822a5d495b7dc0f673c159.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-07T17:09:24+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-07T17:12:05+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-13327HghgtbGnv97T' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_1f42e7c97aa93ee8827bed6c3d035870.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-07T17:12:05+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-07T17:13:13+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-13337NTfb2WtRxP5H' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_c416547ad9e5000c68fded81cace086c.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-07T17:13:13+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-07T17:13:40+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-13345TiV0TER5dAZi' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_7f7172f29c9775bcc7431e784156e5e7.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-07T17:13:40+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-07T17:19:19+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-13384bwUEDXvyeN6e' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_524e3dc625b5cda8012c1fb9f983b166.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-07T17:19:19+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-07T17:21:04+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-13419SS-5urLVcVQR' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_6f483f7df927bebd7ace2e629a59562e.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-07T17:21:04+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-07T17:22:16+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-13433cclQAeI4FdxY' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_b60c8dc64c657eeae5b976ce0881d214.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-07T17:22:16+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-07T17:26:29+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-13446ofmD1rUZ4Y4V' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_abdf4f51eff8d87a2fb9e57da9117580.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-07T17:26:29+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-12T11:58:05+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-6794lSQPtznKAXMW' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_c81a07099a28dd3f9c0838418ad6b72f.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-12T11:58:05+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-12T12:15:17+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-6932311kObWnJ60n' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_4c54064cc20a8c42cee5e823d6571d42.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-12T12:15:17+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-12T12:23:19+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-7026-p0d1h34S8Os' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_c18fbda0227ded7224b815bc0d6686a7.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-12T12:23:19+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-12T12:33:46+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-7506BkvJMRkR7fxM' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_518e1b0f400b81762d67a1bb6123eab2.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-12T12:33:46+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-12T12:52:42+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-7732ycwndhbqjhvS' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_2a513bf48cc6445254e3b38c4c222c6c.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-12T12:52:42+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-12T13:32:10+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-7955hznXhMsZ9x4H' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_c98f0aaa4a2f55a1d486f8af1108efb0.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-12T13:32:10+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-12T13:33:34+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-8040vOaQtjLTJfmb' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_fc790c162a894cc3e627e60bb2eab879.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-12T13:33:34+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-12T14:09:25+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-8434jNrSF5FLeDiW' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_be77b542beb5e996609048bdf50e2e05.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-12T14:09:25+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-12T14:39:05+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-8644RWVWf89V9p4P' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_1e8c8d52b802e442c2fb1d03118a32ab.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-12T14:39:05+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-12T14:45:58+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-8688Zcgpv_RJIWh9' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_ebf009dcfef62e4a911c0e9a3f6de4c8.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-12T14:45:58+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-12T14:48:26+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-8703EDnZyP6Yjuoj' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_f0279c852bf576ac78657068dfd4a8a9.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-12T14:48:26+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-12T14:51:45+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-8717m3A_EIKmRUml' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_9e6834ddf09e4594b33dcbf602884d09.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-12T14:51:45+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-13T14:12:03+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-9216V_Fw-uzOfYN2' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_7c1247af7107007368e83cd00d654832.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-13T14:12:03+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-13T15:19:15+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-9620spRjBcwdnSOE' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_e2eef5f83cc35de5b83395c6bb06b40e.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-13T15:19:15+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-13T15:25:28+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-9664S4FCIUbTPlIX' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_f41bea7dc785a5d6b34517c65b1cf57b.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-13T15:25:28+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-14T12:56:33+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-1067661dOP2rpgtVt' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_225997e16c23aedaf62df491b0ec3ab3.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-14T12:56:33+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-14T12:59:03+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-10696gs9XPWJHmYNW' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_a69dd70067ce46690f9453ee4332d709.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-14T12:59:03+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-14T13:01:33+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-107297TK-2jnqV7uu' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_4fb402f7c4bc29fceeb5fcd8c75b82d7.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-14T13:01:33+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-14T13:01:48+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-10737vJgXolyAsVZ2' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_42dfed3753a7211b6fac21ea07d98e7b.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-14T13:01:48+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-14T13:04:04+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-107463xenVACiHIvK' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_85a9c42efe4d294178410a13cc72192b.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-14T13:04:04+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-14T13:08:47+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-10769LzSHllRFAjQs' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_f2e2fd829f53d03e11a284e3463d3b87.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-14T13:08:47+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-14T13:10:19+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-108549zNtZDeRdSUW' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_c351c5365e39258eda25277f42aeb035.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-14T13:10:19+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-14T13:11:57+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-10864ipyDulDuQmiF' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_8111edb15b5c5a67de9e6524abfd84e5.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-14T13:11:57+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-14T13:13:33+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-10898PXqEXY9MhQ2h' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_56856d695b82b2a08d36e2380a8cd980.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-14T13:13:33+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-14T13:42:38+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-11180LXapkNLRFImB' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_1a0218ac3d7897af54a925d109ad00c8.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-14T13:42:38+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-25T09:55:09+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-5696JZ2IoHA0PYLT' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_b85fa6b7c2999b7b88e179bedd0d0f9d.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-25T09:55:09+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-25T09:55:34+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-5707AM8hd6ZVM5gK' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_1bd472b5f31d3bfbcb1a41a3bbf05bd6.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-25T09:55:34+03:00 ERR (3): ImageMagick failed with status code 1.
+2021-10-26T08:25:17+03:00 WARN (4): Error output from ImageMagick:
+convert: must specify image size `/tmp/magick-104109_aXB1WPKtml' @ error/mvg.c/ReadMVGImage/186.
+convert: no images defined `/tmp/fullsize_e4288afac097177edebc7e678fe3882d.jpg' @ error/convert.c/ConvertImageCommand/3258.
+
+2021-10-26T08:25:17+03:00 ERR (3): ImageMagick failed with status code 1.

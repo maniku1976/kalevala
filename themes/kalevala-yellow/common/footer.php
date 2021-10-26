@@ -12,13 +12,13 @@
             <?php endif; ?>
             <!--<p><?php echo __('Proudly powered by <a href="http://omeka.org">Omeka</a>.'); ?></p>-->
               <div>
-                <img id="tsva" src="http://kalevala-dev.ngrok.io/kalevala/TSVAtunnus_paino.png"/>
-                <a href="http://kalevala-dev.ngrok.io/kalevala/saavutettavuus">Saavutettavuus</a>
+                <img id="tsva" src="http://kalevala.finlit.fi/TSVAtunnus_paino.png"/>
+                <a href="http://kalevala.finlit.fi/saavutettavuus">Saavutettavuus</a>
               </div>
               <div> 
-                <a href="https://www.finlit.fi"><img id="sks" src="http://kalevala-dev.ngrok.io/kalevala/logo-SKS-footer@2x.png" /></a>
-                <a href="https://kordelin.fi"><img id="kordelin" src="http://kalevala-dev.ngrok.io/kalevala/logo-kordelin@2x.png" /></a>
-                <a href="https://kalevalaseura.fi"><img id="kalevalas" src="http://kalevala-dev.ngrok.io/kalevala/logo-kalevalaseura@2x.png" /></a>
+                <a href="https://www.finlit.fi"><img id="sks" src="http://kalevala.finlit.fi/kalevala/logo-SKS-footer@2x.png" /></a>
+                <a href="https://kordelin.fi"><img id="kordelin" src="http://kalevala.finlit.fi/logo-kordelin@2x.png" /></a>
+                <a href="https://kalevalaseura.fi"><img id="kalevalas" src="http://kalevala.finlit.fi/logo-kalevalaseura@2x.png" /></a>
               </div>
         </div>
 

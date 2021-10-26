@@ -109,7 +109,6 @@ $(document).ready(function() {
         $('#temaattinen-haat').hide();
         $('#temaattinen-sammot').hide();
         $('#temaattinen-maailmansynty').hide();
-        $('#temaattinen-maailmansynty2').hide();
         $('#kielellinen-submenu').hide();
         $('#kielellinen-esittely').hide();
         $('#kielellinen-suomi').hide();
@@ -150,7 +149,6 @@ $(document).ready(function() {
       $('#temaattinen-lyriikka').hide();
       $('#temaattinen-haat').hide();
       $('#temaattinen-maailmansynty').hide();
-      $('#temaattinen-maailmansynty2').hide();
       $('#traditio-content').hide();
       $('#traditio-content-2').hide();
       $('#traditio-esittely').hide();
@@ -188,7 +186,6 @@ $(document).ready(function() {
       $('#temaattinen-lyriikka').hide();
       $('#temaattinen-haat').hide();
       $('#temaattinen-maailmansynty').hide();
-      $('#temaattinen-maailmansynty2').hide();
       $('#traditio-content').hide();
       $('#traditio-content-2').hide();
       $('#traditio-esittely').hide();
@@ -226,7 +223,6 @@ $(document).ready(function() {
       $('#temaattinen-lyriikka').hide();
       $('#temaattinen-haat').hide();
       $('#temaattinen-maailmansynty').hide();
-      $('#temaattinen-maailmansynty2').hide();
       $('#traditio-content').hide();
       $('#traditio-content-2').hide();
       $('#traditio-esittely').hide();
@@ -264,7 +260,6 @@ $(document).ready(function() {
       $('#temaattinen-lyriikka').hide();
       $('#temaattinen-haat').hide();
       $('#temaattinen-maailmansynty').hide();
-      $('#temaattinen-maailmansynty2').hide();
       $('#geneettinen-esittely').hide();
       $('#geneettinen-versiot').hide();
       $('#geneettinen-vertailu').hide();
@@ -306,7 +301,6 @@ $(document).ready(function() {
       $('#temaattinen-lyriikka').hide();
       $('#temaattinen-haat').hide();
       $('#temaattinen-maailmansynty').hide();
-      $('#temaattinen-maailmansynty2').hide();
       $('#geneettinen-esittely').hide();
       $('#geneettinen-versiot').hide();
       $('#geneettinen-vertailu').hide();
@@ -343,7 +337,6 @@ $(document).ready(function() {
       $('#temaattinen-lyriikka').hide();
       $('#temaattinen-haat').hide();
       $('#temaattinen-maailmansynty').hide();
-      $('#temaattinen-maailmansynty2').hide();
       $('#geneettinen-esittely').hide();
       $('#geneettinen-versiot').hide();
       $('#geneettinen-vertailu').hide();
@@ -380,7 +373,6 @@ $(document).ready(function() {
       $('#temaattinen-lyriikka').hide();
       $('#temaattinen-haat').hide();
       $('#temaattinen-maailmansynty').hide();
-      $('#temaattinen-maailmansynty2').hide();
       $('#geneettinen-esittely').hide();
       $('#geneettinen-versiot').hide();
       $('#geneettinen-vertailu').hide();
@@ -417,7 +409,6 @@ $(document).ready(function() {
       $('#temaattinen-lyriikka').hide();
       $('#temaattinen-haat').hide();
       $('#temaattinen-maailmansynty').hide();
-      $('#temaattinen-maailmansynty2').hide();
       $('#geneettinen-esittely').hide();
       $('#geneettinen-versiot').hide();
       $('#geneettinen-vertailu').hide();
@@ -454,7 +445,6 @@ $(document).ready(function() {
       $('#temaattinen-lyriikka').hide();
       $('#temaattinen-haat').hide();
       $('#temaattinen-maailmansynty').hide();
-      $('#temaattinen-maailmansynty2').hide();
       $('#geneettinen-esittely').hide();
       $('#geneettinen-versiot').hide();
       $('#geneettinen-vertailu').hide();
@@ -497,7 +487,6 @@ $(document).ready(function() {
       $('#temaattinen-lyriikka').hide();
       $('#temaattinen-haat').hide();
       $('#temaattinen-maailmansynty').hide();
-      $('#temaattinen-maailmansynty2').hide();
       $('#geneettinen-esittely').hide();
       $('#geneettinen-versiot').hide();
       $('#geneettinen-vertailu').hide();
@@ -535,7 +524,6 @@ $(document).ready(function() {
       $('#temaattinen-lyriikka').hide();
       $('#temaattinen-haat').hide();
       $('#temaattinen-maailmansynty').hide();
-      $('#temaattinen-maailmansynty2').hide();
       $('#geneettinen-esittely').hide();
       $('#geneettinen-versiot').hide();
       $('#geneettinen-vertailu').hide();
@@ -573,7 +561,6 @@ $(document).ready(function() {
       $('#temaattinen-lyriikka').hide();
       $('#temaattinen-haat').hide();
       $('#temaattinen-maailmansynty').hide();
-      $('#temaattinen-maailmansynty2').hide();
       $('#geneettinen-esittely').hide();
       $('#geneettinen-versiot').hide();
       $('#geneettinen-vertailu').hide();
@@ -611,7 +598,6 @@ $(document).ready(function() {
       $('#temaattinen-lyriikka').hide();
       $('#temaattinen-haat').hide();
       $('#temaattinen-maailmansynty').hide();
-      $('#temaattinen-maailmansynty2').hide();
       $('#geneettinen-esittely').hide();
       $('#geneettinen-versiot').hide();
       $('#geneettinen-vertailu').hide();
@@ -645,7 +631,6 @@ $(document).ready(function() {
         $('#temaattinen-haat').hide();
         $('#temaattinen-toimitustavat').hide();
         $('#temaattinen-maailmansynty').hide();
-        $('#temaattinen-maailmansynty2').hide();
         $('#geneettinen-esittely').hide();
         $('#geneettinen-content').hide();
         $('#geneettinen-content-2').hide();
@@ -688,7 +673,6 @@ $(document).ready(function() {
       $('#temaattinen-lyriikka').hide();
       $('#temaattinen-haat').hide();
       $('#temaattinen-maailmansynty').hide();
-      $('#temaattinen-maailmansynty2').hide();
       $('#traditio-content').hide();
       $('#traditio-content-2').hide();
       $('#traditio-esittely').hide();
@@ -727,7 +711,6 @@ $(document).ready(function() {
       $('#temaattinen-toimitustavat').hide();
       $('#temaattinen-haat').hide();
       $('#temaattinen-maailmansynty').hide();
-      $('#temaattinen-maailmansynty2').hide();
       $('#traditio-content').hide();
       $('#traditio-content-2').hide();
       $('#traditio-esittely').hide();
@@ -765,7 +748,6 @@ $(document).ready(function() {
       $('#temaattinen-esittely').hide();
       $('#temaattinen-toimitustavat').hide();
       $('#temaattinen-maailmansynty').hide();
-      $('#temaattinen-maailmansynty2').hide();
       $('#temaattinen-haat').hide();
       $('#traditio-content').hide();
       $('#traditio-content-2').hide();
@@ -804,7 +786,6 @@ $(document).ready(function() {
       $('#temaattinen-esittely').hide();
       $('#temaattinen-toimitustavat').hide();
       $('#temaattinen-maailmansynty').hide();
-      $('#temaattinen-maailmansynty2').hide();
       $('#temaattinen-haat').hide();
       $('#traditio-content').hide();
       $('#traditio-content-2').hide();
@@ -843,7 +824,6 @@ $(document).ready(function() {
       $('#temaattinen-esittely').hide();
       $('#temaattinen-toimitustavat').hide();
       $('#temaattinen-maailmansynty').show();
-      $('#temaattinen-maailmansynty2').hide();
       $('#temaattinen-haat').hide();
       $('#traditio-content').hide();
       $('#traditio-content-2').hide();
@@ -882,47 +862,7 @@ $(document).ready(function() {
       $('#temaattinen-esittely').hide();
       $('#temaattinen-toimitustavat').hide();
       $('#temaattinen-maailmansynty').hide();
-      $('#temaattinen-maailmansynty2').hide();
       $('#temaattinen-haat').show();
-      $('#traditio-content').hide();
-      $('#traditio-content-2').hide();
-      $('#traditio-esittely').hide();
-      $('#traditio-skvr').hide();
-      $('#geneettinen-esittely').hide();
-      $('#geneettinen-versiot').hide();
-      $('#geneettinen-vertailu').hide();
-      $('#geneettinen-content').hide();
-      $('#geneettinen-content-2').hide();
-      $('#kielellinen-esittely').hide();
-      $('#kielellinen-suomi').hide();
-      $('#kielellinen-periaatteet').hide();
-      $('#aatehistoriallinen-esittely').hide();
-      $('#aatehistoriallinen-submenu').hide();
-      $('#aatehistoriallinen-kansa').hide();
-      $('#aatehistoriallinen-perhe').hide();
-      $('#aatehistoriallinen-kehys').hide();
-      $('#temaattinen-sammot').hide();
-      $('#aatehistoriallinen-tulkinnat').hide();
-      $('#temaattinen-valmistuminen').hide();
-      $('#kielellinen-lonnrot').hide();
-      $('#kielellinen-piirteet').hide();
-      $('#traditio-saetk').hide();
-      $('#traditio-kantel').hide();
-      $('#ainolemm-submenu').hide();
-      $('#ainolemm-aino').hide();
-      $('#ainolemm-lemminkainen').hide();
-      $('#kullervo-submenu1').hide();
-      $('#kullervo').hide();
-    });    
-
-    $('#temaattinen-submenu8').find('a').on('click', function() {
-      $('#temaattinen-lyriikka').hide();
-      $('#yleisesittely').hide();
-      $('#temaattinen-esittely').hide();
-      $('#temaattinen-toimitustavat').hide();
-      $('#temaattinen-maailmansynty').hide();
-      $('#temaattinen-maailmansynty2').show();
-      $('#temaattinen-haat').hide();
       $('#traditio-content').hide();
       $('#traditio-content-2').hide();
       $('#traditio-esittely').hide();
@@ -964,7 +904,6 @@ $(document).ready(function() {
         $('#temaattinen-lyriikka').hide();
         $('#temaattinen-haat').hide();
         $('#temaattinen-maailmansynty').hide();
-        $('#temaattinen-maailmansynty2').hide();
         $('#temaattinen-toimitustavat').hide();
         $('#geneettinen-esittely').hide();
         $('#geneettinen-content').hide();
@@ -1005,7 +944,6 @@ $(document).ready(function() {
       $('#temaattinen-lyriikka').hide();
       $('#temaattinen-haat').hide();
       $('#temaattinen-maailmansynty').hide();
-      $('#temaattinen-maailmansynty2').hide();
       $('#geneettinen-content').hide();
       $('#traditio-content').hide();
       $('#traditio-content-2').hide();
@@ -1044,7 +982,6 @@ $(document).ready(function() {
       $('#temaattinen-toimitustavat').hide();
       $('#temaattinen-haat').hide();
       $('#temaattinen-maailmansynty').hide();
-      $('#temaattinen-maailmansynty2').hide();
       $('#geneettinen-content').hide();
       $('#traditio-content').hide();
       $('#traditio-content-2').hide();
@@ -1083,7 +1020,6 @@ $(document).ready(function() {
       $('#temaattinen-lyriikka').hide();
       $('#temaattinen-haat').hide();
       $('#temaattinen-maailmansynty').hide();
-      $('#temaattinen-maailmansynty2').hide();
       $('#geneettinen-content').hide();
       $('#traditio-content').hide();
       $('#traditio-content-2').hide();
@@ -1122,7 +1058,6 @@ $(document).ready(function() {
       $('#temaattinen-lyriikka').hide();
       $('#temaattinen-haat').hide();
       $('#temaattinen-maailmansynty').hide();
-      $('#temaattinen-maailmansynty2').hide();
       $('#geneettinen-content').hide();
       $('#traditio-content').hide();
       $('#traditio-content-2').hide();
@@ -1169,7 +1104,6 @@ $(document).ready(function() {
       $('#temaattinen-lyriikka').hide();
       $('#temaattinen-haat').hide();
       $('#temaattinen-maailmansynty').hide();
-      $('#temaattinen-maailmansynty2').hide();
       $('#geneettinen-esittely').hide();
       $('#geneettinen-versiot').hide();
       $('#geneettinen-vertailu').hide();
@@ -1204,7 +1138,6 @@ $(document).ready(function() {
       $('#temaattinen-lyriikka').hide();
       $('#temaattinen-haat').hide();
       $('#temaattinen-maailmansynty').hide();
-      $('#temaattinen-maailmansynty2').hide();
       $('#geneettinen-content').hide();
       $('#traditio-content').hide();
       $('#traditio-content-2').hide();
@@ -1241,7 +1174,6 @@ $(document).ready(function() {
       $('#temaattinen-lyriikka').hide();
       $('#temaattinen-haat').hide();
       $('#temaattinen-maailmansynty').hide();
-      $('#temaattinen-maailmansynty2').hide();
       $('#geneettinen-content').hide();
       $('#traditio-content').hide();
       $('#traditio-content-2').hide();
@@ -1278,7 +1210,6 @@ $(document).ready(function() {
       $('#temaattinen-lyriikka').hide();
       $('#temaattinen-haat').hide();
       $('#temaattinen-maailmansynty').hide();
-      $('#temaattinen-maailmansynty2').hide();
       $('#geneettinen-content').hide();
       $('#traditio-content').hide();
       $('#traditio-content-2').hide();
@@ -1962,8 +1893,6 @@ $(document).ready(function() {
       }
     });
 
-
-    $('.resultsBtn').on('click',function() {
       if ($(this).parent().next('.hl').is(":visible")) {
         $(this).parent().next().hide();
       } else {

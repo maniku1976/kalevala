@@ -77,7 +77,7 @@
         <note n="21b"><ab>Lappi : rajaseutu, pohjoisessa sijaitseva laaja maa</ab><ab>Sanan alkuperästä ja alkuperäisestä merkityksestä ei ole varmaa tietoa. Lyydissä <hi rend="italics">lap</hi> merkitsee 
           Vienan Karjalaa eli oman asutuksen pohjoispuolista aluetta. Vatjassa lappolain merkitsee noitaa. Saamelaisiin viittaavat <hi rend="italics">lappi</hi> ja <hi rend="italics">lappalainen</hi> 
           ovat monien kansojen tuntemia nimityksiä; saamelaiset itse eivät ole niitä kuitenkaan käyttäneet. Erään selityksen mukaan <hi rend="italics">Lappi</hi> voisi liittyä sanaan 
-          <hi rend="italics">lape, lappea</hi> ja olisi varhaisemmalta merkitykseltään 'syrjäseutu'. (NESK s.v. <hi rend="italics">lappi, Lappi</hi>.)</ab></note>
+          <hi rend="italics">lape, lappea</hi> ja olisi varhaisemmalta merkitykseltään 'syrjäseutu'. (NES s.v. <hi rend="italics">lappi, Lappi</hi>.)</ab></note>
         <note n="22"><ab>Ruija : Pohjois-Norjan historiallinen maakunta Finnmark, jota asuttivat suomalaisperäiset kveenit</ab></note>
         <note n="23"><ab>nimiseko : nimien sekoitus, nimien sekamelska</ab></note>
         <note n="24"><ab>aine : sisällys; aihe; runo</ab></note>
@@ -112,7 +112,7 @@
           merkityksestä ei ole varmaa tietoa. Lyydissä <hi rend="italics">lap</hi> merkitsee Vienan Karjalaa eli oman asutuksen pohjoispuolista aluetta. Vatjassa <hi rend="italics">lappolain</hi> merkitsee 
           noitaa. Saamenmaahan ja saamelaisiin viittaavat <hi rend="italics">lappi</hi> ja <hi rend="italics">lappalainen</hi> ovat monien kansojen tuntemia nimityksiä; saamelaiset itse eivät ole niitä kuitenkaan 
           käyttäneet. Erään selityksen mukaan <hi rend="italics">Lappi</hi> voisi liittyä sanaan <hi rend="italics">lape, lappea</hi> ja olisi varhaisemmalta merkitykseltään 'syrjäseutu'. 
-          (NESK s.v. <hi rend="italics">lappi, Lappi</hi>.) Lönnrot kommentoi Kalevalan runon 3 säettä 22: "sana lappalainen alkuansa merkitsi lappeessa eli vieressä, rajalla asuvaa." (Lna 121.)</ab></note>
+          (NES s.v. <hi rend="italics">lappi, Lappi</hi>.) Lönnrot kommentoi Kalevalan runon 3 säettä 22: "sana lappalainen alkuansa merkitsi lappeessa eli vieressä, rajalla asuvaa." (Lna 121.)</ab></note>
         <note n="40"><ab>pimeä paikka, Pohjolan rinnakkaisnimi</ab></note>
         <note n="40b"><ab>Turja : Lapin toisintonimi</ab><ab>Suomen kielessä <hi rend="italics">turjalainen</hi> on tarkoittanut saamelaista tai tietäjää, noitaa, velhoa. Vanhoista tuomiokirjoista saatu selville, 
           että ainakin Iijokivarren talonpojilla oli tapana hakea Kemin Lapin tietäjiltä apua erilaisiin vaikeuksiin, kuten sairauksiin tai huonoon saalistusonneen. <hi rend="italics">Turja</hi> on voinut merkitä 
@@ -685,6 +685,8 @@
         <p><hi rend="italics">Laukossa 17 huhtikuuta 1849.</hi><label type="commentary" n="e27">27</label></p>
         <p><emph>E. L.</emph><label type="commentary" n="e28">28</label></p>
       </div>
+      <div type="differences">
+      </div>	
     </body>
   </text>
 </TEI>

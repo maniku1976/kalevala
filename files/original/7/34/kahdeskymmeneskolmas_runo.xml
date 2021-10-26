@@ -39,7 +39,7 @@
         <note n="5">
           <ab>nainen</ab><ab><hi rend="italics">Vaimo-</hi>sanaa ovat käyttäneet jo Mikael Agricola ja muut saman aikakauden kirjoittajat. Vanhimmassa kirjakielessä sillä on yleisimmin tarkoitettu 
             aikuista naista. Sana <hi rend="italics">nainen</hi> on sen sijaan mm. Agricolalla ollut hyvin harvinainen. Vanhassa kirjakielessä ja murteissa <hi rend="italics">vaimo</hi> voi siis 
-            tarkoittaa aviovaimon sijasta naista yleisemmin. (NESK s.v. <hi rend="italics">vaimo.</hi>)</ab>
+            tarkoittaa aviovaimon sijasta naista yleisemmin. (NES s.v. <hi rend="italics">vaimo.</hi>)</ab>
         </note>
         <note n="6">
           <ab>Kalevan sukuun kuuluva nainen</ab><ab>Kansanrunoissa nimi tarkoittaa Kalevan sukuun kuuluvaa naista. Kalevalassa Kalevatar esiintyy lisäksi oluen keittäjänä Pohjolan häissä (20:321 ym.). 
@@ -170,7 +170,7 @@
         <note n="45">
           <ab>ilovirsi : hauska, mielihyvää tuottava laulu</ab><ab>Nykysuomessa <hi rend="italics">virsi-</hi>sanalla tarkoitetaan kirkollisiin yhteyksiin kuuluvaa laulua, mutta aikaisemmin se on 
             merkinnyt yleisemmin laulua tai runoa, esimerkiksi kalevalamittaista kansanrunoa. Varhaisempi merkitys voidaan vielä nähdä vaikkapa yhdyssanassa <hi rend="italics">itkuvirsi.</hi> 
-            (NESK s.v. <hi rend="italics">virsi.</hi>)</ab>
+            (NES s.v. <hi rend="italics">virsi.</hi>)</ab>
         </note>
         <note n="46">
           <ab>tyvi : kädensija</ab><ab>Lönnrot kommentoi säettä 47: "'Vastan tyvelle' so. loukkoon eli soppeen, jossa vastoilla on sijansa" (Lna 121).</ab>
@@ -1963,7 +1963,7 @@
           varoituksena ja valituksena toteutuneesta tilasta. Monin tavoin varioivia ja käytettyjä häälauluaihelmia ei eteläisillä runoalueilla voikaan aina 
           erottaa lyyrisistä lauluista. Tämä korostunut monikerroksisuus on ollut luontevana esikuvana sille, että Lönnrot sitoo runossa 23 
           yhteen neuvokkivirret ja miniän osaa kuvaavat valituslaulut (Länsi-Inkerin laulajien runokeinoista ja laulutavoista ks. Harvilahti 1992; 
-          Kallio 2013; Länsi-Inkerin häärunoista ks. Salminen 1929; ks. myös <ref target="http://lonnrot.finlit.fi/toimitustasot">Toimitustasot</ref>: 
+          Kallio 2013; Länsi-Inkerin häärunoista ks. Salminen 1929; ks. myös <ref target="http://lonnrot.finlit.fi/artikkelit">Artikkelit</ref>: 
           Kalevala Lönnrotin teoksena: Häärunosto ja sen muunnelmat Lönnrotin häänäytelmässä).      
         </ab>
         </note>      
@@ -2002,11 +2002,11 @@
         <note n="c5"><ab>Säkeet 23−34 / Toisin toisessa talossa<lb/><lb/>
           Toisin toisessa talossa on morsiamen omasta kodista lähdön hetkeen tai myös neuvokkivirren aloitukseen kuuluva yleinen 
           aihelma. Säkeet kiteyttävät ajatuksen, että kaikki muuttuu morsiamen muuttaessa uuteen perheyhteisöön:<lb/><lb/>
-          Toisin toisessa talossa,<lb/>
-          Muiten muissa vieraissa,<lb/>
-          Ei niinkun emon koissa,<lb/>
-          Oman vanhemman varassa.<lb/>
-          (I3 1691: 67−70).<lb/><lb/>
+          <l>Toisin toisessa talossa,</l>
+          <l>Muiten muissa vieraissa,</l>
+          <l>Ei niinkun emon koissa,</l>
+          <l>Oman vanhemman varassa.</l>
+          <l>(I3 1691: 67−70).</l><lb/>
           Erilaiset tarkentavat lisäsäkeet, kuten Lönnrotin lisäämät "Tahi kuin taaton tanterella, / Eli kuin maammon manterella" 
           (I3 1666: 1−4), ovat Vienassa yleisiä. Vienaa etelämpänä johtaa alkusäe usein vakiintuneeseen säekokonaisuuteen: "Toisin 
           ukset ulvasevat, / Toisin vierevät veräjät, / Sanovat sarana rauat" (XIII2 3820: 2−4), jonka jatkona on aihelma Et osaa 
@@ -2015,19 +2015,19 @@
         <note n="c6"><ab>Säkeet 35−50 / Ne kolme kotiin heitä / Unikonttisi unohda<lb/><lb/>
           Lönnrot hyödyntää kahta Inkerissä ja Etelä-Karjalassa morsiamen neuvokkivirressä tallennettua samankaltaista 
           aihelmaa:<lb/><lb/>
-          Kun menet toiseen taloon,<lb/>
-          Ne kolme kotihin heitä:<lb/>
-          Päivän eelliset unoset,<lb/>
-          Emon armaat sanaset,<lb/>
-          Joka kirnun pettäjäiset<lb/>
-          (XIII2 4390: 2−6)<lb/><lb/>
-          Kaikki muista muut kalusi,<lb/>
-          Unikonttisi uneuta,<lb/>
-          Heitä uunille unesi,<lb/>
-          Pankolle pahat tapasi,<lb/>
-          Laiskuutesi lattialle!<lb/>
-          (XIII2 4389: 2−6).<lb/><lb/>
-          Näihin aihelmiin on Lönnrot yhdistänyt säkeitä, joilla morsianta neuvotaan Ilomantsista: "Kuules, neiti, kun neuotahan: / 
+          <l>Kun menet toiseen taloon,</l>
+          <l>Ne kolme kotihin heitä:</l>
+          <l>Päivän eelliset unoset,</l>
+          <l>Emon armaat sanaset,</l>
+          <l>Joka kirnun pettäjäiset.</l>
+          <l>(XIII2 4390: 2−6).</l><lb/>
+          <l>Kaikki muista muut kalusi,</l>
+          <l>Unikonttisi uneuta,</l>
+          <l>Heitä uunille unesi,</l>
+          <l>Pankolle pahat tapasi,</l>
+          <l>Laiskuutesi lattialle!</l>
+          <l>(XIII2 4389: 2−6).</l><lb/>
+          Näihin aihelmiin on Lönnrot yhdistänyt Ilomantsista tallennettuja säkeitä, joilla morsianta neuvotaan Ilomantsista: "Kuules, neiti, kun neuotahan: / 
           heitä huimuus hurstin alle, / vaka'us tyville vastan!" (VII2 2994: 107−109) ja jotka D. E. D. Europaeus on tallentanut 
           Pohjois-Karjalassa ja Vienassa kylyvirressä: "Heitämmä lapsuus lautsan päähän, / Huimuus hurstin helman alle, / Pennusaika 
           penkin päähän!" (I3 1560: 20−22; ks. myös VII2 2821: 35−38).</ab>
@@ -2036,12 +2036,12 @@
           Kehotus antaa kaason tehtäväksi huonoista tavoista huolehtiminen on peräisin Etelä-Karjalassa ja Inkerissä yleisestä 
           aihelmasta Kääri torvelle torasi. Kalevalan ainesten keruuaikana sen tallensi kerran D. E. D. Europaeus 
           Uusikirkossa:<lb/><lb/> 
-          Kääri torvelle torasi:<lb/>
-          Pankolle pahat sanasi,<lb/>
-          Laita kaasen kainalohon,<lb/>
-          Kaase viep ison kotihin,<lb/>
-          Lieepankolle iltasille <lb/>
-          XIII2 4380: 4−8).<lb/><lb/> 
+          <l>Kääri torvelle torasi:</l>
+          <l>Pankolle pahat sanasi,</l>
+          <l>Laita kaasen kainalohon,</l>
+          <l>Kaase viep ison kotihin,</l>
+          <l>Lieepankolle iltasille</l>
+          <l>XIII2 4380: 4−8).</l><lb/> 
           Lönnrot täydentää kuvaa lisäsäkeillä: "Miepä viilsin vitsikkohon, / Karkasin katajikkohon" runosta XIII1 90: 4−5 (Kyntäjä 
           ja pedot), joka on myös D. E. D. Europaeuksen tallentama.</ab>
         </note>
@@ -2059,11 +2059,11 @@
         <note n="c9"><ab>Säkeet 79−90 / Talo kysyy tapoja, mies koettelee mieltä*<lb/><lb/>
           Lönnrot on koonnut säkeet kahdesta Vienassa tallentamastaan säejaksosta, joissa on sama teema. Toinen on pitempi ja 
           seikkaperäinen (I3 1680: 1−7), toinen lyhyempi ja tiiviimpi:<lb/><lb/>    
-          Jos talo epätapanen,<lb/>
-          Niin tapoja kysyy,<lb/>
-          Jos mies epäpätönen,<lb/>
-          Mies mieltä koetteloo.<lb/>
-          (I3 1691: 71−75).</ab>  
+          <l>Jos talo epätapanen,</l>
+          <l>Niin tapoja kysyy,</l>
+          <l>Jos mies epäpätönen,</l>
+          <l>Mies mieltä koetteloo.</l>
+          <l>(I3 1691: 71−75).</l></ab>  
         </note>
         <note n="c10"><ab>Säkeet 91−100 / Appi karhu kartanolla, anoppi susi tuvassa<lb/><lb/>
           Apen, anopin, kydyn ja naton käyttäytymisen kuvaaminen petoeläinhahmojen kautta on yleinen aihelma morsiamen 
@@ -2096,17 +2096,17 @@
           etten saa miestä; Vielä tälle tyttöselle).<lb/><lb/> 
           Vaikka kukonlaulun ja nuoren sulhon viereltä heräämisen yhteydestä ei ole muistiinpanoa neuvokkivirressä, lisäystä tukee 
           eri runoalueilta tallennettu, myös Lönnrotin itse kirjaama lyyrinen aihelma Uni petti, vuode voitti (vrt. V3 1054, jossa 
-          Larin Paraske kertoo kuullensa aihelman äitinsä häissä laulamana). Aihelmassa nuori neito (joskus näkökulma on miehen) 
+          Larin Paraske kertoo kuulleensa aihelman äitinsä häissä laulamana). Aihelmassa nuori neito (joskus näkökulma on miehen) 
           laulaa:<lb/><lb/> 
-          Kyllä kuulin, kukko laulo,<lb/>
-          Iloitsi isännän lintu,<lb/>
-          Vaan en voinut vielä nosta<lb/>
-          Enkä haikennut havata;<lb/>
-          Uni petti, vuoe voitti,<lb/>
-          Nuori sulhonen nukutti,<lb/>
-          Käsivarsin vaivutteli,<lb/>
-          Petti pehmyt päänalanen.<lb/>
-          (XIII2 3171: 1−8).</ab>
+          <l>Kyllä kuulin, kukko laulo,</l>
+          <l>Iloitsi isännän lintu,</l>
+          <l>Vaan en voinut vielä nosta</l>
+          <l>Enkä haikennut havata;</l>
+          <l>Uni petti, vuoe voitti,</l>
+          <l>Nuori sulhonen nukutti,</l>
+          <l>Käsivarsin vaivutteli,</l>
+          <l>Petti pehmyt päänalanen.</l>
+          <l>(XIII2 3171: 1−8).</l></ab>
         </note>
         <note n="c13"><ab>Säkeet 127−140 / Tulen sytyttäminen<lb/><lb/>
           Tuvan tulisija oli naisten päivittäisissä ruuanlaitto- ja leipomistöissä keskeinen elementti. Tulen sytyttäminen miniän 
@@ -2122,12 +2122,12 @@
           kydyn, nadon ja joskus myös kälyn eläinten kutsuja ruokintaan, esiintyy joskus johdantona varsinaisiin ruokintaneuvoihin 
           (XIII2 4346: 9−16; XIII2 4345: 1−4; IV1 202: 25−26).<lb/><lb/>
           Varsinaisia töiden kuvauksia esitetään yleisemmin (Lääväaskareet):<lb/><lb/> 
-          Katso lammas karsinoa,<lb/>
-          Luo silmät sikoinki päällä,<lb/>
-          Olet lehmille ojenna,<lb/>
-          Heposelle heinät heitä,<lb/>
-          Heinät varsoille valitse!<lb/>
-          (XIII2 4344: 23−27).<lb/><lb/> 
+          <l>Katso lammas karsinoa,</l>
+          <l>Luo silmät sikoinki päällä,</l>
+          <l>Olet lehmille ojenna,</l>
+          <l>Heposelle heinät heitä,</l>
+          <l>Heinät varsoille valitse!</l>
+          <l>(XIII2 4344: 23−27).</l><lb/> 
           Myös hyvä käytös eläimiä kohtaan mainitaan, usein kehotuksella olla potkimatta porsaita, joka kuitenkin yleensä sijoittuu 
           samaan säepariin tai -kokonaisuuteen, jossa kehotetaan olla lakaisematta lapsia: "Elä lapsia lakase, / Elä sie siolle 
           sinku, / Elä potki porsaita!" (XIII2 4344: 32−34). Lönnrotin säkeissä 151−152 käyttämät sanat leyhkeästi ja lauhkeasti 
@@ -2139,11 +2139,11 @@
         <note n="c15"><ab>Säkeet 161−165 / "Elä läävässä lepeä"<lb/><lb/>
           Läävässä lepäilyn kielto (tai ohje) esiintyy aihelmassa Älä pyri pyllyllesi, jonka perussanoma on, ettei morsian saa 
           laiskotella. Ainoa Kalevalan ainesten keruuajalta säilynyt tallenne on D. E. D. Europaeuksen Toksovassa muistiinpanema:<lb/><lb/> 
-          Älä pyri pyllylleisi,<lb/>
-          Penkin päähän pitkälleisi,<lb/>
-          Lamo lammaskarsinassa,<lb/>
-          Lehmiläävässä lepää!<lb/>
-          (V2 1526: 36−39).<lb/><lb/> 
+          <l>Älä pyri pyllylleisi,</l>
+          <l>Penkin päähän pitkälleisi,</l>
+          <l>Lamo lammaskarsinassa,</l>
+          <l>Lehmiläävässä lepää!</l>
+          <l>(V2 1526: 36−39).</l><lb/> 
           Myöhempien tallenteiden valossa jää kuitenkin tulkinnanvaraiseksi, opastetaanko tekstissä olemaan lepäämättä läävässä vai 
           nimenomaan, että jos morsiamen täytyy levätä, se tulisi tehdä läävässä eikä sisällä penkin päässä (katseiden alla). 
           Esimerkiksi Larin Parasken runoissa esiintyy molempia vaihtoehtoja: sekä kehotuksia levätä läävässä että varoituksia, 
@@ -2154,7 +2154,7 @@
         <note n="c16"><ab>Säkeet 163−174 / Paluu tupaan lapsen luo*<lb/><lb/>
           Tämän säekokonaisuuden on Lönnrot muokannut Nurmeksessa 1832 tallentamastaan lyyrisestä laulusta, jossa nuorta miestä 
           kehotetaan etsimään vaimoa maataloustöiden parista (<ref target="https://skvr.fi/poems?id=skvr07144560">VII3 4456</ref>: 16−27; Älä kihlo 
-          kirkkotiellä). Laulaja hyödyntää ensin samoja teemoja ja säkeitä, joilla morsianta opastetaan (VII3 4456: 11−19) ja esittää 
+          kirkkotiellä). Laulaja hyödyntää ensin samoja teemoja ja säkeitä, joilla morsianta opastetaan (<ref target="https://skvr.fi/poems?id=skvr07144560">VII3 4456</ref>: 11−19) ja esittää 
           lopuksi persoonallisen kuvauksen kätkyessä odottavasta lapsesta.</ab>      
         </note>
         <note n="c17"><ab>Säkeet 175−180 / Tule tuulena tupaan<lb/><lb/> 
@@ -2170,31 +2170,31 @@
           veljen eli kydyn ja tämän vaimon (kälyn) lapsi, joka joskus mainitaan: "kyyn on lapset lattialla, / elä syrjähän sysäse, 
           / elä viskase vihassa" (VII2 2994: 117−119; ks. myös IV1 723: 20−27). Etelä-Karjalassa voi jatkona olla säkeitä, joissa 
           opastetaan, mitä tehdä, jos ei talossa ole leipää: <lb/><lb/>
-          Nosta lapset laavitsalle,<lb/>
-          Pese silmät, pää silitä,<lb/>
-          Anna leipää käteen,<lb/>
-          Vuole voita leivän päälle!<lb/>
-          Kun ei leipeä talossa,<lb/>
-          Anna tikkunen käteen!<lb/>
-          (XIII2 4344: 35−40).</ab>
+          <l>Nosta lapset laavitsalle,</l>
+          <l>Pese silmät, pää silitä,</l>
+          <l>Anna leipää käteen,</l>
+          <l>Vuole voita leivän päälle!</l>
+          <l>Kun ei leipeä talossa,</l>
+          <l>Anna tikkunen käteen!</l>
+          <l>(XIII2 4344: 35−40).</l></ab>
         </note>
         <note n="c19"><ab>Säkeet 193−212 / Pirtin siivous* / Mi pöly pölähtänevi<lb/><lb/> 
           Pirtin siivousaihe on selvästi innostanut Lönnrotia, sillä hän korostaa yksityiskohtia lähdeaineistosta poikkeavalla 
           tavalla. Matkakertomuksessaan hän kommentoikin talojen siisteyttä ja pirttien puhtautta eri alueilla usein ja 
           yksityiskohtaisesti (mm. Niemi 1902: 151).<lb/><lb/> 
           Kalevalan ainesten keruuaikana eteläisillä runoalueilla siivoukseen viitataan yleensä vain lyhyellä, kiteytyneellä 
-          ohjeella: "Pese pöytä, pyyhi penkit, / Sitte lattiiki lakase!" (VII2 3138: 29−30; myös mm. XIII2 4332: 6−7). 
+          ohjeella: "Pese pöytä, pyyhi penkit, / Sitte lattiiki lakase!" (VII2 3138: 29−30; myös mm. <ref target="https://skvr.fi/poems?id=skvr13043320">XIII2 4332</ref>: 6−7). 
           Seikkaperäisempää ohjeistusta edustavat säkeet: "Visko vettä lattialle, / Pyyhi sitte pitkät penkit, / Ala la'asta 
           lattiata" (XIII2 4335: 14−16). Tarkemmissa ohjeissa mainitaan usein jättämään joku osa: "Pese seinä, juomut heitä, / 
           Pese lattiat, särvet heitä!" (I3 1676: 27−29; ks. Pirtin siivous ja astiain pesu; ks. myös Harva 1929: 242−245). 
           Siivoustöihin liittyvät säkeet edeltävät yleensä välittömästi aihelmaa Älä lapsia lakaise, nosta lapset laavitsalle.<lb/><lb/>  
           Jatkon aineksena on Vienassa, Aunuksen Repolassa ja Pohjois-Karjalan Ilomantsissa yleinen kiteytynyt aihelma Mi pöly 
           pölähtänevi:<lb/><lb/>  
-          Mi pöly pölähtänevi,<lb/>
-          Mi tomu tomahtanevi,<lb/>
-          Se sie siivellä sipase,<lb/>
-          Se sie vastalla vetele.<lb/>
-          (I3 1667: 11−14).<lb/><lb/>
+          <l>Mi pöly pölähtänevi,</l>
+          <l>Mi tomu tomahtanevi,</l>
+          <l>Se sie siivellä sipase,</l>
+          <l>Se sie vastalla vetele.</l>
+          <l>(I3 1667: 11−14).</l><lb/>
           Säkeille 207−212 mahdollinen inspiraation lähde löytyy yksittäisistä säkeistä Lemminkäisen virressä: "Nokia sortamahan, 
           / Karstoja karistamahan" (I2 713: 169−170).</ab>
         </note>
@@ -2202,23 +2202,23 @@
           Vienassa vakiintunut ja myös Pohjois-Karjalan Ilomantsissa tavattu aihelma kehottaa morsianta olemaan kulkematta kengittä 
           ja ilman päällispaitaa (sussuna). Kehotus liittyy muistutukseen pihlajan ja sen marjojen pyhyydestä, sillä pihlaja on ollut 
           Itä-Suomessa suosittu uhripuu (Harva 1929: 240):<lb/><lb/> 
-          Morsian sisarueni,<lb/>
-          Elä kengättä kävele,<lb/>
-          Elä suihka sussunatta.<lb/>
-          Pyhät on pihlajat pihalla,<lb/>
-          Marjaset sitäi pyhemmät.<lb/>
-          (I3 1662: 83−87).<lb/><lb/>
+          <l>Morsian sisarueni,</l>
+          <l>Elä kengättä kävele,</l>
+          <l>Elä suihka sussunatta.</l>
+          <l>Pyhät on pihlajat pihalla,</l>
+          <l>Marjaset sitäi pyhemmät.</l>
+          <l>(I3 1662: 83−87).</l><lb/>
           Säe "Niitä sie kovin varaja" (I3 1710: f 32) esiintyy pihlajia koskevan varoituksen yhteydessä mutta joskus myös muissa 
           neuvoissa (I3 1708: 192−200).<lb/><lb/>
           Säkeet: "mistä sulho suuttunevi, / miesi nuori vihastunevi" (VII2 2994: 137−138) liittyvät aihelmaan, jossa ohjeistetaan 
           saattamaan vieraat vain kotipihan rajalle (ks. säkeet 423−428).<lb/><lb/>
           Säkeet "Nuoren miehen mieltä myöte, / Sulhasen syäntä myöte" on Karjalan Kannaksen alueella tallennettu häälauluissa 
           morsiamen itketysaihelmassa Et osaa ovissa käydä:<lb/><lb/>
-          Taia et taittoa pärettä<lb/>
-          Talon tyttären tavalla,<lb/>
-          Talon miehen mieltä myöten,<lb/>
-          Sulhasen syäntä myöten.<lb/>
-          (XIII2 3820; ks. myös V2 1557: 18−19).<lb/><lb/> 
+          <l>Taia et taittoa pärettä</l>
+          <l>Talon tyttären tavalla,</l>
+          <l>Talon miehen mieltä myöten,</l>
+          <l>Sulhasen syäntä myöten.</l>
+          <l>(XIII2 3820; ks. myös V2 1557: 18−19).</l><lb/> 
           Säkeet esiintyvät yleisesti erilaisissa nuorten elämään liittyvissä lyyrisissä aihelmissa (Neito osaa / ei osaa ommella) 
           sekä tanssilauluissa (Tanssi nuoren miehen mieltä myöten).</ab>
         </note>
@@ -2229,11 +2229,11 @@
           Vienassa aihelma on kirjattu osaksi sulhasen kotiin tulon yhteydessä laulettavaa tulovirttä ja siihen kuuluvaa morsiamen 
           neuvontaosuutta (Notkahuta nuoret niskat). Aunuksessa ja Pohjois-Karjalassa se sijoittuu osaksi morsiamen kotona laulettuja 
           lauluja (Notkahduttele nuoret niskat). Säkeet ovat kuitenkin samat:<lb/><lb/> 
-          Nisat nuoret notkuttele,<lb/>
-          Kagla pesty kaarruttele,<lb/>
-          Niinkun tuores tuomen latva,<lb/>
-          Vasta kasvava kataja.<lb/>
-          (I3 1684: 151−154).</ab>
+          <l>Nisat nuoret notkuttele,</l>
+          <l>Kagla pesty kaarruttele,</l>
+          <l>Niinkun tuores tuomen latva,</l>
+          <l>Vasta kasvava kataja.</l>
+          <l>(I3 1684: 151−154).</l></ab>
         </note>
         <note n="c23"><ab>Säkeet 237−242 / Älä pyri pyllyllesi<lb/><lb/>
           Keruuaikana D. E. D. Europaeuksen kerran Toksovassa tallentamassa aihelmassa morsianta kehotetaan välttämään istumista tai 
@@ -2248,22 +2248,22 @@
         <note n="c24"><ab>Säkeet 243−256 / Millä noudat ämmän, naon, kydyn, äijän mielen<lb/><lb/>
           Lönnrot on täydentänyt Kalevalassa Vienassa tallentamaansa aihelmaa, jonka laajimmassa toisinnossa luetellaan kyty, ukko 
           ja akka (I3 1662: 75−81). Muissa keruuajan tallenteissa mainitaan vain kyty:<lb/><lb/> 
-          Kyty kynnöltä tulevi:<lb/>
-          Vieminen vesiropehut,<lb/>
-          Sama armo antaminen,<lb/>
-          Alema kumartaminen.<lb/>
-          (I3 1685: 30−33; ks. myös I3 1711: 84−88).</ab>
+          <l>Kyty kynnöltä tulevi:</l>
+          <l>Vieminen vesiropehut,</l>
+          <l>Sama armo antaminen,</l>
+          <l>Alema kumartaminen.</l>
+          <l>(I3 1685: 30−33; ks. myös I3 1711: 84−88).</l></ab>
         </note>
         <note n="c25"><ab>Säkeet 257−280 / Työn kysyminen anopilta*<lb/><lb/> 
           Tämän pitkähkön jakson keskeisenä inspiraationa ovat D. E. D. Europaeuksen Suistamolla tallentamat yksittäiset 
           säkeet:<lb/><lb/> 
-          Oi armas anoppiseni<lb/>
-          Ja mukoma muoriseni,<lb/>
-          Kuinpa tässä työtä tehä?<lb/>
-          (VII2 3139: 5−7).<lb/><lb/>
+          <l>Oi armas anoppiseni</l>
+          <l>Ja mukoma muoriseni,</l>
+          <l>Kuinpa tässä työtä tehä?</l>
+          <l>(VII2 3139: 5−7).</l><lb/>
           Lönnrot on sommitellut johdannon ja anopin vastauksen työkuvauksineen lukuisin omin sanoin, kiteytyneitä ilmauksia 
           hyödyntäen. Formulaisia aineksia ovat esimerkiksi "työlle työnteleminen", joka on yleinen erilaisissa runoissa, 
-          esimerkiksi Laulajan alkusanoissa: "Kun on laululle lähemä, / Virren työlle työntelemmä" (XII1 334:1−2) sekä "hulikkojen 
+          esimerkiksi Laulajan alkusanoissa: "Kun on laululle lähemä, / Virren työlle työntelemmä" (XII1 334: 1−2) sekä "hulikkojen 
           huuhtelija", jonka Lönnrot on tallentanut Lemminkäisen virressä (I2 793: 20−21), mutta joka on yleisempi 
           Läävämato-loitsussa (mm. I4 1637: 9).</ab>
         </note>
@@ -2281,32 +2281,32 @@
           Ilomantsin toisinnoissa asiaa korostetaan varoituksella, ettei saa jäädä katselemaan kaivosta omaa kuvaansa, etteivät 
           anoppi ja appi luulisi miniän lähteneen kylään käymään (VII2 3003: 118−125; ks. myös VII2 2994: 127−133) tai ihailevan 
           omaa kauneuttaan, kuten Lönnrotin valitsemassa versiossa: <lb/><lb/>
-          Mennet veen kannantahan, <lb/>  
-          Elä siellä viikon viivy, <lb/>  
-          Anoppisi arvelevi, <lb/>  
-          Appesi ajattelevi<lb/>  
-          Katsovan kaivoh kauneuttais, <lb/>  
-          Verevyttäsi vetehen. <lb/>  
-          (VII2 3023: 83−88). </ab>
+          <l>Mennet veen kannantahan,</l> 
+          <l>Elä siellä viikon viivy,</l>  
+          <l>Anoppisi arvelevi,</l>
+          <l>Appesi ajattelevi</l>  
+          <l>Katsovan kaivoh kauneuttais,</l>  
+          <l>Verevyttäsi vetehen.</l>
+          <l>(VII2 3023: 83−88).</l></ab>
         </note>
         <note n="c28"><ab>Säkeet 317−326 / Älä halkoja valikoi / Kun menet halkoja kantamaan<lb/><lb/>
           Halkojen valitsemisen aihelmasta on Lönnrotin käytössä ollut kaksi muistiinpanoa, joiden ydinsisältö liittyy samaan 
           aspektiin kuin muissakin taloustöissä: tehtävä olisi suoritettava ripeästi. Tähän neuvotaan opastamalla, ettei tule jäädä 
           parempia, koivuisia, halkoja valitsemaan: "Kun sie kannat halkosia, / Kanna halko haapanenki, / Elä koivuista valitse!" 
-          (VII2 2940: 8−10; ks. myös (V2 1526: 26−29). <lb/><lb/>
+          (VII2 2940: 8−10; ks. myös gV2 1526: 26−29). <lb/><lb/>
           Tämä aihelma on myöhemmin tallennettu vain samalla Kannaksen alueella kuin esimerkiksi Älä pyri pyllyllesi 
           (säkeet 237−242). Vain Lönnrotin Liperiin merkitty tallenne VII2 2940 poikkeaa joukosta aluemerkinnän osalta. <lb/><lb/>  
           Pohjois-Karjala on sen sijaan yleisin paikka, jossa on tallennettu jälkimmäinen halkoihin liittyvä aihelma, joka esiintyy 
           samoissa runoissa ja noudattaa samaa formaattia kuin Veden hakeminen: <lb/><lb/>
-          Mennet hal'on suollantah, <lb/>  
-          Elä tuolla viikon viivy! <lb/>  
-          Heitä halko hiljallensa: <lb/>  
-          Anoppisi arvelevi, <lb/>  
-          Appesi ajattelevi<lb/>  
-          Syömmissäsi sysivän, <lb/>  
-          Vihoissasi viskovasi, <lb/>  
-          Ä'issäsi ähkiväsi. <lb/>  
-          (VII2 3023: 90−97; ks. myös VII2 3003: 127−134). </ab>
+          <l>Mennet hal'on suollantah,</l>
+          <l>Elä tuolla viikon viivy!</l>  
+          <l>Heitä halko hiljallensa:</l>  
+          <l>Anoppisi arvelevi,</l>  
+          <l>Appesi ajattelevi</l>  
+          <l>Syömmissäsi sysivän,</l>  
+          <l>Vihoissasi viskovasi,</l>  
+          <l>Ä'issäsi ähkiväsi.</l>  
+          <l>(VII2 3023: 90−97; ks. myös VII2 3003: 127−134).</l></ab>
         </note>
         <note n="c29"><ab>Säkeet 327−334 / Älä vie viljoja kylään<lb/><lb/>
           Vain muutamassa tallenteessa esiintyvä aihelma jatkaa Pohjois-Karjalan Ilomantsissa esitettyä ajatusta ripeästä toiminnasta 
@@ -2327,13 +2327,13 @@
           Vienassa lusikoiden hävittäjinä esitetään koirat, kissat ja linnut: "Piä sie lusikkat luvussa, / Jott' ei koirat kokkoaisi, 
           / Kasin pennut kanneltaisi" (I3 1662: 88−90, ks. myös mm. I3 1691: 75−78, I3 1708: 225−228).  Ilomantsissa 
           muistiinpannuissa säkeissä taas varottavia ovat aviomiehen veljen ja sisaren lapset: <lb/><lb/>  
-          Piä lusikkas luvussa, <lb/>  
-          Astiasi arvelussa! <lb/>  
-          Paljon on pieniä natoja, <lb/>  
-          Äiän pieniä kytyjä, <lb/>  
-          Lusikkais levittelevi, <lb/>  
-          Astiais hajottelevi. <lb/>  
-          (VII2 3023: 119−124, ks. myös VII2 3003: 136−142). </ab>
+          <l>Piä lusikkas luvussa,</l>
+          <l>Astiasi arvelussa!</l>  
+          <l>Paljon on pieniä natoja,</l>  
+          <l>Äiän pieniä kytyjä,</l>
+          <l>Lusikkais levittelevi,</l>  
+          <l>Astiais hajottelevi.</l>  
+          <l>(VII2 3023: 119−124, ks. myös VII2 3003: 136−142).</l></ab>
         </note>
         <note n="c32"><ab>Säkeet 351−370 / Saunavalmistelut* <lb/><lb/>
           Ohjeet saunan valmisteluun on Lönnrot punonut Kalevalaan erilaisia sauna-aiheisia aineksia yhdistellen. Apen ja anopin 
@@ -2343,21 +2343,21 @@
           Saunan lämmittäminen ja vastojen hautominen ovat keskeisiä aiheita Häälauluihin kuuluvassa Kylyvirressä, jossa sulhasta 
           valmistellaan morsiamen noutoon kylvettämällä (vastaavasti myös eeppiset sankarit, kuten Ilmarinen ja Lemminkäinen, valmistautuvat 
           matkalle pyytämällä äitiä tai sisarta lämmittämään saunan):  <lb/><lb/>   
-          Hauoin vastan valmeheksi<lb/>  
-          Metisen kiven nenässä. <lb/>  
-          Käskin sulhon kylpemähän: <lb/>  
-          "Mene, sulho, kylpemähän, <lb/>  
-          Kylve, sulho, kyllältäsi, <lb/>  
-          Vala vettä vallaltasi. <lb/>  
-          (VII2 2821: 9−14). <lb/><lb/>  
+          <l>Hauoin vastan valmeheksi</l>  
+          <l>Metisen kiven nenässä.</l>  
+          <l>Käskin sulhon kylpemähän:</l>  
+          <l>"Mene, sulho, kylpemähän,</l>  
+          <l>Kylve, sulho, kyllältäsi,</l>  
+          <l>Vala vettä vallaltasi.</l>  
+          <l>(VII2 2821: 9−14).</l><lb/>  
           Vastaavat säkeet esiintyvät myös eeppisessä runotyypissä Sulhonsa kylvettäjä (mm. V1 178: 18−23) sekä monilla alueilla 
           tunnetussa kehtolaulussa Poika miulle miniän tuopi, jossa äiti toivoo pojan tuovan miniän saunan lämmittäjäksi ja vastan 
           hautojaksi: <lb/><lb/>
-          Poikanen miniän tuopi, <lb/>  
-          Saapi saunan lämmittäjän: <lb/>  
-          Mee, isäntä, kylpemäh, <lb/>  
-          Mää, emäntä, kylpemäh! <lb/>  
-          (XIII2 5795: 3−6). <lb/><lb/>    
+          <l>Poikanen miniän tuopi,</l>  
+          <l>Saapi saunan lämmittäjän:</l>  
+          <l>Mee, isäntä, kylpemäh,</l>  
+          <l>Mää, emäntä, kylpemäh!</l>  
+          <l>(XIII2 5795: 3−6).</l><lb/>    
           H. A. Reinholmin Pohjois-Inkerin Lempaalassa tallentamissa toisinnoissa äidin toiveajatus jatkuu ironiseen sävyyn säkeillä, 
           jotka kertovat veden olevan kantamatta ja vastojen oksien hakematta (V2 1807: 8−16, V2 1808: 24−30). Olisiko tämä 
           innoittanut Lönnrotia tuottamaan ohjeet siitä, kuinka miniän tulisi ihannetilanteessa toimia? </ab>
@@ -2387,13 +2387,13 @@
           Lisäksi Lönnrot on käyttänyt aineistona Vienassa patvaskan eli hääneuvotteluissa ja -seremoniassa sulhasen edustajana 
           toimineen miehen ylistykseen käytettyjä säkeitä. Kyseiset uuheen ja lampaaseen liittyvät säkeet vaikuttavat laulajan 
           persoonalliselta lisäykseltä muuten kiteytyneessä kuvastossa: <lb/><lb/>
-          Ompa meiän patvaskalla<lb/>  
-          Ussakka utunen vyöllä<lb/>  
-          15 Kesä-uuhen untuvista, <lb/>  
-          Talvi lampahan takuista, <lb/>  
-          Se on Kuuttarin kutoma<lb/>  
-          Päivättären kesreämä<lb/>  
-          (I3 1710: c13−18). </ab>
+          <l>Ompa meiän patvaskalla</l>  
+          <l>Ussakka utunen vyöllä</l>  
+          <l>15 Kesä-uuhen untuvista,</l>  
+          <l>Talvi lampahan takuista,</l>  
+          <l>Se on Kuuttarin kutoma</l>  
+          <l>Päivättären kesreämä</l>  
+          <l>(I3 1710: c13−18).</l></ab>
         </note>
         <note n="c36"><ab>Säkeet 393−412 / Oluen valmistus*<lb/><lb/>  
           Oluen valmistus kuuluu emännän tehtäviin eikä miniälle, joten ohjeistus oluenkeittoon ei kuulu neuvokkivirteen. Sen 
@@ -2411,11 +2411,11 @@
         <note n="c37"><ab>Säkeet 413−428 / Vieraiden kohtelu*<lb/><lb/>
           Lönnrot näyttäisi tuottaneen itse ohjeet vierasvarasta ja vieraiden istuttamisesta ja viihdyttämisestä. Säilyneissä 
           muistiinpanoissa vain vieraan saattamiseen liittyvät säkeet on tallennettu Ilomantsissa osana morsiamen neuvokkivirttä: <lb/><lb/>
-          elä vie vierasta pihalle<lb/>  
-          ulommaksi sillan päitä, <lb/>  
-          mistä sulho suuttunevi, <lb/>  
-          miesi nuori vihastunevi<lb/>   
-          (VII2 2994: 135−138, vrt. myös VII2 2976: 14−16). </ab>
+          <l>elä vie vierasta pihalle</l>  
+          <l>ulommaksi sillan päitä,</l>  
+          <l>mistä sulho suuttunevi,</l>  
+          <l>miesi nuori vihastunevi</l>   
+          <l>(VII2 2994: 135−138, vrt. myös VII2 2976: 14−16).</l></ab>
         </note>
         <note n="c38"><ab>Säkeet 429−432 / Kysytellen käy kylässä<lb/><lb/>  
           Jakson ytimenä ovat säkeet "Kysytellen käy kylässä, Lausutellen naapurissa!" (V2 1524: 1−2), jotka D. E. D. Europaeus 
@@ -2466,11 +2466,11 @@
           IV1 445: 5−15; V1 2: 1−10; VII2 934: 8−22. VII2 934). <lb/><lb/>
           Neuvokkivirren osana D. E. D. Europaeus tallensi Repolassa 1848 (myöhemmin harvakseltaan kirjattu myös muualla) 
           päinvastaisen neuvon eli nimenomaan noudattaa sulhon mieltä välttääkseen pahoinpitelyä (Sulhon mielen noudattaminen): <lb/><lb/>  
-          Noua mieli nuoren miehen, <lb/>  
-          Ykoti hyvän urohon, <lb/>  
-          Jott ei käy kämmen korvillesi, <lb/>  
-          20 Sinisemä silmäs alla. <lb/>   
-          (II 512: 17−20). </ab>
+          <l>Noua mieli nuoren miehen,</l> 
+          <l>Ykoti hyvän urohon,</l>
+          <l>Jott ei käy kämmen korvillesi,</l>  
+          <l>20 Sinisemä silmäs alla.</l>
+          <l>(II 512: 17−20).</l></ab>
         </note>
         <note n="c44"><ab>Säkeet 501−518 / Ison kotona ja toiselassa<lb/><lb/>
           Inkerissä, Etelä-Karjalassa ja Pohjois- ja Raja-Karjalassa hyvin suositussa lyyrisessä aihelmassa miniä vertaa oloaan 
@@ -2482,26 +2482,26 @@
           Lönnrot jatkaa Kalevalassa säekokonaisuutta vielä mukaillen yksittäistä säeparia: "Hersu hiekka rantasille, / Keikku multa 
           kennäillä" (XIII2 4479: 13−14) sekä tuottamalla lisäsäkeitä, joiden esikuvana voi olla H. A. Reinholmin Sakkolassa kirjaama 
           aihelma (Käki jos olisin): <lb/><lb/>   
-          Kui me käkö olisi, <lb/>  
-          Oisi lintu laulavaine, <lb/>  
-          Kukkuisi joka petäjän, <lb/>  
-          Joka latvan laulelisin. <lb/>   
-          (XIII1 1998: 5−8). </ab>
+          <l>Kui me käkö olisi,</l> 
+          <l>Oisi lintu laulavaine,</l>  
+          <l>Kukkuisi joka petäjän,</l>  
+          <l>Joka latvan laulelisin.</l>   
+          <l>(XIII1 1998: 5−8).</l></ab>
         </note>
         <note n="c45"><ab>Säkeet 519−526 / Suu saattaa suen ritahan / Vesille venehen mieli, naisen miehelään<lb/><lb/>
           Lönnrot kokosi runojen ohella sananlaskuja, joita hyödynsi varsinkin Kantelettaressa mutta myös Kalevalassa 
           (Kaukonen 1989: 43). Tässä erilaisista säepareista sekä omista säkeistä kokoonpantu jakso nojaa kahteen sananlaskurunoon, 
           joiden avulla perustellaan neidon elämän vääjäämätön kulku: <lb/><lb/>   
-          Käypä viisaskin vipuhun<lb/>  
-          Hullu huhtoopi sivute<lb/>  
-          Suu saattaa suen ritahan<lb/>  
-          Kieli kärpän lautasehen<lb/> 
-          (IX2 320: 18−21; ks. myös VI1 343: 16−19). <lb/><lb/>  
-          Vetehen on venosen mieli<lb/>  
-          Tervasiltai teloilta, <lb/>  
-          Neion mieli miehelähän<lb/>  
-          Korkeistai ko'ista. <lb/>  
-          (VII2 1820: 10−13; ks. myös I1 640: 3−6; XV 175: 1−4, XV 592: 1−4). </ab> 
+          <l>Käypä viisaskin vipuhun</l>
+          <l>Hullu huhtoopi sivute</l>  
+          <l>Suu saattaa suen ritahan</l>  
+          <l>Kieli kärpän lautasehen</l> 
+          <l>(IX2 320: 18−21; ks. myös VI1 343: 16−19).</l><lb/>  
+          <l>Vetehen on venosen mieli</l>
+          <l>Tervasiltai teloilta,</l>  
+          <l>Neion mieli miehelähän</l>  
+          <l>Korkeistai ko'ista.</l>  
+          <l>(VII2 1820: 10−13; ks. myös I1 640: 3−6; XV 175: 1−4, XV 592: 1−4).</l></ab> 
         </note>
         <note n="c46"><ab>Säkeet 527−534 / Vieraalle maalle joutunut / Jouduin puola purtavaksi<lb/><lb/>
           Kalevalan säkeet ovat tässä vain pienin muutoksin suoraan D. E. D. Europaeuksen 1848 Venjoella tallentamasta runosta 
@@ -2564,14 +2564,14 @@
         <note n="c51"><ab>Säkeet 601−604 / Morsiamella on köyhä koti<lb/><lb/>
           Lönnrot on tallentanut tämän persoonallisen säekokonaisuuden Etelä-Karjalassa morsiamen pilkka-aiheena. Morsiamen 
           väitetään runossa saaneen paremmat olot uudessa kodissa, ja kasvukodin köyhyyttä kuvataan: <lb/><lb/>  
-          Kuin olit omassa koissais, <lb/>  
-          Kannot suolta sammalia, <lb/>  
-          Noita leivoit leiväkseis, <lb/>  
-          Vesikappanen käessä, <lb/>  
-          Tuota ryypit ryypikseis, <lb/>  
-          Suolakopsaa koputit, <lb/>  
-          Katsoit kaalin tähteitä. <lb/>  
-          XIII2 3805: 7−13). </ab>
+          <l>Kuin olit omassa koissais,</l>
+          <l>Kannot suolta sammalia,</l>  
+          <l>Noita leivoit leiväkseis,</l>  
+          <l>Vesikappanen käessä,</l>  
+          <l>Tuota ryypit ryypikseis,</l>  
+          <l>Suolakopsaa koputit,</l>  
+          <l>Katsoit kaalin tähteitä.</l>  
+          <l>XIII2 3805: 7−13).</l></ab>
         </note>
         <note n="c52"><ab>Säkeet 605−614 / Sinne söin kaloja kalki / En saanut sitä kaloa<lb/><lb/>
           Säkeissä 605−608 esitetty vertausrakenne löytyy Lönnrotin muistiinpanoista ilman aluetietoa (XV 568: 1−4). Lönnrot on 
@@ -2607,11 +2607,11 @@
           Jakson aihelmat kuuluvat lyyrisiin lauluihin pahoista sanoista. Ensimmäisenä on Lönnrotin sekä Etelä-Karjalassa että 
           Pohjois-Karjalan Ilomantsissa tallentama nelisäe (joskus lyhyempi), jossa puhuja kiteyttää näkökulmansa aiheettomiin 
           syytteisiin (ks. myös XIII1 2161: 7−9; VII2 2178: 1−4): <lb/><lb/>
-          Suotta soimat nossettihin, <lb/>  
-          Kiusan kielet kannettihin<lb/>  
-          Miun päälle hyvän tapani, <lb/>  
-          Päälle kuulun kunniani: <lb/>  
-          (VII2 2663: 1−4). <lb/><lb/>
+          <l>Suotta soimat nossettihin,</l>  
+          <l>Kiusan kielet kannettihin</l>  
+          <l>Miun päälle hyvän tapani,</l>  
+          <l>Päälle kuulun kunniani:</l>  
+          <l>(VII2 2663: 1−4).</l><lb/>
           Jatkona on kuvaus sananalaisen tunnelmista. Lönnrot on tallentanut 1828 Pielisjärvellä säkeet: "Usein minun poloisen / 
           sanat päälleni satavat, / puhet päälleni puteloo" (VII2 2205: 5−7). Kalevalan säkeet ovat D. E. D. Europaeuksen 
           Ilomantsissa muistiinpanemasta täydemmästä versiosta (VII2 2245: 4−9). Runokuva: "kun tuimat tulikipunat / eli rautaset 
@@ -2636,7 +2636,7 @@
           Inkerin ja Etelä-Karjalan alueilla erittäin suositussa valituslauluaihelmassa neito toteaa metaforien kautta, miten emo 
           osasi tehdä "omenan", mutta istutti ihanan taimen huonolle paikalle, jossa tämä ei voinut menestyä. Lönnrotin säkeet ovat 
           hänen Etelä-Karjalassa tallentamastaan runosta (XIII1 2304: 1−8; ks. myös mm. V2 398: 1−10, V2 1690: 1−4; 
-          VII2 1544: 31−36; XIII1 1565a: 1−8, XIII1 2298: 1−9). <lb/><lb/>  
+          <ref target="https://skvr.fi/poems?id=skvr07115440">VII2 1544</ref>: 31−36; XIII1 1565a: 1−8, <ref target="https://skvr.fi/poems?id=skvr13022980">XIII1 2298</ref>: 1−9). <lb/><lb/>  
           Säepari "Iäksensä itkemähän / Kuuksensa kujertamahan" on tallennettu myös Osasi emo omenan tehdä -aihelman yhteydessä 
           (V2 1690: 13−14). Se on Pohjois-Karjalan Ilomantsissa erityisen suosittu ajanilmaisu miestään ja kohtaloaan valittavan 
           neidon lauluissa (ks. etenkin Ellys vainen, neiti nuori, rengin reilihin ruvetko; mm. VII3 4411: 15−16) mutta tavataan 
@@ -2652,13 +2652,13 @@
           Olisi minusta ollut -aihelmassa nainen valittaa huonoa naimaonneaan toteamalla olleensa paremman arvoinen. Säkeet varioivat 
           johdantosäkeen jälkeen viitaten joko talon köyhyyteen: "Olisi miuussa ollut / Pitemmille'ki pihoille, / Laaemmille 
           lattioille" (VII2 2509: 1−3) tai itse mieheen: <lb/><lb/>  
-          Oisipa minussa ollut<lb/>   
-          Paremmanki miehen väärti, <lb/>  
-          Soriamman suun alanen, <lb/>  
-          Kaunihimman kaulottava, <lb/>  
-          Rikkahamman rinnollinen, <lb/>  
-          Verevämmän vierellinen<lb/>  
-          (V2 962: 7−12). <lb/><lb/>     
+          <l>Oisipa minussa ollut</l> 
+          <l>Paremmanki miehen väärti,</l>  
+          <l>Soriamman suun alanen,</l>  
+          <l>Kaunihimman kaulottava,</l>  
+          <l>Rikkahamman rinnollinen,</l>  
+          <l>Verevämmän vierellinen</l>  
+          <l>(V2 962: 7−12).</l><lb/>     
           Lönnrot jatkaa sulhasta pilkkaavalla aihelmalla (Puutuit puntukseen, kompastuit kononnenään), säkeet ovat eteläkarjalaisesta 
           runosta (XIII2 3872: 6−10). Lisäsäkeitä Lönnrot on saanut pilkkarunojen ulkomuodon kuvauksista, joissa etenkin varis ja 
           korppi ovat olleet suosittuja metaforia. Näitä esiintyy samanlaisina sekä häiden pilkkalauluissa (Sait suolta suovariksen) 
@@ -2670,15 +2670,15 @@
         <note n="c60"><ab>Säkeet 691−706 / Tulost on hyväni tunnen<lb/><lb/>  
           Säkeiden pohjana on Lönnrotin Ilomantsissa 1838 tallentama persoonallinen säekokonaisuus, jossa laulaja vertaa "hyväni" ja 
           "pahani" tuloa: <lb/><lb/>  
-          Tulost' on hyväni tunnen, <lb/>  
-          Astunnasta arvaelen: <lb/>  
-          Tukka on tyyni tuulellaki, <lb/>  
-          Hivus ei visko vihmallaki. <lb/>  
-          Tulostapa pahani tunnen, <lb/>  
-          Astunnasta arvaelen: <lb/>  
-          Tukka tuutii tuulettaki, <lb/>  
-          Hivus visko vihmattaki. <lb/>   
-          (VII2 2392 1−8). <lb/><lb/>
+          <l>Tulost' on hyväni tunnen,</l>  
+          <l>Astunnasta arvaelen:</l>
+          <l>Tukka on tyyni tuulellaki,</l>  
+          <l>Hivus ei visko vihmallaki.</l>  
+          <l>Tulostapa pahani tunnen,</l>  
+          <l>Astunnasta arvaelen:</l> 
+          <l>Tukka tuutii tuulettaki,</l>  
+          <l>Hivus visko vihmattaki.</l>   
+          <l>(VII2 2392 1−8).</l><lb/>
           Samankaltaisia "tulosta tuntemisen ja astunnasta arvaamisen" johdantoformuloita on SKVR-hakemistossa kerätty yhteen 
           aihelmaotsikolla Tulost on hyväni tunnen, mutta hiuksiin liittyvä vertausrakenne on muistiinpanona ainutkertainen. Lönnrot 
           on sovittanut säkeistä alkusoiton seuraavaksi tuleville pahoinpitelyä kuvaaville aihelmille. </ab>
@@ -2688,23 +2688,23 @@
           hiukset, lyö, ruoskii, imee veren. Lönnrot on koonnut tähän säkeitä ensinnäkin aihelmasta Muhotellen muien sulhot, jossa 
           vertaillaan muiden hyvää miestä omaan sekä ulkonäön osalta "Kahoppas meiän kantturoa: / on ikenet irvellään, / silmät 
           kiljan kaljallaan" (XV 450: 3−5) että käyttäytymisen osalta: <lb/><lb/>
-          Se tuleepi tuimettuna, <lb/>   
-          Väätty vihta, käätty karttu, <lb/>  
-          Karsittu karanko käessä, <lb/>  
-          Kohotettu koivun latva<lb/>  
-          Vaston vaivasta minua<lb/>   
-          (VI1 627: 6−8). <lb/><lb/>  
+          <l>Se tuleepi tuimettuna,</l>   
+          <l>Väätty vihta, käätty karttu,</l>  
+          <l>Karsittu karanko käessä,</l>  
+          <l>Kohotettu koivun latva</l>  
+          <l>Vaston vaivasta minua</l>   
+          <l>(VI1 627: 6−8).</l><lb/>  
           Säkeet "Pidi vissa vieresseni, / Nahka ruoska naulalle (VII2 2532: 6−13; ks. myös VII3 4449: 10−11) ovat aihelmasta Viikon 
           vuotin virkeätä - sain vihaisen. Eteläisillä runoalueilla suosittuja formulaisia säkeitä on yhdistetty aihelmaan Pahan 
           miehen kuvaus. Lönnrotin laventamien säkeiden perusta on seuraavassa (ks. myös mm. I3 1463: 5−7; VII2 2575: 16−19): <lb/><lb/>   
-          Käyn sitte makoomaan. <lb/>  
-          Otti yöksi viereensä, <lb/>  
-          Anto kyllin kyynysvartta. <lb/>  
-          Kättä viljalti vihaista. <lb/>  
-          Tukat tuulelle jakeli, <lb/>  
-          Veren pellolle vetäpi, <lb/>  
-          Pois potki vuoteelta. <lb/>   
-          (XIII2 4414: 10−16). </ab>
+          <l>Käyn sitte makoomaan.</l>  
+          <l>Otti yöksi viereensä,</l>  
+          <l>Anto kyllin kyynysvartta.</l>  
+          <l>Kättä viljalti vihaista.</l>  
+          <l>Tukat tuulelle jakeli,</l>  
+          <l>Veren pellolle vetäpi,</l>  
+          <l>Pois potki vuoteelta.</l>   
+          <l>(XIII2 4414: 10−16).</l></ab>
         </note>
         <note n="c62"><ab>Säkeet 729−748 / Teräksestä kengät panetellulle<lb/><lb/>  
           Aihelma, jossa vaimo tai miniä sanoo teettävänsä teräksestä kengät ja seisovansa niillä seinän vierillä kunnes miehen 
@@ -2730,13 +2730,13 @@
           vaimo, joka käyttäytyy miehensä sisarta kohtaan jäätävästi. Veli ei ensin tunnista sisartaan mutta sisaren huomautettua 
           heidän olevan sisaruksia pyytää vaimoaan tuomaan ruokaa ja juomaa, jotka osoittautuvat ihmisravinnoksi kelvottomiksi. <lb/><lb/>
           Veljen kuvaukseen on Lönnrot ottanut lisäsäkeitä lemmennostoloitsusta: <lb/><lb/>
-          syl' on syttä hartioilla, <lb/>  
-          vaaksa muulla vartalolla, <lb/>  
-          kynärä kyventä päässä, <lb/>  
-          kortteli kovaa nokea.<lb/>  
-          (VII5 4744: 5−8). </ab>
+          <l>syl' on syttä hartioilla,</l> 
+          <l>vaaksa muulla vartalolla,</l>  
+          <l>kynärä kyventä päässä,</l>  
+          <l>kortteli kovaa nokea.</l>  
+          <l>(VII5 4744: 5−8).</l></ab>
         </note>
-        <note n="c64"><ab>Säkeet 821−830 / Jouduin kurja kulkemahan / En mie uskonut olisi <lb/><lb/>
+        <note n="c64"><ab>Säkeet 821−850 / Jouduin kurja kulkemahan / En mie uskonut olisi <lb/><lb/>
           Loppuun Lönnrot yhdistää säkeet kolmesta aihelmasta, jotka edustavat lyyrisiä orvon tai muuten osattoman valituslauluja: 
           Jouduin kurja kulkemahan (VII2 1852: 2−8; ks. myös mm. XIII1 2167: 5−6); Ei ole minulla niin kuin muilla isoa, emoa 
           (XIII1 2126: 1−9): En mie uskonut olisi (VII2 2444: 1−11).</ab>
