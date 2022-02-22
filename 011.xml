@@ -1,0 +1,83 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Dialecte suédois de l'île de Runoë dans le golfe de Riga (Mer Baltique)</title>
+        <title type="sub">Ruhnun saarella Riianlahdella, Itämerellä puhuttu ruotsin murre</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>Jos mun tuttuni tulisi</edition>
+        <respStmt>
+          <resp>Kuvat ja digitointi</resp>
+          <orgName>Suomalaisen Kirjallisuuden Seura, arkisto</orgName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>Suomalaisen Kirjallisuuden Seura</distributor>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Helsinki</settlement>
+            <repository>Suomalaisen Kirjallisuuden Seuran arkiston kirjallisuuden ja kulttuurihistorian arkistoaineistot</repository>
+            <idno>029-030/669</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="swe-SWE">ruotsi</language>
+      </langUsage>
+      <settingDesc>
+        <place>
+          <country>Viro</country>
+          <region type="main">Ruhnun saari</region>
+        </place>
+      </settingDesc>
+      <particDesc>
+        <person n="translator1">
+          <persName>
+            <surname>Skallus</surname>
+            <forename>Johan</forename>
+            <placeName>Haapsalu</placeName>
+          </persName>
+          <occupation type="tuntematon">tuntematon</occupation>
+        </person>
+        <person n="translator2">
+          <persName>
+            <surname>Zetterqvist</surname>
+            <forename>Carl Gustaf</forename>
+            <placeName>tuntematon</placeName>
+          </persName>
+          <occupation type="virkamies">virkamies</occupation>
+        </person>
+        <person n="collector">
+          <persName>
+            <surname>Zetterqvist</surname>
+            <forename>Carl Gustaf</forename>
+          </persName>
+          <occupation type="virkamies">virkamies</occupation>
+        </person>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="teksti">
+        <pb n="1" facs="1693_b1948_0029_020_f"/>
+        <p>Viroon kuuluvalla Ruhnun saarella puhutulla ruotsin murteella tehty käännös sekä sen sananmukainen ranskankielinen käännös. Aukeaman 
+          alalaidassa ja seuraavalla sivulla Zetterqvistin huomioita:</p>
+        <p><hi rend="underline">Runoë</hi> est une petite île, située au milieu du golfe de Livonie (ou golfe de Riga), à 12 milles d'Arensbourg sur 
+          l'île d'Oësel, 12 milles de la ville de Riga, 8 milles de la Courlande, et environ 10 milles de la Livonie. Les habitants de cette île 
+          sont suédois; ils s'y sont établis dans des temps reculés. Quant à leur<del>s</del> langue, on peut dire qu'elle est un amalgame de 
+          Suédois ancien et <del>moderne</del> <add>néo-Suédois</add>, Norvégien, d'Allemand, d'Esthonien, de Finois et de Lette. Le Suedois 
+          <add>ancien</add> à toutefois la prépondérance <add>("Beskrifning om Runö i Liffland", af <hi rend="underline">F. Joach. Ekman</hi>, 
+            Tavastehus, 1847.)</add>. La version ci-dessus ne continent que d'anciens mots suédois, avec leurs formes toutes particulières. En 1849, 
+          la population de l'île entière était de 377 habitants.</p>
+        <p>Z_qst.</p>
+        <pb n="2" facs="1693_b1948_0030_020_f"/>
+      </div>
+    </body>
+  </text>
+</TEI>
